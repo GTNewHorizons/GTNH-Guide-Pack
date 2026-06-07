@@ -17,7 +17,7 @@ Channels to support [devices](devices.md) which use networked storage, or other 
 services. Think of channels like USB cables to all your devices. A computer only has so many USB ports and can only support
 so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through
 up to 8 channels. You can think of full-block devices and standard cables as a bundle of 8 "channel wires". However, [dense cables]() can support up
-to 32 channels. The only other devices capable of transmitting 32 are <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="left" />
+to 32 channels. The only other devices capable of transmitting 32 are <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="true" />
 and the [Quantum Network Bridge](quantum-bridge.md). Each time a device uses up a channel, imagine pulling off a usb "wire" from
 the bundle, which obviously means that "wire" isn't available further down the line.
 
@@ -112,19 +112,19 @@ An easy way to see how channels are being used and routed through your network i
 
 # Channel Routing
 
-When using a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left" />,
+When using a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />,
 channels route via 3 steps. 
 
 1. They first take the shortest path through adjacent machines to the nearest normal cable
 (glass, covered, or smart). 
 2. They then take the shortest path through that normal cable to the nearest dense cable
 (dense or dense smart). 
-3. They then take the shortest path through that dense cable to the <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left" />.
+3. They then take the shortest path through that dense cable to the <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />.
 
 If the shortest path is already maxed out, some [devices](devices.md) may not get their required channels, use
 colored cables, cable anchors and tunnels to your advantage to make sure your channels go in the path you desire.
 
-Cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="Left"/>, or <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> help ensure channels are transmitted along the intended path.
+Cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="true"/>, or <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> help ensure channels are transmitted along the intended path.
 
 Note that channel colors do not affect channel priority; it only prevents cables of different colors from connecting to each other to control channel transmission.
 
@@ -172,16 +172,16 @@ Here is an example of a <Color id="GREEN">well-structured</Color>network design:
 
 # Ad-Hoc Networks
 
-A Network without a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left" />
+A Network without a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />
 is considered to be Ad-Hoc, and can support up to 8 channel using devices.
 Once you exceed 8 devices the network's channel using devices will shutdown,
-you can either remove devices, or add a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left" />.
+you can either remove devices, or add a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />.
 
 Unlike with controllered networks, [smart cables]() on ad-hoc networks will show the number
 of channels in use network-wide instead of the number of channels flowing through that specific cable.
 
 While using ad-hoc networks each device will
-use 1 channel network wide, this is very different from how <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left" /> allocate channels based on
+use 1 channel network wide, this is very different from how <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" /> allocate channels based on
 shortest route.
 
 <FloatingImage src="../assets/images/channels_normal_network.png"  wrap="top-bottom" align="left"  width="300" title="Normal Network" >

@@ -9,7 +9,7 @@ Listed by tier first buildable.
 
 <details><summary>0 - Stone Age</summary>
 
-<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" /> [Coke Oven]()
+<ItemLink id="gregtech:gt.blockmachines:236" showIcon="true" /> [Coke Oven]()
 
 </details>
 
@@ -105,7 +105,7 @@ wip
 
 | **Multiblocks with Mixed Overclocks** |
 | :--- |
-| <ItemImage id="gregtech:gt.blockmachines:1000" showIcon="left"/> [Electric Blast Furnace](/multiblocks/gt-ebf.md) \| [Mega Electric Blast Furnace]() \| [Mega Vacuum Freezer]() \| [Volcanus]() \| [Zyngen]() \| [Utupu-Tanuri]() \| [Component Assembly Line]() \| [PCB Factory]() \| [Nano Forge]() \| [Draconic Evolution Fusion Crafter]() \| [Dimensionally Transcendent Plasma Forge]() |
+| <ItemImage id="gregtech:gt.blockmachines:1000" showIcon="true"/> [Electric Blast Furnace](/multiblocks/gt-ebf.md) \| [Mega Electric Blast Furnace]() \| [Mega Vacuum Freezer]() \| [Volcanus]() \| [Zyngen]() \| [Utupu-Tanuri]() \| [Component Assembly Line]() \| [PCB Factory]() \| [Nano Forge]() \| [Draconic Evolution Fusion Crafter]() \| [Dimensionally Transcendent Plasma Forge]() |
 
 | **Multiblocks with No Overclocks** |
 | :--- |
