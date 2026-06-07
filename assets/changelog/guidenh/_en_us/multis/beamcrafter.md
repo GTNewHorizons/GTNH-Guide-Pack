@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:3015
 navigation:
-  title: 
+  title: Beam Crafter
   parent: multis.md
   icon: gregtech:gt.blockmachines:3015
 categories:
