@@ -37,7 +37,7 @@ A <Color id="GREEN">Coke Oven</Color> with three hatches requires 114 coke oven 
 - 0+ <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
 
 ### Wallsharing
-<FloatingImage src="./assets/coke_oven_wallshare-Wallshare.png" width="128" align="right">
+<FloatingImage src="./assets/coke_oven_wallshare.png" width="128" align="right">
   <ImageAnnotation>
     An example of a quad wallshared coke oven
   </ImageAnnotation>
