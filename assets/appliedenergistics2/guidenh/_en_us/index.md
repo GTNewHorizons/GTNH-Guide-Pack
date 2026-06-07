@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 item_ids:
   - guidenh:guide
 navigation:
