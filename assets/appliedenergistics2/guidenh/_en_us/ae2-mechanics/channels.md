@@ -12,13 +12,13 @@ navigation:
 >[!WARNING]
 >This page contains broken links. Make sure to come back later!
 
-Applied Energistics 2's [ME Networks](me-network-connections.md) require
-Channels to support [devices](devices.md) which use networked storage, or other network
+Applied Energistics 2's [ME Networks]() require
+Channels to support [devices]() which use networked storage, or other network
 services. Think of channels like USB cables to all your devices. A computer only has so many USB ports and can only support
 so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through
 up to 8 channels. You can think of full-block devices and standard cables as a bundle of 8 "channel wires". However, [dense cables]() can support up
 to 32 channels. The only other devices capable of transmitting 32 are <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="true" />
-and the [Quantum Network Bridge](quantum-bridge.md). Each time a device uses up a channel, imagine pulling off a usb "wire" from
+and the [Quantum Network Bridge](). Each time a device uses up a channel, imagine pulling off a usb "wire" from
 the bundle, which obviously means that "wire" isn't available further down the line.
 
 <GameScene zoom="4" background="transparent" width="300" rotateX={20} rotateY={-75}>
@@ -121,7 +121,7 @@ channels route via 3 steps.
 (dense or dense smart). 
 3. They then take the shortest path through that dense cable to the <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />.
 
-If the shortest path is already maxed out, some [devices](devices.md) may not get their required channels, use
+If the shortest path is already maxed out, some [devices]() may not get their required channels, use
 colored cables, cable anchors and tunnels to your advantage to make sure your channels go in the path you desire.
 
 Cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="true"/>, or <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> help ensure channels are transmitted along the intended path.
@@ -149,7 +149,7 @@ Loops and ambiguous channel paths should be minimized.
 # Network Design
 
 As mentioned before in [channel routing](channels.md#channel-routing), it's best to design your network in a treelike structure, with dense cables branching out from the controller, regular cables
-branching out from the dense, and [devices](devices.md) in clusters of 8 or fewer on the regular cables.
+branching out from the dense, and [devices]() in clusters of 8 or fewer on the regular cables.
 
 The following is an example of a <Color id="RED">poorly structured</Color> network design: cables form loops, and direct channel transmissions between devices also create loops. 
 

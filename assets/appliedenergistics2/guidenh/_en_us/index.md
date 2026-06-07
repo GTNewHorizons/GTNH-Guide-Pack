@@ -27,10 +27,10 @@ with a single click, craft all of the prerequisites (and the final result) of a 
 quantities of items in stock, crafting more as needed, or simply transfer items around your base.
 
 * [Getting Started](getting-started.md)
-* [Tips and Tricks](tips-and-tricks.md)
+* [Tips and Tricks]()
 * [AE2 Mechanics](ae2-mechanics/ae2-mechanics-index.md)
-* [Example Setups](example-setups/example-setups-index.md)
-* [Items, Blocks, and Machines](items-blocks-machines/items-blocks-machines-index.md)
+* [Example Setups]()
+* [Items, Blocks, and Machines]()
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />

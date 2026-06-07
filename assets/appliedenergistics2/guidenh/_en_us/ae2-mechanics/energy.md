@@ -7,7 +7,7 @@ navigation:
 
 # Energy
 
-Your network will require energy to run. Networks have a pool of energy that [devices](../ae2-mechanics/devices.md) directly pull from, and
+Your network will require energy to run. Networks have a pool of energy that [devices]() directly pull from, and
 <ItemLink id="appliedenergistics2:tile.BlockVibrationChamber" showIcon="true" />s, <ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="true" />s (and <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />s) add to. You can
 see the energy statistics for a network by right-clicking anywhere on it with a <ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="true" />. This network-wide storage and distribution  means that
 there are no energy transfer rate limits, so devices can pull arbitrarily high amounts of energy and
@@ -58,7 +58,7 @@ The ratios for conversion of Forge Energy/Redstone Flux and Energy Units are
 </Row>
 
 For relatively obvious reasons, a network cannot intake or consume more energy in a gametick than it can store. If a network
-can only store 800 AE, when its [devices](../ae2-mechanics/devices.md) request energy, they will only be able to use up to 800 AE (assuming the storage is full)
+can only store 800 AE, when its [devices]() request energy, they will only be able to use up to 800 AE (assuming the storage is full)
 and an energy acceptor will only be able to insert up to 800 AE into the network (assuming the storage is empty).
 
 This is a common cause for odd behavior, where one makes a small network with just an energy acceptor, drive, terminal, and
@@ -76,7 +76,7 @@ The <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" showIcon="true" /> c
 of normal network use with ease.
 
 The <ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" showIcon="true" /> can store 1.6M AE and is for when you want to run a network off of stored power, or
-handle the massive instantaneous energy draw of large [spatial storage](spatial-io.md) setups.
+handle the massive instantaneous energy draw of large [spatial storage]() setups.
 
 The <ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" showIcon="true" /> is a late-game ([UHV tier](gregtech:mechanics/tiers.md#UHV)) item providing UNLIMITED POWAHHHH or whatever.
 
