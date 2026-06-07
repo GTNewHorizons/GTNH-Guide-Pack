@@ -4,7 +4,6 @@ item_ids:
 navigation:
   title: Terminal QoL Changes
   parent: ae2.md
-  icon: appliedenergistics2:
 categories:
     - Applied Energistics 2
 author: Skorched
