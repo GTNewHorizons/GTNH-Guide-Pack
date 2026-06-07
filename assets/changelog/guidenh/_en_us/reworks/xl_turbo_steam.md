@@ -4,7 +4,7 @@ item_ids:
 navigation:
   title: XL Turbo Steam Turbine
   parent: reworks.md
-  icon: gregtech:gt.blockmachines
+  icon: gregtech:gt.blockmachines:15519
 categories:
     - Structure Reworks
 author: Skorched
