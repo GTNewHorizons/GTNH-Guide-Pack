@@ -41,8 +41,8 @@ The AE system in the scene relies on the GT power grid on the left for power. Th
 
 Now you can right-click the terminal to open the AE storage network, inserting or extracting items from the terminal just like you would normally use a chest. Items manually placed into the chest will also be displayed in the AE terminal. At this point, you have successfully built an AE storage network, but this is only the tip of the iceberg for AE networks. Please continue exploring this guide for more content.
 
-[Items and Blocks](items-blocks-index.md)
+[Items and Blocks]()
 
-[AE2 Mechanics](ae2-mechanics-index.md)
+[AE2 Mechanics](ae2-mechanics/ae2-mechanics-index.md)
 
-[Tips and Practical Examples](tricks-example.md)
+[Tips and Practical Examples]()
