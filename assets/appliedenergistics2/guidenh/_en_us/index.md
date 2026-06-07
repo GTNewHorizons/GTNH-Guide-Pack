@@ -1,16 +1,10 @@
 ---
-item_ids:
-  - guidenh:guide
 navigation:
-  title: Applied Energistics 2
-  icon: guidenh:guide
-  position: 2
----
-=======
-navigation:
-  title: Applied Energistics 2
+  title: "Applied Energistics 2"
   icon: guidenh:guide
   position: 0
+  priority: 0
+  recommended: 1
 ---
 
 ![Logo](assets/logo.png)
