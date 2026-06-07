@@ -8,7 +8,6 @@ navigation:
 
 # 简单的存储网络
 为了让你简单入门AE2，我们先来搭建一个简单的存储网络，实现AE2的基础功能————存储。
-
 ## 前置科技
 应用能源2其实是外星科技，你可以在世界各地找到[陨石](./ae2-mechanics/meteorites.md)，它们的核心中可能会有<ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="left"/>，箱子中有概率找到AE2的核心物品————<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:13" showIcon="left"/>、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:14" showIcon="left"/>、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:15" showIcon="left"/>和<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:19" showIcon="left"/>。有了它们你才能制作AE2的组件和方块。此外，在GTNH中AE2被融合进了格雷科技，你需要到达EV阶段获取钛之后才能制造AE系统。
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 陨石箱子
   icon: appliedenergistics2:tile.BlockSkyChest
 categories:

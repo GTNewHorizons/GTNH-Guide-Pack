@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 内存卡
   icon: appliedenergistics2:item.ToolMemoryCard
 categories:

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: ME成型面板
   icon: appliedenergistics2:item.ItemMultiPart:320
 categories:

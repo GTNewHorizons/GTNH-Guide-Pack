@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 线缆
   icon: appliedenergistics2:item.ItemMultiPart:36
 categories:
@@ -95,3 +95,8 @@ item_ids:
 - ae2:fluix_smart_dense_cable
 ---
 
+# 线缆
+
+# 普通线缆
+
+# 智能线缆

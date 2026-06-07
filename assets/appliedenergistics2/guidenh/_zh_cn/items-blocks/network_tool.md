@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 网络工具
   icon: appliedenergistics2:item.ToolNetworkTool
 categories:

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 监控器
   icon: appliedenergistics2:item.ItemMultiPart:400
 categories:
