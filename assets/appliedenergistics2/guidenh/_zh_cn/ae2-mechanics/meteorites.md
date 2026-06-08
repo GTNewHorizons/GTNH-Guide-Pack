@@ -14,6 +14,6 @@ navigation:
 ## 寻找陨石
 
 陨石相当常见。虽然有些会出现在地表，但更多的陨石埋藏在地下。
-你可以使用 <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" /> 来寻找它们。不过，陨石罗盘只能告诉你当前区块内存在陨石，而无法精确指出其位置。
+你可以使用<ItemLink id="appliedenergistics2:tile.BlockSkyCompass" />来寻找它们。不过，陨石罗盘只能告诉你当前区块内存在陨石，而无法精确指出其位置。
 
 ![Meteorite Crater](../assets/images/meteorite-crater.png)
