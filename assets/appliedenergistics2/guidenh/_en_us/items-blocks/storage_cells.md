@@ -322,7 +322,10 @@ Unlike standard Storage Cells, they can store only 27 item types and have a tota
 
 They support only the following upgrade cards:
 
- <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />  <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> 
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> 
 
 <RecipesFor id="appliedenergistics2:item.ToolPortableCell" />
 

@@ -213,7 +213,7 @@ Each Pattern Capacity Card provides an additional 9 pattern slots to the interfa
 
 Allows filtering using Ore Dictionary and supports regular expression matching.
 
-<RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:69" />
+<RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:55" />
 
 ## Sticky Card
 
@@ -240,6 +240,7 @@ In Loose mode, blocking is triggered by the presence of any item or fluid in the
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:65" scale="2" />
 
 Has 4 modes:
+
 *   Mode 1: Never locks crafting
 *   Mode 2: Locks crafting until a redstone pulse is received
 *   Mode 3: Locks crafting when a redstone signal is present
