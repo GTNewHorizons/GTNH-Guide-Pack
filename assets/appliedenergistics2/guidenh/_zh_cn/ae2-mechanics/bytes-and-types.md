@@ -64,7 +64,7 @@ navigation:
 
 ## 存储元件容量与成本对比
 
-| 存储元件 | 字节数 | 每种类型开销 |
+| 存储元件 | 字节数 | 类型 | 每种类型开销 |
 | --- | ---: | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />        |      1,024 | 63 |       8 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />        |      4,096 | 63 |      32 |
