@@ -132,16 +132,15 @@ item_ids:
   </Row>
 </Column>
 
-存储元件是 应用能源2 中主要的存储方式之一。它们放置在 <ItemLink id="appliedenergistics2:tile.BlockDrive" />
-或 <ItemLink id="appliedenergistics2:tile.BlockChest" />中.
+存储元件是 应用能源2 中主要的存储方式之一。它们放置在<ItemLink id="appliedenergistics2:tile.BlockDrive" />或<ItemLink id="appliedenergistics2:tile.BlockChest" />中.
 
-有关其容量（以字节为单位）和类型的说明，请参阅 [字节与类型](../ae2-mechanics/bytes-and-types.md) 。
+有关其容量（以字节为单位）和类型的说明，请参阅[字节与类型](../ae2-mechanics/bytes-and-types.md)。
 
 如果存储元件是空的，可以手持该元件并按住 Shift + 右键点击，将其从外壳中取出。
 
 ## 不同类型数量下的存储容量
 
-由于 [类型开销](../ae2-mechanics/bytes-and-types.md)  的原因，只存储 1 种类型的存储元件，其容量可以达到同时使用全部 63 种类型时的约 2 倍。
+由于[类型开销](../ae2-mechanics/bytes-and-types.md)的原因，只存储 1 种类型的存储元件，其容量可以达到同时使用全部 63 种类型时的约 2 倍。
 
 | 存储元件 | 可容纳数量（使用1类型） | 可容纳数量（最大种类） |
 | --- | ---: | ---: |
@@ -191,17 +190,17 @@ item_ids:
 
 ## 分区
 
-存储元件可以设置过滤规则，仅接受特定物品，与 <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> 的过滤机制类似。
+存储元件可以设置过滤规则，仅接受特定物品，与<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />的过滤机制类似。
 
 存储元件还支持元件限制功能，可将其可用容量和类型数量限制在不超过原有上限的任意值。
 
-上述操作可在 <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> 中完成。
+上述操作可在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中完成。
 
 即使玩家实际上并未拥有对应物品，也可以直接从 NEI 将其拖入过滤槽位进行设置。
 
 ## 升级
 
-存储元件支持以下 [升级卡](upgrade_cards.md) ，可通过 <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> 安装：
+存储元件支持以下[升级卡](upgrade_cards.md)，可通过<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />安装：
 
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> （流体元件不可使用）允许按耐久值进行分区，并可选择忽略物品 NBT 数据
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将过滤模式从白名单切换为黑名单
@@ -214,37 +213,37 @@ item_ids:
 
 大部分存储元件由对应的存储组件与外壳组装而成，不同类型和容量的存储元件需要使用对应的外壳。部分特殊存储元件无需外壳，直接通过配方制作。
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> ：用于制作 1k - 64k 物品存储元件
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> 用于制作 1k - 64k 物品存储元件
 <br> <RecipesFor id="appliedenergistics2:item.ItemBasicStorageCell.1k" output="appliedenergistics2:item.ItemBasicStorageCell.1k" />
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:39" limit="3" />
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> ：用于制作 256k - 16384k 物品存储元件
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> 用于制作 256k - 16384k 物品存储元件
 <br> <RecipesFor id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" output="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:61" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing" /> ：用于制作 1k - 64k 流体存储元件
+*   <ItemLink id="ae2fc:fluid_storage_housing" /> 用于制作 1k - 64k 流体存储元件
 <br> <RecipesFor id="ae2fc:fluid_storage1" output="ae2fc:fluid_storage1"/>
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="ae2fc:fluid_storage_housing" handlerId="gt.recipe.assembler" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> ：用于制作 256k - 16384k 流体存储元件
+*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> 用于制作 256k - 16384k 流体存储元件
 <br> <RecipesFor id="ae2fc:fluid_storage256" output="ae2fc:fluid_storage256"/>
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:1" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> ：用于制作 1k - 64k 多流体存储元件
+*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> 用于制作 1k - 64k 多流体存储元件
 <br> <RecipesFor id="ae2fc:multi_fluid_storage1" output="ae2fc:multi_fluid_storage1" />
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:2" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> ：用于制作 256k - 16384k 多流体存储元件
+*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> 用于制作 256k - 16384k 多流体存储元件
 <br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" />
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
 
-*   <ItemLink id="thaumicenergistics:storage.casing" /> ：用于制作源质存储元件
+*   <ItemLink id="thaumicenergistics:storage.casing" /> 用于制作源质存储元件
 <br> <RecipesFor id="thaumicenergistics:storage.essentia" output="thaumicenergistics:storage.essentia" />
 <br> 单独制作外壳的配方如下：
 <br> <RecipesFor id="thaumicenergistics:storage.casing" />
@@ -305,28 +304,31 @@ item_ids:
 
 ## 非常规存储元件
 
-*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> ：销毁存储的所有物品
+*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> 能销毁存储的所有物品
 <br><Recipe id="appliedenergistics2:item.ItemVoidStorageCell" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> ：仅能存储 1 种不同类型的物品，提供 65,536 字节的容量
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> 仅能存储 1 种不同类型的物品，提供 65,536 字节的容量
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Container" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> ：仅能存储 1 种不同类型的物品，提供 134,217,727 字节的容量
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> 仅能存储 1 种不同类型的物品，提供 134,217,727 字节的容量
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> ：仅能存储 1 种不同类型的物品，提供 576,460,752,303,423,487 字节的容量
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> 仅能存储 1 种不同类型的物品，提供 576,460,752,303,423,487 字节的容量
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> ：能存储 63 种不同类型的物品，提供 576,460,752,303,423,487 字节的容量
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> 能存储 63 种不同类型的物品，提供 576,460,752,303,423,487 字节的容量
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" />
 
 ## 便携元件
 
-便携元件相当于一个可以随身携带的小型 <ItemLink id="appliedenergistics2:tile.BlockChest" /> ，类似于背包。
+便携元件相当于一个可以随身携带的小型<ItemLink id="appliedenergistics2:tile.BlockChest" />，类似于背包。
 
-它们可以通过 <ItemLink id="appliedenergistics2:tile.BlockCharger" /> 进行充电。
+它们可以通过<ItemLink id="appliedenergistics2:tile.BlockCharger" />进行充电。
 
 与标准存储元件不同，其可存储的类型容量仅有 27 ，同时总字节容量只有 512 字节。
 
 它们仅支持以下升级卡：
 
- <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />  <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> 
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> 
 
 <RecipesFor id="appliedenergistics2:item.ToolPortableCell" />
 
@@ -346,15 +348,15 @@ item_ids:
 
 ## 非常规流体存储元件
 
-*   <ItemLink id="ae2fc:fluid_storage.void" /> ：销毁存储的所有流体
+*   <ItemLink id="ae2fc:fluid_storage.void" /> 能销毁存储的所有流体
 <br><Recipe id="ae2fc:fluid_storage.void" />
-*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> ：无限提供至多 4,503,599,627,370,495 mB的水
+*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> 能无限提供至多 4,503,599,627,370,495 mB的水
 <br><Recipe id="ae2fc:fluid_storage.infinity.water" />
-*   <ItemLink id="ae2fc:fluid_storage.quantum" /> ：仅能存储 1 种不同类型的流体，提供 134,217,727 字节的容量
+*   <ItemLink id="ae2fc:fluid_storage.quantum" /> 仅能存储 1 种不同类型的流体，提供 134,217,727 字节的容量
 <br><Recipe id="ae2fc:fluid_storage.quantum" />
-*   <ItemLink id="ae2fc:fluid_storage.singularity" /> ：仅能存储 1 种不同类型的流体，提供 2,251,799,813,685,247 字节的容量
+*   <ItemLink id="ae2fc:fluid_storage.singularity" /> 仅能存储 1 种不同类型的流体，提供 2,251,799,813,685,247 字节的容量
 <br><Recipe id="ae2fc:fluid_storage.singularity" />
-*   <ItemLink id="ae2fc:fluid_storage.Universe" /> ：能存储 63 种不同类型的物品，提供 4,503,599,627,370,495 字节的容量
+*   <ItemLink id="ae2fc:fluid_storage.Universe" /> 能存储 63 种不同类型的物品，提供 4,503,599,627,370,495 字节的容量
 <br><Recipe id="ae2fc:fluid_storage.Universe" />
 
 ## 便携流体元件
@@ -384,11 +386,11 @@ item_ids:
 
 ## 非常规源质存储元件
 
-*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> ：仅能存储 1 种不同类型的源质，提供 134,217,727 字节的容量
+*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> 仅能存储 1 种不同类型的源质，提供 134,217,727 字节的容量
 <br><Recipe id="thaumicenergistics:storage.essentia:9" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> ：仅能存储 1 种不同类型的源质，提供 2,305,843,009,213,693,951 字节的容量
+*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> 仅能存储 1 种不同类型的源质，提供 2,305,843,009,213,693,951 字节的容量
 <br><Recipe id="thaumicenergistics:storage.essentia:10" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> ：无限提供所有种类的源质，每种源质至多 4,503,599,627,370,495 单位
+*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> 无限提供所有种类的源质，每种源质至多 4,503,599,627,370,495 单位
 <br><Recipe id="thaumicenergistics:storage.essentia:4" />
 
 # 创造元件
