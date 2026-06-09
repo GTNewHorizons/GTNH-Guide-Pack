@@ -65,7 +65,7 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
   </Row>
 </Column>
-Upgrade cards change the behavior of AE2 [devices](../ae2-mechanics/devices.md) and machines, increasing their speed, improving their
+Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their
 filter capacity, enabling redstone control, etc.
 
 ## Card Components
