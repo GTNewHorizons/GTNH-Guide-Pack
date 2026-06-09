@@ -157,7 +157,6 @@ item_ids:
 | <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" scale="4" /> |       4.61E |          - |
 | <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" scale="4" />    |       4.61E |      4.61E |
 
-
 ---
 
 | 流体存储元件 | 可容纳mB（使用1类型） | 可容纳mB（最大种类） |
