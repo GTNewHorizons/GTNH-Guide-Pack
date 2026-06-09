@@ -65,7 +65,7 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
   </Row>
 </Column>
-升级卡会改变AE2[设备](../ae2-mechanics/devices.md)和机器的行为，提高其速度、改善其过滤能力、启用红石控制等。
+升级卡会改变AE2设备和机器的行为，提高其速度、改善其过滤能力、启用红石控制等。
 
 ## 卡组件
 
