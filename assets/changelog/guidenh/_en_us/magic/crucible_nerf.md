@@ -12,7 +12,7 @@ Thaumcraft's <ItemLink id="Thaumcraft:blockMetalDevice"/> <ItemImage id="Thaumcr
 
 <FunctionGraph xMax="1200" width="380" title="Essentia Decomposed / s" xLabel="Essentia in Crucible" yLabel="Essentia Decomposed / s">
   <Function expr="0.2" color="#4488FF" label="Non-overflow decay (0.2 / s)" domain="0..100"/>
-  <Function expr="5.2" color="#44FF44" label="Original overflow decay (5.2 / s)" domain="100..200"/>
-  <Function expr="5.2 + 0.000042x^2" color="#FFFF22" label="Scaling overflow decay (5.2 + 0.000042x^2 / s)" domain="200..1000"/>
-  <Function expr="5.2 + 0.042x" color="#FF2222" label="Max overflow decay (5.2 + 0.042x / s)" domain="1000..1200"/>
+  <Function expr="4.2" color="#44FF44" label="Original overflow decay (4.2 / s)" domain="100..200"/>
+  <Function expr="4.2 + 0.000042x^2" color="#FFFF22" label="Scaling overflow decay (4.2 + 0.000042x^2 / s)" domain="200..1000"/>
+  <Function expr="4.2 + 0.042x" color="#FF2222" label="Max overflow decay (4.2 + 0.042x / s)" domain="1000..1200"/>
 </FunctionGraph>
