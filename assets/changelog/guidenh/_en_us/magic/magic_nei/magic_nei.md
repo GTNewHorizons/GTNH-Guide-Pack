@@ -3,9 +3,9 @@ navigation:
   title: Magic NEI
   parent: /magic/magic.md
   icon: Thaumcraft:ItemThaumonomicon:42
-author: Skorched, koolkrafter5
-date: 2026-06-9
+author: koolkrafter5
+date: 2026-06-09
 ---
-This update includes various improvements to integration for Thaumcraft and its addons with NEI.
+This update includes various improvements to existing and new NEI handlers for many magic mods.
 
 <Category name="Magic NEI" rows="3"/>
