@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 升级卡
   icon: appliedenergistics2:item.ItemMultiMaterial:25
 categories:

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 染色球
   icon: appliedenergistics2:item.ItemPaintBall
 categories:

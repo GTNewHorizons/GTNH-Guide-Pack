@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 破坏面板
   icon: appliedenergistics2:item.ItemMultiPart:300
 categories:

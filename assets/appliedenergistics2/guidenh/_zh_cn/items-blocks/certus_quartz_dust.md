@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 赛特斯石英粉
   icon: gregtech:gt.metaitem.01:2516
 categories:

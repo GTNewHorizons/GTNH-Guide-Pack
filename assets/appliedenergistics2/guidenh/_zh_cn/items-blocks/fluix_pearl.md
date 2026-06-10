@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 福鲁伊克斯珍珠
   icon: appliedenergistics2:item.ItemMultiMaterial:9
 categories:

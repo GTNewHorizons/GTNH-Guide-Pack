@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 石英玻璃
   icon: appliedenergistics2:tile.BlockQuartzGlass
 categories:

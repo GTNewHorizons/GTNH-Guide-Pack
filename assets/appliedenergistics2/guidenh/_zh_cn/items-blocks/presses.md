@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 压印模板
   icon: appliedenergistics2:item.ItemMultiMaterial:13
 categories:
