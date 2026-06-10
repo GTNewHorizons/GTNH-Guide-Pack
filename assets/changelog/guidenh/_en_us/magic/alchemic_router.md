@@ -25,4 +25,4 @@ To use the <Color id="GREEN">Alchemic Router</Color>:
 
 To use the <Color id="GREEN">Alchemic Cleanser</Color>:
 * Right-click a block to <Color id="BLUE">clear</Color> its outgoing <Color id="RED">links</Color>.
-* Shift-right-click a block to <Color id="BLUE">clear</Color> any incoming <Color id="RED">links</Color>.
+* Sneak-right-click a block to <Color id="BLUE">clear</Color> any incoming <Color id="RED">links</Color>.
