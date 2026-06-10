@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-machines/items-blocks-machines-index.md
+  parent: ../items-blocks-index.md
   title: 升级卡
   icon: speed_card
   position: 410

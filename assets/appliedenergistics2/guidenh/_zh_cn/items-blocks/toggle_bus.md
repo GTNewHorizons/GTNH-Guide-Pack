@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 触发总线
   icon: appliedenergistics2:item.ItemMultiPart:80
 categories:

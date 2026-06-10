@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 熵变机械臂
   icon: appliedenergistics2:item.ToolEntropyManipulator
 categories:
