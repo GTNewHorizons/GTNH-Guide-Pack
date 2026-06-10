@@ -22,7 +22,7 @@ item_ids:
 # 多方块结构
 量子环是由<ItemLink id="appliedenergistics2:tile.BlockQuantumRing" showIcon="left" />与<ItemLink id="appliedenergistics2:tile.BlockQuantumLinkChamber" showIcon="left" />组成的多方块结构，有效的量子环传输系统由一对量子环多方块结构构成，当结构成型后，向每个量子环提供足够的能源并且向量子链接仓中各放入配对完成的一对量子纠缠奇点的其中之一即可连接两个量子环。
 
-通常来说一对量子环中的一个都远在异国他乡，为了保持系统运行，你必须强加载两个量子环所在区块并且同时保持两侧的能源供应。成型并且链接成功的两个量子环都可以直接从AE网络获取能量，但为了抵抗多人在线服务器或其他原因造成的区块加载、能源供应波动，请务必在外部区域的量子环处提供单独的能源供应，可以使用  <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" showIcon="left" />或<ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" showIcon="left" />，你也可以直接连接小型的GT发电机，但功率必须足够大以维持量子环的开机过程，直到它成功启动转而从AE网络汲取能量。
+通常来说一对量子环中的一个都远在异国他乡，为了保持系统运行，你必须强加载两个量子环所在区块并且同时保持两侧的能源供应。成型并且链接成功的两个量子环都可以直接从ME网络获取能量，但为了抵抗多人在线服务器或其他原因造成的区块加载、能源供应波动，请务必在外部区域的量子环处提供单独的能源供应，可以使用  <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" showIcon="left" />或<ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" showIcon="left" />，你也可以直接连接小型的GT发电机，但功率必须足够大以维持量子环的开机过程，直到它成功启动转而从ME网络汲取能量。
 
 量子环只有每条边的中心方块才能连接[线缆](../items-blocks/cables.md)，一对量子环最多只能传输32个频道。
 

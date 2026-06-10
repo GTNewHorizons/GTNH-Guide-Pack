@@ -34,10 +34,10 @@ navigation:
 - <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left"/>给整个网络提供[频道](./ae2-mechanics/channels.md)。
 - <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" showIcon="left"/>连接网络中的所有组件。
 - <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left"/>中存放了一块<ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" showicon="left"/>，用来提供存储空间。
-- <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left"/>紧贴一个箱子，将箱子的存储空间并入AE网络。
-- <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" showIcon="left"/>提供人与AE网络内部空间交互的通道。
+- <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left"/>紧贴一个箱子，将箱子的存储空间并入ME网络。
+- <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" showIcon="left"/>提供人与ME网络内部空间交互的通道。
 
-现在你可以右键终端打开AE存储网络，像正常使用箱子一样向终端中放入或拿出物品了，被手动放入箱子里的物品也会被显示在AE终端中。至此你成功搭建了一个AE存储网络，但这只是AE网络的冰山一角，更多的内容请继续探索本指南。
+现在你可以右键终端打开AE存储网络，像正常使用箱子一样向终端中放入或拿出物品了，被手动放入箱子里的物品也会被显示在AE终端中。至此你成功搭建了一个AE存储网络，但这只是ME网络的冰山一角，更多的内容请继续探索本指南。
 
 [物品与方块](items-blocks-index.md)
 

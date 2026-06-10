@@ -12,8 +12,8 @@ item_ids:
 # 能源
 
 # 能量缓存
-AE网络需要能源来运行，整个网络共用同一个能量缓存，AE的设备运行或者外部向AE网络输入或提取物品都会直接从中抽取能量，而<ItemLink id="appliedenergistics2:tile.BlockVibrationChamber" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="left" />（以及 <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />）则向缓存存入能量。你可以使用 <ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="left" /> 右键点击网络上的任意位置来查看该网络的能量统计信息。这种网络范围内的存储与分配机制意味着
-不存在能量传输速率限制，因此设备可以抽取任意大量的能量，唯一的限制就是你的存储容量。可以使用[能源元件](../items-blocks/energy_cells.md)来拓展AE网络的能量缓存。
+ME网络需要能源来运行，整个网络共用同一个能量缓存，AE的设备运行或者外部向ME网络输入或提取物品都会直接从中抽取能量，而<ItemLink id="appliedenergistics2:tile.BlockVibrationChamber" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="left" />（以及 <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />）则向缓存存入能量。你可以使用 <ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="left" /> 右键点击网络上的任意位置来查看该网络的能量统计信息。这种网络范围内的存储与分配机制意味着
+不存在能量传输速率限制，因此设备可以抽取任意大量的能量，唯一的限制就是你的存储容量。可以使用[能源元件](../items-blocks/energy_cells.md)来拓展ME网络的能量缓存。
 
 ## 能量接收
 
@@ -53,7 +53,7 @@ FE、RF以及EU与AE的转换比率为：
   <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyCell" scale="4" />
 </Row>
 
-出于显而易见的原因，AE网络在一个游戏刻内能够输入或消耗的能量不能超过它能存储的总能量上限。如果一个网络的能量缓存上限是800AE，那当它的设备请求能量时，它们最多只能使用 800AE（假设存储已满），且能量接收器1tick只能向网络中输入最多800AE（假设存储为空）。这个设定在使用[空间IO](./spatial-io.md)时体现得尤为明显，你需要准备很多能源元件才能启动[空间塔](../items-blocks/spatial_pylon.md)。
+出于显而易见的原因，ME网络在一个游戏刻内能够输入或消耗的能量不能超过它能存储的总能量上限。如果一个网络的能量缓存上限是800AE，那当它的设备请求能量时，它们最多只能使用 800AE（假设存储已满），且能量接收器1tick只能向网络中输入最多800AE（假设存储为空）。这个设定在使用[空间IO](./spatial-io.md)时体现得尤为明显，你需要准备很多能源元件才能启动[空间塔](../items-blocks/spatial_pylon.md)。
 
 这是一些奇怪现象发生的常见原因。例如，你制作了一个仅有能量接收器、存储容器、终端和一些设备的小型网络，然后试图将物品栏中满满的圆石倒入网络，此时在1tick内输入所有圆石需要的能量超过了网络的缓存上限。由此网络能量耗尽，圆石并未全部输入，并且网络会重启。**你可以通过添加能源元件来解决这个问题。**
 
