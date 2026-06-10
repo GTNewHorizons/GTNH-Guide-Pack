@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 石英切割刀
   icon: appliedenergistics2:item.ToolCertusQuartzCuttingKnife
 categories:

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 合成存储器
   icon: appliedenergistics2:tile.BlockSingularityCraftingStorage
 categories:

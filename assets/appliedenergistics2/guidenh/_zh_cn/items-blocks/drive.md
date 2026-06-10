@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: ME驱动器
   icon: appliedenergistics2:tile.BlockDrive
 categories:

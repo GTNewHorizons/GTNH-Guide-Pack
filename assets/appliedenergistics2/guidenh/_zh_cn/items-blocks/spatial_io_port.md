@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 空间IO端口
   icon: appliedenergistics2:tile.BlockSpatialIOPort
 categories:
