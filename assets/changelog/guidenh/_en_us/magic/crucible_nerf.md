@@ -5,10 +5,9 @@ navigation:
   icon: Thaumcraft:blockMetalDevice
 categories:
     - Magic Changes
-date: 2026-06-9
+date: 2026-06-10
 ---
 
-# Overfilled Crucible Nerf
 Thaumcraft's <ItemLink id="Thaumcraft:blockMetalDevice"/> <ItemImage id="Thaumcraft:blockMetalDevice"/> will now <Color id="RED">remove essentia</Color> more quickly the <Color id="RED">more overfilled</Color> it is. Starting at <Color id="BLUE">200</Color> total essentia, it will now decay a <Color id="RED">percent of the total essentia</Color>, with a bias toward breaking down compound aspects. This percent slowly increases to <Color id="RED">4.2%</Color> per second at <Color id="BLUE">1000</Color> total essentia, 10x the original softcap of <Color id="BLUE">100</Color>.
 
 <FunctionGraph xMax="1200" width="380" title="Essentia Decomposed / s" xLabel="Essentia in Crucible" yLabel="Essentia Decomposed / s">

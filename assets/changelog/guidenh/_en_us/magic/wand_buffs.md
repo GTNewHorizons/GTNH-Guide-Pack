@@ -6,10 +6,9 @@ navigation:
 categories:
     - Magic Changes
 author: koolkrafter5
-date: 2026-06-9
+date: 2026-06-09
 ---
 
-# Forbidden Magic Wand Component Buffs
 The following <Color id="BLUE">Forbidden Magic wand components</Color> have been <Color id="GREEN">improved</Color>:
 - <ItemImage id="ForbiddenMagic:WandCaps:3"/>: <Color color="#FFAA00AA">Vis Discount</Color> <Color color="#FFFF55FF">10%</Color> -> <Color color="#FFFF55FF">15%</Color>, <Color color="#FFAA00AA">crafting cost</Color> <Color color="#FFFF55FF">decreased</Color>, <Color color="#FFAA00AA">downtiered to</Color> <Color color="#FFFF55FF">MV</Color>
 - <ItemImage id="ForbiddenMagic:WandCaps:5"/>: <Color color="#FFAA00AA">Vis Discount</Color> <Color color="#FFFF55FF">20%</Color> -> <Color color="#FFFF55FF">30%</Color>

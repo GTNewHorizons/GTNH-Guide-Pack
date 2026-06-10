@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Botania NEI Handlers
+  title: Botania NEI Handler Cleanup
   parent: magic_nei.md
   icon: Botania:lexicon
 categories:
@@ -9,7 +9,6 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-# Botania NEI Handler Cleanup
 Various NEI handlers for Botania got some attention this update:
 - Lexicon entries are now also shown when finding recipes for items, not just uses.
 - The Floating Flower handler can now use NEI's Overlay Button to move items into the inventory/crafting table grid.

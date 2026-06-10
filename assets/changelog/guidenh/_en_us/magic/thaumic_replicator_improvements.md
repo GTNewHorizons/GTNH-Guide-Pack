@@ -6,10 +6,9 @@ navigation:
 categories:
     - Magic Changes
 author: koolkrafter5
-date: 2026-06-9
+date: 2026-06-09
 ---
 
-# Thaumic Replicator Improvements
 The <ItemLink id="ThaumicExploration:replicator"/> <ItemImage id="ThaumicExploration:replicator"/> has received a large number of improvements:
 - It now <Color id="GREEN">remembers</Color> the jars it is pulling essentia from. It will now only search for new jars when the current one it is pulling that aspect from is <Color id="RED">empty</Color>, resulting in a lot less lag.
 - The glyphs on its sides are now <Color id="GREEN">pixel-accurate</Color> and <Color id="GREEN">glow in the dark</Color>.
