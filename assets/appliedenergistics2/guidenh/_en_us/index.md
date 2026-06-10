@@ -36,4 +36,3 @@ quantities of items in stock, crafting more as needed, or simply transfer items 
   <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
->>>>>>> ae2
