@@ -7,10 +7,8 @@ navigation:
 
 # Channels
 
-# What are channels？
-
->[!WARNING]
->This page contains broken links. Make sure to come back later!
+> [!NOTE]
+> Some links are broken due to their pages not being written at this time. Help support GTNH's development by contributing on the [GitHub](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
 
 Applied Energistics 2's [ME Networks]() require
 Channels to support [devices]() which use networked storage, or other network
