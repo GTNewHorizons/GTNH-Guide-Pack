@@ -1,10 +1,8 @@
 ---
 navigation:
-  title: "Applied Energistics 2"
+  title: Applied Energistics 2
   icon: guidenh:guide
   position: 0
-  priority: 0
-  recommended: 1
 ---
 
 ![Logo](assets/logo.png)
@@ -27,10 +25,9 @@ with a single click, craft all of the prerequisites (and the final result) of a 
 quantities of items in stock, crafting more as needed, or simply transfer items around your base.
 
 * [Getting Started](getting-started.md)
-* [Tips and Tricks]()
 * [AE2 Mechanics](ae2-mechanics/ae2-mechanics-index.md)
-* [Example Setups]()
-* [Items, Blocks, and Machines]()
+* [Example Setups](example-setups/example-setups-index.md)
+* [Items, Blocks, and Machines](items-blocks/items-blocks-index.md)
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
