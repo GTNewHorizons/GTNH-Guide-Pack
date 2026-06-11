@@ -19,10 +19,8 @@ item_ids:
 
 # Import, Export, and Storage
 
-> [!NOTICE]
+> [!NOTE]
 > Some links are broken due to their pages not being written at this time. Help support GTNH's development by contributing on the [GitHub](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
-
-# "Import" vs "Export" and "Read" vs "Write"
 
 **your ME system and the world**
 
