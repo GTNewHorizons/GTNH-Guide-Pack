@@ -9,12 +9,12 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-The following items can now be shot out of dispensers:
+The following items can now be shot out of a <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/>:
 
-- <ItemLink id="ThaumicHorizons:alchemite"/>
-- <ItemLink id="ThaumicHorizons:boatGreatwood"/>
-- <ItemLink id="ThaumicHorizons:boatThaumium"/>
-- <ItemLink id="ThaumicHorizons:syringeInjection"/>
-- <ItemLink id="ThaumicHorizons:syringeInjection:1"/>
-- <ItemLink id="IC2:blockITNT"/>
-- <ItemLink id="gregtech:gt.blockreinforced:5"/>
+- <ItemImage id="ThaumicHorizons:alchemite"/>
+- <ItemImage id="ThaumicHorizons:boatGreatwood"/>
+- <ItemImage id="ThaumicHorizons:boatThaumium"/>
+- <ItemImage id="ThaumicHorizons:syringeInjection"/>
+- <ItemImage id="ThaumicHorizons:syringeInjection:1"/>
+- <ItemImage id="IC2:blockITNT"/>
+- <ItemImage id="gregtech:gt.blockreinforced:5"/>
