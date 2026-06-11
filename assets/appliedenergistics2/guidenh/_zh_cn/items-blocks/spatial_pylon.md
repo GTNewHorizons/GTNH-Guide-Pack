@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 空间塔
   icon: appliedenergistics2:tile.BlockSpatialPylon
 categories:

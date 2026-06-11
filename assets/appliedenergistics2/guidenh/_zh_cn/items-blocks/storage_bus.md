@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: ME存储总线
   icon: appliedenergistics2:item.ItemMultiPart:220
 categories:

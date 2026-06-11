@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 谐振仓
   icon: appliedenergistics2:tile.BlockVibrationChamber
 categories:

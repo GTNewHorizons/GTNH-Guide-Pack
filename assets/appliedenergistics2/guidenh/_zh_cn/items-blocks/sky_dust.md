@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 陨石粉
   icon: appliedenergistics2:item.ItemMultiMaterial:45
 categories:

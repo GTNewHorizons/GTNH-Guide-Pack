@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 赛特斯石英块
   icon: appliedenergistics2:tile.BlockQuartz
 categories:

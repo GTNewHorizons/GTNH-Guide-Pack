@@ -1,0 +1,224 @@
+{
+    "totalTime": 180,
+    "keyframes": [
+        {
+            "time":10,
+            "label": "总览",
+            "annotations":[
+                {
+                   "type": "text",
+                    "x": -2.8,
+                    "y": 2,
+                    "z": -4.8,
+                    "text": "空间存储元件维度内部空间",
+                    "color": "0xFF44AAFF",
+                    "connectorSide": "bottom",
+                    "connectorLength": 0 
+                }
+            ]
+        },
+        {
+            "time": 60,
+            "label": "第一次转移",
+            "annotations": [
+                {
+                    "type": "input",
+                    "x": 5.5,   
+                    "y": -0.4,
+                    "z": 3.5,
+                    "inputType": "rmb"
+                },
+                {
+                    "type": "text",
+                    "x": 5.5,
+                    "y": 1.1,
+                    "z": 3.5,
+                    "text": "点击按钮激活",
+                    "color": "0xFF44AAFF",
+                    "connectorSide": "bottom",
+                    "connectorLength": 5
+                }
+            ],
+            "blockChanges": [
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 2,
+                    "block": "minecraft:air",
+                    "particles": false
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 3,
+                    "block": "minecraft:air",
+                    "particles": false
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": 2,
+                    "block": "minecraft:air",
+                    "particles": false
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": 3,
+                    "block": "minecraft:air",
+                    "particles": false
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 1,
+                    "block": "minecraft:air",
+                    "particles": false
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": 0,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": -5,
+                    "y": 2,
+                    "z": 0,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": -1,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": -5,
+                    "y": 2,
+                    "z": -1,
+                    "block": "minecraft:grass",
+                    "particles": false
+                }
+            ]
+        },
+        {
+            "time": 100,
+            "label": "放置石头",
+            "blockChanges": [
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 2,
+                    "block": "minecraft:stone",
+                    "particles": true
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 3,
+                    "block": "minecraft:stone",
+                    "particles": true
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": 2,
+                    "block": "minecraft:stone",
+                    "particles": true
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": 3,
+                    "block": "minecraft:stone",
+                    "particles": true
+                }                
+            ]
+        },
+        {
+            "time": 150,
+            "label": "第二次转移",
+            "annotations": [
+                {
+                    "type": "input",
+                    "x": 5.5,   
+                    "y": -0.4,
+                    "z": 3.5,
+                    "inputType": "rmb"
+                },
+                {
+                    "type": "text",
+                    "x": 5.5,
+                    "y": 1.1,
+                    "z": 3.5,
+                    "text": "点击按钮激活",
+                    "color": "0xFF44AAFF",
+                    "connectorSide": "bottom",
+                    "connectorLength": 5
+                }
+            ],
+            "blockChanges": [
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 2,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": 3,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": 2,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": 3,
+                    "block": "minecraft:grass",
+                    "particles": false
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": 0,
+                    "block": "minecraft:stone",
+                    "particles": false
+                },
+                {
+                    "x": -5,
+                    "y": 2,
+                    "z": 0,
+                    "block": "minecraft:stone",
+                    "particles": false
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": -1,
+                    "block": "minecraft:stone",
+                    "particles": false
+                },
+                {
+                    "x": -5,
+                    "y": 2,
+                    "z": -1,
+                    "block": "minecraft:stone",
+                    "particles": false
+                }
+            ]
+        }
+    ]
+}
