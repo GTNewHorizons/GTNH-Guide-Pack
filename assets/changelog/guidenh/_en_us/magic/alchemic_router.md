@@ -5,7 +5,9 @@ item_ids:
 navigation:
   title: Blood Magic AR Routing Improvements
   parent: magic.md
-  icon: AWWayofTime:itemAttunedCrystal
+  icons: 
+  - AWWayofTime:itemAttunedCrystal:0:{reagent:"orbisTerrae"}
+  - AWWayofTime:itemAttunedCrystal:0:{reagent:"crystallos"}
 categories:
     - Magic Changes
     - Quality Of Life
