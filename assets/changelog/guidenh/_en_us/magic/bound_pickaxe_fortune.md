@@ -2,7 +2,7 @@
 navigation:
   title: Bound Pickaxe Fortune Buff
   parent: magic.md
-  icon: AWWayofTime:boundPickaxe
+  icon: AWWayofTime:boundPickaxe:0:{ench:[0:{id:35s,lvl:3s}]}
 categories:
     - Magic Changes
     - Quality of Life
