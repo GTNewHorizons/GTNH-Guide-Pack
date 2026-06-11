@@ -3,6 +3,7 @@ navigation:
   title: Magic NEI
   parent: /magic/magic.md
   icon: Thaumcraft:ItemThaumonomicon:42
+  position: 1
 categories:
   - Magic NEI
 author: koolkrafter5
