@@ -37,7 +37,7 @@ two block faces at range. They are not bi-directional, there are defined inputs 
 
 ![Portal](../assets/images/p2p_portal.png)
 
-# <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="Left"/>
+# <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="left"/>
 
 The ME P2P Tunnel is a P2P Tunnel that transmits AE channels. It allows you to transmit up to 32 channels to all outputs (all outputs share the channels of the input). Unlike other P2P Tunnels, the ME P2P Tunnel itself needs to operate on an ME Network separate from the network being transmitted.
 
@@ -85,7 +85,7 @@ The usage and characteristics of these P2P variants are basically the same as th
 - Fluid P2P Tunnels can transfer bidirectionally, but there can still only be one input.
 - Using the GT EU P2P Tunnel indirectly extract a 5% voltage tax per amp of current from the output, much like modern Energy P2P Tunnels. For example, if the input is 8192V 16A, the corresponding output will be 7782V 16A.
 
-## <ItemLink id="appliedenergistics2:item.ItemMultiPart:471" showIcon="Left"/> and <ItemLink id="ae2fc:part_fluid_p2p_interface" showIcon="Left"/>
+## <ItemLink id="appliedenergistics2:item.ItemMultiPart:471" showIcon="left"/> and <ItemLink id="ae2fc:part_fluid_p2p_interface" showIcon="left"/>
 These are two new P2P Tunnels added by GTNH. They are not used for transmission, but rather, like the Interface/Dual Interface, they are used to push pattern materials. Therefore, the usage marked in red in the scene below is invalid; patterns cannot be transmitted by the P2P Tunnel - Interface/Dual Interface to the output ends. Instead, they should be placed at the **input end**. Currently, both the input and output ends can push pattern materials to adjacent blocks. If a port directly faces a block that cannot accept materials, it will be ignored. Each panel has the basic functions of an [Interface](../items-blocks/interface.md) / [Dual Interface](../items-blocks/interface.md). The blocking mode of each P2P Tunnel - Interface/Dual Interface must be set individually one by one. Every P2P Tunnel - Interface/Dual Interface effectively contains the same patterns as the input end.
 
 By using them, you only need to place the pattern in the input end to parallelize pattern materials, achieving physical parallelism. 
@@ -106,7 +106,7 @@ However, you cannot use this to send infinite channels through a single cable. T
 
 # Linking
 
-The ends of a P2P tunnel connection can be linked using a <ItemLink id="appliedenergistics2:item.ToolMemoryCard" showIcon="Left"/>. The tunnel you shift-right-click will be the input and the tunnel you right-click will be the output. You can have multiple outputs, but with ME P2P tunnels, the channels flowing in the input will be split between the outputs, so you can't duplicate channels.
+The ends of a P2P tunnel connection can be linked using a <ItemLink id="appliedenergistics2:item.ToolMemoryCard" showIcon="left"/>. The tunnel you shift-right-click will be the input and the tunnel you right-click will be the output. You can have multiple outputs, but with ME P2P tunnels, the channels flowing in the input will be split between the outputs, so you can't duplicate channels.
 
 # Recipe
 
