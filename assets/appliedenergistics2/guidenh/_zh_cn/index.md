@@ -3,13 +3,13 @@ item_ids:
   - guidenh:guide
 navigation:
   title: 首页
-  icon: guidenh:guide
+  icon: minecraft:book
+  posion: 100
 ---
 
 # 什么是应用能源2（Applied Energistics 2）？
 
-# 应用能源2（Applied Energistics 2）？
-
+# 应用能源2（Applied Energistics 2）
 应用能源2（Applied Energistics 2，简称AE/AE2）增加了许多组件和机制以提供物流和存储解决方案。最简单的应用————你可以用一个紧凑的ME网络取代你那个装满箱子的大房间。
 AE旨在与模组包中的其他模组协同工作，让这些模组实现自动化。你可以建造一个自动合成系统，只需简单设置就可以合成复杂合成链中所有的前置材料（以及最终产物），或保持一定数量的物品库存，根据需要合成更多物品，或只是在你的基地内转移物品。
 
@@ -31,6 +31,14 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
+  <RemoveBlocks id="minecraft:furnace" />
+  <Block id="minecraft:furnace" x="9" y="1" z="0" facing="north" />
+</GameScene>
+
+{/* 
+<GameScene zoom="4" interactive={true}>
+  <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
   <BlockAnnotation pos="2 0 2" color="#ff0000" alwaysOnTop={true}>
   这是一个红色高亮方块注解。
   </BlockAnnotation>
@@ -46,4 +54,5 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   <TextAnnotation pos="0.5 2 2.5" color="#00ffcc">
   这是一个青色文本气泡
   </TextAnnotation>
-</GameScene>
+</GameScene> 
+*/}

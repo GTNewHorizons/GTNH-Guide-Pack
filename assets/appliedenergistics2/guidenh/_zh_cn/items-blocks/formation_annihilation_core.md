@@ -1,7 +1,7 @@
 ---
 navigation:
-  parent: items-blocks-index.md
-  title: 成型核心与成型核心
+  parent: ../items-blocks-index.md
+  title: 成型核心与破坏核心
   icon: appliedenergistics2:item.ItemMultiMaterial:43
 categories:
 - misc ingredients blocks

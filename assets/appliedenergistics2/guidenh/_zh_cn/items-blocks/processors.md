@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 处理器
   icon: appliedenergistics2:item.ItemMultiMaterial:23
 categories:

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 染色器
   icon: appliedenergistics2:item.ToolColorApplicator
 categories:

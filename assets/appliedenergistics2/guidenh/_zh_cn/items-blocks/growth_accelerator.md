@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 晶体催生器
   icon: appliedenergistics2:tile.BlockQuartzGrowthAccelerator
 categories:

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 充能手杖
   icon: appliedenergistics2:item.ToolChargedStaff
 categories:

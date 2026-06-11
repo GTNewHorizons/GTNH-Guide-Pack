@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 显示元件
   icon: appliedenergistics2:item.ItemViewCell
 categories:
