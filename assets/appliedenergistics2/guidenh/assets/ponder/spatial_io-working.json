@@ -3,7 +3,7 @@
     "keyframes": [
         {
             "time": 0,
-            "labelKey": "appliedenergistics2.spatial_io_working.label.overview",
+            "labelKey": "appliedenergistics2.spatial_io_working.ponder.label.overview",
             "createEntities": [
                 {
                     "ref": "pig",
@@ -40,7 +40,7 @@
                     "x": 0.5,
                     "y": 0.2,
                     "z": 1.5,
-                    "textKey": "appliedenergistics2.spatial_io_working.text.overview_description",
+                    "textKey": "appliedenergistics2.spatial_io_working.ponder.text.overview_description",
                     "color": "0xFF44AAFF",
                     "connectorSide": "top",
                     "connectorLength": 20
@@ -49,7 +49,7 @@
         },
         {
             "time": 60,
-            "labelKey": "appliedenergistics2.spatial_io_working.label.store",
+            "labelKey": "appliedenergistics2.spatial_io_working.ponder.label.store",
             "annotations": [
                 {
                     "type": "input",
@@ -118,7 +118,7 @@
         },
         {
             "time": 120,
-            "labelKey": "appliedenergistics2.spatial_io_working.label.insert",
+            "labelKey": "appliedenergistics2.spatial_io_working.ponder.label.insert",
             "annotations": [
                 {
                     "type": "input",
@@ -133,7 +133,7 @@
                     "x": 9.5,
                     "y": 0,
                     "z": 1.5,
-                    "textKey": "appliedenergistics2.spatial_io_working.label.insert_description",
+                    "textKey": "appliedenergistics2.spatial_io_working.ponder.label.insert_description",
                     "color": "0xFF44AAFF",
                     "connectorSide": "top",
                     "connectorLength": 0
@@ -142,7 +142,7 @@
         },
         {
             "time": 180,
-            "labelKey": "appliedenergistics2.spatial_io_working.label.release",
+            "labelKey": "appliedenergistics2.spatial_io_working.ponder.label.release",
             "modifyEntityNBT": [
                 {
                     "ref": "pig",

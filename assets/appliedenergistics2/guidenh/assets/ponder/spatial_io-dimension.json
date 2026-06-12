@@ -3,14 +3,14 @@
     "keyframes": [
         {
             "time":10,
-            "labelKey": "appliedenergistics2.spatial_io_dimension.label.overview",
+            "labelKey": "appliedenergistics2.spatial_io_dimension.ponder.label.overview",
             "annotations":[
                 {
                    "type": "text",
                     "x": -2.8,
                     "y": 2,
                     "z": -4.8,
-                    "textKey": "appliedenergistics2.spatial_io_dimension.text.overview_descriptionw",
+                    "textKey": "appliedenergistics2.spatial_io_dimension.ponder.text.overview_descriptionw",
                     "color": "0xFF44AAFF",
                     "connectorSide": "bottom",
                     "connectorLength": 0 
@@ -19,7 +19,7 @@
         },
         {
             "time": 60,
-            "labelKey": "appliedenergistics2.spatial_io_dimension.label.first",
+            "labelKey": "appliedenergistics2.spatial_io_dimension.ponder.label.first",
             "annotations": [
                 {
                     "type": "input",
@@ -97,7 +97,7 @@
         },
         {
             "time": 100,
-            "labelKey": "appliedenergistics2.spatial_io_dimension.label.stone",
+            "labelKey": "appliedenergistics2.spatial_io_dimension.ponder.label.stone",
             "blockChanges": [
                 {
                     "x": 2,
@@ -131,7 +131,7 @@
         },
         {
             "time": 150,
-            "labelKey": "appliedenergistics2.spatial_io_dimension.label.second",
+            "labelKey": "appliedenergistics2.spatial_io_dimension.ponder.label.second",
             "annotations": [
                 {
                     "type": "input",
