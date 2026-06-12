@@ -3,7 +3,7 @@
     "keyframes": [
         {
             "time": 0,
-            "label": "Overview",
+            "labelKey": "appliedenergistics2.spatial_io_working.label.overview",
             "createEntities": [
                 {
                     "ref": "pig",
@@ -40,7 +40,7 @@
                     "x": 0.5,
                     "y": 0.2,
                     "z": 1.5,
-                    "text": "Contains a 16³ Spatial Storage Cell",
+                    "textKey": "appliedenergistics2.spatial_io_working.text.overview_description",
                     "color": "0xFF44AAFF",
                     "connectorSide": "top",
                     "connectorLength": 20
@@ -49,7 +49,7 @@
         },
         {
             "time": 60,
-            "label": "Activate Spatial IO - Store",
+            "labelKey": "appliedenergistics2.spatial_io_working.label.store",
             "annotations": [
                 {
                     "type": "input",
@@ -118,7 +118,7 @@
         },
         {
             "time": 120,
-            "label": "Insert the storage cell and click to activate",
+            "labelKey": "appliedenergistics2.spatial_io_working.label.insert",
             "annotations": [
                 {
                     "type": "input",
@@ -133,7 +133,7 @@
                     "x": 9.5,
                     "y": 0,
                     "z": 1.5,
-                    "text": "Insert the recently used Spatial Storage Cell",
+                    "textKey": "appliedenergistics2.spatial_io_working.label.insert_description",
                     "color": "0xFF44AAFF",
                     "connectorSide": "top",
                     "connectorLength": 0
@@ -142,7 +142,7 @@
         },
         {
             "time": 180,
-            "label": "Activate Spatial IO - Release",
+            "labelKey": "appliedenergistics2.spatial_io_working.label.release",
             "modifyEntityNBT": [
                 {
                     "ref": "pig",

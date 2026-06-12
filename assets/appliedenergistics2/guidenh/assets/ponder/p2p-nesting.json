@@ -3,14 +3,14 @@
   "keyframes": [
     {
       "time": 5,
-      "label": "Overview",
+      "labelKey": "appliedenergistics2.p2p_nesting.ponder.label.overview",
       "annotations": [
         {
           "type": "text",
           "x": 8.5,
           "y": 1,
           "z": 1.5,
-          "text": "Main Network",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.text.main_network",
           "color": "0xFF44AAFF"
         },
         {
@@ -18,7 +18,7 @@
           "x": 0.5,
           "y": 1,
           "z": 1.5,
-          "text": "Main Network",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.text.main_network",
           "color": "0xFF44AAFF"
         },
         {
@@ -26,7 +26,7 @@
           "x": 4.5,
           "y": 0.8,
           "z": 1.5,
-          "text": "P2P Network",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.text.p2p_network",
           "color": "0xFFFFFF00"
         },
         {
@@ -36,7 +36,7 @@
           "z": 1.5,
           "yOffset": -100,
           "independent": true,
-          "text": "A simple P2P transmission system, where items, channels, and redstone signals are transmitted normally.",
+          "textLabel": "appliedenergistics2.p2p_nesting.ponder.text.overview_description",
           "color": "0xFFFFFFFF"
         },
         {
@@ -56,7 +56,7 @@
     },
     {
       "time": 80,
-      "label": "Network Nesting",
+      "labelKey": "appliedenergistics2.p2p_nesting.ponder.label.network_nesting",
       "blockChanges": [
         {
           "x": 3,
@@ -88,7 +88,7 @@
           "x": 4.5,
           "y": 0.8,
           "z": 1.5,
-          "text": "Nested Network",
+          "textKey": "Nested Network",
           "color": "0xFFff0000"
         }
       ]
@@ -101,7 +101,7 @@
           "x": 0.5,
           "y": 1,
           "z": 1.5,
-          "text": "Due to network nesting, the channel P2P tunnel fails; there is no network here.",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.text.network_nesting_fail",
           "color": "0xFFff0000"
         },
         {
@@ -109,7 +109,7 @@
           "x": 7.5,
           "y": 1,
           "z": 2.5,
-          "text": "Other types of P2P tunnels support network nesting and operate normally.",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.text.network_nesting_other",
           "color": "0xFF00ff2f"
         },
         {

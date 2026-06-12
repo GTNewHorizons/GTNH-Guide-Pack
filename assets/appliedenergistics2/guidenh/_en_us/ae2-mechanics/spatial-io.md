@@ -97,7 +97,7 @@ Now that everything is ready, let's activate Spatial IO!
 
 <GameScene zoom="2" width="400" height="275" rotateY={30}>
     <ImportStructure src="../assets/structures/spatial_io-working.snbt" />
-    <ImportPonder src="/assets/ponder/spatial_io-working.json" />
+    <ImportPonder src="../assets/ponder/spatial_io-working.json" />
 </GameScene>
 
 # Spatial Storage Cell Dimension
@@ -110,5 +110,5 @@ The working principle of the Spatial Pylon is to swap the entire space within th
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
     Spatial Storage Cell Dimension
     </BoxAnnotation>
-    <ImportPonder src="/assets/ponder/spatial_io-dimension.json" />
+    <ImportPonder src="../assets/ponder/spatial_io-dimension.json" />
 </GameScene>

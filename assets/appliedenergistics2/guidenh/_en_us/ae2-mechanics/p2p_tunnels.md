@@ -101,7 +101,7 @@ However, you cannot use this to send infinite channels through a single cable. T
 
 <GameScene zoom="3" width="600" height="300" align="center" allowLayerSlider={false} >
     <ImportStructure src="../assets/structures/p2p-nesting.snbt" />
-    <ImportPonder src="/assets/ponder/p2p-nesting.json" />
+    <ImportPonder src="../assets/ponder/p2p-nesting.json" />
 </GameScene>
 
 # Linking
