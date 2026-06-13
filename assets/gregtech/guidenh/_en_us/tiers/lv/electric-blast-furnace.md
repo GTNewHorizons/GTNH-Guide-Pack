@@ -3,7 +3,7 @@ item_ids:
     gregtech:gt.blockmachines:1000
 navigation:
     title: Electric Blast Furnace
-    parent: multiblocks-index.md
+    parent: ./tier-lv-index.md
     icon: gregtech:gt.blockmachines:1000
 quest_ids:
     - AAAAAAAAAAAAAAAAAAAATQ
@@ -12,8 +12,8 @@ quest_ids:
 # Electric Blast Furnace
 
 <GameScene interactive={true} wrap="square" align="right" width="380" height="300" >
-  <ImportStructure src="/assets/structures/ponders/multiblocks/ebf_ponder.snbt" />
-  <ImportPonder src="/assets/structures/ponders/multiblocks/ebf_ponder.json" />
+  <ImportStructure src="/assets/structures/ebf_ponder.snbt" />
+  <ImportPonder src="/assets/ponders/ebf_ponder.json" />
 </GameScene>
 
 ## <ItemImage id="gregtech:gt.blockmachines:1000"/> Electric Blast Furnace
@@ -31,10 +31,10 @@ quest_ids:
 \-- Quest: <QuestLink id="AAAAAAAAAAAAAAAAAAAATQ==" />
 ```
 
-The <ItemImage id="gregtech:gt.blockmachines:1000" /> **Electric Blast Furnace** (**EBF**) is an [LV]()
-tier [multiblock](multiblocks-index.md) for smelting dusts into ingots at a higher heat than standard furnaces. 
+The <ItemImage id="gregtech:gt.blockmachines:1000" /> **Electric Blast Furnace** (**EBF**) is an [LV](./tier-lv-index.md)
+tier [multiblock](/gtnh-basics/multiblocks.md) for smelting dusts into ingots at a higher heat than standard furnaces. 
 
-The EBF is a direct upgrade from the <ItemImage id="gregtech:gt.blockmachines:140" /> [Bricked Blast Furnace]() because it runs off electricity instead of burnable fuels and can process higher tier materials. 
+The EBF is a direct upgrade from the <ItemImage id="gregtech:gt.blockmachines:140" /> [Bricked Blast Furnace](../steam/bricked-blast-furnace.md) because it runs off electricity instead of burnable fuels and can process higher tier materials. 
 
 The [heating coils]() in the structure determine the heat capacity of the machine and the energy hatch(es) determine the 
 voltage. Upgrade both to unlock new recipes and [overclock]() the machine. 
@@ -53,7 +53,7 @@ The heating coils determine the heat capacity of the machine and must all be the
 Buses/hatches may only replace the casings on the bottom layer, except for the muffler hatch which is restricted to the top center casing. 
 Another exception is the output hatch which collects fluids while on the bottom layer and gases while on the top layer. The amount of gas recovered depends on the tier of the muffler hatch. 
 
-The EBF runs at the [voltage tier]() of the energy hatch, but can overclock to the next voltage tier with two of them. 
+The EBF runs at the [voltage tier](../tiers-index.md) of the energy hatch, but can overclock to the next voltage tier with two of them. 
 
 Use the <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> [Multiblock Structure Hologram Projector]() to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
 
@@ -102,7 +102,7 @@ To easily reach the buses and hatches without having to run your logistics under
 > * Ensure there is space for any outputs if void protection is enabled.
 
 # Usage
-The EBF is finally ready for use once the structure is formed and all maintenance issues are repaired. However, there are no [LV]() recipes despite the player only having access to LV energy hatches; processing <ItemImage id="gregtech:gt.metaitem.01:11305" /> steel and <ItemImage id="gregtech:gt.metaitem.01:11019" /> aluminium requires at least [MV]() power. 
+The EBF is finally ready for use once the structure is formed and all maintenance issues are repaired. However, there are no LV recipes despite the player only having access to LV energy hatches; processing <ItemImage id="gregtech:gt.metaitem.01:11305" /> steel and <ItemImage id="gregtech:gt.metaitem.01:11019" /> aluminium requires at least [MV](../mv/tier-mv-index.md) power. 
 
 The solution is to build two energy hatches into the structure to [overclock]() the machine to the next voltage tier. Energy hatches normally only pull 1A of power but they are capable of pulling up to 2A for scenarios such as this. This means two energy hatches can pull 4A of power, or the equivalent of 1A of the next voltage tier.
 
@@ -134,7 +134,7 @@ Place a <ItemImage id="gregtech:gt.blockmachines:171" /> Battery Buffer with 4+ 
 * Higher cable loss.
 
 ## Heat Capacity
-The [heating coils]() built into the structure determine the heat capacity of the EBF and therefore which recipes it can run. Use a <ItemImage id="gregtech:gt.metaitem.01:32762" /> [Portable Scanner]() on the controller to see its current heat capacity, and [NEI]() to see a recipe's minimum heat capacity. 
+The [heating coils]() built into the structure determine the heat capacity of the EBF and therefore which recipes it can run. Use a <ItemImage id="gregtech:gt.metaitem.01:32762" /> [Portable Scanner]() on the controller to see its current heat capacity, and [NEI](/introduction/introduction-index.md) to see a recipe's minimum heat capacity. 
 
 For example, a cupronickel EBF has a heat capacity of 1,801K which is more than enough to smelt steel (1,000K) and aluminium (1,300K), but **NOT** <ItemImage id="gregtech:gt.metaitem.01:11856" /> silicon solar grade (2,273K). There is also a +100K heat bonus for every voltage tier past [MV](), as seen in the following chart:
 

@@ -1,11 +1,14 @@
 ---
 navigation:
-  title: "Multiblock Machines"
+  title: Multiblock Machines
   icon: structurelib:item.structurelib.constructableTrigger
-  parent: /index.md
+  parent: ./gtnh-basics-index.md
 ---
 
 # Multiblock Machines
+
+> [!NOTE]
+> Some links are broken due to their pages not being available at this time. Help support GTNH's development by [contributing to the guide](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
 
 A **Multiblock** is a machine built from two or more blocks. Sizes range from small [Thermal Refineries]() to massive superstructures like the [Forge of the Gods](). They typically serve a very specific purpose and are always better than their singleblock equivalent (ie. runs faster, better recipes), if one exists. Most multiblocks have their own unique casings and structure, but the input/output (I/O) of items, fluids, and energy is nearly universal. Items are transferred via buses, fluids are transferred via hatches, and power is transferred via energy/dynamo hatches. There is also the maintenance hatch for repairing the machine and the muffler hatch for releasing pollution. Use the tooltip and/or the [Multiblock Structure Hologram Projector]() to see which buses/hatches are necessary and where they fit into the overall structure.
 
