@@ -5,7 +5,9 @@ item_ids:
 navigation:
   title: Blood Magic AR Routing Improvements
   parent: magic.md
-  icon: AWWayofTime:itemAttunedCrystal
+  icons: 
+  - AWWayofTime:itemAttunedCrystal:0:{reagent:"orbisTerrae"}
+  - AWWayofTime:itemAttunedCrystal:0:{reagent:"crystallos"}
 categories:
     - Magic Changes
     - Quality Of Life
@@ -25,4 +27,4 @@ To use the <Color id="GREEN">Alchemic Router</Color>:
 
 To use the <Color id="GREEN">Alchemic Cleanser</Color>:
 * Right-click a block to <Color id="BLUE">clear</Color> its outgoing <Color id="RED">links</Color>.
-* Shift-right-click a block to <Color id="BLUE">clear</Color> any incoming <Color id="RED">links</Color>.
+* Sneak-right-click a block to <Color id="BLUE">clear</Color> any incoming <Color id="RED">links</Color>.
