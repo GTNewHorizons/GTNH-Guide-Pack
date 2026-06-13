@@ -31,7 +31,7 @@ The <Color id="GREEN">LCE</Color> has no tiered components. The maintenance hatc
 - 21 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
 - 19 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
 - 10-15 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
-- 8 <ItemLink id="gregtech:gt.blockcasings4:14"/><ItemImage id="gregtech:gt.blockcasings4:14"/>
+- 8 <ItemLink id="gregtech:gt.blockcasings4:13"/><ItemImage id="gregtech:gt.blockcasings4:13"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
 - 1 Dynamo Hatch (right center casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 Maintenance Hatch (any titanium casing not next to gearbox) <ItemImage id="gregtech:gt.blockmachines:90" />
