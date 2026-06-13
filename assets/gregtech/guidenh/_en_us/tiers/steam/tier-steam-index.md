@@ -3,6 +3,7 @@ navigation:
   title: Steam Age
   icon: minecraft:grass_block
   parent: /tiers/tiers-index.md
+  position: 0
 ---
 
 > [!WARNING]

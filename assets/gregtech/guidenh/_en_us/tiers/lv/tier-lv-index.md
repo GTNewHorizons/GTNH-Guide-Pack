@@ -3,6 +3,7 @@ navigation:
   title: LV (Low Voltage)
   icon: minecraft:grass_block
   parent: /tiers/tiers-index.md
+  position: -1
 ---
 
 > [!WARNING]

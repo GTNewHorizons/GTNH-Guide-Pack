@@ -3,6 +3,7 @@ navigation:
   title: Tiers
   icon: minecraft:grass_block
   parent: /index.md
+  position: -1
 ---
 
 > [!WARNING]
