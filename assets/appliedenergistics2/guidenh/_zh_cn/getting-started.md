@@ -3,6 +3,7 @@ navigation:
   title: 快速开始
   icon: appliedenergistics2:item.ItemMultiMaterial:1
   parent: /index.md
+  position: 100
 ---
 # 快速开始
 
