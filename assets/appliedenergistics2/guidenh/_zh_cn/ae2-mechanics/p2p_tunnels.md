@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-a
-=======
----
+﻿---
 navigation:
   title: P2P通道
   parent: /ae2-mechanics-index.md
@@ -103,4 +100,3 @@ P2P通道-ME并不能实现单根线缆传输无限的频道，它是不能嵌�
 
 
 
->>>>>>> 4807d088001e6696ef89f421b1f1f77a3b1c74f2

@@ -103,11 +103,7 @@ navigation:
 
 <GameScene zoom="2" width="400" height="275" rotateY={30}>
     <ImportStructure src="../assets/structures/spatial_io-working.snbt" />
-<<<<<<< HEAD
-    <ImportPonder src="/assets/ponder/spatial_io-working.json" />
-=======
     <ImportPonder src="../assets/ponder/spatial_io-working.json" />
->>>>>>> 4807d088001e6696ef89f421b1f1f77a3b1c74f2
 </GameScene>
 
 # 空间存储元件维度
@@ -120,9 +116,5 @@ navigation:
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
     空间存储元件维度
     </BoxAnnotation>
-<<<<<<< HEAD
-    <ImportPonder src="/assets/ponder/spatial_io-dimension.json" />
-=======
     <ImportPonder src="../assets/ponder/spatial_io-dimension.json" />
->>>>>>> 4807d088001e6696ef89f421b1f1f77a3b1c74f2
 </GameScene>
