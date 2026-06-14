@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: 能源元件
   icon: appliedenergistics2:tile.BlockDenseEnergyCell
 categories:

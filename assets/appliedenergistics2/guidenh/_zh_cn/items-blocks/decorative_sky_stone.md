@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: items-blocks-index.md
+  parent: /items-blocks-index.md
   title: 装饰陨石方块
   icon: appliedenergistics2:tile.SkyStoneStairBlock
 categories:

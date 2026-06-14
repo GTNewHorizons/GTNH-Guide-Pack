@@ -1,6 +1,10 @@
 {
   "pack": {
     "pack_format": 1,
+<<<<<<< HEAD
     "description": "§6GuideNH Core §7for §bGTNH 2.9.x"
+=======
+    "description": "GuideNH tutorial guide resource pack"
+>>>>>>> 01f3bb4bb3c27098d76709fcc6e3cd0ed073d817
   }
 }
