@@ -7,13 +7,12 @@ categories:
 - devices
 item_ids:
 - ae2stuff:Wireless
-- ae2stuff:Wireless:17
-- ae2stuff:WirelessKit
-- ae2stuff:AdvWirelessKit
+- appliedenergistics2:tile.BlockWirelessHub
+- appliedenergistics2:item.ToolWirelessKit
 ---
 
 <Row>
 <ItemImage id="ae2stuff:Wireless" scale="4"/>
 
-<ItemImage id="ae2stuff:Wireless:17" scale="4"/>
+<ItemImage id="appliedenergistics2:tile.BlockWirelessHub" scale="4"/>
 </Row>

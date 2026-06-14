@@ -21,7 +21,7 @@ quest_ids:
 * 在GTNH中，ME仓室(<ItemLink id="gregtech:gt.blockmachines:2718" showIcon="Left"/>、<ItemLink id="gregtech:gt.blockmachines:2717" showIcon="Left"/>、<ItemLink id="gregtech:gt.blockmachines:2710" showIcon="Left"/>或<ItemLink id="gregtech:gt.blockmachines:2713" showIcon="Left"/>等)可以通过使用<ItemLink id="gregtech:gt.metatool.01:26" showIcon="Left"/>右键打开临近连接模式，这样它们就可以像AE设备一样向临近的其他ME仓室或AE设备、线缆传递频道。这种连接方式同样最多传递8个频道。
 
 ## 无线连接
-* GTNH中加入了AE2 Stuff模组，其中提供了<ItemLink id="ae2stuff:Wireless" showIcon="Left"/>与<ItemLink id="ae2stuff:Wireless:17" showIcon="Left"/>，每对可以无线传递最多32个频道，<Color id="RED">不能跨维度连接</Color>，使用<ItemLink id="ae2stuff:WirelessKit" showIcon="Left"/>与<ItemLink id="ae2stuff:AdvWirelessKit" showIcon="Left"/>可以将它们配对。前者为1对1连接，后者像[P2P通道](./p2p_tunnels.md)一样可以一对多连接。无线接入器在刚刚建立ME网络的电压阶段可能对电网造成很大负担，请提前计算耗电。具体信息参考任务书页面《<QuestLink id="AAAAAAAAAAAAAAAAAAAFMQ==" show_tooltip="false" />》
+* GTNH中加入了AE2 Stuff模组，其中提供了<ItemLink id="ae2stuff:Wireless" showIcon="Left"/>与<ItemLink id="appliedenergistics2:tile.BlockWirelessHub" showIcon="Left"/>，每对可以无线传递最多32个频道，<Color id="RED">不能跨维度连接</Color>，使用<ItemLink id="appliedenergistics2:item.ToolWirelessKit" showIcon="Left"/>可以将它们配对。前者为1对1连接，后者像[P2P通道](./p2p_tunnels.md)一样可以一对多连接。无线接入器在刚刚建立ME网络的电压阶段可能对电网造成很大负担，请提前计算耗电。具体信息参考任务书页面《<QuestLink id="AAAAAAAAAAAAAAAAAAAFMQ==" show_tooltip="false" />》
 
 
 * AE2原版提供了一种无线连接网络的方式————量子环，每对可以无线传递最多32个频道，<Color id="GREEN">可以跨维度连接</Color>，具体用法参考[量子环](./quantum-bridge.md)页面。
