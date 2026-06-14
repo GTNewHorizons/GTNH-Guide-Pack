@@ -2,9 +2,10 @@
 item_ids:
   - guidenh:guide
 navigation:
-  title: 首页
-  icon: minecraft:book
-  posion: 100
+  title: 应用能源2
+  icon: guidenh:guide
+  position: 0
+  recommend: 1
 ---
 
 # 什么是应用能源2（Applied Energistics 2）？
@@ -29,7 +30,7 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   - 将鼠标放置在场景的各种高亮注解（菱形注解、线注解、方块注解等）上可以查看注解的内容。
 
 <GameScene zoom="4" interactive={true}>
-  <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
+  <ImportStructure src="./assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
   <RemoveBlocks id="minecraft:furnace" />
   <Block id="minecraft:furnace" x="9" y="1" z="0" facing="north" />

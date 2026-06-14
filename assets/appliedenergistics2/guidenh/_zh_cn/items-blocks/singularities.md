@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: 奇点
   icon: appliedenergistics2:item.ItemMultiMaterial:47
 categories:

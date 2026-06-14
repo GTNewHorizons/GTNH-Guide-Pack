@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: Fluix Block
   icon: appliedenergistics2:tile.BlockFluix
 categories:

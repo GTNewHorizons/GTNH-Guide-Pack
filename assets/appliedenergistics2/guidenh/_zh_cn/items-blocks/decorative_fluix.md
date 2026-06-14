@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: items-blocks-index.md
+  parent: /items-blocks-index.md
   title: 装饰福鲁伊克斯方块
   icon: appliedenergistics2:tile.FluixStairBlock
 categories:

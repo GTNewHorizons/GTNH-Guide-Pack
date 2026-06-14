@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: ME输入总线
   icon: appliedenergistics2:item.ItemMultiPart:240
 categories:

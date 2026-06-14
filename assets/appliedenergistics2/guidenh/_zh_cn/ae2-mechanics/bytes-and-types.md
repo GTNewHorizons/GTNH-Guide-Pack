@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   title: 字节与类型
   icon: appliedenergistics2:item.ItemExtremeStorageCell.Universe
 ---
@@ -66,14 +66,14 @@ navigation:
 
 | 存储元件 | 字节数 | 类型数 | 每种类型开销 |
 | --- | ---: | ---: | ---: |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />        |      1,024 | 63 |       8 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />        |      4,096 | 63 |      32 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.16k" scale="4" />       |     16,384 | 63 |     128 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.64k" scale="4" />       |     65,536 | 63 |     512 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" scale="4" />   |    262,144 | 63 |   2,048 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.1024k" scale="4" />  |  1,048,576 | 63 |   8,192 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" scale="4" />  |  4,194,304 | 63 |  32,768 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" scale="4" /> | 16,777,216 | 63 | 131,072 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" />        |      1,024 | 63 |       8 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" />        |      4,096 | 63 |      32 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.16k" />       |     16,384 | 63 |     128 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.64k" />       |     65,536 | 63 |     512 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />   |    262,144 | 63 |   2,048 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.1024k" />  |  1,048,576 | 63 |   8,192 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" />  |  4,194,304 | 63 |  32,768 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" /> | 16,777,216 | 63 | 131,072 |
 
 <Column>
   <Row>
@@ -103,14 +103,14 @@ navigation:
 
 | 存储元件 | 存储 1 种类型时容量 | 存储 63 种类型时容量 |
 | --- | ---: | ---: |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8,128 |      4,160 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32,512 |     16,640 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.16k" scale="4" />           |     130,048 |     66,560 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.64k" scale="4" />           |     520,192 |    266,240 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" scale="4" />       |   2,080,768 |  1,064,960 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.1024k" scale="4" />      |   8,323,072 |  4,259,840 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" scale="4" />      |  33,292,288 | 17,039,360 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" scale="4" />     | 133,169,152 | 68,157,440 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" />            |       8,128 |      4,160 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" />            |      32,512 |     16,640 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.16k" />           |     130,048 |     66,560 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.64k" />           |     520,192 |    266,240 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />       |   2,080,768 |  1,064,960 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.1024k" />      |   8,323,072 |  4,259,840 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" />      |  33,292,288 | 17,039,360 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" />     | 133,169,152 | 68,157,440 |
 
 ![A Cell With 1 Type](../_zh_cn/assets/1_type_cell.png)
 

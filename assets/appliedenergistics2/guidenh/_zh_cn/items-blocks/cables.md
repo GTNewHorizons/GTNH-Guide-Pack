@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: 线缆
   icon: appliedenergistics2:item.ItemMultiPart:36
 categories:

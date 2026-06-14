@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: items-blocks-index.md
+  parent: /items-blocks-index.md
   title: ME流体输入总线
   icon: ae2fc:part_fluid_import
 categories:

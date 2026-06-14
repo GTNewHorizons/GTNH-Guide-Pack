@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-machines/items-blocks-machines-index.md
+  parent: /items-blocks-machines-index.md
   title: Facades
   icon: facade
   icon_nbt: '{item: "minecraft:stone"}'

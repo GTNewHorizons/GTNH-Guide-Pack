@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   title: 网络交互
   icon: appliedenergistics2:item.ItemMultiPart:16
 ---

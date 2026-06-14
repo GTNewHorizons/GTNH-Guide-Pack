@@ -4,7 +4,7 @@ navigation:
   icon: dreamcraft:CoinDonation
   position: 0
   priority: 0
-  recommended: 1
+  recommend: 1
 ---
 
 # GregTech: New Horizons

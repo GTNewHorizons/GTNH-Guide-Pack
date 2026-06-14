@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: ME控制器
   icon: appliedenergistics2:tile.BlockController
 categories:

@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../items-blocks-index.md
+  parent: /items-blocks-index.md
   title: 空间存储元件
   icon: appliedenergistics2:item.ItemSpatialStorageCell.2Cubed
 categories:
