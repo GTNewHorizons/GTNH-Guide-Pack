@@ -1,4 +1,3 @@
-
 name: Release tagged build
 
 on:
@@ -8,7 +7,72 @@ on:
 permissions:
   contents: write
 
+env:
+  PACKAGE_NAME: GTNH-Guide-Pack
+
 jobs:
-  release-tags:
-    uses: GTNewHorizons/GTNH-Actions-Workflows/.github/workflows/release-tags.yml@master
-    secrets: inherit
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compute build metadata
+        shell: bash
+        run: |
+          VERSION="${GITHUB_REF_NAME}"
+          echo "VERSION=${VERSION}" >> "$GITHUB_ENV"
+          echo "ZIP_NAME=${PACKAGE_NAME}-${VERSION}.zip" >> "$GITHUB_ENV"
+
+      - name: Inject version into pack.mcmeta
+        shell: bash
+        run: |
+          tmp="$(mktemp)"
+          jq --arg v "$VERSION" \
+            '.gtnh_resource_pack_updater.pack_version = $v' \
+            pack.mcmeta > "$tmp"
+          mv "$tmp" pack.mcmeta
+          echo "PACK_GAME_VERSION=$(jq -r '.gtnh_resource_pack_updater.pack_game_version' pack.mcmeta)" >> "$GITHUB_ENV"
+
+      - name: Generate pack update metadata asset
+        shell: bash
+        run: |
+          jq -n \
+            --arg v "$VERSION" \
+            --arg g "$PACK_GAME_VERSION" \
+            '{pack_version: $v, pack_game_version: $g}' \
+            > gtnh-pack-update.json
+
+      - name: Build resource pack archive
+        shell: bash
+        run: |
+          rm -rf package-root
+          mkdir -p package-root
+          cp -r assets package-root/
+          cp pack.mcmeta package-root/
+          cp pack.png package-root/
+          cp README.md package-root/
+          cp LICENSE.txt package-root/
+          cd package-root
+          zip -r "../${ZIP_NAME}" ./*
+
+      - name: Delete existing release for tag (if any)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete "$VERSION" --yes || true
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: ${{ env.VERSION }}
+          prerelease: false
+          make_latest: true
+          files: |
+            ${{ env.ZIP_NAME }}
+            gtnh-pack-update.json
