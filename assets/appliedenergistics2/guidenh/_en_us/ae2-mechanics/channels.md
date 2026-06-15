@@ -7,17 +7,15 @@ navigation:
 
 # Channels
 
-# What are channels？
-
->[!WARNING]
->This page contains broken links. Make sure to come back later!
+> [!NOTE]
+> Some links are broken due to their pages not being written at this time. Help support GTNH's development by contributing on the [GitHub](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
 
 Applied Energistics 2's [ME Networks]() require
 Channels to support [devices]() which use networked storage, or other network
 services. Think of channels like USB cables to all your devices. A computer only has so many USB ports and can only support
 so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through
 up to 8 channels. You can think of full-block devices and standard cables as a bundle of 8 "channel wires". However, [dense cables]() can support up
-to 32 channels. The only other devices capable of transmitting 32 are <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="true" />
+to 32 channels. The only other devices capable of transmitting 32 are <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="left" />
 and the [Quantum Network Bridge](). Each time a device uses up a channel, imagine pulling off a usb "wire" from
 the bundle, which obviously means that "wire" isn't available further down the line.
 
@@ -112,19 +110,19 @@ An easy way to see how channels are being used and routed through your network i
 
 # Channel Routing
 
-When using a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />,
+When using a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />,
 channels route via 3 steps. 
 
 1. They first take the shortest path through adjacent machines to the nearest normal cable
 (glass, covered, or smart). 
 2. They then take the shortest path through that normal cable to the nearest dense cable
 (dense or dense smart). 
-3. They then take the shortest path through that dense cable to the <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />.
+3. They then take the shortest path through that dense cable to the <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />.
 
 If the shortest path is already maxed out, some [devices]() may not get their required channels, use
 colored cables, cable anchors and tunnels to your advantage to make sure your channels go in the path you desire.
 
-Cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="true"/>, or <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> help ensure channels are transmitted along the intended path.
+Cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>, or <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> help ensure channels are transmitted along the intended path.
 
 Note that channel colors do not affect channel priority; it only prevents cables of different colors from connecting to each other to control channel transmission.
 
@@ -159,7 +157,7 @@ Ultimately, the entire network becomes nearly unreadable, making it difficult to
     <ImportStructure src="../assets/structures/channels-bad_design.snbt" />
 </GameScene>
 
-Here is an example of a <Color id="GREEN">well-structured</Color>network design:
+Here is an example of a <Color id="GREEN">well-structured</Color> network design:
 <GameScene zoom="2" background="transparent" width="400" rotateY={-115} rotateX={30}>
     <ImportStructure src="../assets/structures/channels-good_design.snbt" />
     <BoxAnnotation min="11 0 8" max="13 1 5" color="#00ff1a" thickness="1">
@@ -172,16 +170,16 @@ Here is an example of a <Color id="GREEN">well-structured</Color>network design:
 
 # Ad-Hoc Networks
 
-A Network without a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />
+A Network without a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />
 is considered to be Ad-Hoc, and can support up to 8 channel using devices.
 Once you exceed 8 devices the network's channel using devices will shutdown,
-you can either remove devices, or add a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" />.
+you can either remove devices, or add a <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />.
 
 Unlike with controllered networks, [smart cables]() on ad-hoc networks will show the number
 of channels in use network-wide instead of the number of channels flowing through that specific cable.
 
 While using ad-hoc networks each device will
-use 1 channel network wide, this is very different from how <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true" /> allocate channels based on
+use 1 channel network wide, this is very different from how <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" /> allocate channels based on
 shortest route.
 
 <FloatingImage src="../assets/images/channels_normal_network.png"  wrap="top-bottom" align="left"  width="300" title="Normal Network" >

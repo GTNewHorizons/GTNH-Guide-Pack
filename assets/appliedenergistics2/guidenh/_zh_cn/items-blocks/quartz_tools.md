@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 赛特斯石英镐
   icon: appliedenergistics2:item.ToolCertusQuartzPickaxe
 categories:

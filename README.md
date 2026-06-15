@@ -24,7 +24,7 @@ Features
 
 Quick Start
 ----
-1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics.
+1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics and [ContributionGuide.md](https://github.com/GTNewHorizons/GTNH-Guide-Pack/blob/master/ContributionGuide.md) for contribution guidelines.
 2. Write guide pages in Markdown under docs/ following the provided templates.
 3. Test locally with GuideNH live preview (see GuideNH repo for preview tool) or package into a resource pack and drop into the client resourcepacks/ directory.
 4. Submit content via PR to this repository or another GuideNH-enabled project.

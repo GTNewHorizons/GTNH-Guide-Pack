@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: P2P 通道
   icon: appliedenergistics2:item.ItemMultiPart:460
 categories:

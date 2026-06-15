@@ -12,7 +12,6 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Vis-Regulated Maintenance Hatch
 Ever wished there was a way to automate your maintenance foci to keep your machines going? Well let me introduce to you the <ItemLink id="gregtech:gt.blockmachines:15753"/> <ItemImage id="gregtech:gt.blockmachines:15753"/>! This is an automated magical solution that keeps your machines running by using <Color id="RED">Centi-Vis</Color>
 
 To repair maintenance issues, it draws 25 Primal Vis (2,500 Centi-Vis) of each aspect from your network.

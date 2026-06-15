@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: ME Chest
   icon: appliedenergistics2:tile.BlockChest
 categories:

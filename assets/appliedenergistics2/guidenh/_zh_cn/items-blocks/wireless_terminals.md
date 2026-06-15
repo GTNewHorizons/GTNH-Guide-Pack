@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: ../items-blocks-index.md
   title: 无线终端
   icon: appliedenergistics2:item.ToolWirelessTerminal
 categories:
