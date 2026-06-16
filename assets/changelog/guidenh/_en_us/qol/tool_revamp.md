@@ -10,7 +10,7 @@ date: 2026-05-25
 ---
 
 # Tool Revamp
-Some tools in the pack were given some extra love and functionality expanded where appropriately!
+Some tools in the pack were given some extra love and functionality expanded where appropriate!
 ## Mechanical Changes:
 - <Color id="RED">Electric Wire Cutters </Color> <ItemImage id="gregtech:gt.metatool.01:120"/>are no longer EV restricted, and have new LV-MV variants! 
 - <Color id="GREEN">Electric Files </Color> <ItemImage id="gregtech:gt.metatool.01:204"/>are no longer HV restricted, and have new LV-MV variants! 

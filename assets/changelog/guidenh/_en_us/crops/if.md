@@ -66,7 +66,7 @@ Next, calculate the overall growth percentage of the crops from its growth speed
 
 <Latex scale="0.65" formula="\text{Growth\%} = \text{Min} \Bigg( 1, \frac{1}{\lceil \text{Crop Growth Points} \div (\text{Growth Speed} \times \text{Growth Mult} \times (100 \div 256)) \rceil} \Bigg)" />
 
-Finally, calculate the overall output from the additive bonus and mult bonus. These primarily depend on the crop's average stats and are boosted yet ag}in by the fertilization unit. This is also where the seed bed bonus and advanced harvesting unit bonuses are applied.
+Finally, calculate the overall output from the additive bonus and mult bonus. These primarily depend on the crop's average stats and are boosted yet again by the fertilization unit. This is also where the seed bed bonus and advanced harvesting unit bonuses are applied.
 
 <Latex scale="0.60" formula="\text{Additive Bonus} = 0.01 \times (\text{Crop Gain} + 1)" />
 <Latex scale="0.60" formula="\text{Mult Bonus} = (\text{Crop Drop Rate})^{\text{Crop Tier}} \times 1.03^{\text{Crop Gain}} \times (1 + \text{Seed Bed Bonus} + 0.5_{\text{fertilizer}}) \times (1 + 0.2 \times \text{Harvesting Units})"/>

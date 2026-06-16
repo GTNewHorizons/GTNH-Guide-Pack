@@ -62,7 +62,7 @@ The rate (L/s) at which plasma enters the <Color id="GREEN">XLPT</Color> is extr
   - $$\dot{m}^*$$: Optimal Flow Rate
   - $$k$$: Material Multiplier
 </Latex>
-<Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 32,000 \div EU/L \ti,es 1.03^{20(\eta_0 - 0.8)}">
+<Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 32,000 \div EU/L \times 1.03^{20(\eta_0 - 0.8)}">
   Where:
   - $$\dot{m}^*$$: Optimal Flow Rate
   - $$k$$: Material Multiplier

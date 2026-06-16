@@ -16,7 +16,7 @@ Additionally, underground fluid prospecting has been made easier to distinguish 
 
 As part of this overhaul,
 
-| Command | Permission Levl | Effect |
+| Command | Permission Level | Effect |
 | --------------- | --------------- | --------------- |
 | `/vp_client_cache_reset` | - | Resets the clientside cache of prospects |
 | `/vp team info [detailed]` | 0 | Shows info regarding your team |

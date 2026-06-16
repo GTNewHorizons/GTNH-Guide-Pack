@@ -15,14 +15,14 @@ date: 2026-05-25
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31088" />
 </GameScene>
-The <Color id="GREEN">Large Neutralization Engine (LNE)</Color> is an EV tier multiblock acid generator for higher voltage tier requirements. The <Color id="GREEN">LNE</Color> is a direct upgrade from the singleblock acid generators because it offers up to <Color id="BLUE">500%</Color> efficiency, can output more than 1A of power, and has configurable fuel consumption rates. <Color color="#55ffff">Bases</Color> can be used to improve the efficiency of the machine. Power is extracted via a dynamo hatch on the back, and <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported. The <Color id="GREEN">LNE</Color> has its own danger system in <Color id="RED">Toxic Residue</Color>. If this ever exceeds the capacity of the controller, the multiblock will <Color id="RED">explode!</Color>.Save on fuel by automatically toggling the <Color id="GREEN">LNE</Color> with an RS latch connected to a <ItemLink id="gregtech:gt.blockmachines:13106"/> <ItemImage id="gregtech:gt.blockmachines:13106"/>
+The <Color id="GREEN">Large Neutralization Engine (LNE)</Color> is an EV tier multiblock acid generator for higher voltage tier requirements. The <Color id="GREEN">LNE</Color> is a direct upgrade from the singleblock acid generators because it offers up to <Color id="BLUE">500%</Color> efficiency, can output more than 1A of power, and has configurable fuel consumption rates. <Color color="#55ffff">Bases</Color> can be used to improve the efficiency of the machine. Power is extracted via a dynamo hatch on the back, and <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported. The <Color id="GREEN">LNE</Color> has its own danger system in <Color id="RED">Toxic Residue</Color>. If this ever exceeds the capacity of the controller, the multiblock will <Color id="RED">explode!</Color>. Save on fuel by automatically toggling the <Color id="GREEN">LNE</Color> with an RS latch connected to a <ItemLink id="gregtech:gt.blockmachines:13106"/> <ItemImage id="gregtech:gt.blockmachines:13106"/>
 <br clear="all"/>
 
 ## Construction:
 The <Color id="GREEN">LNE</Color> has one tiered component. The "main casing" used determines the machine's tier, which in turn determines the Base Decay and Capacity of the machine. The input hatches, input buses, dynamo, and toxic residue sensor hatch (to be explained) may replace any of the "main" casings. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
 | Tier | Casing |
 | -------------- | --------------- |
-| 1 | Strenghtened Inanimate Machine Casing <ItemImage id="gregtech:gt.blockcasings12:5"/> |
+| 1 | Strengthened Inanimate Machine Casing <ItemImage id="gregtech:gt.blockcasings12:5"/> |
 | 2 | Precise Stationary Machine Casing <ItemImage id="gregtech:gt.blockcasings12:6"/> |
 | 3 | Ultimately Static Machine Casing <ItemImage id="gregtech:gt.blockcasings12:7"/> |
 
@@ -40,7 +40,7 @@ The <Color id="GREEN">LNE</Color> has one tiered component. The "main casing" us
 <Color id="GREEN">LNEs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches.
 
 ## Usage:
-The <Color id="GREEN"></Color> generates power from acids. A wide variety of acids are available, and many of the available acids have had their EU values tweaked, so it is well worth double checking some of your old favourites. Alongside this, some new acid lines have been added, including the all-new <ItemLink id="gregtech:gt.metaitem.01:2177"/><ItemImage id="gregtech:gt.metaitem.01:2177"/>.
+The <Color id="GREEN">LNE</Color> generates power from acids. A wide variety of acids are available, and many of the available acids have had their EU values tweaked, so it is well worth double checking some of your old favourites. Alongside this, some new acid lines have been added, including the all-new <ItemLink id="gregtech:gt.metaitem.01:2177"/><ItemImage id="gregtech:gt.metaitem.01:2177"/>.
 
 ### Base Boosting
 The <Color id="GREEN">LNE</Color> can take a base in the input bus to boost the efficiency of your acid fuels, as per the table below. These bases are consumed one by one in order of entry in the input bus.

@@ -12,12 +12,12 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Mass Solidifer
+# Mass Solidifier
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:368"/>
 </GameScene>
-The <Color id="GREEN">Mass Solidifier</Color> is an IV tier multiblock for casting liquid metals into molds. The <Color id="GREEN">Mass Soldifier</Color> is a direct upgrade from the singleblock fluid solidifier because it runs up to <Color id="RED">300%</Color> speed, only uses <Color id="BLUE">80%</Color> of the EU/t normally required, and offers <Color id="GREEN">10</Color> parallels per voltage tier. The speed increases by 5% per second while the machine is active and decreases by 10% per second while inactive. Solidifier Hatches <ItemImage id="gregtech:gt.blockmachines:31781"/> have a configurable ghost slot for a mold that only applies to the fluid in its own hatch, allowing one machine to handle as many recipes as needed. The <Color id="GREEN" >Mass Soldifier</Color> is superseded by the [Exo-Foundry](../multis/exo_foundry.md) in UEV. 
+The <Color id="GREEN">Mass Solidifier</Color> is an IV tier multiblock for casting liquid metals into molds. The <Color id="GREEN">Mass Solidifier</Color> is a direct upgrade from the singleblock fluid solidifier because it runs up to <Color id="RED">300%</Color> speed, only uses <Color id="BLUE">80%</Color> of the EU/t normally required, and offers <Color id="GREEN">10</Color> parallels per voltage tier. The speed increases by 5% per second while the machine is active and decreases by 10% per second while inactive. Solidifier Hatches <ItemImage id="gregtech:gt.blockmachines:31781"/> have a configurable ghost slot for a mold that only applies to the fluid in its own hatch, allowing one machine to handle as many recipes as needed. The <Color id="GREEN" >Mass Solidifier</Color> is superseded by the [Exo-Foundry](../multis/exo_foundry.md) in UEV. 
 
 <br clear="all"/>
 
@@ -51,7 +51,7 @@ Unique to the <Color id="GREEN">Mass Solidifier</Color> is the <Color id="BLUE">
 <Color id="GREEN">Mass Solidifiers</Color> may wallshare each of their sides to save on casings, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
-The <Color id="GREEN">Mass Soldifier</Color> is a direct upgrade from the singleblock fluid solidifier because it runs up to 300% speed, only uses 80% of the EU/t normally required, and offers 10 parallels per voltage tier, as seen in the following table.
+The <Color id="GREEN">Mass Solidifier</Color> is a direct upgrade from the singleblock fluid solidifier because it runs up to 300% speed, only uses 80% of the EU/t normally required, and offers 10 parallels per voltage tier, as seen in the following table.
 
 
 

@@ -25,7 +25,7 @@ The <Color id="GREEN">Drone Centre</Color> is an IV tier multiblock for automati
 > - Custom Machine Grouping: Organize your machines into custom groups for better management
 > - Improved Switch Button: Switch button now turns on/off all machines by group
 > - Cross-Dimension Connections: Use new T4 Drones to activate dimensional connections and infinite range
-> - Connection Keys: Prevent your T4 drones connecting to other player' drilling plants!
+> - Connection Keys: Prevent your T4 drones connecting to other player's drilling plants!
 > - Production Recorder: Keep track of what your factory is actually doing!
 
 

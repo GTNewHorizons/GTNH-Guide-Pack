@@ -10,7 +10,7 @@ date: 2026-05-20
 ---
 
 # Crop Basics
-There is a lot to these crops, so lets get some basics out of the way first! In order to even start on crops, you must have made your first <Color id="RED">GT Tools</Color> in order to craft the Crop Sticks. All CropsNH crops are planted on Crop Sticks, so they're a vital starting point.
+There is a lot to these crops, so let's get some basics out of the way first! In order to even start on crops, you must have made your first <Color id="RED">GT Tools</Color> in order to craft the Crop Sticks. All CropsNH crops are planted on Crop Sticks, so they're a vital starting point.
 
 ## Getting Seeds
 <Color id="GREEN">Seeds</Color> can be made in a variety of ways, depending on what crop you are aiming for. Some crops simply require planting a "regular" crop on a crop stick, such as with saplings. Planting a vanilla sapling on Crop Sticks will create a <Color id="GREEN">Bonsai</Color> of the relevant type.

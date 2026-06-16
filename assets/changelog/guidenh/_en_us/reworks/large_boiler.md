@@ -55,7 +55,7 @@ Assuming plates are made in a bending machine and rods are made with a file, a L
 ## Usage
 The <Color id="GREEN">Large Boiler</Color> burns combustible fuels to evaporate water into steam or superheated (SH) steam. Higher density fuels naturally burn for longer, but they also receive bonus ticks proportional to their total burn time. Solid fuels with less than 400 burn time are not allowed in the Large Bronze Boiler and solid fuels with less than 1,000 burn time are not allowed in the Large Steel Boiler. Solid super fuel and magic solid super fuel are the only allowed fuels in the Large Titanium Boiler or Large Tungstensteel Boiler.
 
-<Color id="GREEN">Large Boilers</Color> lose efficiency at a rate of 0.2% per second when not running, so aiming for high uptime is ideal. Long burn time fuels are given a boost based on the following fomula:
+<Color id="GREEN">Large Boilers</Color> lose efficiency at a rate of 0.2% per second when not running, so aiming for high uptime is ideal. Long burn time fuels are given a boost based on the following formula:
 
 <Latex formula="\text{Time Bonus} = (\log (\text{Burn Time} \div 16,000) \times 0.025"/>
 

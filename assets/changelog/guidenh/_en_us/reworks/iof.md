@@ -63,7 +63,7 @@ There are seven modes in total for the seven different ore-processing paths, lis
 | 3 | 10s | Macerate -> Macerate -> Ore Washer | 1,073,742 /s |
 | 4 | 20s | Macerate -> Ore Washer -> Sifter | 536,871 /s |
 | 5 | 17s | Macerate -> Chemical Bath -> Macerate -> Centrifuge| 631,613 /s |
-| 6 | 32s | Macerate -> Cheimcal Bath -> Thermal Centrifuge -> Macerate | 335,544 /s |
+| 6 | 32s | Macerate -> Chemical Bath -> Thermal Centrifuge -> Macerate | 335,544 /s |
 | 7 | 1s | Forge Hammer -> Forge Hammer -> Simple Washer| 10,737,418 /s |
 
 All ore processing recipes are LV tier which is where the base times and power costs originate. The <Color id="GREEN">IOF</Color> does __NOT__ overclock at all but it adds one parallel for every 30 EU/t provided. There is technically no upper limit on the number of parallels, but it still caps out at 10,737,418 or 322,122,540 EU/t due to the max integer limit on distilled water. That means exceeding 256A UHV has no effect on the operation of the machine, and adding more ME stocking input hatches to supply more than 2B distilled water at once also does not help. 

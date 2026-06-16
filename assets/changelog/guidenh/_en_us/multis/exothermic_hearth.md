@@ -49,7 +49,7 @@ The <Color id="GREEN">ExH</Color> is a direct upgrade from the Electric Blast Fu
 The number of available parallels slowly increases up to 512 during activity and decreases back down to 256 while idle, as seen below. It takes 30 minutes of continuous activity to achieve the maximum 512 parallels but only 4 minutes and 16 seconds to lose it all. Optionally, enable pyrotheum heating in the GUI of the controller to 6x the rate at which parallels are gained at the cost of 250-500 L/s of blazing pyrotheum. The consumption rate scales linearly with the number of additional parallels, but it allows the ExH to achieve the maximum 512 parallels in just 5 minutes instead. Running out of blazing pyrotheum while pyrotheum heating is enabled causes the machine to immediately shutdown and void the current recipe.
 
 - +0.711 parallels per 5 seconds while active (pyrotheum heating disabled), 30 minutes to max
-- +4.267 parallels per 5 seconds while active (pyotheum heating enabled), 5 minutes to max
+- +4.267 parallels per 5 seconds while active (pyrotheum heating enabled), 5 minutes to max
 - -1 parallel per second while idle, 4.26 minutes to min
 
 ## Heat Capacity
