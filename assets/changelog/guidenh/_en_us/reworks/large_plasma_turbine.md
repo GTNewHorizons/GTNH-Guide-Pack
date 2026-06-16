@@ -20,7 +20,7 @@ The <Color id="GREEN">Large Plasma Turbine (LPT)</Color> is an LuV tier multiblo
 
 The <Color id="GREEN">LPT</Color> is superseded by the XL Turbo Plasma Turbine <ItemImage id="gregtech:gt.blockmachines:15523"/> which consumes as much plasma and produces as much power as 16 <Color id="GREEN">LPTs</Color>, but only requires 12 turbines. It also supports multi-amp and laser energy hatches for serious power generation. 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]

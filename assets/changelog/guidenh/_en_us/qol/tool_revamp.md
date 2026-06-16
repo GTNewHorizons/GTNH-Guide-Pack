@@ -12,10 +12,10 @@ date: 2026-05-25
 # Tool Revamp
 Some tools in the pack were given some extra love and functionality expanded where appropriately!
 ## Mechanical Changes:
-- <Color id="RED">Electric Wire Cutters </Color> <ItemImage id="gregtech:gt.metatool.01:120"/>are no longer EV restricted, and have LV-HV variants! 
-- <Color id="GREEN">Electric Files </Color> <ItemImage id="gregtech:gt.metatool.01:204"/>are no longer HV restricted, and have LV-HV variants! 
-- <Color id="BLUE">Jackhammers</Color> <ItemImage id="gregtech:gt.metatool.01:130"/>are no longer HV restricted, and have LV-HV variants! 
-- All tools are able to created with Sodium, Cadmium, or Lithium battery variants. The internal EU storage will reflect the battery size
+- <Color id="RED">Electric Wire Cutters </Color> <ItemImage id="gregtech:gt.metatool.01:120"/>are no longer EV restricted, and have new LV-MV variants! 
+- <Color id="GREEN">Electric Files </Color> <ItemImage id="gregtech:gt.metatool.01:204"/>are no longer HV restricted, and have new LV-MV variants! 
+- <Color id="BLUE">Jackhammers</Color> <ItemImage id="gregtech:gt.metatool.01:130"/>are no longer HV restricted, and have new LV-MV variants! 
+- All tools are able to be created with Sodium, Cadmium, or Lithium battery variants. The internal EU storage will reflect the battery size
 - Some tools were given more material options for consistency. See if you can find some new ones!
 - The <Color color="#00ffff">Soft Mallet</Color> was given cyclable (Toggle/On/Off) modes so you have certainty on large groups of machines
 

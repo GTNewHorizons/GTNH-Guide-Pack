@@ -20,7 +20,7 @@ The <Color id="GREEN">Large Gas Turbine (LGT)</Color> is an EV tier multiblock f
 
 The <Color id="GREEN">LGT</Color> is superseded by the XL Turbo Gas Turbine which consumes as much gas and produces as much power as 16 <Color id="GREEN">LGT</Color>, but only requires 12 turbines. It also supports multi-amp and laser energy hatches for serious power generation. There is also the Solid-Oxide Fuel Cell which oxidizes gas to generate electricity without a turbine and without polluting the environment. However, it requires 100 L/s of oxygen during operation, is generally locked to 100% efficiency, does not support overflow, and does not have an XL variant. 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]

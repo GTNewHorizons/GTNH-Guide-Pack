@@ -17,7 +17,7 @@ date: 2026-05-27
 </GameScene>
 The <Color id="GREEN">Large Combustion Engine (LCE)</Color> is an EV tier multiblock for generating power from combustible fuels. The <Color id="GREEN">LCE</Color> is a direct upgrade from singleblock combustion generators because it has much higher fuel efficiency and can output more than 1A of power. However, the <Color id="GREEN">LCE</Color> must be supplied with 1,000 L/h of lubricant to run, and optionally 40 L/s of oxygen to boost the machine. Boosting is highly recommended because it triples the maximum power output and increases the fuel efficiency from 100% to 150%. Power is extracted from a 4A dynamo hatch on the back of the machine. Do not break the dynamo hatch while the machine is running or else it explodes. Save on fuel by automatically toggling the <Color id="GREEN">LCE</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>. The <Color id="GREEN">LCE</Color> is superseded by the Extreme Combustion Engine <ItemImage id="gregtech:gt.blockmachines:15534"/> and the Universal Chemical Fuel Engine <ItemImage id="gregtech:gt.blockmachines:15535"/> in IV. 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
@@ -31,7 +31,7 @@ The <Color id="GREEN">LCE</Color> has no tiered components. The maintenance hatc
 - 21 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
 - 19 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
 - 10-15 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
-- 8 <ItemLink id="gregtech:gt.blockcasings4:14"/><ItemImage id="gregtech:gt.blockcasings4:14"/>
+- 8 <ItemLink id="gregtech:gt.blockcasings4:13"/><ItemImage id="gregtech:gt.blockcasings4:13"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
 - 1 Dynamo Hatch (right center casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 Maintenance Hatch (any titanium casing not next to gearbox) <ItemImage id="gregtech:gt.blockmachines:90" />
