@@ -17,7 +17,7 @@ date: 2026-05-27
 </GameScene>
 The <Color id="GREEN">Universal Chemical Fuel Engine (UCFE)</Color> is an IV tier multiblock for generating power from nearly any type of combustible liquid. The <Color id="GREEN">UCFE</Color> effectively combines the recipes for the Large Gas Turbine <ItemImage id="gregtech:gt.blockmachines:15527"/>, Rocketdyne F-1A Engine <ItemImage id="gregtech:gt.blockmachines:996"/>, and Large Combustion Engine <ItemImage id="gregtech:gt.blockmachines:15533"/> into one very efficient machine with NO upper limit on its EU/t. The only exception is semifluids which still require the Large Semifluid Burner <ItemImage id="gregtech:gt.blockmachines:31026"/>. The only other input requirement is combustion promoter which also improves the efficiency of the fuel up to the maximum of 150%. Rocket fuels use significantly less combustion promoter than gas/diesel fuels.
 
-[GTNH Power Planner ](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner ](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]

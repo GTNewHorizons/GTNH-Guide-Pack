@@ -20,6 +20,8 @@ date: 2026-05-27
   <ImportStructureLib controller="gregtech:gt.blockmachines:15529"/>
 </GameScene>
 The <Color id="GREEN">Large Boiler</Color> is an MV tier multiblock for burning combustible fuels to evaporate water into steam or superheated steam. There are four tiers of the Large Boiler to further improve its efficiency and throughput as better materials are unlocked. Higher density fuels not only burn for longer, but they also receive bonus ticks proportional to their total burn time. The boilers can accept both solids and fuels, giving a 25% output boost. The <Color id="GREEN">Large Boiler</Color> ultimately supersedes the Railcraft Boiler <ItemImage id="Railcraft:machine.beta:5"/>, but the bronze version has slightly less maximum throughput. 
+
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit)
 <br clear="all"/>
 
 > [!NOTE]

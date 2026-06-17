@@ -19,9 +19,9 @@ date: 2026-05-16
 Are you tired of having chests on chests full of random coins you don't want or need yet? Well look no further! Introducing the <Color id="GREEN">Vending Machine</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>! 
 
 
-Unlocked after your first GT tools in the Steam Age, the Vending Machine is a new mini multiblock that deals with all of your storage and trading using coins! It has full compatibility with teams and solo play, and is a huge relief off your early game storage. This also means that the quest book page for Coin Tradings is now removed
+Unlocked after your first GT tools in the Steam Age, the Vending Machine is a new mini multiblock that deals with all of your storage and trading using coins! It has full compatibility with teams and solo play, and is a huge relief off your early game storage. This also means that the quest book page for Coin Tradings is now removed.
 
-The Vending Machine has effectively infinite storage of coin, and deals with all conversion of different "sizes" of coins internally. Trades can be found either through the categories on the sidebar, or via search for the output item. It also has a small internal inventory buffer for some required non-consumed items used in trades.
+The Vending Machine has effectively infinite storage of coins, and deals with all conversion of different "sizes" of coins internally. Trades can be found either through the categories on the sidebar, or via search for the output item. It also has a small internal inventory buffer for some required non-consumed items used in trades.
 
 ## Team Compatibility
 As mentioned earlier, the Vending Machine also fully works with teams! For solo players, the cooldown functionality is inherently the same as the previous quest book page, with cooldowns specific to each quest, and certain unlock "gates" based on quest progress to unlock new trades.

@@ -20,7 +20,7 @@ The <Color id="GREEN">XL Turbo Plasma Turbine (XLPT)</Color> is a ZPM tier multi
 <br clear="all"/>
 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
 > [!NOTE]
 > Only the structure of this multiblock has changed, the mechanics stay the same

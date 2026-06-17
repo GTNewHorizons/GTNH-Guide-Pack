@@ -20,7 +20,7 @@ The <Color id="GREEN">Large Naquadah Reactor (LNR)</Color> is a ZPM tier multibl
 
 The first two tiers of naquadah based liquid fuel (naq fuel) are crafted in the Fusion Reactor and Large Chemical Reactor, respectively. The remaining four tiers are all crafted in the [Naquadah Fuel Refinery](./naq_refinery.md) which uses advanced field restriction coils to unlock new recipes. The Mk-V fuel is also used to craft star fuel and the depleted Mk-V and Mk-VI fuels are used by the SSASS for activation stabilization. The Neutron Activator <ItemImage id="gregtech:gt.blockmachines:32013"/> can significantly accelerate the decay of naq fuel, but does not generate any power.
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]

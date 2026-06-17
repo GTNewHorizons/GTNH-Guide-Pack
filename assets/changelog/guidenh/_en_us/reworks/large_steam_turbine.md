@@ -20,7 +20,7 @@ The <Color id="GREEN">Large Steam Turbine (LST)</Color> is an HV tier multiblock
 
 The <Color id="RED">Large HP Steam Turbine (LST-HP)</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> and <Color id="BLUE">Large SC Steam Turbine (LST-SC)</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/> are nearly identical to the LST except they exclusively process superheated steam and supercritical steam, respectively. Supercritical steam generates twice the EU as regular steam with the same optimal flow rate and converts into superheated steam. Superheated steam generates twice the EU as regular steam with the same optimal flow rate and converts into regular steam.
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
 The <Color id="GREEN">LST</Color>  is superseded by the [XL Turbo Steam Turbine](./xl_turbo_steam.md) which consumes as much steam and produces as much power as 16 <Color id="GREEN">LSTs</Color>, but only requires 12 turbines. It also supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious power generation and comes in HP and SC variants. 
 <br clear="all"/>
