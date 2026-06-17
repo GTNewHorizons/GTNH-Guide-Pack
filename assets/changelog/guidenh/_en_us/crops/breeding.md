@@ -10,7 +10,7 @@ date: 2026-05-20
 ---
 
 # Crop Breeding
-There are only so many seeds that can be made by just planting a vanilla seed on crop sticks. There are three main ways ways to generate other seeds, and that will be covered in this segment. For breeding methods that happen "in world", there is a 50/50 chance of the crop either [spreading](spreading.md), or breeding (presuming a valid breeding setup)
+There are only so many seeds that can be made by just planting a vanilla seed on crop sticks. There are three main ways to generate other seeds, and that will be covered in this segment. For breeding methods that happen "in world", there is a 50/50 chance of the crop either [spreading](spreading.md), or breeding (presuming a valid breeding setup)
 
 ## Deterministic Breeding
 <FloatingImage src="./assets/determine.png" width="128" wrap="square" align="left">
@@ -34,7 +34,7 @@ For the majority of crops, breeding the base seed is done through <Color id="GRE
 ## Crop Breeder Machine
 For more advanced crops, you must use a <Color id="BLUE">Crop Breeder</Color> <ItemImage id="gregtech:gt.blockmachines:28025" />. These are fully deterministic in their outputs, but have a chance to void outputs depending on the voltage tier of machine used, starting at 40% success at LV, and 100% at ZPM+.
 
-All recipes in the crop breeders take some set of inputs (often just two seeds, but can be more), and an amount of <Color id="GREEN">Enriched Fertilizer</Color>. The recipe for this can be somewhat misleading, as it is dependant on both the tier, and stats of the output seed. 
+All recipes in the crop breeders take some set of inputs (often just two seeds, but can be more), and an amount of <Color id="GREEN">Enriched Fertilizer</Color>. The recipe for this can be somewhat misleading, as it is dependent on both the tier, and stats of the output seed. 
 
 As an example, let us say we are trying to produce a <Color id="RED">Bauxia Seed</Color>. The recipe stated in NEI is Galvania Seed + Nickelback Seed + Bauxite Ore + <Color id="GREEN">7560L Enriched Fertilizer</Color>.
 

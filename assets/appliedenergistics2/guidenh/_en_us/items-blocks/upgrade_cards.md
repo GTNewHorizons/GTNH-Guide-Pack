@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-machines/items-blocks-machines-index.md
+  parent: /items-blocks-machines-index.md
   title: Upgrade Cards
   icon: speed_card
   position: 410
@@ -235,7 +235,7 @@ Any items, fluids, and essentia partitioned on this cell may only be stored in c
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:63" scale="2" />
 
-Advanced Blocking Card extends blocking to the entire connected ME network instead of only adjacent inventories. When enabled, the interface will prevent importing recipe ingredients ingredients if the target network contains relevant items or fluids.
+Advanced Blocking Card extends blocking to the entire connected ME network instead of only adjacent inventories. When enabled, the interface will prevent importing recipe ingredients if the target network contains relevant items or fluids.
 
 In Default mode, blocking is triggered only when recipe-relevant items or fluids are present in the network (excluding catalysts such as lenses, circuits, or molds).
 

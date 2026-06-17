@@ -23,7 +23,7 @@ The <Color id="GREEN">HTGR</Color> is very similar to the <Color id="RED">Thoriu
 <br clear="all"/>
 
 ## Construction:
-The <Color id="GREEN">HGTR</Color> consists of four individual structures. The exact locations of these structures are fixed in reference to the controller and all four are necessary for the structure to form. The large purple sphere is the reactor which has an input bus on top for TRISO balls and and output bus on bottom for burned out TRISO balls <ItemImage id="kubatech:htgr_item_burned_triso_fuel:3"/>. The tall vertical structure in the middle is the primary coolant tower which has an input hatch on the side for IC2 coolant and an output hatch on the top for hot coolant. The smaller vertical structure on the edge is the secondary coolant tower which has an input hatch near the top for distilled water and an output hatch near the bottom for steam. The helium input hatch, energy hatch, and maintenance hatch are all limited to the top three casings above the pump at the center of the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported and there cannot be more than one regular energy hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+The <Color id="GREEN">HTGR</Color> consists of four individual structures. The exact locations of these structures are fixed in reference to the controller and all four are necessary for the structure to form. The large purple sphere is the reactor which has an input bus on top for TRISO balls and output bus on bottom for burned out TRISO balls <ItemImage id="kubatech:htgr_item_burned_triso_fuel:3"/>. The tall vertical structure in the middle is the primary coolant tower which has an input hatch on the side for IC2 coolant and an output hatch on the top for hot coolant. The smaller vertical structure on the edge is the secondary coolant tower which has an input hatch near the top for distilled water and an output hatch near the bottom for steam. The helium input hatch, energy hatch, and maintenance hatch are all limited to the top three casings above the pump at the center of the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported and there cannot be more than one regular energy hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:12791"/><ItemImage id="gregtech:gt.blockmachines:12791"/>
@@ -49,18 +49,18 @@ The <Color id="GREEN">HGTR</Color> consists of four individual structures. The e
 - 2 Output Hatch (one for hot coolant, one for steam) <ItemImage id="gregtech:gt.blockmachines:60" />
 
 ### Wallsharing:
-<Color id="GREEN">HGTRs</Color> cannot wallshare any significant part of their structure due to the restrictions on the location of the buses/hatches and the inability to rotate or flip the controller. Not even the reactor portion can be shared because it is not perfectly symmetrical. 
+<Color id="GREEN">HTGRs</Color> cannot wallshare any significant part of their structure due to the restrictions on the location of the buses/hatches and the inability to rotate or flip the controller. Not even the reactor portion can be shared because it is not perfectly symmetrical. 
 
 ## Usage:
-The <Color id="GREEN">HGTR</Color> has two operating modes, listed below. Switch modes by right-clicking the controller with a screwdriver while the machine is idle.
+The <Color id="GREEN">HTGR</Color> has two operating modes, listed below. Switch modes by right-clicking the controller with a screwdriver while the machine is idle.
 
 - Normal - Stores TRISO balls and helium internally, and starts processing when the minimum conditions are met.
 - Emptying - Returns all internally stored TRISO balls to the output bus.
 
-The <Color id="GREEN">HGTR</Color> uses helium gas to stabilize the fission decay of TRISO balls inside the reactor. IC2 Coolant and distilled water are optional but highly recommended because they drastically accelerate the decay process to burn through fuel quicker. The end product is burned out TRISO balls which are recycled in an Industrial Centrifuge for some of the original resources back, and a few additional ones to be used elsewhere. If present, the IC2 coolant is converted into hot coolant and the distilled water is converted into steam at a rate proportional to the amount of TRISO balls and helium. 
+The <Color id="GREEN">HTGR</Color> uses helium gas to stabilize the fission decay of TRISO balls inside the reactor. IC2 Coolant and distilled water are optional but highly recommended because they drastically accelerate the decay process to burn through fuel quicker. The end product is burned out TRISO balls which are recycled in an Industrial Centrifuge for some of the original resources back, and a few additional ones to be used elsewhere. If present, the IC2 coolant is converted into hot coolant and the distilled water is converted into steam at a rate proportional to the amount of TRISO balls and helium. 
 
 ## Fuel:
-The <Color id="GREEN">HGTR</Color> uses TRISO balls (NOT pellets) for fuel. There are 9 different types in total, but they can all be used in the same machine at the same time if necessary. The minimum amount of fuel to begin processing is 100 TRISO balls, but having any less than the maximum 10,000 TRISO balls reduces the efficiency of the machine, as seen in the following equation and graph.
+The <Color id="GREEN">HTGR</Color> uses TRISO balls (NOT pellets) for fuel. There are 9 different types in total, but they can all be used in the same machine at the same time if necessary. The minimum amount of fuel to begin processing is 100 TRISO balls, but having any less than the maximum 10,000 TRISO balls reduces the efficiency of the machine, as seen in the following equation and graph.
 
 TRISO balls have their own material stats based on what they are made of. In the NEI tooltip, this is shown as "Properties: [x], [y], [z]" as shown by hovering here: <ItemImage id="kubatech:htgr_item_burnerd_triso_fuel:3"/>. These properties are Base ($$b$$), Multiplier ($$m$$), and Exponent ($$e$$) respectively, and are directly related to the power generation, and processing time as is detailed further into this chapter:
 
@@ -69,7 +69,7 @@ The efficiency cannot be increased while the machine is active and cannot exceed
 <Latex formula="\text{Efficiency\%} = 0.1 + 0.9 \Biggl( 1 - \Biggl( 1 - \frac{\text{TRISO Balls}}{10,000} \Biggr)^3 \Biggr"/>
 
 
-<FunctionGraph title="Efficiency of HGTR base on stored TRISO Balls" xRange="0..10000" domain="0..100" xLabel="TRISO Balls" yLabel="Efficiency (%)"> 
+<FunctionGraph title="Efficiency of HTGR base on stored TRISO Balls" xRange="0..10000" domain="0..100" xLabel="TRISO Balls" yLabel="Efficiency (%)"> 
 <Plot expr="0.1 + 0.9 * (1 - (1 - (x)/(10000))^3) * 100" color="#ff55ff"/>
 </FunctionGraph>
 

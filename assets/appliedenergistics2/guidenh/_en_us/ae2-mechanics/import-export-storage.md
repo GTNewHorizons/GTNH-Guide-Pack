@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   title: Import, Export, and Storage
   icon: appliedenergistics2:item.ItemMultiPart:240
 item_ids:

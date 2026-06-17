@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: /items-blocks-index.md
   title: Storage Cells
   icon: appliedenergistics2:item.ItemBasicStorageCell.1k
 categories:

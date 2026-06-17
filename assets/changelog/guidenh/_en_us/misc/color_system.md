@@ -10,7 +10,7 @@ date: 2026-05-20
 ---
 
 # Full Color System
-What is life without a little <Color id="GREEN">Color!</Color>. GTNH now has a fully built-in complete color system! This works with quests, signs, anvils, chat, and just about anywhere that text is rendered!
+What is life without a little <Color id="GREEN">Color!</Color> GTNH now has a fully built-in complete color system! This works with quests, signs, anvils, chat, and just about anywhere that text is rendered!
 
 ## Included Features
 - All 16 classic colors - just type "\&" and a color code!
@@ -47,7 +47,7 @@ Simply type the color before your text and everything will be that color until y
 ## Formatting:
 | Code | Effect |
 | -------------- | --------------- |
-| `\&l` | __Bolt Text__ |
+| `\&l` | __Bold Text__ |
 | `\&o` | _Italic Text_  |
 | `\&n` | <u>Underlined Text</u> |
 | `\&m` | ~~Strikethrough Text~~ (Strikethrough) |

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   title: Spatial IO
   icon: appliedenergistics2:tile.BlockSpatialPylon
 ---

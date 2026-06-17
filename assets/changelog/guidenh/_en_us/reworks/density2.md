@@ -49,7 +49,7 @@ The <Color id="GREEN">Density^2</Color> is a direct upgrade from the Implosion C
 | 1 | 2 | 2 | 3 | 3 | 4 | 4 | 5 | 5 | 6 | 6 | 7 | 7 | 8 | 8 |
 
 
-Implosion compressor recipes are all LV and require one of the explosives listed below. The number of explosives depends on the type and recipe. Powderbarrels are needed in much higher quantities than the others, but the gunpowder is very easy to craft from carbon, sulfur, and saltpeter. TNT and industrial TNT are mostly just toluene which is obtained by distilling wood tar and/or heavy fuel. Dynamite is mostly just gylcerol which is a renewable resource from seed/fish oil. The best and most renewable option, however, is using the explosive bee to passively generate a lot of industrial TNT directly -- no chemistry needed.
+Implosion compressor recipes are all LV and require one of the explosives listed below. The number of explosives depends on the type and recipe. Powderbarrels are needed in much higher quantities than the others, but the gunpowder is very easy to craft from carbon, sulfur, and saltpeter. TNT and industrial TNT are mostly just toluene which is obtained by distilling wood tar and/or heavy fuel. Dynamite is mostly just glycerol which is a renewable resource from seed/fish oil. The best and most renewable option, however, is using the explosive bee to passively generate a lot of industrial TNT directly -- no chemistry needed.
 
 - Powderbarrel
 - TNT

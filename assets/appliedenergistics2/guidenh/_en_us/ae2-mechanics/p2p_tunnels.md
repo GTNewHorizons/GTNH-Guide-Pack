@@ -1,7 +1,7 @@
 ---
 navigation:
   title: P2P Tunnels
-  parent: ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   icon: appliedenergistics2:item.ItemMultiPart:460
 
 item_ids:

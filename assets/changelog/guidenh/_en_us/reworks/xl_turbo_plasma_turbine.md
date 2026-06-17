@@ -20,7 +20,7 @@ The <Color id="GREEN">XL Turbo Plasma Turbine (XLPT)</Color> is a ZPM tier multi
 <br clear="all"/>
 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
 > [!NOTE]
 > Only the structure of this multiblock has changed, the mechanics stay the same
@@ -62,7 +62,7 @@ The rate (L/s) at which plasma enters the <Color id="GREEN">XLPT</Color> is extr
   - $$\dot{m}^*$$: Optimal Flow Rate
   - $$k$$: Material Multiplier
 </Latex>
-<Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 32,000 \div EU/L \ti,es 1.03^{20(\eta_0 - 0.8)}">
+<Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 32,000 \div EU/L \times 1.03^{20(\eta_0 - 0.8)}">
   Where:
   - $$\dot{m}^*$$: Optimal Flow Rate
   - $$k$$: Material Multiplier

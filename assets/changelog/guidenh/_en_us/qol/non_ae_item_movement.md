@@ -17,6 +17,6 @@ This includes faster pipes, bigger buses, and other useful tools to allow mass m
 Many machines can now move more than 1 stack per tick without causing lag. High tiers of conveyors can move hundreds of thousands of items each tick, working fully with both GT and Applied Energistics systems. Some extra parts of this change include:
 - Rebalancing and buffing conveyors significantly
 - Adding AppliedEnergistics integration to conveyors directly
-- Adding new [GregTech buses (called Quantum Bus and Compressed Bus) that can hold more than new stack per slot!](./bigger_buses.md)
+- Adding new [GregTech buses (called Quantum Bus and Compressed Bus) that can hold more than one stack per slot!](./bigger_buses.md)
 - Buffing GregTech item pipes
 - Huge performance improvements across the board!

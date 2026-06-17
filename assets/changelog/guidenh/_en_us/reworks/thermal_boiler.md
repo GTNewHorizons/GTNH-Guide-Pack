@@ -20,7 +20,7 @@ The <Color id="GREEN">Thermal Boiler</Color> is an IV tier multiblock that evapo
 
 The <Color id="GREEN">Thermal Boiler</Color> is very similar to the Large Heat Exchanger (LHE) <ItemImage id="gregtech:gt.blockmachines:1154"/> The difference is that the LHE has a higher throughput, no byproducts, only uses distilled water, and does not accept pahoehoe lava. In other words, use the <Color id="GREEN">Thermal Boiler</Color> for resources such as tantalum, tungstate, or gold and the LHE for power.
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit)
 <br clear="all"/>
 
 > [!NOTE]

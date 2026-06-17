@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   title: Quantum Ring
   icon: appliedenergistics2:tile.BlockQuantumLinkChamber
 item_ids:

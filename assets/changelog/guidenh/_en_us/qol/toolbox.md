@@ -16,7 +16,7 @@ This is a direct upgrade of the IndustrialCraft2 Toolbox with many new exciting 
 
 It comes with dedicated slots for all of your tools, and a dedicated battery slot allowing you to charge on the go! You can also charge the entire toolbox at once in machines as long as the battery is present.
 
-There are six additional slots for whatever you want to have at hand! <Color id="BLUE">Soldering Irons</Color> will puill soldering materials from these slots.
+There are six additional slots for whatever you want to have at hand! <Color id="BLUE">Soldering Irons</Color> will pull soldering materials from these slots.
 
 Pressing _<KeyBind id="key.pickItem" />_ (Default: Middle Mouse) will open a radial menu and allow you to select a tool. This will let you use the tool _without removing it from the toolbox_. The toolbox will act as that tool equipped, and all damage and power discharge is applied directly to the tool being used!
 

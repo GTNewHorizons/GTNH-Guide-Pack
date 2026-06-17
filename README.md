@@ -24,7 +24,7 @@ Features
 
 Quick Start
 ----
-1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics and [ContributionGuide.md](https://github.com/GTNewHorizons/GTNH-Guide-Pack/blob/master/ContributionGuide.md) for contribution guidelines.
+1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics and [ContributionGuide.md](https://github.com/GTNewHorizons/GTNH-Guide-Pack/blob/master/CONTRIBUTING.md) for contribution guidelines.
 2. Write guide pages in Markdown under docs/ following the provided templates.
 3. Test locally with GuideNH live preview (see GuideNH repo for preview tool) or package into a resource pack and drop into the client resourcepacks/ directory.
 4. Submit content via PR to this repository or another GuideNH-enabled project.
@@ -41,6 +41,21 @@ Localization
 ----
 - Place language files under .../_<lang>/ (e.g., en_us.md, zh_cn.md).
 - Use the same filename and folder structure across languages; GuideNH loads per‑page translations and falls back to English.
+
+Releases
+----
+Releases use semantic versioning and are cut by pushing a bare version tag (no `v` prefix):
+
+```bash
+git tag 1.0.1
+git push origin 1.0.1
+```
+
+The `release-tags.yml` workflow then stamps the tag into `pack.mcmeta` (`gtnh_resource_pack_updater.pack_version`), builds `GTNH-Guide-Pack-<version>.zip`, generates a `gtnh-pack-update.json` metadata asset, and publishes a GitHub release for the tag (replacing any existing release for that tag).
+
+Distribution:
+- DreamAssemblerXXL is registered to track this repo's releases, so each GTNH daily bundles the newest release automatically.
+- GTNHLib's in-game ResourcePackUpdater notifies players (chat link, no auto-install) when a newer compatible release exists. Targeting is controlled by `gtnh_resource_pack_updater.pack_game_version` in `pack.mcmeta` (the GTNH line, e.g. `2.9.X`, or `2.8.X;2.9.X` for both) - this is the GTNH line, not the Minecraft version. Beta and stable within one minor (e.g. 2.9-beta and 2.9) cannot be targeted separately.
 
 License
 ----

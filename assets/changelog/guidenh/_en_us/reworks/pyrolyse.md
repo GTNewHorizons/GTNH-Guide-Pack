@@ -31,13 +31,13 @@ The <Color id="GREEN">Pyrolyse Oven</Color> has one tiered component. The heatin
 - 8 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings3:14"/><ItemImage id="gregtech:gt.blockcasings3:14"/>
 - 2 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ Energy Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Maintenance Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Muffler Hatch (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Input Bus (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Input Hatch (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Output Bus (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ Output Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:60" />
 
 ### Wallsharing
 <Color id="GREEN">Pyrolyse Ovens</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. That includes up to half the heating coils as seen in the image above. This is highly recommended because the heating coils are the most expensive part of the structure. 

@@ -18,7 +18,7 @@ date: 2026-05-27
 </GameScene>
 The <Color id="GREEN">XL Turbo Gas Turbine (XLGT)</Color> is an LuV tier multiblock for generating immense power from gas. The <Color id="GREEN">XLGT</Color> is a direct upgrade from the Large Gas Turbine because it has 16x the throughput with only 12 turbines, supports multi-amp and laser dynamo hatches, and does not explode if the dynamo hatch is broken while the machine is running. However, the turbines must be identical for the machine to run, there are harsher penalties for exceeding the optimal flow rate, benzene is blacklisted, and the machine must be running for at least 50 seconds to fully warm-up. Save on fuel by automatically toggling the <Color id="GREEN">XLGT</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>. 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]

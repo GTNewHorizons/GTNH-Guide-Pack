@@ -18,7 +18,7 @@ date: 2026-05-27
 </GameScene>
 The <Color id="GREEN">Extreme Combustion Engine (ECE)</Color> is an IV tier multiblock for generating power from combustible fuels. The <Color id="GREEN">ECE</Color> is a direct upgrade from the <Color id="GREEN">Large Combustion Engine</Color> because it can output more than 5x the power. However, the <Color id="GREEN">ECE</Color> must be supplied with 8,000 L/h of lubricant to run, and optionally 40 L/s of liquid oxygen to boost the machine. Boosting is highly recommended because it triples the maximum power output and increases the fuel efficiency from 100% to 150%. Power is extracted from a 4A dynamo hatch on the back of the machine. Do not break the dynamo hatch while the machine is running or else it explodes. Save on fuel by automatically toggling the <Color id="GREEN">ECE</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>. The <Color id="GREEN">ECE</Color> is superseded by the Universal Chemical Fuel Engine <ItemImage id="gregtech:gt.blockmachines:15535"/> which has no cap on the amount of power it can produce.
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edi)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
