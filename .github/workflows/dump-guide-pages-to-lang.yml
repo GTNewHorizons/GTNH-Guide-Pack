@@ -8,7 +8,7 @@ on:
       - "assets/**/guidenh/_*/**/*.md"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
@@ -17,6 +17,9 @@ concurrency:
 jobs:
   dump-guide-pages:
     runs-on: ubuntu-24.04
+    env:
+      RELEASE_TAG: guide-page-lang-dev-build
+      RELEASE_NAME: Guide Page Lang Dev Build
 
     steps:
       - name: Checkout repository
@@ -51,10 +54,28 @@ jobs:
         if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         run: python tools/guide_lang_converter.py dump-pages-to-lang --repo-root . --out-dir build/dump-guide-pages-to-lang
 
+      - name: Create release archive
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        run: |
+          archive_name="guide-page-lang-pack-${{ github.event.pull_request.number || github.run_number }}-${GITHUB_SHA::7}.zip"
+          python tools/guide_lang_converter.py create-archive --source-dir build/dump-guide-pages-to-lang --archive-path "build/${archive_name}"
+          printf 'archive_name=%s\n' "$archive_name" >> "$GITHUB_OUTPUT"
+        id: archive
+
       - name: Upload dumped resource pack artifact
         if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         uses: actions/upload-artifact@v4
         with:
           name: dumped-guide-pages-to-lang-${{ github.event.pull_request.number || github.run_number }}
-          path: build/dump-guide-pages-to-lang
+          path: build/${{ steps.archive.outputs.archive_name }}
           if-no-files-found: error
+
+      - name: Publish dev action pre-release
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          body: Dynamic action dump of GuideNH pages into a lang-based resource pack for Paratranz and review flows.
+          tag_name: ${{ env.RELEASE_TAG }}
+          prerelease: true
+          files: build/${{ steps.archive.outputs.archive_name }}
