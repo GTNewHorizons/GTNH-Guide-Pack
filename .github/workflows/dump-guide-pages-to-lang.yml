@@ -1,0 +1,60 @@
+name: Dump guide pages to lang
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ master, main, release/** ]
+    paths:
+      - "assets/**/guidenh/_*/**/*.md"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dump-guide-pages:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect changed markdown files
+        if: ${{ github.event_name == 'pull_request' }}
+        id: changed_md
+        run: |
+          git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
+          git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/guidenh/_*/**/*.md' > changed-md.txt
+          md_count=$(python tools/guide_lang_converter.py count-changed-md --repo-root . --path-file changed-md.txt)
+          printf 'md_count=%s\n' "$md_count" >> "$GITHUB_OUTPUT"
+
+      - name: Stop when pull request has no guide markdown changes
+        if: ${{ github.event_name == 'pull_request' && steps.changed_md.outputs.md_count == '0' }}
+        run: |
+          echo "No GuideNH markdown pages changed in this PR."
+
+      - name: Run converter tests
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        run: python -m unittest tests.test_guide_lang_converter -v
+
+      - name: Dump guide pages to lang artifact
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        run: python tools/guide_lang_converter.py dump-pages-to-lang --repo-root . --out-dir build/dump-guide-pages-to-lang
+
+      - name: Upload dumped resource pack artifact
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: dumped-guide-pages-to-lang-${{ github.event.pull_request.number || github.run_number }}
+          path: build/dump-guide-pages-to-lang
+          if-no-files-found: error

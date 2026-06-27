@@ -1,0 +1,83 @@
+name: Dump lang to guide pages
+
+on:
+  pull_request:
+    branches: [ master, main, release/** ]
+    paths:
+      - "assets/**/lang/*.lang"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dump-lang-to-guide-pages:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect changed lang files
+        id: changed_lang
+        run: |
+          git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
+          git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/lang/*.lang' > changed-lang.txt
+          lang_count=$(python tools/guide_lang_converter.py count-changed-lang --repo-root . --path-file changed-lang.txt)
+          printf 'lang_count=%s\n' "$lang_count" >> "$GITHUB_OUTPUT"
+
+      - name: Stop when pull request has no lang changes
+        if: ${{ steps.changed_lang.outputs.lang_count == '0' }}
+        run: |
+          echo "No lang files requiring page dump were changed in this PR."
+
+      - name: Run converter tests
+        if: ${{ steps.changed_lang.outputs.lang_count != '0' }}
+        run: python -m unittest tests.test_guide_lang_converter -v
+
+      - name: Restore guide pages and strip page lang keys
+        if: ${{ steps.changed_lang.outputs.lang_count != '0' }}
+        run: python tools/guide_lang_converter.py dump-lang-to-pages --repo-root . --delete-page-lang-files
+
+      - name: Check for changes
+        if: ${{ steps.changed_lang.outputs.lang_count != '0' }}
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request if needed
+        if: ${{ steps.changed_lang.outputs.lang_count != '0' && steps.check_changes.outputs.has_changes == 'true' && !github.event.pull_request.draft }}
+        run: |
+          git config user.name "GitHub GTNH Actions"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git switch -c "${FIXED_BRANCH}"
+          git add assets
+          git commit -m "dump guide pages from lang for #${{ github.event.pull_request.number }}"
+          git push --force-with-lease origin "${FIXED_BRANCH}"
+          gh pr create \
+            --head "${FIXED_BRANCH}" \
+            --base "${PR_BRANCH}" \
+            --title "Dump guide pages from lang for #${{ github.event.pull_request.number }}" \
+            --body "Automatic lang-to-guide-page dump for PR #${{ github.event.pull_request.number }}. This PR restores GuideNH markdown pages and removes page-level lang dump keys so they do not merge into the target branch." \
+            2>&1 | tee pr-message.log || true
+          gh pr comment "${{ github.event.pull_request.number }}" -F pr-message.log || true
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_BRANCH: ${{ github.head_ref }}
+          FIXED_BRANCH: ${{ github.head_ref }}-lang-dump
