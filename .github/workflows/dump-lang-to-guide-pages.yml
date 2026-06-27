@@ -35,23 +35,30 @@ jobs:
           git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
           git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/lang/*.lang' > changed-lang.txt
           lang_count=$(python tools/guide_lang_converter.py count-changed-lang --repo-root . --path-file changed-lang.txt)
+          page_lang_entry_count=$(python tools/guide_lang_converter.py count-changed-page-lang-entries --repo-root . --path-file changed-lang.txt)
           printf 'lang_count=%s\n' "$lang_count" >> "$GITHUB_OUTPUT"
+          printf 'page_lang_entry_count=%s\n' "$page_lang_entry_count" >> "$GITHUB_OUTPUT"
 
       - name: Stop when pull request has no lang changes
         if: ${{ steps.changed_lang.outputs.lang_count == '0' }}
         run: |
           echo "No lang files requiring page dump were changed in this PR."
 
+      - name: Stop when pull request has no GuideNH page lang entries
+        if: ${{ steps.changed_lang.outputs.lang_count != '0' && steps.changed_lang.outputs.page_lang_entry_count == '0' }}
+        run: |
+          echo "Changed lang files do not contain any guidenh.page.* entries."
+
       - name: Run converter tests
-        if: ${{ steps.changed_lang.outputs.lang_count != '0' }}
+        if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' }}
         run: python -m unittest tests.test_guide_lang_converter -v
 
       - name: Restore guide pages and strip page lang keys
-        if: ${{ steps.changed_lang.outputs.lang_count != '0' }}
+        if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' }}
         run: python tools/guide_lang_converter.py dump-lang-to-pages --repo-root . --delete-page-lang-files
 
       - name: Check for changes
-        if: ${{ steps.changed_lang.outputs.lang_count != '0' }}
+        if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' }}
         id: check_changes
         run: |
           if [ -n "$(git status --porcelain)" ]; then
@@ -61,7 +68,7 @@ jobs:
           fi
 
       - name: Create Pull Request if needed
-        if: ${{ steps.changed_lang.outputs.lang_count != '0' && steps.check_changes.outputs.has_changes == 'true' && !github.event.pull_request.draft }}
+        if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' && steps.check_changes.outputs.has_changes == 'true' && !github.event.pull_request.draft }}
         run: |
           git config user.name "GitHub GTNH Actions"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
