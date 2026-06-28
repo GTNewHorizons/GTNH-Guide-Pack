@@ -12,4 +12,4 @@ navigation:
 > [!WARNING]
 > This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
 
-<FloatingImage src="/assets/images/gtnh-logo.png" align="left" width="64" title="width=64" />
+<FloatingImage src="/assets/images/gtnh-logo.png" x="0" y="0" width="135" height="110" scaleX="7.585185" scaleY="7.585185" align="left" title="GTNH Logo" />
