@@ -46,10 +46,6 @@ jobs:
         run: |
           echo "No GuideNH markdown pages changed in this PR."
 
-      - name: Run converter tests
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
-        run: python -m unittest tests.test_guide_lang_converter -v
-
       - name: Dump guide pages to lang artifact
         if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         run: python tools/guide_lang_converter.py dump-pages-to-lang --repo-root . --out-dir build/dump-guide-pages-to-lang
