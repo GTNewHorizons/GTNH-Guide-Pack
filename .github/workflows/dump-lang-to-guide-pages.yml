@@ -34,51 +34,53 @@ jobs:
         run: |
           git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
           git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/lang/*.lang' > changed-lang.txt
-          eval "$(
-            python - <<'PY'
-from pathlib import Path
+          cat > .github-guides-lang-count.py <<'PY'
+          from pathlib import Path
 
-repo_root = Path('.').resolve()
-path_file = Path('changed-lang.txt')
-page_key_prefix = 'guidenh.page.'
+          repo_root = Path('.').resolve()
+          path_file = Path('changed-lang.txt')
+          page_key_prefix = 'guidenh.page.'
 
-def is_lang_file(path: Path) -> bool:
-    relative = path.relative_to(repo_root)
-    parts = relative.parts
-    return len(parts) == 4 and parts[0] == 'assets' and parts[2] == 'lang' and path.suffix.lower() == '.lang'
+          def is_lang_file(path: Path) -> bool:
+              relative = path.relative_to(repo_root)
+              parts = relative.parts
+              return len(parts) == 4 and parts[0] == 'assets' and parts[2] == 'lang' and path.suffix.lower() == '.lang'
 
-def parse_lang_file(path: Path) -> dict[str, str]:
-    entries: dict[str, str] = {}
-    if not path.exists():
-        return entries
-    for line in path.read_text(encoding='utf-8').splitlines():
-        if not line or line.startswith('#') or line.startswith('!'):
-            continue
-        if '=' in line:
-            key, value = line.split('=', 1)
-        elif ':' in line:
-            key, value = line.split(':', 1)
-        else:
-            key, value = line, ''
-        entries[key] = value
-    return entries
+          def parse_lang_file(path: Path) -> dict[str, str]:
+              entries: dict[str, str] = {}
+              if not path.exists():
+                  return entries
+              for line in path.read_text(encoding='utf-8').splitlines():
+                  if not line or line.startswith('#') or line.startswith('!'):
+                      continue
+                  if '=' in line:
+                      key, value = line.split('=', 1)
+                  elif ':' in line:
+                      key, value = line.split(':', 1)
+                  else:
+                      key, value = line, ''
+                  entries[key] = value
+              return entries
 
-lang_count = 0
-page_lang_entry_count = 0
-if path_file.exists():
-    for line in path_file.read_text(encoding='utf-8').splitlines():
-        stripped = line.strip()
-        if not stripped:
-            continue
-        candidate = (repo_root / stripped).resolve()
-        if candidate.exists() and is_lang_file(candidate):
-            lang_count += 1
-            page_lang_entry_count += sum(1 for key in parse_lang_file(candidate) if key.startswith(page_key_prefix))
+          lang_count = 0
+          page_lang_entry_count = 0
+          if path_file.exists():
+              for line in path_file.read_text(encoding='utf-8').splitlines():
+                  stripped = line.strip()
+                  if not stripped:
+                      continue
+                  candidate = (repo_root / stripped).resolve()
+                  if candidate.exists() and is_lang_file(candidate):
+                      lang_count += 1
+                      page_lang_entry_count += sum(
+                          1 for key in parse_lang_file(candidate) if key.startswith(page_key_prefix)
+                      )
 
-print(f'lang_count={lang_count}')
-print(f'page_lang_entry_count={page_lang_entry_count}')
-PY
-          )"
+          print(f'lang_count={lang_count}')
+          print(f'page_lang_entry_count={page_lang_entry_count}')
+          PY
+          eval "$(python .github-guides-lang-count.py)"
+          rm -f .github-guides-lang-count.py
           printf 'lang_count=%s\n' "$lang_count" >> "$GITHUB_OUTPUT"
           printf 'page_lang_entry_count=%s\n' "$page_lang_entry_count" >> "$GITHUB_OUTPUT"
 
@@ -95,120 +97,130 @@ PY
       - name: Restore guide pages and strip page lang keys
         if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' }}
         run: |
-          python - <<'PY'
-from __future__ import annotations
+          cat > .github-guides-restore-pages.py <<'PY'
+          from __future__ import annotations
 
-from pathlib import Path
+          from pathlib import Path
 
-repo_root = Path('.').resolve()
-page_key_prefix = 'guidenh.page.'
+          repo_root = Path('.').resolve()
+          page_key_prefix = 'guidenh.page.'
 
-def parse_lang_file(path: Path) -> dict[str, str]:
-    entries: dict[str, str] = {}
-    if not path.exists():
-        return entries
-    for line in path.read_text(encoding='utf-8').splitlines():
-        if not line or line.startswith('#') or line.startswith('!'):
-            continue
-        if '=' in line:
-            key, value = line.split('=', 1)
-        elif ':' in line:
-            key, value = line.split(':', 1)
-        else:
-            key, value = line, ''
-        entries[key] = value
-    return entries
+          def parse_lang_file(path: Path) -> dict[str, str]:
+              entries: dict[str, str] = {}
+              if not path.exists():
+                  return entries
+              for line in path.read_text(encoding='utf-8').splitlines():
+                  if not line or line.startswith('#') or line.startswith('!'):
+                      continue
+                  if '=' in line:
+                      key, value = line.split('=', 1)
+                  elif ':' in line:
+                      key, value = line.split(':', 1)
+                  else:
+                      key, value = line, ''
+                  entries[key] = value
+              return entries
 
-def write_lang_file(path: Path, entries: dict[str, str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    lines = [f'{key}={entries[key]}' for key in sorted(entries)]
-    text = '\n'.join(lines)
-    if lines:
-        text += '\n'
-    path.write_text(text, encoding='utf-8')
+          def write_lang_file(path: Path, entries: dict[str, str]) -> None:
+              path.parent.mkdir(parents=True, exist_ok=True)
+              lines = [f'{key}={entries[key]}' for key in sorted(entries)]
+              text = '\n'.join(lines)
+              if lines:
+                  text += '\n'
+              path.write_text(text, encoding='utf-8')
 
-def unescape_segment(segment: str) -> str:
-    chars: list[str] = []
-    index = 0
-    while index < len(segment):
-        if segment.startswith('_x', index):
-            end_index = segment.find('_', index + 2)
-            if end_index != -1 and end_index > index + 2:
-                hex_digits = segment[index + 2:end_index]
-                if all(ch in '0123456789abcdefABCDEF' for ch in hex_digits):
-                    chars.append(chr(int(hex_digits, 16)))
-                    index = end_index + 1
-                    continue
-        chars.append(segment[index])
-        index += 1
-    return ''.join(chars)
+          def unescape_segment(segment: str) -> str:
+              chars: list[str] = []
+              index = 0
+              while index < len(segment):
+                  if segment.startswith('_x', index):
+                      end_index = segment.find('_', index + 2)
+                      if end_index != -1 and end_index > index + 2:
+                          hex_digits = segment[index + 2:end_index]
+                          if all(ch in '0123456789abcdefABCDEF' for ch in hex_digits):
+                              chars.append(chr(int(hex_digits, 16)))
+                              index = end_index + 1
+                              continue
+                  chars.append(segment[index])
+                  index += 1
+              return ''.join(chars)
 
-def decode_lang_key(key: str) -> tuple[str, str, str]:
-    escaped_parts = key[len(page_key_prefix):].split('.')
-    namespace = unescape_segment(escaped_parts[0])
-    content_root_folder = '/'.join(unescape_segment(part) for part in escaped_parts[1:2])
-    page_path = '/'.join(unescape_segment(part) for part in escaped_parts[2:]) + '.md'
-    return namespace, content_root_folder, page_path
+          def decode_lang_key(key: str) -> tuple[str, str, str]:
+              escaped_parts = key[len(page_key_prefix):].split('.')
+              namespace = unescape_segment(escaped_parts[0])
+              content_root_folder = '/'.join(unescape_segment(part) for part in escaped_parts[1:2])
+              page_path = '/'.join(unescape_segment(part) for part in escaped_parts[2:]) + '.md'
+              return namespace, content_root_folder, page_path
 
-def decode_lang_value(value: str) -> str:
-    chars: list[str] = []
-    escaping = False
-    for ch in value:
-        if not escaping:
-            if ch == '\\':
-                escaping = True
-            else:
-                chars.append(ch)
-            continue
-        if ch == 'n':
-            chars.append('\n')
-        elif ch == 'r':
-            chars.append('\r')
-        elif ch == '\\':
-            chars.append('\\')
-        else:
-            chars.append('\\')
-            chars.append(ch)
-        escaping = False
-    if escaping:
-        chars.append('\\')
-    return ''.join(chars)
+          def decode_lang_value(value: str) -> str:
+              chars: list[str] = []
+              escaping = False
+              for ch in value:
+                  if not escaping:
+                      if ch == '\\':
+                          escaping = True
+                      else:
+                          chars.append(ch)
+                      continue
+                  if ch == 'n':
+                      chars.append('\n')
+                  elif ch == 'r':
+                      chars.append('\r')
+                  elif ch == '\\':
+                      chars.append('\\')
+                  else:
+                      chars.append('\\')
+                      chars.append(ch)
+                  escaping = False
+              if escaping:
+                  chars.append('\\')
+              return ''.join(chars)
 
-restored_page_count = 0
-updated_language_file_count = 0
+          restored_page_count = 0
+          updated_language_file_count = 0
 
-for lang_path in sorted(path for path in repo_root.glob('assets/*/lang/*.lang') if path.is_file()):
-    language = lang_path.stem.lower()
-    namespace = lang_path.parent.parent.name
-    raw_entries = parse_lang_file(lang_path)
-    regular_entries: dict[str, str] = {}
-    page_entries: list[tuple[str, str, str, str]] = []
-    for key, value in raw_entries.items():
-        if not key.startswith(page_key_prefix):
-            regular_entries[key] = value
-            continue
-        entry_namespace, content_root_folder, page_path = decode_lang_key(key)
-        if entry_namespace != namespace:
-            raise ValueError(f'Page key namespace mismatch in {lang_path}: {key}')
-        page_entries.append((entry_namespace, content_root_folder, page_path, value))
+          for lang_path in sorted(path for path in repo_root.glob('assets/*/lang/*.lang') if path.is_file()):
+              language = lang_path.stem.lower()
+              namespace = lang_path.parent.parent.name
+              raw_entries = parse_lang_file(lang_path)
+              regular_entries: dict[str, str] = {}
+              page_entries: list[tuple[str, str, str, str]] = []
 
-    if not page_entries:
-        continue
+              for key, value in raw_entries.items():
+                  if not key.startswith(page_key_prefix):
+                      regular_entries[key] = value
+                      continue
+                  entry_namespace, content_root_folder, page_path = decode_lang_key(key)
+                  if entry_namespace != namespace:
+                      raise ValueError(f'Page key namespace mismatch in {lang_path}: {key}')
+                  page_entries.append((entry_namespace, content_root_folder, page_path, value))
 
-    for entry_namespace, content_root_folder, page_path, value in page_entries:
-        page_output_path = repo_root / 'assets' / entry_namespace / content_root_folder / f'_{language}' / Path(page_path)
-        page_output_path.parent.mkdir(parents=True, exist_ok=True)
-        page_output_path.write_text(decode_lang_value(value), encoding='utf-8')
-        restored_page_count += 1
+              if not page_entries:
+                  continue
 
-    if regular_entries:
-        write_lang_file(lang_path, regular_entries)
-    else:
-        lang_path.unlink(missing_ok=True)
-    updated_language_file_count += 1
+              for entry_namespace, content_root_folder, page_path, value in page_entries:
+                  page_output_path = (
+                      repo_root
+                      / 'assets'
+                      / entry_namespace
+                      / content_root_folder
+                      / f'_{language}'
+                      / Path(page_path)
+                  )
+                  page_output_path.parent.mkdir(parents=True, exist_ok=True)
+                  page_output_path.write_text(decode_lang_value(value), encoding='utf-8')
+                  restored_page_count += 1
 
-print(f'Restored {restored_page_count} guide pages from {updated_language_file_count} lang files.')
-PY
+              if regular_entries:
+                  write_lang_file(lang_path, regular_entries)
+              else:
+                  lang_path.unlink(missing_ok=True)
+              updated_language_file_count += 1
+
+          print(f'Restored {restored_page_count} guide pages from {updated_language_file_count} lang files.')
+          PY
+          python .github-guides-restore-pages.py
+          rm -f .github-guides-restore-pages.py
 
       - name: Check for changes
         if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' }}

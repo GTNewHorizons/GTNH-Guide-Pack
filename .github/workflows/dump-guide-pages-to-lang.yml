@@ -38,30 +38,37 @@ jobs:
         run: |
           git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
           git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/guidenh/_*/**/*.md' > changed-md.txt
-          md_count=$(
-            python - <<'PY'
-from pathlib import Path
+          cat > .github-guides-md-count.py <<'PY'
+          from pathlib import Path
 
-repo_root = Path('.').resolve()
-path_file = Path('changed-md.txt')
+          repo_root = Path('.').resolve()
+          path_file = Path('changed-md.txt')
 
-def is_guidenh_page_file(path: Path) -> bool:
-    relative = path.relative_to(repo_root)
-    parts = relative.parts
-    return len(parts) >= 5 and parts[0] == 'assets' and parts[2] == 'guidenh' and parts[3].startswith('_') and path.suffix.lower() == '.md'
+          def is_guidenh_page_file(path: Path) -> bool:
+              relative = path.relative_to(repo_root)
+              parts = relative.parts
+              return (
+                  len(parts) >= 5
+                  and parts[0] == 'assets'
+                  and parts[2] == 'guidenh'
+                  and parts[3].startswith('_')
+                  and path.suffix.lower() == '.md'
+              )
 
-count = 0
-if path_file.exists():
-    for line in path_file.read_text(encoding='utf-8').splitlines():
-        stripped = line.strip()
-        if not stripped:
-            continue
-        candidate = (repo_root / stripped).resolve()
-        if candidate.exists() and is_guidenh_page_file(candidate):
-            count += 1
-print(count)
-PY
-          )
+          count = 0
+          if path_file.exists():
+              for line in path_file.read_text(encoding='utf-8').splitlines():
+                  stripped = line.strip()
+                  if not stripped:
+                      continue
+                  candidate = (repo_root / stripped).resolve()
+                  if candidate.exists() and is_guidenh_page_file(candidate):
+                      count += 1
+
+          print(count)
+          PY
+          md_count=$(python .github-guides-md-count.py)
+          rm -f .github-guides-md-count.py
           printf 'md_count=%s\n' "$md_count" >> "$GITHUB_OUTPUT"
 
       - name: Stop when pull request has no guide markdown changes
@@ -69,131 +76,140 @@ PY
         run: |
           echo "No GuideNH markdown pages changed in this PR."
 
-<<<<<<< Updated upstream
-      - name: Dump guide pages to lang artifact
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
-        run: python tools/guide_lang_converter.py dump-pages-to-lang --repo-root . --out-dir build/dump-guide-pages-to-lang
-
-      - name: Create release archive
-=======
       - name: Dump guide pages to lang resource pack
->>>>>>> Stashed changes
         if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         run: |
-          python - <<'PY'
-from __future__ import annotations
+          cat > .github-guides-dump-pages.py <<'PY'
+          from __future__ import annotations
 
-import shutil
-import zipfile
-from pathlib import Path
+          import shutil
+          import subprocess
+          import zipfile
+          from pathlib import Path
 
-repo_root = Path('.').resolve()
-out_dir = (repo_root / 'build' / 'dump-guide-pages-to-lang').resolve()
-short_sha = __import__('subprocess').check_output(['git', 'rev-parse', '--short=7', 'HEAD'], text=True).strip()
-archive_name = f'guide-page-lang-pack-{short_sha}.zip'
-archive_path = (repo_root / 'build' / archive_name).resolve()
+          repo_root = Path('.').resolve()
+          out_dir = (repo_root / 'build' / 'dump-guide-pages-to-lang').resolve()
+          short_sha = subprocess.check_output(['git', 'rev-parse', '--short=7', 'HEAD'], text=True).strip()
+          archive_name = f'guide-page-lang-pack-{short_sha}.zip'
+          archive_path = (repo_root / 'build' / archive_name).resolve()
 
-def is_safe_key_character(ch: str) -> bool:
-    return ch.isascii() and (ch.isalnum() or ch == '-')
+          def is_safe_key_character(ch: str) -> bool:
+              return ch.isascii() and (ch.isalnum() or ch == '-')
 
-def escape_segment(segment: str) -> str:
-    parts: list[str] = []
-    for ch in segment:
-        if is_safe_key_character(ch):
-            parts.append(ch)
-        else:
-            parts.append(f"_x{ord(ch):x}_")
-    return ''.join(parts)
+          def escape_segment(segment: str) -> str:
+              parts: list[str] = []
+              for ch in segment:
+                  if is_safe_key_character(ch):
+                      parts.append(ch)
+                  else:
+                      parts.append(f"_x{ord(ch):x}_")
+              return ''.join(parts)
 
-def build_lang_key(namespace: str, content_root_folder: str, page_path: str) -> str:
-    normalized_page_path = page_path[:-3] if page_path.endswith('.md') else page_path
-    escaped_root = '.'.join(escape_segment(part) for part in content_root_folder.split('/') if part)
-    escaped_path = '.'.join(escape_segment(part) for part in normalized_page_path.split('/') if part)
-    return f'guidenh.page.{escape_segment(namespace)}.{escaped_root}.{escaped_path}'
+          def build_lang_key(namespace: str, content_root_folder: str, page_path: str) -> str:
+              normalized_page_path = page_path[:-3] if page_path.endswith('.md') else page_path
+              escaped_root = '.'.join(escape_segment(part) for part in content_root_folder.split('/') if part)
+              escaped_path = '.'.join(escape_segment(part) for part in normalized_page_path.split('/') if part)
+              return f'guidenh.page.{escape_segment(namespace)}.{escaped_root}.{escaped_path}'
 
-def encode_lang_value(value: str) -> str:
-    normalized = value.replace('\r\n', '\n').replace('\r', '\n')
-    return normalized.replace('\\', '\\\\').replace('\n', '\\n')
+          def encode_lang_value(value: str) -> str:
+              normalized = value.replace('\r\n', '\n').replace('\r', '\n')
+              return normalized.replace('\\', '\\\\').replace('\n', '\\n')
 
-def parse_lang_file(path: Path) -> dict[str, str]:
-    entries: dict[str, str] = {}
-    if not path.exists():
-        return entries
-    for line in path.read_text(encoding='utf-8').splitlines():
-        if not line or line.startswith('#') or line.startswith('!'):
-            continue
-        if '=' in line:
-            key, value = line.split('=', 1)
-        elif ':' in line:
-            key, value = line.split(':', 1)
-        else:
-            key, value = line, ''
-        entries[key] = value
-    return entries
+          def parse_lang_file(path: Path) -> dict[str, str]:
+              entries: dict[str, str] = {}
+              if not path.exists():
+                  return entries
+              for line in path.read_text(encoding='utf-8').splitlines():
+                  if not line or line.startswith('#') or line.startswith('!'):
+                      continue
+                  if '=' in line:
+                      key, value = line.split('=', 1)
+                  elif ':' in line:
+                      key, value = line.split(':', 1)
+                  else:
+                      key, value = line, ''
+                  entries[key] = value
+              return entries
 
-def write_lang_file(path: Path, entries: dict[str, str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    lines = [f'{key}={entries[key]}' for key in sorted(entries)]
-    text = '\n'.join(lines)
-    if lines:
-        text += '\n'
-    path.write_text(text, encoding='utf-8')
+          def write_lang_file(path: Path, entries: dict[str, str]) -> None:
+              path.parent.mkdir(parents=True, exist_ok=True)
+              lines = [f'{key}={entries[key]}' for key in sorted(entries)]
+              text = '\n'.join(lines)
+              if lines:
+                  text += '\n'
+              path.write_text(text, encoding='utf-8')
 
-def is_guidenh_page_file(path: Path) -> bool:
-    relative = path.relative_to(repo_root)
-    parts = relative.parts
-    return len(parts) >= 5 and parts[0] == 'assets' and parts[2] == 'guidenh' and parts[3].startswith('_') and path.suffix.lower() == '.md'
+          def is_guidenh_page_file(path: Path) -> bool:
+              relative = path.relative_to(repo_root)
+              parts = relative.parts
+              return (
+                  len(parts) >= 5
+                  and parts[0] == 'assets'
+                  and parts[2] == 'guidenh'
+                  and parts[3].startswith('_')
+                  and path.suffix.lower() == '.md'
+              )
 
-def copy_non_page_files() -> None:
-    for root_file_name in ('pack.mcmeta', 'pack.png'):
-        root_file = repo_root / root_file_name
-        if root_file.exists() and root_file.is_file():
-            destination = out_dir / root_file_name
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(root_file, destination)
-    assets_root = repo_root / 'assets'
-    if not assets_root.exists():
-        return
-    for source in assets_root.rglob('*'):
-        if not source.is_file():
-            continue
-        if is_guidenh_page_file(source):
-            continue
-        relative = source.relative_to(repo_root)
-        destination = out_dir / relative
-        destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source, destination)
+          def copy_non_page_files() -> None:
+              for root_file_name in ('pack.mcmeta', 'pack.png'):
+                  root_file = repo_root / root_file_name
+                  if root_file.exists() and root_file.is_file():
+                      destination = out_dir / root_file_name
+                      destination.parent.mkdir(parents=True, exist_ok=True)
+                      shutil.copy2(root_file, destination)
 
-if out_dir.exists():
-    shutil.rmtree(out_dir)
-out_dir.mkdir(parents=True, exist_ok=True)
-copy_non_page_files()
+              assets_root = repo_root / 'assets'
+              if not assets_root.exists():
+                  return
 
-page_files = sorted(path for path in repo_root.glob('assets/**/guidenh/_*/**/*.md') if path.is_file() and is_guidenh_page_file(path))
-entries_by_lang_file: dict[Path, dict[str, str]] = {}
+              for source in assets_root.rglob('*'):
+                  if not source.is_file():
+                      continue
+                  if is_guidenh_page_file(source):
+                      continue
+                  relative = source.relative_to(repo_root)
+                  destination = out_dir / relative
+                  destination.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copy2(source, destination)
 
-for page_file in page_files:
-    relative = page_file.relative_to(repo_root)
-    namespace = relative.parts[1]
-    content_root_folder = relative.parts[2]
-    language = relative.parts[3][1:].lower()
-    page_path = '/'.join(relative.parts[4:])
-    lang_output_path = out_dir / 'assets' / namespace / 'lang' / f'{language}.lang'
-    entries = entries_by_lang_file.setdefault(lang_output_path, parse_lang_file(lang_output_path))
-    entries[build_lang_key(namespace, content_root_folder, page_path)] = encode_lang_value(page_file.read_text(encoding='utf-8'))
+          if out_dir.exists():
+              shutil.rmtree(out_dir)
+          out_dir.mkdir(parents=True, exist_ok=True)
+          copy_non_page_files()
 
-for lang_output_path, entries in entries_by_lang_file.items():
-    write_lang_file(lang_output_path, entries)
+          page_files = sorted(
+              path
+              for path in repo_root.glob('assets/**/guidenh/_*/**/*.md')
+              if path.is_file() and is_guidenh_page_file(path)
+          )
+          entries_by_lang_file: dict[Path, dict[str, str]] = {}
 
-archive_path.parent.mkdir(parents=True, exist_ok=True)
-with zipfile.ZipFile(archive_path, mode='w', compression=zipfile.ZIP_DEFLATED) as zip_file:
-    for source_path in sorted(path for path in out_dir.rglob('*') if path.is_file()):
-        zip_file.write(source_path, arcname=source_path.relative_to(out_dir).as_posix())
+          for page_file in page_files:
+              relative = page_file.relative_to(repo_root)
+              namespace = relative.parts[1]
+              content_root_folder = relative.parts[2]
+              language = relative.parts[3][1:].lower()
+              page_path = '/'.join(relative.parts[4:])
+              lang_output_path = out_dir / 'assets' / namespace / 'lang' / f'{language}.lang'
+              entries = entries_by_lang_file.setdefault(lang_output_path, parse_lang_file(lang_output_path))
+              entries[build_lang_key(namespace, content_root_folder, page_path)] = encode_lang_value(
+                  page_file.read_text(encoding='utf-8')
+              )
 
-Path('archive-name.txt').write_text(archive_name, encoding='utf-8')
-print(f'Exported {len(page_files)} guide pages into {len(entries_by_lang_file)} lang files.')
-print(f'Created archive at {archive_path}')
-PY
+          for lang_output_path, entries in entries_by_lang_file.items():
+              write_lang_file(lang_output_path, entries)
+
+          archive_path.parent.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile(archive_path, mode='w', compression=zipfile.ZIP_DEFLATED) as zip_file:
+              for source_path in sorted(path for path in out_dir.rglob('*') if path.is_file()):
+                  zip_file.write(source_path, arcname=source_path.relative_to(out_dir).as_posix())
+
+          Path('archive-name.txt').write_text(archive_name, encoding='utf-8')
+          print(f'Exported {len(page_files)} guide pages into {len(entries_by_lang_file)} lang files.')
+          print(f'Created archive at {archive_path}')
+          PY
+          python .github-guides-dump-pages.py
+          rm -f .github-guides-dump-pages.py
 
       - name: Read archive name
         if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
