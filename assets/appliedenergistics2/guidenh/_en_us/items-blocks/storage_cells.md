@@ -132,7 +132,7 @@ item_ids:
   </Row>
 </Column>
 
-Storage Cells are one of the primary storage methods in Applied Energistics 2. They can be installed in an <ItemLink id="appliedenergistics2:tile.BlockDrive" /> or an <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+Storage Cells are one of the primary storage methods in Applied Energistics 2. They can be installed in a <ItemLink id="appliedenergistics2:tile.BlockDrive" /> or a <ItemLink id="appliedenergistics2:tile.BlockChest" />.
 
 See [Bytes and Types](../ae2-mechanics/bytes-and-types.md) for an explanation of their capacities in bytes and types.
 
