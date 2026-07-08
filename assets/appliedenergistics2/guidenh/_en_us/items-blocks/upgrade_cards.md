@@ -193,7 +193,7 @@ Inverter Cards switch a device or tool filter from whitelist mode to blacklist m
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
 
-Crafting Cards let a device send requests to your [autocrafting](../ae2-mechanics/autocrafting.md)
+Crafting Cards let the device send requests to your [autocrafting](../ae2-mechanics/autocrafting.md)
 system for the items it needs.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:53" />
