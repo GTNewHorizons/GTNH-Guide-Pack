@@ -7,8 +7,6 @@ navigation:
 
 # Tier Skipping, Overclocking, and Parallels
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Tier Skipping, Overclocking, and Parallels](https://gtnh.huijiwiki.com/wiki/升压、超频与并行)".
 
 The behavior of multiblock machines is determined by the following core concepts: **[tier skipping](tierskipping.md)**, **[overclocking](overclocking.md)**, **[parallels](parallels.md)**, and the **rated power** and **voltage tier** discussed on this page.
 
@@ -35,7 +33,7 @@ The machine can only start a recipe if **rated power >= actual recipe power** an
 
 ## Singleblock Machines
 
-Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A and the Arc Furnace at 3A.
+Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A,and the Arc Furnace at 3A,and the singleblock Mass Fabricator consumed current varies according to different voltage levels from 8A to lower 1A.
 
 ## Multiblock Machines
 
@@ -65,12 +63,3 @@ There are four different voltage-tier behaviors for multiblocks:
 | **One-tier reduction** | 1/4 A x Energy Hatch voltage | Circuit Assembler mode of <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> |
 | **Unrestricted** | Tooltip says "as long as enough energy is provided, this machine can run recipes of any tier" | <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
 
-## Examples
-
-| Situation | Voltage Tier | Rated Power |
-|-----------|--------------|-------------|
-| Electric Blast Furnace with one LV Energy Hatch | 128 EU/t (1A MV) | 32 EU/t (1A LV) |
-| Electric Blast Furnace with two LV Energy Hatches | 128 EU/t (1A MV) | 128 EU/t (4A LV) |
-| Electric Blast Furnace with three LV Energy Hatches | 128 EU/t (1A MV) | 192 EU/t (6A LV) |
-| Electric Blast Furnace with one LV Energy Hatch and one MV Energy Hatch | 320 EU/t | 320 EU/t |
-| Advanced Assembly Line with one 16A LuV Energy Hatch | 32,768 EU/t (1A LuV) | 524,288 EU/t (16A LuV) |
