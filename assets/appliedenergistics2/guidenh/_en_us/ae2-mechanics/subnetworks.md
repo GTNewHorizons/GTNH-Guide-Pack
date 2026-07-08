@@ -47,7 +47,7 @@ Their main 3 uses tend to be:
 
 * To restrict what [devices](./devices.md) have access to what storage (for example, you don't want your ore processing subnet to dump its products into your main network, but you still want to see them from the main network).
 * To save channels on your main network, like having an interface with patterns output to an interface connected to several storage buses on several machines, using 1 channel (from main network) instead of putting an interface on several machines, using several channels. 
-* To save on dense cables and space, packaging up to 32 main network channels into a single channel on a [P2P](./p2p_tunnels.md) carrier subnetwork for efficient channel transport over long distances.
+* To save on dense cables and space, packaging up to 32 main network channels into a single channel on a [P2P](./p2p_tunnels.md) carrier sub-network for efficient channel transport over long distances.
 
 Very important in making a subnet is keeping track of the [network connections](./me-network-connections.md).
 Often, people put together some jumble of interfaces and busses and stuff and expect it to be a subnet when
