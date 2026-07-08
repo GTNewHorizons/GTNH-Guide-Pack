@@ -21,12 +21,12 @@ quest_ids:
 ```filetree
 |-- **Source**:         [GregTech5u](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/common/tileentities/machines/multi/MTEElectricBlastFurnace.java)
 |-- **Machine Type**:   Blast Furnace
-|-- **Tier**:           [LV]()
+|-- **Tier**:           [LV](./tier-lv-index.md)
 |-- **Details**
 |   |-- **Size**:                   3x3x4
-|   |-- **[Energy Hatches]()**:     Standard
-|   |-- **[Overclocks]()**:         Imperfect
-|   \-- **[Pollution]()**:          400 gibbl/s
+|   |-- **Energy Hatches**:         Standard
+|   |-- **[Overclocks](../../tierskipping-overcloking-parallels/overclocking.md)**: Imperfect
+|   \-- **Pollution**:              400 gibbl/s
 |-- [Wiki Page](https://wiki.gtnewhorizons.com/wiki/Electric_Blast_Furnace)
 \-- Quest: <QuestLink id="AAAAAAAAAAAAAAAAAAAATQ==" />
 ```
@@ -34,13 +34,13 @@ quest_ids:
 The <ItemImage id="gregtech:gt.blockmachines:1000" /> **Electric Blast Furnace** (**EBF**) is an [LV](./tier-lv-index.md)
 tier [multiblock](/gtnh-basics/multiblocks.md) for smelting dusts into ingots at a higher heat than standard furnaces. 
 
-The EBF is a direct upgrade from the <ItemImage id="gregtech:gt.blockmachines:140" /> [Bricked Blast Furnace](../steam/bricked-blast-furnace.md) because it runs off electricity instead of burnable fuels and can process higher tier materials. 
+The EBF is a direct upgrade from the <ItemImage id="gregtech:gt.blockmachines:140" /> Bricked Blast Furnace because it runs off electricity instead of burnable fuels and can process higher tier materials. 
 
-The [heating coils]() in the structure determine the heat capacity of the machine and the energy hatch(es) determine the 
-voltage. Upgrade both to unlock new recipes and [overclock]() the machine. 
+The heating coils in the structure determine the heat capacity of the machine and the energy hatch(es) determine the 
+voltage. Upgrade both to unlock new recipes and [overclock](../../tierskipping-overcloking-parallels/overclocking.md) the machine. 
 
 The EBF follows standard multiblock behaviors such as releasing pollution from a muffler hatch, 
-occasionally requiring [maintenance](), and voiding ingredients on power fail. 
+occasionally requiring maintenance, and voiding ingredients on power fail. 
 Items and fluids are inserted/extracted through buses and hatches, respectively.
 
 <RecipesFor id="gregtech:gt.blockmachines:1000" input="gregtech:gt.blockcasings:11" />
@@ -53,9 +53,9 @@ The heating coils determine the heat capacity of the machine and must all be the
 Buses/hatches may only replace the casings on the bottom layer, except for the muffler hatch which is restricted to the top center casing. 
 Another exception is the output hatch which collects fluids while on the bottom layer and gases while on the top layer. The amount of gas recovered depends on the tier of the muffler hatch. 
 
-The EBF runs at the [voltage tier](../tiers-index.md) of the energy hatch, but can overclock to the next voltage tier with two of them. 
+The EBF runs at the [voltage tier](../../power/voltage-tiers.md) of the energy hatch, but can overclock to the next voltage tier with two of them. 
 
-Use the <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> [Multiblock Structure Hologram Projector]() to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
+Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
 
 | Requires                                                                                    |
 |:--------------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Use the <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> [
 [^one]: This is a **TIERED** component.
 
 > [!WARNING]
-> Multi-amp and laser [energy hatches]() are not supported.
+> Multi-amp and laser energy hatches are not supported.
 
 ## Wallsharing
 
@@ -82,7 +82,7 @@ Use the <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> [
   <RemoveBlocks id="Railcraft:residual.heat" />
 </GameScene>
 
-EBFs may [wallshare]() each of their sides to save on casings, heating coils, and buses/hatches. 
+EBFs may wallshare each of their sides to save on casings, heating coils, and buses/hatches. 
 Overlapping EBFs side-by-side is the most effective and highly recommended because it saves a significant amount of 
 heating coils and reduces the cost of additional EBFs.
 
@@ -102,11 +102,11 @@ To easily reach the buses and hatches without having to run your logistics under
 > * Ensure there is space for any outputs if void protection is enabled.
 
 # Usage
-The EBF is finally ready for use once the structure is formed and all maintenance issues are repaired. However, there are no LV recipes despite the player only having access to LV energy hatches; processing <ItemImage id="gregtech:gt.metaitem.01:11305" /> steel and <ItemImage id="gregtech:gt.metaitem.01:11019" /> aluminium requires at least [MV](../mv/tier-mv-index.md) power. 
+The EBF is finally ready for use once the structure is formed and all maintenance issues are repaired. However, there are no LV recipes despite the player only having access to LV energy hatches; processing <ItemImage id="gregtech:gt.metaitem.01:11305" /> steel and <ItemImage id="gregtech:gt.metaitem.01:11019" /> aluminium requires at least MV power. 
 
-The solution is to build two energy hatches into the structure to [overclock]() the machine to the next voltage tier. Energy hatches normally only pull 1A of power but they are capable of pulling up to 2A for scenarios such as this. This means two energy hatches can pull 4A of power, or the equivalent of 1A of the next voltage tier.
+The solution is to build two energy hatches into the structure to [overclock](../../tierskipping-overcloking-parallels/overclocking.md) the machine to the next voltage tier. Energy hatches normally only pull 1A of power but they are capable of pulling up to 2A for scenarios such as this. This means two energy hatches can pull 4A of power, or the equivalent of 1A of the next voltage tier.
 
-Supplying a continuous 4A of power requires at least four [singleblock]() <ItemImage id="gregtech:gt.blockmachines:1115" /> steam turbines nearby. The recipes for steel and aluminium only consume 120 EU/t so there can be some cable loss but not very much. 
+Supplying a continuous 4A of power requires at least four [singleblock](../../singleblock/index.md) <ItemImage id="gregtech:gt.blockmachines:1115" /> steam turbines nearby. The recipes for steel and aluminium only consume 120 EU/t so there can be some cable loss but not very much. 
 
 The following are the two methods for meeting these power requirements and running the EBF. These both assume that the player is **NOT** using superconductor wires which have zero cable loss regardless of the amps or distance.
 
@@ -134,27 +134,27 @@ Place a <ItemImage id="gregtech:gt.blockmachines:171" /> Battery Buffer with 4+ 
 * Higher cable loss.
 
 ## Heat Capacity
-The [heating coils]() built into the structure determine the heat capacity of the EBF and therefore which recipes it can run. Use a <ItemImage id="gregtech:gt.metaitem.01:32762" /> [Portable Scanner]() on the controller to see its current heat capacity, and [NEI](/introduction/introduction-index.md) to see a recipe's minimum heat capacity. 
+The heating coils built into the structure determine the heat capacity of the EBF and therefore which recipes it can run. Use a <ItemImage id="gregtech:gt.metaitem.01:32762" /> Portable Scanner on the controller to see its current heat capacity, and [NEI](/introduction/introduction-index.md) to see a recipe's minimum heat capacity. 
 
-For example, a cupronickel EBF has a heat capacity of 1,801K which is more than enough to smelt steel (1,000K) and aluminium (1,300K), but **NOT** <ItemImage id="gregtech:gt.metaitem.01:11856" /> silicon solar grade (2,273K). There is also a +100K heat bonus for every voltage tier past [MV](), as seen in the following chart:
+For example, a cupronickel EBF has a heat capacity of 1,801K which is more than enough to smelt steel (1,000K) and aluminium (1,300K), but **NOT** <ItemImage id="gregtech:gt.metaitem.01:11856" /> silicon solar grade (2,273K). There is also a +100K heat bonus for every voltage tier past MV, as seen in the following chart:
 
 <LineChart title="Heat Bonus" categories="LV,MV,HV,EV,IV,LuV,ZPM,UV,UHV,UEV,UIV,UMV,UXV,MAX,MAX+" yAxisUnit="K" width="600">
   <Series name="Heat" data="0,0,100,200,300,400,500,600,700,800,900,1000,1100,1200,1300" color="#E15759"/>
 </LineChart>
 
-Exceeding the minimum heat capacity of a recipe grants two separate bonuses. The first is a 5% energy discount (**multiplicative**) for every 900K above. The second is a [perfect overclock]() for every 1,800K above. The latter is particularly strong because the EBF normally runs imperfect overclocks which are half as effective for the same amount of power.
+Exceeding the minimum heat capacity of a recipe grants two separate bonuses. The first is a 5% energy discount (**multiplicative**) for every 900K above. The second is a [perfect overclock](../../tierskipping-overcloking-parallels/overclocking.md#perfect-overclocking-44) for every 1,800K above. The latter is particularly strong because the EBF normally runs imperfect overclocks which are half as effective for the same amount of power.
 
 > [!NOTE]
 > *Imperfect Overclock* - Consume 4x the power for 2x the speed (4/2).
 > *Perfect Overclock* - Consume 4x the power for 4x the speed (4/4).
 
-For example, consider smelting <ItemImage id="TConstruct:materials:12" /> **Raw Aluminium** (1,300K) with [HV]() power and <ItemImage id="gregtech:gt.blockcasings5:2" /> **Nichrome Coils**. The base recipe with nitrogen consumes 144,000 EU over 60 seconds at a rate of 120 EU/t. The heat capacity of the EBF is 3,701K or precisely 2,401K above the minimum heat capacity of the recipe. This means there are two 5% energy discounts and one perfect overclock. The result is a recipe that only consumes 130,200 EU over 15 seconds at a rate of 120 EU/t x 0.95 x 0.95 x 4 = 434 EU/t.
+For example, consider smelting <ItemImage id="TConstruct:materials:12" /> **Raw Aluminium** (1,300K) with HV power and <ItemImage id="gregtech:gt.blockcasings5:2" /> **Nichrome Coils**. The base recipe with nitrogen consumes 144,000 EU over 60 seconds at a rate of 120 EU/t. The heat capacity of the EBF is 3,701K or precisely 2,401K above the minimum heat capacity of the recipe. This means there are two 5% energy discounts and one perfect overclock. The result is a recipe that only consumes 130,200 EU over 15 seconds at a rate of 120 EU/t x 0.95 x 0.95 x 4 = 434 EU/t.
 
 > [!TIP]
-> * There can be more than one input bus/hatch which may be useful for holding the various fluid inputs (ie. hydrogen, oxygen, nitrogen, helium). A quadruple input hatch also works very well once they are unlocked in [EV]().
+> * There can be more than one input bus/hatch which may be useful for holding the various fluid inputs (ie. hydrogen, oxygen, nitrogen, helium). A quadruple input hatch also works very well once they are unlocked in EV.
 > * It is highly recommended to build additional EBFs as their demand increases. Recipe times are intentionally long in GTNH to force the player into expanding their infrastructure.
-> * There is often more than one recipe for the same material so periodically scroll through [NEI]() to find the best one for you. For example, most ingots have a recipe with each of the noble gases to lower their smelting times, and steel can be made from wrought iron dust instead of iron dust for a significant time and energy discount.
-> * One [MV]() EBF smelting wrought iron dust is as fast as 48 [Bricked Blast Furnaces]() for making steel, and it can overclock beyond that.
+> * There is often more than one recipe for the same material so periodically scroll through [NEI](/introduction/introduction-index.md) to find the best one for you. For example, most ingots have a recipe with each of the noble gases to lower their smelting times, and steel can be made from wrought iron dust instead of iron dust for a significant time and energy discount.
+> * One MV EBF smelting wrought iron dust is as fast as 48 Bricked Blast Furnaces for making steel, and it can overclock beyond that.
 
 # Troubleshooting
 ## Incomplete Structure

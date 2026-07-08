@@ -3,18 +3,12 @@ navigation:
   title: Applied Energistics 2
   icon: guidenh:guide
   position: 0
+  recommend: 1
+item_ids:
+- guidenh:guide
 ---
 
 ![Logo](assets/logo.png)
-
-# What is Applied Energistics 2?
-
-# How To Use This Guide
-
-* Many pages have interactive scenes. If a scene has ![Plus](assets/images/plus.png)
-and ![Minus](assets/images/minus.png) (zoom) buttons next to it, you can rotate and move the camera.
-left click and drag to rotate, right click and drag to translate.
-Hover over blocks or annotations to see their tooltips.
 
 # What is Applied Energistics 2?
 
@@ -26,8 +20,14 @@ quantities of items in stock, crafting more as needed, or simply transfer items 
 
 * [Getting Started](getting-started.md)
 * [AE2 Mechanics](ae2-mechanics-index.md)
-* [Example Setups](example-setups/example-setups-index.md)
-* [Items, Blocks, and Machines](items-blocks-index.md)
+* [Tips and Practical Examples](tricks-example-index.md)
+* [Items & Blocks](items-blocks-index.md)
+
+# How To Use This Guide
+
+* Many pages have interactive scenes. If a scene has ![Plus](assets/images/plus.png) and ![Minus](assets/images/minus.png) zoom buttons beside it, you can move the camera around.
+* Left-click and drag to rotate the scene. Right-click and drag to pan it.
+* Hover over blocks or annotations to see their tooltips.
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />

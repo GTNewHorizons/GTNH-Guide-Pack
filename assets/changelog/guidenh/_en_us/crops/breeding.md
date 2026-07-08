@@ -19,7 +19,7 @@ There are only so many seeds that can be made by just planting a vanilla seed on
   </ImageAnnotation>
 </FloatingImage>
 Deterministic Breeding is where the target seed has a "recipe" of sorts. In this case, simply set up two mature plants as required in the recipe, and have a double crop sticks in the centre with the valid growing conditions for the target crop. If there is a valid deterministic breeding case, the new plant will always be either a spread crop of either of the parents, or the target crop. Pool mutations will not occur
-<br clear="all"/>
+<br clear="all">
 
 ## Pool Breeding
 <FloatingImage src="./assets/pools.png" width="128" wrap="square" align="left">
@@ -29,7 +29,7 @@ Deterministic Breeding is where the target seed has a "recipe" of sorts. In this
 </FloatingImage>
 
 For the majority of crops, breeding the base seed is done through <Color id="GREEN">Pool Breeding</Color>. By searching the uses of any scanned crop, the page shown here can be found, which displays all "pools" that the seed belongs to. For any target crop to be generated this way, you must have two mature parents from within the same pool as the target crop on either side, and follow the same basic setup steps as deterministic breeding. This is often a much less "accurate" method, as without the right planning, the valid pool of "output" crops will be larger than just the crop you desire
-<br clear="all"/>
+<br clear="all">
 
 ## Crop Breeder Machine
 For more advanced crops, you must use a <Color id="BLUE">Crop Breeder</Color> <ItemImage id="gregtech:gt.blockmachines:28025" />. These are fully deterministic in their outputs, but have a chance to void outputs depending on the voltage tier of machine used, starting at 40% success at LV, and 100% at ZPM+.
