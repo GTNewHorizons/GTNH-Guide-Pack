@@ -29,7 +29,7 @@ In AE, all uses of **import** and **export** are defined relative to the ME netw
 The concepts of "Read" and "Write" also revolve around the ME network. Reading means the ME Network reads from other inventories, and writing means the ME Network writes to others, just like a computer would. The same applies to "Read-Only" and "Write-Only". For example, when a Storage Bus in a network is set to "Read-Only", the ME Network can only read the target of that Storage Bus and cannot place contents into it; "Write-Only" is the exact opposite.
 
 # Buses
-AE provides [cable](../items-blocks/cables.md) subparts to handle logistics between the ME network and the outside world.
+AE2 provides [cable](../items-blocks/cables.md) subparts to handle logistics between the ME network and the outside world.
 
 ## Import Buses and Export Buses
 <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" />, <ItemLink id="ae2fc:part_fluid_import" showIcon="left" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" showIcon="left" />, and <ItemLink id="ae2fc:part_fluid_export" showIcon="left" /> can interact with items or fluids between AE storage and external containers.
