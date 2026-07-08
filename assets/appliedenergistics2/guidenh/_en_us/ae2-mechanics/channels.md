@@ -113,7 +113,7 @@ If the shortest path is already full, some devices may fail to receive the chann
 You can use cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>, and <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> to force channels to travel along the path you want. Color does not affect channel priority. It only prevents cables of different colors from connecting to each other, which helps control channel routing.
 
 > [!NOTE]
-> Uncolored Fluix cables can connect to cables of any color.
+> Uncolored (Fluix) cables can connect to cables of any color.
 
 For example, in the following setup the cables form a loop. Because channels always try to use the shortest path, some Drives end up losing channels and going offline.
 
