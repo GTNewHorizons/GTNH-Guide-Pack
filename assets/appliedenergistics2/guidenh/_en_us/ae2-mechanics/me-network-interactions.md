@@ -14,7 +14,7 @@ The defining trait of one ME Network is that all of its cables and devices draw 
 
 From this, you can infer that networks which are not connected to each other through cables or channel-carrying devices do not transmit channels to each other, and can therefore be treated as independent ME Networks.
 
-* Naturally, two networks that are physically far apart and not connected through [Wireless Connectors](../items-blocks/wireless_connectors.md) or a [Quantum Ring](./quantum-bridge.md) are independent.
+* Naturally, two networks that are physically far apart and not connected via [Wireless Connectors](../items-blocks/wireless_connectors.md) or a [Quantum Ring](./quantum-bridge.md) are independent.
 * Two ME Networks connected only by <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="left"/> are also treated as independent networks. Quartz Fiber transmits power but not channels, while Cable Anchors transmit neither power nor channels and are only used to separate adjacent cables. Cables of different colors also do not connect to each other; see [Channels](./channels.md) for details.
 
 # Interaction Between Networks
