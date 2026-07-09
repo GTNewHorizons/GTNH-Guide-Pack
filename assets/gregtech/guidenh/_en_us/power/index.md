@@ -7,6 +7,9 @@ navigation:
 
 # Power
 
+> [!NOTE]
+> Further reading: "[GTNH Chinese Wiki - Power](https://gtnh.huijiwiki.com/wiki/电力)".
+
 The GregTech power system uses EU (Energy Units). Its core is the [local power network](enet.md) (GT-Enet), around which power generation, transport, storage, consumption, and conversion are built.
 
 - For power generation methods, see the generation overview.

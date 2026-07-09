@@ -8,6 +8,9 @@ navigation:
 
 # Overclocking
 
+> [!NOTE]
+> Further reading: "[GTNH Chinese Wiki - Overclocking](https://gtnh.huijiwiki.com/wiki/升压、超频与并行#超频)".
+
 **Overclocking** means increasing [rated power](index.md#rated-power) so the machine can complete recipes in less time. Whenever the machine's rated power exceeds (actual parallels x actual recipe power) by a sufficient factor, usually 4x, the machine gains one overclock and the recipe duration is reduced. Unlike **[tier skipping](tierskipping.md)**, overclocking can happen multiple times.
 
 Overclocking has nothing to do with [voltage tier](index.md#voltage-tier). Using higher-tier Energy Hatches raises the rated power of a single hatch, allowing more overclocks; stacking multiple Energy Hatches can achieve a similar effect. The common case of installing two same-tier Energy Hatches is often called **dual-hatch overclocking**.

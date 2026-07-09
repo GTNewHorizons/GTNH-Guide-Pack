@@ -8,6 +8,9 @@ navigation:
 
 # Wires and Cables
 
+> [!NOTE]
+> Further reading: "[GTNH Chinese Wiki - Wires and Cables](https://gtnh.huijiwiki.com/wiki/导线与线缆)".
+
 **Wires and cables** are the medium used to connect transmitter blocks and consumer blocks inside a [local power network](enet.md). They do not store power themselves.
 
 Wires have three core parameters, all shown in the tooltip.

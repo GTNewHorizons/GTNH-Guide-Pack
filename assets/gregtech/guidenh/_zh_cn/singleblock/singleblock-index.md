@@ -3,6 +3,7 @@ navigation:
   title: "单方块机器"
   icon: gregtech:gt.blockmachines:106
   parent: /index.md
+  position: 10
 ---
 
 # 单方块机器
