@@ -2,7 +2,7 @@
 navigation:
   title: "Tier Skipping"
   icon: gregtech:gt.blockmachines:41
-  parent: /tierskipping-overcloking-parallels/index.md
+  parent: T-O-P-index.md
   position: -1
 ---
 
