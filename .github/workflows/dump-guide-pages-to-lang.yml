@@ -2,8 +2,8 @@ name: Dump guide pages to lang
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [ master, main, release/** ]
+  push:
+    branches: [ master ]
     paths:
       - "assets/**/guidenh/_*/**/*.md"
 
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -25,59 +25,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+          ref: ${{ github.sha }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Collect changed markdown files
-        if: ${{ github.event_name == 'pull_request' }}
-        id: changed_md
-        run: |
-          git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
-          git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/guidenh/_*/**/*.md' > changed-md.txt
-          cat > .github-guides-md-count.py <<'PY'
-          from pathlib import Path
-
-          repo_root = Path('.').resolve()
-          path_file = Path('changed-md.txt')
-
-          def is_guidenh_page_file(path: Path) -> bool:
-              relative = path.relative_to(repo_root)
-              parts = relative.parts
-              return (
-                  len(parts) >= 5
-                  and parts[0] == 'assets'
-                  and parts[2] == 'guidenh'
-                  and parts[3].startswith('_')
-                  and path.suffix.lower() == '.md'
-              )
-
-          count = 0
-          if path_file.exists():
-              for line in path_file.read_text(encoding='utf-8').splitlines():
-                  stripped = line.strip()
-                  if not stripped:
-                      continue
-                  candidate = (repo_root / stripped).resolve()
-                  if candidate.exists() and is_guidenh_page_file(candidate):
-                      count += 1
-
-          print(count)
-          PY
-          md_count=$(python .github-guides-md-count.py)
-          rm -f .github-guides-md-count.py
-          printf 'md_count=%s\n' "$md_count" >> "$GITHUB_OUTPUT"
-
-      - name: Stop when pull request has no guide markdown changes
-        if: ${{ github.event_name == 'pull_request' && steps.changed_md.outputs.md_count == '0' }}
-        run: |
-          echo "No GuideNH markdown pages changed in this PR."
-
       - name: Dump guide pages to lang resource pack
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         run: |
           cat > .github-guides-dump-pages.py <<'PY'
           from __future__ import annotations
@@ -212,14 +167,12 @@ jobs:
           rm -f .github-guides-dump-pages.py
 
       - name: Read archive name
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         id: archive
         run: |
           archive_name="$(cat archive-name.txt)"
           printf 'archive_name=%s\n' "$archive_name" >> "$GITHUB_OUTPUT"
 
       - name: Delete old pre-release assets
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_TAG: ${{ env.RELEASE_TAG }}
@@ -234,15 +187,13 @@ jobs:
           done
 
       - name: Upload dumped resource pack artifact
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         uses: actions/upload-artifact@v4
         with:
-          name: dumped-guide-pages-to-lang-${{ github.event.pull_request.number || github.run_number }}
+          name: dumped-guide-pages-to-lang-${{ github.run_number }}
           path: build/${{ steps.archive.outputs.archive_name }}
           if-no-files-found: error
 
       - name: Publish dev action pre-release
-        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
         uses: softprops/action-gh-release@v2
         with:
           name: ${{ env.RELEASE_NAME }}

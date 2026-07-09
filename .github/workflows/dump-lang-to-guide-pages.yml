@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -236,17 +236,22 @@ jobs:
         if: ${{ steps.changed_lang.outputs.page_lang_entry_count != '0' && steps.check_changes.outputs.has_changes == 'true' && !github.event.pull_request.draft }}
         run: |
           git config user.name "GitHub GTNH Actions"
-          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
-          git switch -c "${FIXED_BRANCH}"
-          git add assets
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com" &&
+          git switch -C "${FIXED_BRANCH}"
+          git add -A assets
           git commit -m "dump guide pages from lang for #${{ github.event.pull_request.number }}"
           git push --force-with-lease origin "${FIXED_BRANCH}"
-          gh pr create \
-            --head "${FIXED_BRANCH}" \
-            --base "${PR_BRANCH}" \
-            --title "Dump guide pages from lang for #${{ github.event.pull_request.number }}" \
-            --body "Automatic lang-to-guide-page dump for PR #${{ github.event.pull_request.number }}. This PR restores GuideNH markdown pages and removes page-level lang dump keys so they do not merge into the target branch." \
-            2>&1 | tee pr-message.log || true
+          existing_pr_number="$(gh pr list --head "${FIXED_BRANCH}" --base "${PR_BRANCH}" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "${existing_pr_number}" ]; then
+            printf 'Updated existing dump PR #%s for %s\n' "${existing_pr_number}" "${PR_BRANCH}" | tee pr-message.log
+          else
+            gh pr create \
+              --head "${FIXED_BRANCH}" \
+              --base "${PR_BRANCH}" \
+              --title "Dump guide pages from lang for #${{ github.event.pull_request.number }}" \
+              --body "Automatic lang-to-guide-page dump for PR #${{ github.event.pull_request.number }}. This PR restores GuideNH markdown pages and removes page-level lang dump keys so they do not merge into the target branch." \
+              2>&1 | tee pr-message.log || true
+          fi
           gh pr comment "${{ github.event.pull_request.number }}" -F pr-message.log || true
         shell: bash
         env:
