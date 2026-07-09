@@ -7,6 +7,7 @@ navigation:
 
 # Tier Skipping, Overclocking, and Parallels
 
+
 The behavior of multiblock machines is determined by the following core concepts: **[tier skipping](tierskipping.md)**, **[overclocking](overclocking.md)**, **[parallels](parallels.md)**, and the **rated power** and **voltage tier** discussed on this page.
 
 **[Tier skipping](tierskipping.md)** is the ability of a multiblock to use lower-tier Energy Hatches to run recipes with a higher base recipe power, usually by installing two Energy Hatches of the same tier.
@@ -61,3 +62,4 @@ There are four different voltage-tier behaviors for multiblocks:
 | **Cannot boost** | 1A x Energy Hatch voltage | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
 | **One-tier reduction** | 1/4 A x Energy Hatch voltage | Circuit Assembler mode of <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> |
 | **Unrestricted** | Tooltip says "as long as enough energy is provided, this machine can run recipes of any tier" | <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
+

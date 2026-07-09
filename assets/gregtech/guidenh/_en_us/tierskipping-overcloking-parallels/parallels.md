@@ -2,11 +2,12 @@
 navigation:
   title: "Parallels"
   icon: gregtech:gt.blockmachines:31041
-  parent: /tierskipping-overcloking-parallels/index.md
+  parent: T-O-P-index.md
   position: -3
 ---
 
 # Parallels
+
 
 **Parallels** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval. Singleblock machines do not have this ability.
 
