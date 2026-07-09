@@ -7,9 +7,6 @@ navigation:
 
 # Singleblock Machines
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Singleblock Machines](https://gtnh.huijiwiki.com/wiki/单方块机器)".
-
 Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks-index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks-index.md) become available, players gradually transition away from singleblocks.
 
 ## Machine Facing
@@ -55,10 +52,10 @@ Steam machines do not support auto-output.
 
 The machine accepts steam from the four faces that are neither the front face nor the exhaust face, filling its internal buffer. It runs LV-tier recipes at a ratio of 4 L steam = 1 EU, which is 50% efficiency. Bronze machines take twice the normal duration of an LV recipe.
 
-| Machine Type | Steam Cost | Duration |
-|--------------|------------|----------|
-| Steam machine | 2x | 2x |
-| High-pressure steam machine | 4x | 1x |
+| Machine Type | Steam Cost (L/t) | Duration |
+|--------------|------------------|----------|
+| Steam machine | 2x               | 2x |
+| High-pressure steam machine | 4x               | 1x |
 
 The high-pressure version consumes steam at twice the rate and halves recipe duration, effectively performing one 2/2 lossless [overclock](../tierskipping-overcloking-parallels/overclocking.md).
 

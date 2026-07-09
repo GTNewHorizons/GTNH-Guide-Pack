@@ -7,9 +7,6 @@ navigation:
 
 # Tier Skipping, Overclocking, and Parallels
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Tier Skipping, Overclocking, and Parallels](https://gtnh.huijiwiki.com/wiki/升压、超频与并行)".
-
 The behavior of multiblock machines is determined by the following core concepts: **[tier skipping](tierskipping.md)**, **[overclocking](overclocking.md)**, **[parallels](parallels.md)**, and the **rated power** and **voltage tier** discussed on this page.
 
 **[Tier skipping](tierskipping.md)** is the ability of a multiblock to use lower-tier Energy Hatches to run recipes with a higher base recipe power, usually by installing two Energy Hatches of the same tier.
