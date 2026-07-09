@@ -2,7 +2,7 @@
 navigation:
   title: "升压"
   icon: gregtech:gt.blockmachines:41
-  parent: T-O-P-index.md
+  parent: /tierskipping-overcloking-parallels/index.md
   position: -1
 ---
 
