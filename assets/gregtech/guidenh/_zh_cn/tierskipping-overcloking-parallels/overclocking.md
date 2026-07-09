@@ -2,7 +2,7 @@
 navigation:
   title: "超频"
   icon: gregtech:gt.blockmachines:15410
-  parent: T-O-P-index.md
+  parent: /tierskipping-overcloking-parallels/index.md
   position: -2
 ---
 

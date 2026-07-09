@@ -2,7 +2,7 @@
 navigation:
   title: "并行"
   icon: gregtech:gt.blockmachines:31041
-  parent: T-O-P-index.md
+  parent: /tierskipping-overcloking-parallels/index.md
   position: -3
 ---
 
