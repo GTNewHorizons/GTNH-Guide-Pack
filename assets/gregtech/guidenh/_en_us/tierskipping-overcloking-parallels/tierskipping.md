@@ -8,8 +8,6 @@ navigation:
 
 # Tier Skipping
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Tier Skipping](https://gtnh.huijiwiki.com/wiki/升压、超频与并行#升压)".
 
 **Tier skipping** is the ability of a multiblock machine to use lower-tier Energy Hatches to run recipes whose base recipe power belongs to a higher tier.
 
