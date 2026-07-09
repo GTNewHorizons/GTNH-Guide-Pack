@@ -53,7 +53,7 @@ Steam machines do not support auto-output.
 
 The machine accepts steam from the four faces that are neither the front face nor the exhaust face, filling its internal buffer. It runs LV-tier recipes at a ratio of 4 L steam = 1 EU, which is 50% efficiency. Bronze machines take twice the normal duration of an LV recipe.
 
-| Machine Type | Steam Cost (L/s) | Duration |
+| Machine Type | Steam Cost (L/t) | Duration |
 |--------------|------------|----------|
 | Steam machine | 2x | 2x |
 | High-pressure steam machine | 4x | 1x |
