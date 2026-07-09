@@ -8,9 +8,6 @@ navigation:
 
 # Singleblock Machines
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Singleblock Machines](https://gtnh.huijiwiki.com/wiki/单方块机器)".
-
 Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks-index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks-index.md) become available, players gradually transition away from singleblocks.
 
 # Machine Facing

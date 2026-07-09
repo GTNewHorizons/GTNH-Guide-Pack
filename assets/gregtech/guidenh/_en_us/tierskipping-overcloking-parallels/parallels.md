@@ -8,8 +8,6 @@ navigation:
 
 # Parallels
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Parallels](https://gtnh.huijiwiki.com/wiki/升压、超频与并行#并行)".
 
 **Parallels** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval. Singleblock machines do not have this ability.
 

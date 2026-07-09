@@ -10,9 +10,6 @@ categories:
 
 # Multiblock Machines
 
-> [!NOTE]
-> Further reading: "[GTNH Chinese Wiki - Multiblock Machines](https://gtnh.huijiwiki.com/wiki/多方块机器)".
-
 **Multiblock machines** are machines built from multiple blocks. Their size ranges from compact <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />s to enormous <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />s. GregTech multiblocks always have a **controller block**, usually serve a specific purpose, and are always faster or more efficient than the corresponding [singleblock machine](../singleblock/index.md), if one exists. Unlike [singleblock machines](../singleblock/index.md), which can only [overclock](../tierskipping-overcloking-parallels/overclocking.md), multiblocks can also use **[tier skipping](../tierskipping-overcloking-parallels/tierskipping.md)** and **[parallels](../tierskipping-overcloking-parallels/parallels.md)**.
 
 Although most multiblocks have unique casings and structures, their item, fluid, and power I/O is almost universal through **functional hatches**. You can use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and quickly build multiblock structures.
