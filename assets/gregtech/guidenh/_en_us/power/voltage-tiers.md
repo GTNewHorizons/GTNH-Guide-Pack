@@ -28,6 +28,6 @@ The table below shows the voltage range of each tier. The **standard voltage** i
 | 11 | UIV | Insanely Ultimate Voltage | 8,388,609-33,554,432 | 33,554,432 |
 | 12 | UMV | Mega Ultimate Voltage | 33,554,433-134,217,728 | 134,217,728 |
 | 13 | UXV | Extended Mega Ultimate Voltage | 134,217,729-536,870,912 | 536,870,912 |
-| 14 | MAX | Maximum Voltage | 536,870,912-2,147,483,640 | - |
+| 14 | MAX | Maximum Voltage | 536,870,913-2,147,483,640 | - |
 
 Tier index is often used in multiblock calculations such as coil heat and maximum parallels.
