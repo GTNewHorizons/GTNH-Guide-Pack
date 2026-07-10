@@ -1,22 +1,24 @@
 ---
-item_ids:
-  - guidenh:guide
 navigation:
-  title: 应用能源2
+  title: AE2流体合成套件重置（AE2 Fluid Crafting Rework）
   icon: guidenh:guide
-  position: 50
-  recommend: 1
+  position: 49
+  
+  item_ids:
+  - guidenh:guide
 ---
 
-# 什么是应用能源2（Applied Energistics 2）？
+# 什么是AE2流体合成套件重置（AE2 Fluid Crafting Rework）？
 
-# 应用能源2（Applied Energistics 2）
-应用能源2（Applied Energistics 2，简称AE/AE2）增加了许多组件和机制以提供物流和存储解决方案。最简单的应用————你可以用一个紧凑的ME网络取代你那个装满箱子的大房间。
-AE旨在与模组包中的其他模组协同工作，让这些模组实现自动化。你可以建造一个自动合成系统，只需简单设置就可以合成复杂合成链中所有的前置材料（以及最终产物），或保持一定数量的物品库存，根据需要合成更多物品，或只是在你的基地内转移物品。
+# AE2流体合成套件重置（AE2 Fluid Crafting Rework）？
+
+
+由Prim制作的AE附属模组(~~击毙EC2的一把好手~~)，模组加入了大量便于进行流体合成的方块和物品，包括流体终端、原材料缓存仓、ME二合一接口、~~ME流体离散器~~等。
+现版本已支持waila显示速度,流体储量,具体以waila为准
 
 - [快速开始](getting-started.md)
 - [物品与方块](items-blocks-index.md)
-- [AE2 机制](ae2-mechanics-index.md)
+- [AE2 机制](ae2-mechanics/ae2-mechanics-index.md)
 - [技巧与实用实例](tricks-example.md)
 
 # 怎么使用本指南
@@ -29,10 +31,9 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   - 将鼠标放置在场景的方块上可以查看方块tooltip。
   - 将鼠标放置在场景的各种高亮注解（菱形注解、线注解、方块注解等）上可以查看注解的内容。
 
-<GameScene width="400" height="200" zoom="3" interactive={true}>
-  <ImportStructure src="./assets/structures/autocraft_setup_greebles.snbt" />
-  <IsometricCamera yaw="195" pitch="15" />
-  <Block id="minecraft:furnace" x="9" y="1" z="0" facing="north" />
+<GameScene zoom="4" interactive={true}>
+  <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
   <BlockAnnotation pos="2 0 2" color="#ff0000" alwaysOnTop={true}>
   这是一个红色高亮方块注解。
   </BlockAnnotation>
