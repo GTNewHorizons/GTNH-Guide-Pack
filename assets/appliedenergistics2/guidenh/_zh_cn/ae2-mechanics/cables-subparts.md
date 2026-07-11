@@ -1,17 +1,16 @@
 ---
 navigation:
   parent: ae2-mechanics-index.md
-  title: Cable Subparts
+  title: 线缆子部件
   icon: appliedenergistics2:item.ItemMultiPart:220
 ---
 
-# Cable Subparts
+# 线缆子部件
 
 <GameScene zoom="4" height="300" width="600">
   <ImportStructure src="../assets/structures/subparts_demonstration.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-In AE2, certain [devices](devices.md) and components can be placed on cables in the same block. This is useful for compact setups.
-Shift-right-clicking with a <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" showIcon="left" /> or <ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="left" /> can break a single
-subpart (or the cable) off without breaking everything in that block.
+在 AE2 中，某些[设备](devices.md)和组件可以放置在线缆的同一个方块内。这对于紧凑型布局非常有用。
+使用 <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" showIcon="left" /> 或 <ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="left" /> 进行 Shift+右键点击，可以单独拆卸某个子部件（或线缆），而不会破坏该方块内的其他部件。

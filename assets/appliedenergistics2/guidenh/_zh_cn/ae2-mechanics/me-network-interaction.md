@@ -22,7 +22,7 @@ navigation:
 
 通常来说，两个ME网络有以下结构。
 
-<GameScene zoom="4" width="400" rotateY={0} rotateX={0}>
+<GameScene zoom="2" width="200" rotateY={30} rotateX={10}>
   <ImportStructure src="../assets/structures/network_interaction-basic_interacton.snbt" />
 </GameScene>
 
@@ -31,13 +31,13 @@ navigation:
 ## 嵌套交互
 上文中的结构可以套娃，构成层层嵌套的形式，但需要注意这种形式适用范围较窄，不当的使用将会造成极大的硬件资源消耗！
 
-<GameScene zoom="3" width="400" rotateY={0} rotateX={0}>
+<GameScene zoom="2" width="350" rotateY={30} rotateX={10}>
   <ImportStructure src="../assets/structures/network_interaction-nesting_interacton.snbt" />
 </GameScene>
 
 ## 网络互读
 当两个网络通过存储总线可以互相读取内容时，就代表这两个ME网络互读了，互读有时是一种技术性调整方案以满足某些特殊需求，但绝大多数情况下互读只会造成资源存储的混乱，并且会严重影响游戏性能。
 
-<GameScene zoom="3" width="400" rotateY={0} rotateX={0}>
+<GameScene zoom="2" width="200" rotateY={30} rotateX={10}>
   <ImportStructure src="../assets/structures/network_interaction-network_read.snbt" />
 </GameScene>

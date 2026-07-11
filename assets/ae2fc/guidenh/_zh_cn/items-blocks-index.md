@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 物品与方块
-  icon: appliedenergistics2:tile.BlockInterface
+  icon: ae2fc:fluid_interface
   parent: /index.md
   position: 2
 ---
@@ -12,20 +12,20 @@ navigation:
 
 ## 杂项材料与方块
 
-<Category name="misc ingredients blocks" rows="4" />
+<Category name="ae2fc:misc ingredients blocks" rows="4" />
 
 ## 网络基础构件
 
-<Category name="network infrastructure" rows="4" />
+<Category name="ae2fc:network infrastructure" rows="4" />
 
 ## 设备
 
-<Category name="devices" rows="4" />
+<Category name="ae2fc:devices" rows="4" />
 
 ## 机器
 
-<Category name="machines" rows="4" />
+<Category name="ae2fc:machines" rows="4" />
 
 ## 工具
 
-<Category name="tools" rows="4" />
+<Category name="ae2fc:tools" rows="4" />

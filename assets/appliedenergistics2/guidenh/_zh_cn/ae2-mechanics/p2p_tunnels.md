@@ -54,7 +54,7 @@ P2P通道-ME是传输AE频道的P2P通道，它可以让你将至多32个频道�
 
 # P2P通道的变体
 
-<GameScene zoom="3" interactive={false} allowLayerSlider={false}>
+<GameScene width="220" zoom="3" interactive={false} allowLayerSlider={false}>
   <ImportStructure src="../assets/structures/p2p_tunnels.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
 </GameScene>
@@ -85,7 +85,7 @@ GTNH新增的两种P2P通道，它们并非用于传输，而是与接口/二合
 
 使用它们你可以只在输入端放入样板来并发样板材料，实现物理并行。
   
-  <GameScene zoom="3" background="transparent" width="400" height="200">
+  <GameScene zoom="3" background="transparent" width="450" height="250" >
     <ImportStructure src="../assets/structures/p2p-interface.snbt" />
     <TextAnnotation pos="0.5 2 5.5" color="#ff0000" text="将样板放入此接口将不能正常工作。"/>
     <TextAnnotation pos="4.5 1.7 5" color="#00ff00" text="将样板放入此输入端中即可在不空置的端口处发送材料。" maxWidth="180"/>
@@ -93,7 +93,7 @@ GTNH新增的两种P2P通道，它们并非用于传输，而是与接口/二合
 
 # 嵌套
 P2P通道-ME并不能实现单根线缆传输无限的频道，它是不能嵌套另一对P2P通道-ME传递的。请注意，这只适用于P2P通道-ME，其他类型的P2P通道可以嵌套P2P通道-ME传输。
-<GameScene zoom="3" width="600" height="300" align="center" allowLayerSlider={false} >
+<GameScene zoom="3" width="400" height="200" zoom="2" align="center" allowLayerSlider={false} >
     <ImportStructure src="../assets/structures/p2p-nesting.snbt" />
     <ImportPonder src="../assets/ponder/p2p-nesting.json" />
 </GameScene>
