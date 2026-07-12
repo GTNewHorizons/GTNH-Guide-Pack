@@ -40,6 +40,9 @@ jobs:
           for path in sorted(Path("assets").glob("**/guidenh/**/*.md")):
               text = path.read_text(encoding="utf-8-sig")
               if not text.startswith("---\n"):
+                  if text.partition("\n")[0].rstrip(" \t") == "---":
+                      print(f"::error file={path},line=1::Opening YAML fence must be exactly ---")
+                      errors += 1
                   continue
 
               end = text.find("\n---\n", 4)
