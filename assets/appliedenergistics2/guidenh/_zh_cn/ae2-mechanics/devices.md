@@ -7,14 +7,12 @@ navigation:
 
 # 设备
 
-“设备”指的是 AE2 网络中那些直接承担网络功能的组件。
+"设备"是指执行与网络本身相关的某些功能的AE2网络组件。它们几乎总是需要一个频道，但有一些例外，比如[等级发射器](../items-blocks/level_emitter.md)或[分子装配室](../items-blocks/molecular_assembler.md)。
 
-它们大多需要占用一个[频道](./channels.md)，但也有少数例外，例如 [ME标准发信器](../items-blocks/level_emitter.md) 或 [分子装配室](../items-blocks/molecular_assembler.md)。
+一些示例包括：
 
-常见例子包括：
-
-* <ItemLink id="appliedenergistics2:tile.BlockInterface" showIcon="left" />
-* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" />
-* <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" />
-* <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left" />
-* <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" showIcon="left" />
+*   <ItemLink id="appliedenergistics2:tile.BlockInterface" showIcon="left" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" />
+*   <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" showIcon="left" />

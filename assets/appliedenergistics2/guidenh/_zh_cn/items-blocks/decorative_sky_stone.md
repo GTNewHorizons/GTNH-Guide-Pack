@@ -1,4 +1,4 @@
-﻿---
+---
 navigation:
   parent: /items-blocks-index.md
   title: 装饰陨石方块
@@ -6,83 +6,64 @@ navigation:
 categories:
 - misc ingredients blocks
 item_ids:
-- ae2:sky_stone_brick
-- ae2:sky_stone_small_brick
-- ae2:sky_stone_stairs
-- ae2:smooth_sky_stone_stairs
-- ae2:sky_stone_brick_stairs
-- ae2:sky_stone_small_brick_stairs
-- ae2:sky_stone_wall
-- ae2:smooth_sky_stone_wall
-- ae2:sky_stone_brick_wall
-- ae2:sky_stone_small_brick_wall
-- ae2:sky_stone_slab
-- ae2:smooth_sky_stone_slab
-- ae2:sky_stone_brick_slab
-- ae2:sky_stone_small_brick_slab
+- appliedenergistics2:tile.BlockSkyStone
+- appliedenergistics2:tile.BlockSkyStone:1
+- appliedenergistics2:tile.BlockSkyStone:2
+- appliedenergistics2:tile.BlockSkyStone:3
 ---
 
-# Decorative Sky Stone
+# 装饰陨石方块
 
 <Row>
-  <GameScene zoom="3" background="transparent">
-    <ImportStructure src="../assets/assemblies/decorative_sky_stone.snbt" />
-    <IsometricCamera yaw="195" pitch="30" />
-  </GameScene>
-  <BlockImage id="sky_stone_chest" scale="4" />
-  <BlockImage id="smooth_sky_stone_chest" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockSkyStone" scale="4" />
+<ItemImage id="appliedenergistics2:tile.BlockSkyStone:1" scale="4" />
+<ItemImage id="appliedenergistics2:tile.BlockSkyStone:2" scale="4" />
+<ItemImage id="appliedenergistics2:tile.BlockSkyStone:3" scale="4" />
+</Row>
+<Row>
+<BlockImage id="appliedenergistics2:tile.SkyStoneStairBlock" scale="4" perspective="isometric-north-west" />
+<BlockImage id="appliedenergistics2:tile.SkyStoneBlockStairBlock" scale="4" perspective="isometric-north-west" />
+<BlockImage id="appliedenergistics2:tile.SkyStoneBrickStairBlock" scale="4" perspective="isometric-north-west" />
+<BlockImage id="appliedenergistics2:tile.SkyStoneSmallBrickStairBlock" scale="4" perspective="isometric-north-west" />
+</Row>
+<Row>
+<BlockImage id="appliedenergistics2:tile.SkyStoneSlabBlock" scale="4" />
+<BlockImage id="appliedenergistics2:tile.SkyStoneBlockSlabBlock" scale="4" />
+<BlockImage id="appliedenergistics2:tile.SkyStoneBrickSlabBlock" scale="4" />
+<BlockImage id="appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock" scale="4" />
+</Row>
+<Row>
+<BlockImage id="appliedenergistics2:tile.BlockSkyChest" scale="4" />
+<ItemImage id="appliedenergistics2:tile.BlockSkyChest:1" scale="4" />
 </Row>
 
-<ItemLink id="sky_stone_block" /> blocks can be crafted and stonecut into some decorative building blocks
+<ItemLink id="appliedenergistics2:tile.BlockSkyStone" /> 可通过合成、熔炼或切石机制加工成多种装饰性建筑方块。
 
 ## Recipes
 
 <Column gap="5">
   <Row>
-    <RecipeFor id="sky_stone_chest" />
+    <RecipeFor id="appliedenergistics2:tile.BlockSkyChest" />
 
-    <RecipeFor id="smooth_sky_stone_chest" />
+    <RecipeFor id="appliedenergistics2:tile.BlockSkyChest:1" />
   </Row>
 
-  <Row gap="23">
-    <RecipeFor id="sky_stone_brick" />
-
-    <RecipeFor id="sky_stone_small_brick" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="sky_stone_stairs" />
-
-    <RecipeFor id="smooth_sky_stone_stairs" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="sky_stone_brick_stairs" />
-
-    <RecipeFor id="sky_stone_small_brick_stairs" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="sky_stone_wall" />
-
-    <RecipeFor id="smooth_sky_stone_wall" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="sky_stone_brick_wall" />
-
-    <RecipeFor id="sky_stone_small_brick_wall" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="sky_stone_slab" />
-
-    <RecipeFor id="smooth_sky_stone_slab" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="sky_stone_brick_slab" />
-
-    <RecipeFor id="sky_stone_small_brick_slab" />
-  </Row>
+	 <Row gap="23">
+		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone" />
+		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone:1" />
+		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone:2"  />
+		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone:3"  />
+	</Row>
+	<Row>
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneStairBlock"  />
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneBlockStairBlock"  />
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneBrickStairBlock" />
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneSmallBrickStairBlock" />
+	</Row>
+	<Row>
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneSlabBlock" />
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneBlockSlabBlock" />
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneBrickSlabBlock" />
+		<RecipeFor id="appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock" />
+	</Row>
 </Column>
