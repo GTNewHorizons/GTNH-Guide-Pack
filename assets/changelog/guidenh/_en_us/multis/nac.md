@@ -55,7 +55,7 @@ The general workflow of the <Color id="GREEN">NAC</Color> is listed below. The i
 4. The modules turn the packaged CCs into processed components (PCs) which cannot be unpackaged or leave the <Color id="GREEN">NAC</Color>
 5. Join the PCs in the Nanochip Assembly Matrix to create circuit CCs and route them back to the control room
 6. The <Color id="GREEN">NAC</Color> unpackages the circuit CCs and transfers them to an output bus for retrieval
-<FloatingImage src="../assets/multis/nac_overview.png" width="384">
+<FloatingImage src="../assets/multis/nac_overview.png" displayWidth="384">
   <ImageAnnotation>
     An overview of the Nanochip Assembly Complex by Fox
   </ImageAnnotation>

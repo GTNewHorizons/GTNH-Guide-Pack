@@ -14,7 +14,7 @@ date: 2026-05-16
 矿石生成方式，以及玩家与矿石交互的体验，这次都做了一些不错的改动。下面分项说明。
 
 # 矿脉统计页
-<FloatingImage src="../assets/qol/vein_stats.png" align="left" width="128" wrap="square">
+<FloatingImage src="../assets/qol/vein_stats.png" align="left" displayWidth="128" wrap="square">
   <ImageAnnotation>
     新版“矿脉统计”页面
   </ImageAnnotation>

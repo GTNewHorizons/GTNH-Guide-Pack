@@ -25,7 +25,7 @@ date: 2026-05-16
 > [!NOTE]
 > 这个新界面与旧搭法完全兼容；无论矿石是在输入总线里，还是在界面中被选中，都会参与筛选
 
-<FloatingImage src="../assets/qol/void_miner.png" align="left" wrap="square" width="128">
+<FloatingImage src="../assets/qol/void_miner.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
     新的 <Color id="RED">虚空采矿场筛选</Color> 面板
   </ImageAnnotation>

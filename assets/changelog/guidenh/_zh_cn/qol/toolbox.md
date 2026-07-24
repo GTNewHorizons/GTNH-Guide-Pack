@@ -31,13 +31,13 @@ date: 2026-05-16
 
 <RecipeFor id="gregtech:gt.Item_Toolbox"/>
 
-<FloatingImage src="../assets/qol/toolbox_ui.png" wrap="inline" align="left" width="256">
+<FloatingImage src="../assets/qol/toolbox_ui.png" wrap="inline" align="left" displayWidth="256">
   <ImageAnnotation>
     新工具箱的内部界面
 </ImageAnnotation>
 </FloatingImage>
 
-<FloatingImage src="../assets/qol/toolbox_radial.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/qol/toolbox_radial.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     新工具箱的环形菜单
   </ImageAnnotation>

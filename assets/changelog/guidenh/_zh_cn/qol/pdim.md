@@ -23,17 +23,17 @@ date: 2026-05-16
 
 如果你整出了有趣、很酷，或者纯粹离谱的设计，欢迎发到 <a href="https://discord.gg/gtnh">Discord 服务器</a>！
 
-<FloatingImage src="../assets/qol/pdim_ui.png" align="left" width="256" wrap="square">
+<FloatingImage src="../assets/qol/pdim_ui.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
     个人传送门界面的新主页
   </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="../assets/qol/pdim_ui2.png" align="left" width="256" wrap="square">
+<FloatingImage src="../assets/qol/pdim_ui2.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
     新的预设可视化工具
   </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="../assets/qol/pdim_example.png" align="left" width="256" wrap="square">
+<FloatingImage src="../assets/qol/pdim_example.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
     新配置下的个人维度示例
   </ImageAnnotation>

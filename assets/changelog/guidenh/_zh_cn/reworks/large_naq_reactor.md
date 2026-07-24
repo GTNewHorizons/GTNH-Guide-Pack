@@ -40,7 +40,7 @@ date: 2026-05-27
 - 0+ 个输出仓（任意反应堆机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
 ### 共墙
-<FloatingImage src="../assets/reworks/lnr_wallshare.png" width="128" align="right">
+<FloatingImage src="../assets/reworks/lnr_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
     两台共墙反应堆的示例
   </ImageAnnotation>

@@ -15,7 +15,7 @@ date: 2026-05-16
 
 现在这件事可以成为过去了，因为 GTNH 现在支持组合键绑定。这会极大提高你能同时使用的、而且仍然算得上__合理__的按键数量。
 
-<FloatingImage src="../assets/qol/combo_keys.png" wrap="square" width="256" align="left">
+<FloatingImage src="../assets/qol/combo_keys.png" wrap="square" displayWidth="256" align="left">
   <ImageAnnotation>
     一些组合键绑定示例
   </ImageAnnotation>

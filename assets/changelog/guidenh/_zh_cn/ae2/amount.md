@@ -22,13 +22,13 @@ date: 2026-05-27
 
 如果你一直觉得自动合成时那几个默认数量不太顺手，现在终于可以自己改了。准备自动合成任意物品时，点击左下角的扳手，就能设置以后要使用的新数量。
 
-<FloatingImage src="../assets/ae2/gui_amount.png" align="left" width="256">
+<FloatingImage src="../assets/ae2/gui_amount.png" align="left" displayWidth="256">
   <ImageAnnotation>
     配置页面
   </ImageAnnotation>
 </FloatingImage>
 
-<FloatingImage src="../assets/ae2/gui_amount_2.png" align="left" width="256">
+<FloatingImage src="../assets/ae2/gui_amount_2.png" align="left" displayWidth="256">
   <ImageAnnotation>
     修改后的效果
   </ImageAnnotation>

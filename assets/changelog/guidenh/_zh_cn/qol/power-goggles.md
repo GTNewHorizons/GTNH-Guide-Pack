@@ -15,7 +15,7 @@ date: 2026-05-16
 
 你现在可以修改图表各个部分的颜色、关闭电力条、设置显示边界，并且在把界面折腾成怪物之后一键恢复默认设置。
 
-<FloatingImage src="../assets/qol/power_goggles.png" width="256" align="left" wrap="square">
+<FloatingImage src="../assets/qol/power_goggles.png" displayWidth="256" align="left" wrap="square">
   <ImageAnnotation>
     电力护目镜部分新设置展示
   </ImageAnnotation>

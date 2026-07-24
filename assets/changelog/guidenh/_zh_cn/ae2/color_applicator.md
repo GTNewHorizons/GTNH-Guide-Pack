@@ -21,7 +21,7 @@ date: 2026-05-27
 
 你还可以对任何已经染色过的 AE2 部件使用中键，立即把它的颜色复制到染色器上。
 
-<FloatingImage src="../assets/ae2/applicator.png" align="left" width="384" wrap="square">
+<FloatingImage src="../assets/ae2/applicator.png" align="left" displayWidth="384" wrap="square">
   <ImageAnnotation>
     染色器的界面
   </ImageAnnotation>

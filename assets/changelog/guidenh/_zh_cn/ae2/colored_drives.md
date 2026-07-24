@@ -15,7 +15,7 @@ ME 驱动器的外观渲染方式变了。现在把颜色涂到驱动器上时�
 
 这样一来，你既可以继续维持一套按颜色编码管理的存储系统，又仍然能在不打开界面的情况下，从外部区分内部存储元件的类型和等级。
 
-<FloatingImage src="../assets/ae2/colored_drives.png" align="left" width="256">
+<FloatingImage src="../assets/ae2/colored_drives.png" align="left" displayWidth="256">
   <ImageAnnotation>
     一组使用颜色编码的 ME 驱动器示例
   </ImageAnnotation>

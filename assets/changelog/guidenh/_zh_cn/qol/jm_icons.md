@@ -15,7 +15,7 @@ date: 2026-05-16
 
 希望这样一来，你就不会再总被黑暗里爬出来的东西打个措手不及了。
 
-<FloatingImage src="../assets/qol/jm_icons.png" align="left" width="256" >
+<FloatingImage src="../assets/qol/jm_icons.png" align="left" displayWidth="256" >
   <ImageAnnotation>
     JourneyMap 新增的部分生物图标示例
   </ImageAnnotation>

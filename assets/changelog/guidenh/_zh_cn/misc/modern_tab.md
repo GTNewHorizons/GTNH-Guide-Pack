@@ -20,7 +20,7 @@ date: 2026-05-20
 - 动态列数
 - 页眉和页脚
 
-<FloatingImage src="../assets/misc/tab_list.png" width="256" align="left" wrap="square">
+<FloatingImage src="../assets/misc/tab_list.png" displayWidth="256" align="left" wrap="square">
   <ImageAnnotation>
     一个已配置好的 tab 列表示例
   </ImageAnnotation>

@@ -17,7 +17,7 @@ date: 2026-05-30
 
 标题还支持淡入、停留和淡出时间设置，可以通过 `/title <player> times <fadeIn> <stay> <fadeOut>` 分别配置。
 
-<FloatingImage src="../assets/misc/admin_messages.png" width="384">
+<FloatingImage src="../assets/misc/admin_messages.png" displayWidth="384">
   <ImageAnnotation>
     标题/副标题覆盖层显示示例
   </ImageAnnotation>

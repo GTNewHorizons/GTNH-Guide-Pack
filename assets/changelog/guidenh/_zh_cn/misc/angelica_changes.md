@@ -28,7 +28,7 @@ date: 2026-05-30
 
 后台已经有不少工作在推进，目标是让 <Color id="GREEN">高级颜色追踪</Color> 成为 GTNH 的默认表现。已经在用 Euphoria Patches 一类方案的人对这个概念应该不陌生；总之，$$\text{很快}^{TM}$$，它将会对任意光影提供完整支持（甚至可能不装光影也行！）
 
-<FloatingImage src="../assets/misc/lava.png" width="384">
+<FloatingImage src="../assets/misc/lava.png" displayWidth="384">
   <ImageAnnotation>
     由岩浆生成的彩色照明
   </ImageAnnotation>

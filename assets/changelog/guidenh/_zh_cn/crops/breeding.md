@@ -15,7 +15,7 @@ date: 2026-05-20
 
 ## 确定型杂交
 
-<FloatingImage src="../assets/crops/determine.png" width="128" wrap="square" align="left">
+<FloatingImage src="../assets/crops/determine.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
     确定型杂交示例
   </ImageAnnotation>
@@ -29,7 +29,7 @@ date: 2026-05-20
 
 ## 池型杂交
 
-<FloatingImage src="../assets/crops/pools.png" width="128" wrap="square" align="left">
+<FloatingImage src="../assets/crops/pools.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
     作物突变池示例
   </ImageAnnotation>

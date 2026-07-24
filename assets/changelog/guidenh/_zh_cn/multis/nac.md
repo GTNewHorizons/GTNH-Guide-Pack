@@ -56,7 +56,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 4. 各模块把 CC 处理成 <Color id="GREEN">处理电路组件（PC）</Color>；PC 无法被拆包，也不能离开当前 <Color id="GREEN">NAC</Color>
 5. 在 <Color id="GREEN">纳米芯片组装矩阵</Color> 中把这些 PC 组合成 <Color id="GREEN">成品电路组件</Color>，再把它们送回控制室
 6. <Color id="GREEN">NAC</Color> 将成品电路组件拆包成真正的电路，并输出到输出总线
-<FloatingImage src="../assets/multis/nac_overview.png" width="384">
+<FloatingImage src="../assets/multis/nac_overview.png" displayWidth="384">
   <ImageAnnotation>
     Fox 绘制的纳米芯片组装复合体流程概览
   </ImageAnnotation>

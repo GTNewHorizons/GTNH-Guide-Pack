@@ -22,7 +22,7 @@ date: 2026-05-16
 
 - 原本把火把和方块装备到身上的功能，现在移到了 <Color id="GREEN">自定义装饰护甲</Color> 里。也就是说，你现在可以更体面地戴着你的泥土帽了！这同样支持 <Color id="GREEN">动态光源</Color>
 
-<FloatingImage src="../assets/qol/baubles.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/qol/baubles.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     一些饰品在新家里的示例！*Ranzu 向你问好！*
   </ImageAnnotation>

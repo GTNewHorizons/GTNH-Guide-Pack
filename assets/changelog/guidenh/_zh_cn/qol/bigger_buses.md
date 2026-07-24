@@ -14,7 +14,7 @@ date: 2026-05-16
 更大尺寸的输入/输出总线这次主要有两项改动，下面分别说明。
 
 # 更高等级的输入总线
-<FloatingImage src="../assets/qol/uhv_bus.png" align="left" width="128" wrap="square" >
+<FloatingImage src="../assets/qol/uhv_bus.png" align="left" displayWidth="128" wrap="square" >
   <ImageAnnotation>
     UHV 输入总线的界面
   </ImageAnnotation>

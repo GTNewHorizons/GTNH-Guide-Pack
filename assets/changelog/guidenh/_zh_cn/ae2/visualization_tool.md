@@ -15,7 +15,7 @@ date: 2026-05-27
 
 为了解决这个问题，它的渲染方式现在已经调整了。相关改动也都可以在 `config/ae2stuff.cfg` 中配置，或者直接通过游戏内的 AE2Stuff 配置界面修改。
 
-<FloatingImage src="../assets/ae2/visualization.png" align="left" width="256">
+<FloatingImage src="../assets/ae2/visualization.png" align="left" displayWidth="256">
   <ImageAnnotation>
     新渲染效果示例
   </ImageAnnotation>

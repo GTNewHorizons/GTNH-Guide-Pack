@@ -14,17 +14,17 @@ date: 2026-05-22
 
 通过调整内部计算方式，这些方块之间的光照过渡现在比以前自然得多。直接看图：
 
-<FloatingImage src="../assets/misc/lighting.png" width="256" wrap="square">
+<FloatingImage src="../assets/misc/lighting.png" displayWidth="256" wrap="square">
   <ImageAnnotation>
     某些典型情况的前后对比
 </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="../assets/misc/lighting_2.png" width="256" wrap="square">
+<FloatingImage src="../assets/misc/lighting_2.png" displayWidth="256" wrap="square">
   <ImageAnnotation>
     某些典型情况的前后对比
 </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="../assets/misc/lighting_3.png" width="256" wrap="square">
+<FloatingImage src="../assets/misc/lighting_3.png" displayWidth="256" wrap="square">
   <ImageAnnotation>
     某些典型情况的前后对比
 </ImageAnnotation>

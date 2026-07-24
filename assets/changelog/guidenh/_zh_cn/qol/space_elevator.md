@@ -27,7 +27,7 @@ date: 2026-05-16
 
 # 太空采矿界面改进
 
-<FloatingImage src="../assets/qol/space_gui.png" align="left" wrap="square" width="128">
+<FloatingImage src="../assets/qol/space_gui.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
     新的 <Color id="RED">太空采矿实用面板</Color>
   </ImageAnnotation>

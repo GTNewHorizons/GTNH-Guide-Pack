@@ -11,7 +11,7 @@ date: 2026-05-20
 
 # 数独 Lootgames
 
-<FloatingImage src="../assets/misc/sudoku.png" width="180" wrap="square">
+<FloatingImage src="../assets/misc/sudoku.png" displayWidth="180" wrap="square">
   <ImageAnnotation>
     数独布局示例
   </ImageAnnotation>

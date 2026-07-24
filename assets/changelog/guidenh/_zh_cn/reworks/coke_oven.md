@@ -37,7 +37,7 @@ date: 2026-05-27
 - 0+ 个 <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
 
 ### 共墙
-<FloatingImage src="../assets/reworks/coke_oven_wallshare.png" width="128" align="right">
+<FloatingImage src="../assets/reworks/coke_oven_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
     四台共墙焦炉的示例
   </ImageAnnotation>

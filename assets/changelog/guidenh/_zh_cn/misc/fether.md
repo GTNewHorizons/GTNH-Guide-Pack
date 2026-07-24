@@ -18,7 +18,7 @@ date: 2026-05-22
 - 作为萤石来源的辉光花
 - 还有一些全新的食物可以试试！
 
-<FloatingImage src="../assets/misc/fether.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/misc/fether.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     一些新增物品示例
   </ImageAnnotation>
