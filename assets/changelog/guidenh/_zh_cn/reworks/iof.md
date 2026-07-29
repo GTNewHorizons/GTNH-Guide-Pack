@@ -16,18 +16,18 @@ date: 2026-05-23
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15564"/>
 </GameScene>
-<Color id="GREEN">集成矿石处理厂（IOF）</Color>是一台 UHV 级多方块，可以把整套矿物处理流程压缩成一步完成。它的设计目标是彻底取代现有的各类矿处理产线、提升总体吞吐并减少卡顿。<Color id="GREEN">IOF</Color> 会在解锁 <ItemLink id="gregtech:gt.blockmachines:14003" /> 后不久开放，这也正是玩家开始大量积累矿石、需要更轻松更快速地把它们处理成粉的阶段。<Color id="GREEN">IOF</Color> 支持所有矿石变种（粉碎矿石、洗净矿石等），并且只要并行数足够，甚至可以同时处理不同配方。总并行数与输入功率线性相关，没有理论上限。副产物则取决于 <Color id="GREEN">IOF</Color> 当前所处的模式。整机共有 7 种模式，对应 7 条不同的矿处理路线（筛选、洗矿、化学浸洗等）。
+<Color id="GREEN">集成矿石处理厂（IOF）</Color> 是一台 UHV 级多方块，可以把整套矿物处理流程压缩成一步完成。它的设计目标是彻底取代现有的各类矿处理产线、提升总体吞吐并减少卡顿。<Color id="GREEN">IOF</Color> 会在解锁 <ItemLink id="gregtech:gt.blockmachines:14003" /> 后不久开放，这也正是玩家开始大量积累矿石、需要更轻松更快速地把它们处理成粉的阶段。<Color id="GREEN">IOF</Color> 支持所有矿石变种（粉碎矿石、洗净矿石等），并且只要并行数足够，甚至可以同时处理不同配方。总并行数与输入功率线性相关，没有理论上限。副产物则取决于 <Color id="GREEN">IOF</Color> 当前所处的模式。整机共有 7 种模式，对应 7 条不同的矿处理路线（筛选、洗矿、化学浸洗等）。
 <br clear="all"/>
 
 > [!NOTE]
 > 除了结构以外，相比旧版集成矿石处理厂还有以下改动：
-> - 支持激光能源仓，可用于重度超频
+> - 支持激光靶仓，可用于重度超频
 > - 模式切换按钮现在直接出现在界面中
 > - 仓室位置限制大幅减少，摆放自由度更高
 
 
 ## 搭建
-<Color id="GREEN">IOF</Color> 没有任何分级结构部件。玻璃可以是任意等级，且不会影响机器运行。仓室和总线可以替换结构上任意一块 <Color id="GREEN">洁净不锈钢机械方块</Color>。<Color id="RED">支持多 A 与激光能源仓</Color>，适合追求极高吞吐。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并使用子信道 `glass` 指定玻璃等级。
+<Color id="GREEN">IOF</Color> 没有分级结构部件。玻璃可以是任意等级，且不会影响机器运行。仓室和总线可以替换结构上任意一块 <Color id="GREEN">洁净不锈钢机械方块</Color>。<Color id="RED">支持多安能源仓和激光靶仓</Color>，适合追求极高吞吐。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并使用子信道 `glass` 指定玻璃等级。
 
 假设不使用 <ItemLink id="gregtech:gt.blockmachines:32026" /> 来代工零部件，单台 <Color id="GREEN">IOF</Color> 的建造成本大约包括 7.21k 中子素、3.89k 铱、3.03k 宇宙中子素、3.02k 硅岩以及 880 基岩锭，外加其他材料。
 

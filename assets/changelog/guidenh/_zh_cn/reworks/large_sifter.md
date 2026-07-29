@@ -23,7 +23,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，机制保持不变
 
 ## 搭建
-<Color id="GREEN">工业筛选机</Color> 没有任何分级结构部件。总线与仓室可以替换结构中任意位置的任意一块工业筛选机机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">工业筛选机</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的工业筛选机机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15542"/><ItemImage id="gregtech:gt.blockmachines:15542"/>

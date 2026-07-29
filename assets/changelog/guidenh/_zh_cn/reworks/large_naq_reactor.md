@@ -27,7 +27,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，机制保持不变
 
 ## 搭建
-<Color id="GREEN">LNR</Color> 没有分级结构部件。总线与仓室可以替换结构中任意一个 <Color id="GREEN">硅岩反应堆机械方块</Color>。强烈建议使用一个 <Color id="GREEN">存储输入仓</Color> 来容纳所需的四种不同输入流体。机器支持多 A 与激光动力仓，但最多都只能安装一个。若动力仓无法承载当前 100% 的实时输出功率，<Color id="GREEN">LNR</Color> 就会立刻停机，因此在高功率配置下，基本上必须使用高安培激光动力仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">LNR</Color> 没有分级结构部件。总线与仓室可以替换结构中任意一个 <Color id="GREEN">硅岩反应堆机械方块</Color>。强烈建议使用一个 <Color id="GREEN">存储输入仓</Color> 来容纳所需的四种不同输入流体。机器支持多安动力仓和激光源仓，但最多都只能安装一个。若动力仓无法承载当前 100% 的实时输出功率，<Color id="GREEN">LNR</Color> 就会立刻停机，因此在高功率配置下，基本上必须使用高安培激光源仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15537"/><ItemImage id="gregtech:gt.blockmachines:15537"/>
@@ -45,7 +45,7 @@ date: 2026-05-27
     两台共墙反应堆的示例
   </ImageAnnotation>
 </FloatingImage>
-<Color id="GREEN">LNR</Color> 的各个侧面，以及结构中央的球体部分，都可以共墙，以节省机械方块、框架箱与仓室数量。若一只激光动力仓的吞吐足够，它甚至还能被 2-4 台机器同时共用。上图展示的是两台机器共墙的摆法；若你愿意，还可以在剩下那条轴上再放第三台（需要激光反射镜）。
+<Color id="GREEN">LNR</Color> 的各个侧面，以及结构中央的球体部分，都可以共墙，以节省机械方块、框架箱与仓室数量。若一只激光源仓的吞吐足够，它甚至还能被 2-4 台机器同时共用。上图展示的是两台机器共墙的摆法；若你愿意，还可以在剩下那条轴上再放第三台（需要激光反射镜）。
 
 ## 使用
 和其他发电多方块相比，<Color id="GREEN">LNR</Color> 的使用方式其实很直接。它会把燃料直接转化为 EU，没有预热阶段，也不需要涡轮。真正需要注意的只有下面这些输入条件：

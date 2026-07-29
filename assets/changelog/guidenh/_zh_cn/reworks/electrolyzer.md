@@ -24,7 +24,7 @@ date: 2026-05-27
 > 这台多方块相较旧版本，除结构本身外，唯一的变化就是现在每个电压等级提供 4 并行，仅此而已。
 
 ## 搭建
-<Color id="GREEN">工业电解机</Color> 没有任何分级结构部件。总线与仓室可以替换结构中任意位置的任意一块电解机机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
+<Color id="GREEN">工业电解机</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的电解机机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15514" /> <ItemImage id="gregtech:gt.blockmachines:15514" />

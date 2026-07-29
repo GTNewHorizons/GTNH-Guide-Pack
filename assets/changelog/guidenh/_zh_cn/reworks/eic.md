@@ -24,7 +24,7 @@ date: 2026-05-27
 > - 玻璃：由于结构里现在加入了玻璃，因此玻璃也成了一个分级结构部件；UMV 玻璃可解除相关限制
 
 ## 搭建
-<Color id="GREEN">EIC</Color> 有两个分级结构部件。遏制方块决定机器的并行数，玻璃则决定能源仓允许的最高等级；UMV 玻璃可解除这一限制。总线与仓室可以替换结构中任意位置的任意一块硅岩强化方块。<Color id="GREEN">支持多 A 与激光能源仓</Color>，可用于激进超频，但 <Color id="GREEN">EIC</Color> 最多只能 <u>__跳一级__</u> 处理配方。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `piston_block` 与 `glass` 子信道分别指定遏制方块和玻璃的等级。
+<Color id="GREEN">EIC</Color> 有两个分级结构部件。遏制方块决定机器的并行数，玻璃则决定能源仓允许的最高等级；UMV 玻璃可解除这一限制。总线和仓室可以替换结构中任意位置的硅岩强化方块。<Color id="GREEN">支持多安能源仓和激光靶仓</Color>，可用于激进超频，但 <Color id="GREEN">EIC</Color> 最多只能 <u>__跳一级__</u> 处理配方。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `piston_block` 与 `glass` 子信道分别指定遏制方块和玻璃的等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15563"/><ItemImage id="gregtech:gt.blockmachines:15563"/>

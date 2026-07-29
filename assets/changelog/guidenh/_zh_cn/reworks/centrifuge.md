@@ -23,7 +23,7 @@ date: 2026-05-27
 > 这台多方块本次改动相对较小：底座结构更大，因此仓室与总线的摆放空间更充裕。除建造成本和新结构外，机器功能本身没有变化。
 
 ## 搭建
-<Color id="GREEN">工业离心机</Color> 只使用一种机械方块，但结构中还需要 <Color id="RED">大型筛选格栅</Color> 和 <Color id="BLUE">埃格林钢框架</Color>。总线与仓室可以替换结构中的任意机械方块。机器 <Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。用螺丝刀右键控制器可关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
+<Color id="GREEN">工业离心机</Color> 只使用一种机械方块，但结构中还需要 <Color id="RED">大型筛选格栅</Color> 和 <Color id="BLUE">埃格林钢框架</Color>。总线与仓室可以替换结构中的任意机械方块。机器 <Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。用螺丝刀右键控制器可关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15512" /><ItemImage id="gregtech:gt.blockmachines:15512" />

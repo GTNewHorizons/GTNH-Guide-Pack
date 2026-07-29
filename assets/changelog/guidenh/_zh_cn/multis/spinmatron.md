@@ -25,7 +25,7 @@ date: 2026-05-25
 
 ## 搭建：
 
-<Color id="GREEN">离心中枢</Color> 共有四个结构等级，对应内部框架和内部转子方块所使用的材料。每提高一级结构等级，控制器内部都会额外增加 2 个涡轮槽位，从而提升并行上限。总线和仓室可以替换任意 <Color id="GREEN">防震机械方块</Color><ItemImage id="gregtech:gt.blockcasings12:9"/>。玻璃可以使用任意等级，本身不会影响机器性能。<Color id="GREEN">支持多 A 与激光能源仓</Color>，但超频上限始终受限于“能源仓等级 + 1”。对控制器使用螺丝刀可以关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中子信道 `glass` 用于指定玻璃等级，而一次手持的投影仪数量则决定整体结构等级。
+<Color id="GREEN">离心中枢</Color> 共有四个结构等级，对应内部框架和内部转子方块所使用的材料。每提高一级结构等级，控制器内部都会额外增加 2 个涡轮槽位，从而提升并行上限。总线和仓室可以替换任意 <Color id="GREEN">防震机械方块</Color><ItemImage id="gregtech:gt.blockcasings12:9"/>。玻璃可以使用任意等级，本身不会影响机器性能。<Color id="GREEN">支持多安能源仓和激光靶仓</Color>，但超频上限始终受限于“能源仓等级 + 1”。对控制器使用螺丝刀可以关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中子信道 `glass` 用于指定玻璃等级，而一次手持的投影仪数量则决定整体结构等级。
 
 涡轮本体 <Color id="RED">不要</Color> 装在转子仓里，而是要放进控制器界面的“仓室控制器设置”中。即使没有把涡轮实体塞进转子仓，它们也仍会在结构上显示出来。手持螺丝刀右键控制器，可以在静态和动画涡轮纹理之间切换。仓室控制器设置里还可以启用 T2 生物催化推进液；<Color id="GREEN">离心中枢</Color> 不会在机器里检测到它时自动替代煤油，需要你手动切换。
 

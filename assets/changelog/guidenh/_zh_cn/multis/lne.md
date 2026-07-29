@@ -17,13 +17,13 @@ date: 2026-05-25
   <ImportStructureLib controller="gregtech:gt.blockmachines:31088" />
 </GameScene>
 
-<Color id="GREEN">大型中和引擎（LNE）</Color> 是一台 EV 级多方块酸性发电机，面向更高电压阶段的发电需求。<Color id="GREEN">LNE</Color> 可以看作是单方块酸性发电机的直接升级版，因为它最高可提供 <Color id="BLUE">500%</Color> 效率、输出超过 1A 的电力，并且燃料消耗速率可配置。<Color color="#55ffff">碱</Color> 可以用于提高机器效率。电力从结构背面的动力仓输出，并且 <Color id="GREEN">支持多 A 与激光能源仓</Color>。<Color id="GREEN">LNE</Color> 还自带一套危险机制：<Color id="RED">毒性残留物</Color>。如果其数量超过控制器容量，多方块就会 <Color id="RED">爆炸！</Color> 想节省燃料的话，建议把 <Color id="GREEN">LNE</Color> 接到 <ItemLink id="gregtech:gt.blockmachines:13106"/> <ItemImage id="gregtech:gt.blockmachines:13106"/> 上，通过 RS 锁存器自动启停。
+<Color id="GREEN">大型中和引擎（LNE）</Color> 是一台 EV 级多方块酸性发电机，面向更高电压阶段的发电需求。<Color id="GREEN">LNE</Color> 可以看作是单方块酸性发电机的直接升级版，因为它最高可提供 <Color id="BLUE">500%</Color> 效率、输出超过 1A 的电力，并且燃料消耗速率可配置。<Color color="#55ffff">碱</Color> 可以用于提高机器效率。电力从结构背面的动力仓输出，并且 <Color id="GREEN">支持多安能源仓和激光靶仓</Color>。<Color id="GREEN">LNE</Color> 还自带一套危险机制：<Color id="RED">毒性残留物</Color>。如果其数量超过控制器容量，多方块就会 <Color id="RED">爆炸！</Color> 想节省燃料的话，建议把 <Color id="GREEN">LNE</Color> 接到 <ItemLink id="gregtech:gt.blockmachines:13106"/> <ItemImage id="gregtech:gt.blockmachines:13106"/> 上，通过 RS 锁存器自动启停。
 
 <br clear="all"/>
 
 ## 搭建：
 
-<Color id="GREEN">LNE</Color> 只有一个分级部件。所使用的“主机械方块”决定了机器等级，而机器等级又决定其基础衰减与容量。输入仓、输入总线、动力仓，以及毒性残留物感应仓（后面会解释）都可以替换任意一个“主机械方块”位置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看/搭建结构。
+<Color id="GREEN">LNE</Color> 只有一个分级部件。所使用的“控制器械方块”决定了机器等级，而机器等级又决定其基础衰减与容量。输入仓、输入总线、动力仓，以及毒性残留物感应仓（后面会解释）都可以替换任意一个“控制器械方块”位置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看/搭建结构。
 
 | 等级 | 机械方块 |
 | -------------- | --------------- |
@@ -35,7 +35,7 @@ date: 2026-05-25
 
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:31088"/> <ItemImage id="gregtech:gt.blockmachines:31088"/>
 - 34 个 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
-- 30-46 个分级“主机械方块” <ItemImage id="gregtech:gt.blockcasings12:5"/>
+- 30-46 个分级“控制器械方块” <ItemImage id="gregtech:gt.blockcasings12:5"/>
 - 15 个 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
 - 1+ 个动力仓（任意分级机械方块） <ItemImage id="gregtech:gt.blockmachines:15230"/>
 - 1+ 个输入仓（任意分级机械方块） <ItemImage id="gregtech:gt.blockmachines:50"/>

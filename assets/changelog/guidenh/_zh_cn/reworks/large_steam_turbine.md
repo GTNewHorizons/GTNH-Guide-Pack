@@ -16,20 +16,20 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15524"/>
 </GameScene>
-<Color id="GREEN">大型蒸汽涡轮（LST）</Color> 是一台 HV 级多方块，用于把蒸汽转化为电力。<Color id="GREEN">LST</Color> 是单方块蒸汽涡轮的直接升级版，因为它最多可输出 4A 电流，且效率高得多。不过，机器必须先在控制器内部装入一枚涡轮转子才能运行，蒸汽输入速率也需要精确控制，而且至少要连续运转 50 秒才能完全热机。涡轮共有 4 种尺寸、许多不同材料，每种都会决定各自的效率加成与最佳流量（L/t）。机器会从结构背面的 4A 动力仓输出电力，同时在输出仓中把蒸汽冷凝成蒸馏水。若在机器运行时拆掉动力仓，整台机器会直接爆炸。为了节约燃料，强烈建议把 <Color id="GREEN">LST</Color> 接到一个与 <Color id="GREEN">兰波顿超能电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
+<Color id="GREEN">大型蒸汽涡轮（LST）</Color> 是一台 HV 级多方块，用于把蒸汽转化为电力。<Color id="GREEN">LST</Color> 是单方块蒸汽涡轮的直接升级版，因为它最多可输出 4A 电流，且效率高得多。不过，机器必须先在控制器内部装入一枚涡轮转子才能运行，蒸汽输入速率也需要精确控制，而且至少要连续运转 50 秒才能完全热机。涡轮共有 4 种尺寸、许多不同材料，每种都会决定各自的效率加成与最佳流量（L/t）。机器会从结构背面的 4A 动力仓输出电力，同时在输出仓中把蒸汽冷凝成蒸馏水。若在机器运行时拆掉动力仓，整台机器会直接爆炸。为了节约燃料，强烈建议把 <Color id="GREEN">LST</Color> 接到一个与 <Color id="GREEN">兰波顿超级电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
 
 <Color id="RED">大型高压蒸汽涡轮（LST-HP）</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> 与 <Color id="BLUE">大型超临界蒸汽涡轮（LST-SC）</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/> 与普通 <Color id="GREEN">LST</Color> 基本相同，只是它们分别只能处理 <Color id="RED">过热蒸汽</Color> 与 <Color id="BLUE">超临界蒸汽</Color>。在相同最佳流量下，超临界蒸汽的发电量是普通蒸汽的 2 倍，且会转化为过热蒸汽；过热蒸汽的发电量同样是普通蒸汽的 2 倍，且会转化为普通蒸汽。
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
-<Color id="GREEN">LST</Color> 后续会被 [特大蒸汽涡轮](./xl_turbo_steam.md) 取代。后者只需 12 枚涡轮，就能处理 16 台 <Color id="GREEN">LST</Color> 的蒸汽并输出同等规模的电力，而且还支持多 A 与激光动力仓，适合严肃的大规模发电；同时也有高压与超临界变体。
+<Color id="GREEN">LST</Color> 后续会被 [特大蒸汽涡轮](./xl_turbo_steam.md) 取代。后者只需 12 枚涡轮，就能处理 16 台 <Color id="GREEN">LST</Color> 的蒸汽并输出同等规模的电力，而且还支持多安动力仓和激光源仓，适合严肃的大规模发电；同时也有高压与超临界变体。
 <br clear="all"/>
 
 > [!NOTE]
 > 这台多方块除了结构以外，其余机制与旧版保持一致
 
 ## 搭建
-<Color id="GREEN">LST</Color> 没有任何分级结构部件。维护仓、输入仓与输出仓都可以替换结构后半部分的任意一块涡轮机械方块。动力仓只能放在结构最背面正中央那一格，而且不能超过 4A。<Color id="RED">没有消声仓</Color>，所以不要额外安装。控制器正前方连续 9 格必须全部留空。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">LST</Color> 没有分级结构部件。维护仓、输入仓与输出仓都可以替换结构后半部分的任意一块涡轮机械方块。动力仓只能放在结构最背面正中央那一格，而且不能超过 4A。<Color id="RED">没有消声仓</Color>，所以不要额外安装。控制器正前方连续 9 格必须全部留空。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 大型涡轮独有的额外部件是 <Color id="GREEN">涡轮仓</Color> <ItemImage id="gregtech:gt.blockmachines:31025"/>。它本质上相当于一个 ULV 输入总线，可以额外存放一枚备用涡轮转子；当控制器里的转子损坏时，它会自动补位。这个部件完全可选，而且要到 UV 才解锁，但能显著延长连续无人值守运行的时间。
 
@@ -78,7 +78,7 @@ date: 2026-05-27
 ## 功率与溢流
 <Color id="GREEN">LST</Color> 的发电量取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）和涡轮效率（$$\eta$$）。当流量超过最佳值后，虽然还能继续提高发电量，但收益会依据涡轮的溢流等级（$$T$$）递减。总共只有 3 种溢流等级，并且完全由涡轮材料决定。更高的溢流等级也会提高最大允许流量（$$\dot{m}_{max}$$）。你可以通过 NEI 查看某枚涡轮的溢流等级，也可以通过 WAILA 提示直接查看机器当前发电量。
 
-机器会从结构背面的 4A 动力仓输出电力。若在运行时拆掉动力仓，<Color id="GREEN">LST</Color> 会直接爆炸。但无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超能电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">LST</Color>。
+机器会从结构背面的 4A 动力仓输出电力。若在运行时拆掉动力仓，<Color id="GREEN">LST</Color> 会直接爆炸。但无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超级电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">LST</Color>。
 
 ### 大型蒸汽涡轮：
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 0.5 \times \eta">

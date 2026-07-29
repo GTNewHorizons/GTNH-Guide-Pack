@@ -24,7 +24,7 @@ date: 2026-05-27
 > - 更多并行：能源仓每高于 UHV 一级，就额外提供 +2 并行
 
 ## 搭建
-<Color id="GREEN">IFDR</Color> 没有任何分级结构部件。采矿管道可直接放入控制器，也可额外放入输入总线。机器会在结构中央正下方的世界中真实生成采矿管道，并一路笔直向下钻到基岩，沿途破坏碰到的一切方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，而且只允许安装 <u>__一个__</u> 普通能源仓。<Color id="GREEN">IFDR</Color> 的不同运行档位也各自有最低电压要求。玻璃可以使用任意等级，且不会影响机器运行。别忘了给机器搭个顶盖，避免它在雨里直接炸掉。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">IFDR</Color> 没有分级结构部件。采矿管道可直接放入控制器，也可额外放入输入总线。机器会在结构中央正下方的世界中真实生成采矿管道，并一路笔直向下钻到基岩，沿途破坏碰到的一切方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，而且只允许安装 <u>__一个__</u> 普通能源仓。<Color id="GREEN">IFDR</Color> 的不同运行档位也各自有最低电压要求。玻璃可以使用任意等级，且不会影响机器运行。别忘了给机器搭个顶盖，避免它在雨里直接炸掉。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15567"/><ItemImage id="gregtech:gt.blockmachines:15567"/>

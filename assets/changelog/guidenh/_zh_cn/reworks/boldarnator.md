@@ -24,7 +24,7 @@ date: 2026-05-27
 > - 结构自带岩浆与水：不再需要额外供应，它们会在结构成型时直接生成
 
 ## 搭建
-<Color id="GREEN">Boldarnator</Color> 没有任何分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。总线与仓室可以替换结构中任意位置的任意一块机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。结构成型后，内部所需的岩浆与水会自动免费生成，因此 <u>__无需手动摆放__</u>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
+<Color id="GREEN">Boldarnator</Color> 没有分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。总线和仓室可以替换结构中任意位置的机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。结构成型后，内部所需的岩浆与水会自动免费生成，因此 <u>__无需手动摆放__</u>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>

@@ -27,7 +27,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，机制本身保持不变
 
 ## 搭建
-<Color id="GREEN">地热锅炉</Color> 没有任何分级结构部件。维护仓和消声仓可以替换结构中的任意 <Color id="GREEN">热抑制机械方块</Color>。输入仓和输出仓则可以替换任意 <Color id="GREEN">热处理机械方块</Color> 或 <Color id="GREEN">强化钨钢机械方块</Color>，不需要平均分布，也不要求任何特定布局。强烈建议使用 <Color id="GREEN">蓄水仓</Color> 来持续提供充足供水；如果不用，也可以让高温流体与水共用同一个输入仓，同样地，低温流体与蒸汽也可以共用同一个输出仓。由于机器本身不耗电，所以 <Color id="RED">没有能源仓</Color>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">地热锅炉</Color> 没有分级结构部件。维护仓和消声仓可以替换结构中的任意 <Color id="GREEN">热抑制机械方块</Color>。输入仓和输出仓则可以替换任意 <Color id="GREEN">热处理机械方块</Color> 或 <Color id="GREEN">强化钨钢机械方块</Color>，不需要平均分布，也不要求任何特定布局。强烈建议使用 <Color id="GREEN">蓄水仓</Color> 来持续提供充足供水；如果不用，也可以让高温流体与水共用同一个输入仓，同样地，低温流体与蒸汽也可以共用同一个输出仓。由于机器本身不耗电，所以 <Color id="RED">没有能源仓</Color>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15557"/><ItemImage id="gregtech:gt.blockmachines:15557"/>

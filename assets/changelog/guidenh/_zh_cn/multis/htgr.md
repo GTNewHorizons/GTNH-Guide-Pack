@@ -27,7 +27,7 @@ date: 2026-05-31
 
 ## 搭建：
 
-<Color id="GREEN">HTGR</Color> 由四个彼此独立的结构组成，而且它们相对控制器的位置完全固定，四部分缺一不可。中间那颗巨大的紫色球体是 <Color id="GREEN">反应堆本体</Color>，顶部的输入总线用于放入 TRISO 燃料球，底部的输出总线用于导出 <Color id="GREEN">枯竭 TRISO 燃料球</Color> <ItemImage id="kubatech:htgr_item_burned_triso_fuel:3"/>。中央那座较高的竖直结构是 <Color id="GREEN">主冷却塔</Color>，侧面输入仓接收 IC2 冷却液，顶部输出仓排出热冷却剂。边缘那座较矮的竖直结构是 <Color id="GREEN">副冷却塔</Color>，顶部附近的输入仓接收蒸馏水，底部附近的输出仓排出蒸汽。氦气输入仓、能源仓和维护仓都只能放在结构中心泵上方的那三格顶层机械方块里。<Color id="RED">不支持多 A 与激光能源仓</Color>，而且普通能源仓也只能安装 <Color id="RED">一个</Color>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">HTGR</Color> 由四个彼此独立的结构组成，而且它们相对控制器的位置完全固定，四部分缺一不可。中间那颗巨大的紫色球体是 <Color id="GREEN">反应堆本体</Color>，顶部的输入总线用于放入 TRISO 燃料球，底部的输出总线用于导出 <Color id="GREEN">枯竭 TRISO 燃料球</Color> <ItemImage id="kubatech:htgr_item_burned_triso_fuel:3"/>。中央那座较高的竖直结构是 <Color id="GREEN">主冷却塔</Color>，侧面输入仓接收 IC2 冷却液，顶部输出仓排出热冷却剂。边缘那座较矮的竖直结构是 <Color id="GREEN">副冷却塔</Color>，顶部附近的输入仓接收蒸馏水，底部附近的输出仓排出蒸汽。氦气输入仓、能源仓和维护仓都只能放在结构中心泵上方的那三格顶层机械方块里。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，而且普通能源仓也只能安装 <Color id="RED">一个</Color>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 

@@ -15,13 +15,13 @@ date: 2026-05-26
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9500" />
 </GameScene>
-<Color id="GREEN">纳米芯片组装复合体（NAC）</Color> 是一台 UEV 级多方块，专门用于大规模组装电路。对于晶体、湿件、生物、光学、皮米和量子电路而言，<Color id="GREEN">NAC</Color> 可以视作 <ItemLink id="gregtech:gt.blockmachines:12735"/> <ItemImage id="gregtech:gt.blockmachines:12735"/> 的直接升级版，因为它提供 <Color id="RED">无限并行</Color>、支持 <Color id="BLUE">2/2 无损超频</Color>，并且只有在内部缓存足以覆盖整张配方的完整耗电时才会开始加工。<Color id="GREEN">NAC</Color> 还支持 <Color id="RED">多 A 与激光能源仓</Color>，可以轻松把吞吐量推到极高水平。
+<Color id="GREEN">纳米芯片组装复合体（NAC）</Color> 是一台 UEV 级多方块，专门用于大规模组装电路。对于晶体、湿件、生物、光学、皮米和量子电路而言，<Color id="GREEN">NAC</Color> 可以视作 <ItemLink id="gregtech:gt.blockmachines:12735"/> <ItemImage id="gregtech:gt.blockmachines:12735"/> 的直接升级版，因为它提供 <Color id="RED">无限并行</Color>、支持 <Color id="BLUE">2/2 无损超频</Color>，并且只有在内部缓存足以覆盖整张配方的完整耗电时才会开始加工。<Color id="GREEN">NAC</Color> 还支持 <Color id="RED">多安能源仓和激光靶仓</Color>，可以轻松把吞吐量推到极高水平。
 
 所有加工都由环绕中央控制室的各类模块完成。机器共有 11 种不同模块可选，而控制室周围一共有 12 个模块槽位。少数模块在自动化或成本上有自己的特殊要求，但大多数都相对直接。物品与 <Color id="GREEN">电路组件（CC）</Color> 会通过 <Color id="GREEN">真空传送输入端口（VCI）</Color>、<Color id="GREEN">真空传送输出端口（VCO）</Color> 以及真空传送管道在模块间流转，这套系统没有容量上限，也几乎没有吞吐瓶颈。随着同一种电路生产量累积，<Color id="GREEN">NAC</Color> 还会逐步“校准”到对应电路线，并获得额外收益。
 <br clear="all"/>
 
 ## 搭建：
-<Color id="GREEN">NAC</Color> 由中央控制室和外围 12 个模块槽位构成。控制室负责整机的输入输出，模块则负责处理各种 <Color id="GREEN">电路组件</Color>。机器支持多 A 与激光能源仓，但整台 <Color id="GREEN">NAC</Color> 只能安装一个能源仓，而且它必须位于控制室内部或正下方。能量会像 <ItemLink id="gregtech:gt.blockmachines:14003"/><ItemImage id="gregtech:gt.blockmachines:14003"/> 一样，按照“谁先请求谁先分配”的顺序从控制室自动下发到各个模块。唯一的例外是 <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>，它在填充内部能量缓存时的优先级永远最低。整机不需要维护仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">NAC</Color> 由中央控制室和外围 12 个模块槽位构成。控制室负责整机的输入输出，模块则负责处理各种 <Color id="GREEN">电路组件</Color>。机器支持多安能源仓和激光靶仓，但整台 <Color id="GREEN">NAC</Color> 只能安装一个能源仓，而且它必须位于控制室内部或正下方。能量会像 <ItemLink id="gregtech:gt.blockmachines:14003"/><ItemImage id="gregtech:gt.blockmachines:14003"/> 一样，按照“谁先请求谁先分配”的顺序从控制室自动下发到各个模块。唯一的例外是 <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>，它在填充内部能量缓存时的优先级永远最低。整机不需要维护仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 每个模块本身又是一台独立多方块，拥有自己的控制器和结构要求。把任意一个模块槽顶部边缘的 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/> 替换成对应模块控制器，再使用多方块结构全息投影仪即可查看或搭建该模块。模块可以朝任意方向放置，但不能倒着建。只要搭建正确，启用 <Color id="GREEN">NAC</Color> 后，模块控制器就会显示“连接到主复合体”。
 

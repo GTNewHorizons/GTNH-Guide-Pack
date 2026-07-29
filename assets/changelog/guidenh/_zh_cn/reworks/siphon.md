@@ -15,7 +15,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15559"/>
 </GameScene>
-<Color id="GREEN">行星气体钻机（PGS）</Color>是一台 IV 级多方块，用于从木星、土星、天王星和海王星这些气态巨行星中无限抽取气体。<Color id="GREEN">PGS</Color> 和流体钻井机 <ItemImage id="gregtech:gt.blockmachines:149"/> 类似，只不过它必须建在这些行星上空的空间站里。每颗气态巨行星都有 4 种可抽取气体，但同一时间只能抽其中一种。通过调整输入总线中的编程电路数值，可以改变 <Color id="GREEN">PGS</Color> 的抽取深度，从而切换目标气体。升级加热线圈和能源仓，都可以提高机器的抽取速率（L/s）。
+<Color id="GREEN">行星气体钻机（PGS）</Color> 是一台 IV 级多方块，用于从木星、土星、天王星和海王星这些气态巨行星中无限抽取气体。<Color id="GREEN">PGS</Color> 和流体钻井机 <ItemImage id="gregtech:gt.blockmachines:149"/> 类似，只不过它必须建在这些行星上空的空间站里。每颗气态巨行星都有 4 种可抽取气体，但同一时间只能抽其中一种。通过调整输入总线中的编程电路数值，可以改变 <Color id="GREEN">PGS</Color> 的抽取深度，从而切换目标气体。升级加热线圈和能源仓，都可以提高机器的抽取速率（L/s）。
 
 <br clear="all"/>
 
@@ -26,7 +26,7 @@ date: 2026-05-27
 > - WAILA 提示增强：悬停控制器时，现在会显示当前速度加成与线圈等级
 
 ## 搭建
-<Color id="GREEN">PGS</Color> 有一个分级结构部件。加热线圈决定机器的速度加成。仓室和总线可以替换结构上的任意一块 <Color id="GREEN">行星虹吸机械方块</Color>，但每一种仓室都必须且只能放 1 个，能源仓也不例外。不支持多 A 与激光能源仓。输入总线中的采矿管道既不会被控制器消耗，也不会真正放入世界，所以 <Color id="GREEN">PGS</Color> 并不需要与下方的气态巨行星保持直线视野。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并使用子信道 `coil` 指定加热线圈等级。
+<Color id="GREEN">PGS</Color> 有一个分级结构部件。加热线圈决定机器的速度加成。仓室和总线可以替换结构上的任意一块 <Color id="GREEN">行星虹吸机械方块</Color>，但每一种仓室都必须且只能放 1 个，能源仓也不例外。不支持多安能源仓和激光靶仓。输入总线中的采矿管道既不会被控制器消耗，也不会真正放入世界，所以 <Color id="GREEN">PGS</Color> 并不需要与下方的气态巨行星保持直线视野。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并使用子信道 `coil` 指定加热线圈等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>

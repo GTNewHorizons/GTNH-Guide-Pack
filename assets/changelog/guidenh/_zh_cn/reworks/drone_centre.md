@@ -30,9 +30,9 @@ date: 2026-05-23
 
 
 ## 搭建
-<Color id="GREEN">无人机控制中心</Color> 没有任何分级结构部件，也不需要维护仓、能源仓或消声仓。它唯一必需的接口只有一个输入总线，用来放入无人机。汉麻混凝土可以使用任意颜色，且不会影响机器运行。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
+<Color id="GREEN">无人机控制中心</Color> 没有分级结构部件，也不需要维护仓、能源仓或消声仓。它唯一必需的接口只有一个输入总线，用来放入无人机。汉麻混凝土可以使用任意颜色，且不会影响机器运行。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
 
-<Color id="GREEN">无人机控制中心</Color> 独有的部件是 <Color id="BLUE">无人机下行模块</Color>。它会替换 <u>__其他__</u> 机器上的维护仓，从而把这些机器接入无人机网络，以实现自动维护、供电控制和监控功能。无人机下行模块每 10 秒会搜索一次处于激活状态的无人机控制中心，直到成功连接为止，因此若附近放了太多尚未连接的下行模块，可能会造成明显的卡顿尖峰。右键无人机下行模块可以重命名宿主机器，方便后续识别。
+<Color id="GREEN">无人机控制中心</Color> 独有的部件是 <Color id="BLUE">无人机下行模块</Color>。它会替换 <u>__其他__</u> 机器上的维护仓，从而把这些机器接入无人机网络，以实现自动维护、供电控制和监控功能。无人机下行模块每 10 秒会搜索一次处于激活状态的无人机控制中心，直到成功连接为止，因此若附近放了太多尚未连接的下行模块，可能会造成明显的卡顿尖峰。右键无人机下行模块可以重命名宿控制器器，方便后续识别。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15568" /> <ItemImage id="gregtech:gt.blockmachines:15568" />

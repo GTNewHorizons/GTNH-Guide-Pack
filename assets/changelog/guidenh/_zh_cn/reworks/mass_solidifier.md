@@ -28,7 +28,7 @@ date: 2026-05-27
 > - 并行：改为每电压等级 10 并行，而不再是旧版那种 `2 + 每层宽度 3` 的机制
 
 ## 搭建
-<Color id="GREEN">大规模固化器</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级；UEV 级玻璃可解除这一限制。总线与仓室可以替换结构中任意位置的任意一块固化器机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
+<Color id="GREEN">大规模固化器</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级；UEV 级玻璃可解除这一限制。总线和仓室可以替换结构中任意位置的固化器机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
 
 <Color id="GREEN">大规模固化器</Color> 的特有部件是 <Color id="BLUE">固化仓</Color> <ItemImage id="gregtech:gt.blockmachines:31781"/>。它本质上是一个带模具幻影槽的输入仓。对模具槽按住 Shift 点击即可打开所有可选模具菜单。无论输入隔离设置如何，模具只会作用于该仓自身持有的流体。固化仓共有 4 个等级，用来提升内部容量；后期则会被更高级的 <Color id="GREEN">样板输入总成</Color> 取代。
 

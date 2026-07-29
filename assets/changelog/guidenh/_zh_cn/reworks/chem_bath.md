@@ -25,7 +25,7 @@ date: 2026-05-27
 > - 拆分：洗矿厂现在已拆分为多个独立结构，其中就包括这台机器。
 
 ## 搭建
-<Color id="GREEN">ICB</Color> 没有任何分级结构部件。总线与仓室可以替换结构中任意位置的任意一块洗矿厂机械方块。<Color id="GREEN">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。机器内部的水只需一次性灌满作为启动成本，可以通过 <Color id="GREEN">蓄水仓</Color> 或输入仓注入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">ICB</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的洗矿厂机械方块。<Color id="GREEN">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。机器内部的水只需一次性灌满作为启动成本，可以通过 <Color id="GREEN">蓄水仓</Color> 或输入仓注入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15551"/><ItemImage id="gregtech:gt.blockmachines:15551"/>

@@ -23,7 +23,7 @@ date: 2026-05-25
 
 ## 搭建：
 
-<Color id="GREEN">LHC</Color> 由两个环组成。较小的环是 <Color id="GREEN">粒子加速器</Color>，负责消耗电力来提高整条束流的总能量；较大的环是 <Color id="GREEN">粒子对撞机</Color>，负责利用束流的对撞能量生成新的粒子。<Color id="GREEN">LHC</Color> 共有四个模块，每个模块都必须安装在结构指定的一侧。它们之间的差异，在于各自的 <ItemLink id="gregtech:gt.blockmachines:3014"/><ItemImage id="gregtech:gt.blockmachines:3014"/> 能够产出或筛选的粒子种类不同。<Color id="BLUE">支持多 A 与激光能源仓</Color>。霓虹石纯属可选装饰，而且颜色不限。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中一次手持的投影仪数量会决定要构建多少个模块。
+<Color id="GREEN">LHC</Color> 由两个环组成。较小的环是 <Color id="GREEN">粒子加速器</Color>，负责消耗电力来提高整条束流的总能量；较大的环是 <Color id="GREEN">粒子对撞机</Color>，负责利用束流的对撞能量生成新的粒子。<Color id="GREEN">LHC</Color> 共有四个模块，每个模块都必须安装在结构指定的一侧。它们之间的差异，在于各自的 <ItemLink id="gregtech:gt.blockmachines:3014"/><ItemImage id="gregtech:gt.blockmachines:3014"/> 能够产出或筛选的粒子种类不同。<Color id="BLUE">支持多安能源仓和激光靶仓</Color>。霓虹石纯属可选装饰，而且颜色不限。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中一次手持的投影仪数量会决定要构建多少个模块。
 
 ### 基础结构需要：
 

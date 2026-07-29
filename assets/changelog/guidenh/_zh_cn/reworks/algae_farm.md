@@ -27,7 +27,7 @@ date: 2026-05-27
 > - 速度：每轮产量与运行速度现在取决于供电等级，而不再取决于结构中的机械方块等级
 
 ## 搭建
-<Color id="GREEN">藻类农场</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级；若使用 UMV 等级玻璃，则可移除这一限制。总线与仓室可以替换结构中任意位置的任意一块藻类机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，并且只能安装 <u>__一个__</u> 普通能源仓。机器内部的水只需一次性灌满作为启动成本，可以通过蓄水仓或输入仓注入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
+<Color id="GREEN">藻类农场</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级；若使用 UMV 等级玻璃，则可移除这一限制。总线和仓室可以替换结构中任意位置的藻类机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，并且只能安装 <u>__一个__</u> 普通能源仓。机器内部的水只需一次性灌满作为启动成本，可以通过蓄水仓或输入仓注入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15545"/><ItemImage id="gregtech:gt.blockmachines:15545"/>

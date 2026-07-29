@@ -23,7 +23,7 @@ date: 2026-05-27
 > 这台多方块除结构外无其他机制改动
 
 ## 搭建
-<Color id="GREEN">工业3D复印机</Color> 没有任何分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。加热线圈必须固定为白铜，但本身也不会改变机器机制。仓室和总线可以替换结构上的任意一块 <Color id="GREEN">加强打印机械方块</Color>。<Color id="RED">不支持多 A 与激光能源仓</Color>，不过可以同时放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并使用子信道 `glass` 指定玻璃等级。
+<Color id="GREEN">工业3D复印机</Color> 没有分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。加热线圈必须固定为白铜，但本身也不会改变机器机制。仓室和总线可以替换结构上的任意一块 <Color id="GREEN">加强打印机械方块</Color>。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，不过可以同时放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并使用子信道 `glass` 指定玻璃等级。
 
 <Color id="GREEN">工业3D复印机</Color> 独有的额外部件是 <Color id="GREEN">雕刻总线</Color>，本质上相当于一个大号输入总线，但额外多了一个用于指定目标方块的槽位。目标方块必须真实放进雕刻总线中，因此它并不比在普通输入总线里放编程电路方便多少。雕刻总线共有 3 个等级（LV、MV、HV），区别只有槽位数分别是 32、48、64。
 

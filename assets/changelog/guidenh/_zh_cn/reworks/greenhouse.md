@@ -25,7 +25,7 @@ date: 2026-05-16
 > 它现在也和其他多方块一样，完整支持自动投影搭建！<ItemImage id="structurelib:item.structurelib.constructableTrigger" />
 
 ## 搭建
-<Color id="GREEN">EIG</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级。总线与仓室可以替换结构中任意位置的任意一块无菌农场机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。<Color id="GREEN">EIG</Color> 内部的泥土必须是 RandomThings 模组的 <Color id="GREEN">沃土</Color>，灯则必须是 ProjectRed Illumination 的 <Color id="GREEN">紫色灯</Color>。灯不能换成别的颜色，但可以使用已通电或反相版本。结构成型后，内部泥土会自动被耕作，水源也会免费生成，因此 <u>__无需手动摆放__</u>。如果只是供水，推荐使用 <ItemLink id="gregtech:gt.blockmachines:12972" /> <ItemImage id="gregtech:gt.blockmachines:12972" />，比普通输入仓更合适。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
+<Color id="GREEN">EIG</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级。总线和仓室可以替换结构中任意位置的无菌农场机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。<Color id="GREEN">EIG</Color> 内部的泥土必须是 RandomThings 模组的 <Color id="GREEN">沃土</Color>，灯则必须是 ProjectRed Illumination 的 <Color id="GREEN">紫色灯</Color>。灯不能换成别的颜色，但可以使用已通电或反相版本。结构成型后，内部泥土会自动被耕作，水源也会免费生成，因此 <u>__无需手动摆放__</u>。如果只是供水，推荐使用 <ItemLink id="gregtech:gt.blockmachines:12972" /> <ItemImage id="gregtech:gt.blockmachines:12972" />，比普通输入仓更合适。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:12792" /> <ItemImage id="gregtech:gt.blockmachines:12792"/>

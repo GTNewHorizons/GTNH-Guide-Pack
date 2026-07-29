@@ -24,7 +24,7 @@ date: 2026-05-27
 > - 拆分：这台多方块现已 <u>__不再__</u> 处理化学浸洗配方。相关内容请参见 [工业化学浸洗机](./chem_bath.md)
 
 ## 搭建
-<Color id="GREEN">OWP</Color> 没有任何分级结构部件。总线与仓室可以替换结构中任意位置的任意一块洗矿厂机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。机器内部的水只需一次性灌满作为启动成本，可以通过蓄水仓或输入仓注入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">OWP</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的洗矿厂机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。机器内部的水只需一次性灌满作为启动成本，可以通过蓄水仓或输入仓注入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15550"/><ItemImage id="gregtech:gt.blockmachines:15550"/>

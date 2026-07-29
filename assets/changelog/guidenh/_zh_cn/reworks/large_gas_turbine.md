@@ -16,9 +16,9 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15527"/>
 </GameScene>
-<Color id="GREEN">大型燃气涡轮（LGT）</Color> 是一台 EV 级多方块，用于把气体燃料转化为电力。<Color id="GREEN">大型燃气涡轮</Color> 是单方块 <Color id="GREEN">燃气涡轮</Color> 的直接升级版，因为它能以高得多的效率输出最高 4A 电流。不过，机器必须先在控制器内部装入一枚涡轮转子才能运行，燃料输入速率也需要精确控制，而且至少要连续运转 50 秒才能完全热机。涡轮共有 4 种尺寸、许多不同材料，每种都会决定各自的效率加成与最佳流量（L/t）。机器会在结构背面的 4A 动力仓输出电力，同时把气体转化为污染。若在机器运行时拆掉动力仓，整台机器会直接爆炸。为了节约燃料，强烈建议把 <Color id="GREEN">LGT</Color> 接到一个与 <Color id="GREEN">兰波顿超能电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
+<Color id="GREEN">大型燃气涡轮（LGT）</Color> 是一台 EV 级多方块，用于把气体燃料转化为电力。<Color id="GREEN">大型燃气涡轮</Color> 是单方块 <Color id="GREEN">燃气涡轮</Color> 的直接升级版，因为它能以高得多的效率输出最高 4A 电流。不过，机器必须先在控制器内部装入一枚涡轮转子才能运行，燃料输入速率也需要精确控制，而且至少要连续运转 50 秒才能完全热机。涡轮共有 4 种尺寸、许多不同材料，每种都会决定各自的效率加成与最佳流量（L/t）。机器会在结构背面的 4A 动力仓输出电力，同时把气体转化为污染。若在机器运行时拆掉动力仓，整台机器会直接爆炸。为了节约燃料，强烈建议把 <Color id="GREEN">LGT</Color> 接到一个与 <Color id="GREEN">兰波顿超级电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
 
-<Color id="GREEN">LGT</Color> 后续会被 <Color id="GREEN">特大燃气涡轮</Color> 取代。后者只需 12 枚涡轮，就能吃下 16 台 <Color id="GREEN">LGT</Color> 的燃料并输出相同规模的电力，而且还支持多 A 与激光动力仓，适合更激进的发电方案。除此之外，还有 <Color id="GREEN">固体氧化物燃料电池</Color> 这一路线，它可以不依赖涡轮、也不产生污染地把气体氧化发电；但其运行时需要 100 L/s 氧气，通常只能锁在 100% 效率，不支持溢流，也没有 XL 变体。
+<Color id="GREEN">LGT</Color> 后续会被 <Color id="GREEN">特大燃气涡轮</Color> 取代。后者只需 12 枚涡轮，就能吃下 16 台 <Color id="GREEN">LGT</Color> 的燃料并输出相同规模的电力，而且还支持多安动力仓和激光源仓，适合更激进的发电方案。除此之外，还有 <Color id="GREEN">固体氧化物燃料电池</Color> 这一路线，它可以不依赖涡轮、也不产生污染地把气体氧化发电；但其运行时需要 100 L/s 氧气，通常只能锁在 100% 效率，不支持溢流，也没有 XL 变体。
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
@@ -27,7 +27,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，机制本身保持不变
 
 ## 搭建
-<Color id="GREEN">LGT</Color> 没有任何分级结构部件。维护仓、消声仓、输入仓与输出仓都可以替换结构后半部分的任意一块涡轮机械方块。动力仓只能放在结构最背面正中央那一格，而且不能超过 4A。控制器正前方的 3x3 空间必须全部留空。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">LGT</Color> 没有分级结构部件。维护仓、消声仓、输入仓与输出仓都可以替换结构后半部分的任意一块涡轮机械方块。动力仓只能放在结构最背面正中央那一格，而且不能超过 4A。控制器正前方的 3x3 空间必须全部留空。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 大型涡轮独有的额外部件是 <Color id="GREEN">涡轮仓</Color>，本质上相当于一个 ULV 输入总线，可以额外存放一枚备用涡轮转子；当控制器里的转子损坏时，它会自动补位。这个部件完全可选，而且要到 UV 才解锁，但能显著延长连续无人值守运行的时间。
 
@@ -75,7 +75,7 @@ date: 2026-05-27
 ## 功率与溢流
 <Color id="GREEN">LGT</Color> 的发电量取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）和涡轮效率（$$\eta$$）。当流量超过最佳值后，虽然还能继续提高发电量，但收益会依据涡轮的溢流等级（$$T$$）快速递减。总共只有 3 种溢流等级，并且完全由涡轮材料决定。更高的溢流等级也会提高最大允许流量（$$\dot{m}_{max}$$）。你可以通过 NEI 查看某枚涡轮的溢流等级，也可以通过 WAILA 提示直接查看机器当前发电量。
 
-机器会从结构背面的 4A 动力仓输出电力。若在运行时拆掉动力仓，<Color id="GREEN">LGT</Color> 会直接爆炸。但无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超能电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">LGT</Color>。
+机器会从结构背面的 4A 动力仓输出电力。若在运行时拆掉动力仓，<Color id="GREEN">LGT</Color> 会直接爆炸。但无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超级电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">LGT</Color>。
 
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times EU/L \times \eta">
   - $$\dot{m}$$: 当前流量

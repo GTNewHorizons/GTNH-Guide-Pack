@@ -26,7 +26,7 @@ date: 2026-05-27
 > - 2 级结构：新结构，速度从 160% 提高到 640%。
 
 ## 搭建
-<Color id="GREEN">IMS</Color> 共有两个结构等级。1 级结构没有任何分级结构部件，总线与仓室可以替换结构中任意位置的任意一块机械方块。2 级结构同样没有任何分级结构部件，总线与仓室可以替换结构中任意位置的任意一块粉碎机机械方块。玻璃可以使用任意等级，且不会对机器运行效果产生影响。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中子信道 `glass` 用于指定玻璃等级，而单次手持的投影仪数量则用于指定要搭建的结构等级。
+<Color id="GREEN">IMS</Color> 共有两个结构等级。1 级结构没有分级结构部件，总线和仓室可以替换结构中任意位置的机械方块。2 级结构同样没有分级结构部件，总线和仓室可以替换结构中任意位置的粉碎机机械方块。玻璃可以使用任意等级，且不会影响机器运行。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中子信道 `glass` 用于指定玻璃等级，而单次手持的投影仪数量则用于指定要搭建的结构等级。
 
 ### 1 级需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15539"/><ItemImage id="gregtech:gt.blockmachines:15539"/>

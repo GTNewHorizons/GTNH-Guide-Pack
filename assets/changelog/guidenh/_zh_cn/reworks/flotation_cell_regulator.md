@@ -16,14 +16,14 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15560"/>
 </GameScene>
-<Color id="GREEN">工业浮选机（FCR）</Color>是一台 LuV 级多方块，用于将研磨矿石、松油和黄药粉加工成各种金属泡沫。随后，这些金属泡沫可以送入真空干燥炉或乌图普-塔努里 <ItemImage id="gregtech:gt.blockmachines:995"/>，进一步产出对应的稀有金属复合物。<Color id="GREEN">FCR</Color> 一次只能处理一种材料，因为它会永久锁定为首次运行的配方，不过依靠无损超频，它的扩展性依然很强。
+<Color id="GREEN">工业浮选机（FCR）</Color> 是一台 LuV 级多方块，用于将研磨矿石、松油和黄药粉加工成各种金属泡沫。随后，这些金属泡沫可以送入真空干燥炉或乌图普-塔努里 <ItemImage id="gregtech:gt.blockmachines:995"/>，进一步产出对应的稀有金属复合物。<Color id="GREEN">FCR</Color> 一次只能处理一种材料，因为它会永久锁定为首次运行的配方，不过依靠无损超频，它的扩展性依然很强。
 <br clear="all"/>
 
 > [!NOTE]
 > 这台多方块这次只改了结构，机制本身保持不变
 
 ## 搭建
-<Color id="GREEN">FCR</Color> 没有任何分级结构部件。仓室和总线可以替换底层任意一块 <Color id="GREEN">强化镍铬基合金机械方块</Color>。不支持多 A 与激光能源仓，不过可以放置多个普通能源仓来超频。结构成型后，内部用水会自动生成，因此 <Color id="RED">不需要</Color> 手动灌水。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">FCR</Color> 没有分级结构部件。仓室和总线可以替换底层任意一块 <Color id="GREEN">强化镍铬基合金机械方块</Color>。不支持多安能源仓和激光靶仓，不过可以放置多个普通能源仓来超频。结构成型后，内部用水会自动生成，因此 <Color id="RED">不需要</Color> 手动灌水。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15560"/><ItemImage id="gregtech:gt.blockmachines:15560"/>

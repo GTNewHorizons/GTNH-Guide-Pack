@@ -23,7 +23,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，机制本身保持不变
 
 ## 搭建
-<Color id="GREEN">珠海渔场</Color> 没有任何分级结构部件。仓室和总线可以替换结构上的任意机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，不过可以同时放置多个普通能源仓用于超频。水只是在首次启动时用于“灌机”的一次性投入，可以通过蓄水仓或普通输入仓灌入结构。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">珠海渔场</Color> 没有分级结构部件。仓室和总线可以替换结构上的任意机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，不过可以同时放置多个普通能源仓用于超频。水只是在首次启动时用于“灌机”的一次性投入，可以通过蓄水仓或普通输入仓灌入结构。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15544"/><ItemImage id="gregtech:gt.blockmachines:15544"/>

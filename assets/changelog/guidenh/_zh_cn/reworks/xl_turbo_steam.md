@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15519"/>
 </GameScene>
-<Color id="GREEN">特大蒸汽涡轮（XLST）</Color> 是一台 EV 级多方块，用于把蒸汽转化为巨量电力。<Color id="GREEN">XLST</Color> 是 [大型蒸汽涡轮](./large_steam_turbine.md) <ItemImage id="gregtech:gt.blockmachines:15524"/> 的直接升级版，因为它只需 12 枚涡轮，就能提供 <Color id="RED">16 倍</Color> 吞吐量，同时支持 <Color id="GREEN">多 A 与激光动力仓</Color>，还能处理普通蒸汽与致密蒸汽，并且在运行时拆掉动力仓也不会爆炸。不过，机器内 12 枚涡轮必须完全一致才能运行，超出最佳流量时的惩罚也更严苛，而且同样需要至少连续运转 50 秒才能完全热机。为了节约燃料，强烈建议把 <Color id="GREEN">XLST</Color> 接到一个与 <Color id="GREEN">兰波顿超能电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
+<Color id="GREEN">特大蒸汽涡轮（XLST）</Color> 是一台 EV 级多方块，用于把蒸汽转化为巨量电力。<Color id="GREEN">XLST</Color> 是 [大型蒸汽涡轮](./large_steam_turbine.md) <ItemImage id="gregtech:gt.blockmachines:15524"/> 的直接升级版，因为它只需 12 枚涡轮，就能提供 <Color id="RED">16 倍</Color> 吞吐量，同时支持 <Color id="GREEN">多安动力仓和激光源仓</Color>，还能处理普通蒸汽与致密蒸汽，并且在运行时拆掉动力仓也不会爆炸。不过，机器内 12 枚涡轮必须完全一致才能运行，超出最佳流量时的惩罚也更严苛，而且同样需要至少连续运转 50 秒才能完全热机。为了节约燃料，强烈建议把 <Color id="GREEN">XLST</Color> 接到一个与 <Color id="GREEN">兰波顿超级电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
 
 致密蒸汽变体只会通过在 <Color id="GREEN">超级热交换机</Color> <ItemImage id="gregtech:gt.blockmachines:32017"/> 中使用等离子体获得，其燃料能量密度是普通蒸汽变体的 1000 倍。这意味着在发电量相同的前提下，它们只需要 1/1000 的最佳流量。
 
@@ -28,7 +28,7 @@ date: 2026-05-27
 
 ## 搭建
 
-<Color id="GREEN">XLST</Color> 没有任何分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。螺线管线圈必须固定为 MV，但本身也不会改变机器机制。仓室和总线可以替换结构上的任意一块涡轮机械方块。<Color id="GREEN">多 A 与激光动力仓</Color> 都受支持，而且可以同时放置多个。<Color id="RED">没有消声仓</Color>，所以不要额外安装。涡轮可以通过输入总线或控制器界面塞入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并使用子信道 `glass` 指定玻璃等级。
+<Color id="GREEN">XLST</Color> 没有分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。螺线管线圈必须固定为 MV，但本身也不会改变机器机制。仓室和总线可以替换结构上的任意一块涡轮机械方块。<Color id="GREEN">多安动力仓和激光源仓</Color> 都受支持，而且可以同时放置多个。<Color id="RED">没有消声仓</Color>，所以不要额外安装。涡轮可以通过输入总线或控制器界面塞入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并使用子信道 `glass` 指定玻璃等级。
 
 ### 需要：
 - 1 个特大蒸汽涡轮控制器（随具体类型变化） <ItemImage id="gregtech:gt.blockmachines:15519"/>
@@ -84,7 +84,7 @@ date: 2026-05-27
 ## 功率
 <Color id="GREEN">XLST</Color> 的发电量取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）和涡轮效率（$$\eta$$）。当流量超过最佳值后，不仅效率会下降，总发电量本身也会减少。溢流等级不会影响这台机器的运行。你可以通过查看控制器的 WAILA 提示信息，或使用工业信息面板，来确认当前输出功率。
 
-机器会从结构上的任意激光或多 A 动力仓输出电力。无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超能电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">XLST</Color>。
+机器会从结构上的任意激光源仓或多安动力仓输出电力。无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超级电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">XLST</Color>。
 
 # 涡轮
 机器内 12 枚涡轮必须完全一致，否则无法运行。涡轮共有 4 种尺寸和许多种材料，每种都会影响效率加成与最佳流量。排列组合实在太多，不适合在这里全部列出；上面链接的规划表已经包含全部关键数据，甚至还能直接帮你计算任意燃料搭配任意转子的输出与寿命。

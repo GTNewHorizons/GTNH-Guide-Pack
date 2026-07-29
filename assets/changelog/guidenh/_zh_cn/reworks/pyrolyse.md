@@ -22,7 +22,7 @@ date: 2026-05-27
 > 这台多方块这次唯一的改动只有结构本身
 
 ## 搭建
-<Color id="GREEN">热解炉</Color> 有一个分级结构部件。加热线圈决定机器的热容，且整台结构中的线圈必须全部使用同一等级才能成型。能源仓、维护仓以及输出总线/输出仓可以替换结构 <u>__底层__</u> 的任意热解炉机械方块；消声仓、输入总线与输入仓则可以替换结构 <u>__顶层__</u> 的任意热解炉机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频，这点和工业高炉以及绝大多数 GregTech 多方块一致。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `coil` 子信道指定加热线圈等级。
+<Color id="GREEN">热解炉</Color> 有一个分级结构部件。加热线圈决定机器的热容，且整台结构中的线圈必须全部使用同一等级才能成型。能源仓、维护仓以及输出总线/输出仓可以替换结构 <u>__底层__</u> 的任意热解炉机械方块；消声仓、输入总线与输入仓则可以替换结构 <u>__顶层__</u> 的任意热解炉机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频，这点和工业高炉以及绝大多数 GregTech 多方块一致。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `coil` 子信道指定加热线圈等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15546"/><ItemImage id="gregtech:gt.blockmachines:15546"/>

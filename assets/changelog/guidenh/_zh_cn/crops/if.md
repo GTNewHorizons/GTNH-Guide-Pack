@@ -26,7 +26,7 @@ date: 2026-05-24
 
 ## 搭建：
 
-<Color id="GREEN">工业农场</Color> 的长度会根据苗床等级在 3 到 14 格之间变化。升级模块只能放在结构顶层的木框架位置，而且其等级必须和苗床等级完全一致。总线和仓室则只能替换结构两端中央的农业砖机械方块。玻璃决定能源仓可接受的最高等级。激光能源仓不被支持；如果安装了超频生长加速模块，则可以使用多个多 A 能源仓，否则只允许按需放置多个普通能源仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> 可以查看/搭建结构，其中子信道 `if_tier` 用于指定机器等级，`glass` 用于指定玻璃等级；如果希望自动放置升级模块，还需要把子信道 `if_upgrade` 设为 `1`。
+<Color id="GREEN">工业农场</Color> 的长度会根据苗床等级在 3 到 14 格之间变化。升级模块只能放在结构顶层的木框架位置，而且其等级必须和苗床等级完全一致。总线和仓室则只能替换结构两端中央的农业砖机械方块。玻璃决定能源仓可接受的最高等级。激光靶仓不被支持；如果安装了超频生长加速模块，则可以使用多个多安能源仓，否则只允许按需放置多个普通能源仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> 可以查看/搭建结构，其中子信道 `if_tier` 用于指定机器等级，`glass` 用于指定玻璃等级；如果希望自动放置升级模块，还需要把子信道 `if_upgrade` 设为 `1`。
 
 ### 需要：
 
@@ -91,4 +91,4 @@ date: 2026-05-24
 - <ItemImage id="cropsnh:cropsnh.fertilizerUnit:2" /> __施肥模块（MV+）__：让 <Color id="GREEN">工业农场</Color> 在每轮开始时必须消耗 <Color id="GREEN">富集肥料</Color>，以提升产出。安装后普通物品肥料将无法在机器中使用。它会让生长速度变为 x1.5、掉落数量增加 +50%、能耗增加 +50%；但一旦缺少富集肥料，机器就会停机。更高等级版本效果相同，但每轮需要更多富集肥料。每台结构最多只能装 1 个施肥模块
 - <ItemImage id="cropsnh:cropsnh.environmentalEnhancementUnit:2" /> __环境优化单元（MV+）__：在控制器界面中解锁环境模块槽位，并使每个模块增加 +50% 能耗。环境模块可以改变机器内部模拟的温度和/或生物群系，从而为作物提供理想生长条件。更高等级版本效果完全相同。每台结构最多只能装 2 个环境优化单元
 - <ItemImage id="cropsnh:cropsnh.growthAccelerationUnit:2" /> __生长加速模块（MV+）__：每个模块使作物生长速度增加 +100%，能耗增加 +125%。它与超频生长加速模块互斥，更高等级版本效果完全相同。每台结构可安装的生长加速模块数量没有上限
-- <ItemImage id="cropsnh:cropsnh.overclockedGrowthAccelerationUnit:7" /> __超频生长加速模块（ZPM+）__：解锁使用 <Color id="RED">多 A 能源仓</Color> 的能力，并让 <Color id="GREEN">工业农场</Color> 像其他多方块一样，在供电足够时进行超频。基础电压取决于苗床等级。每次超频都会让产出、水耗与肥料消耗翻倍，但不会缩短基础周期时长。它与普通生长加速模块互斥，更高等级版本效果完全相同。每台结构最多只能装 1 个超频生长加速模块
+- <ItemImage id="cropsnh:cropsnh.overclockedGrowthAccelerationUnit:7" /> __超频生长加速模块（ZPM+）__：解锁使用 <Color id="RED">多安能源仓</Color> 的能力，并让 <Color id="GREEN">工业农场</Color> 像其他多方块一样，在供电足够时进行超频。基础电压取决于苗床等级。每次超频都会让产出、水耗与肥料消耗翻倍，但不会缩短基础周期时长。它与普通生长加速模块互斥，更高等级版本效果完全相同。每台结构最多只能装 1 个超频生长加速模块

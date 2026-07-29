@@ -24,7 +24,7 @@ date: 2026-05-27
 > - 并行增加：由每个电压等级 4 并行提升到 6 并行
 
 ## 搭建
-<Color id="GREEN">IEM</Color> 没有任何分级结构部件。总线与仓室可以替换结构中任意位置的任意一块机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">IEM</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 <Color id="GREEN">IEM</Color> 最特别的部分就是 <Color id="GREEN">压模总线</Color>：它本质上是一种带可配置幻影槽的输入总线，专门用于指定压模模具。`Shift + 点击` 模具槽即可打开菜单，查看全部可选模具。无论输入隔离是否开启，这个模具都只会作用于它自己总线中的物品。压模总线一共有四个等级，用于提升内部容量，不过到了后期它最终会被合成输入缓存取代。
 

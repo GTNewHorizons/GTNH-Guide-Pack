@@ -26,7 +26,7 @@ date: 2026-05-26
 > - 新结构：机械方块空间更多，可容纳更多总线与仓室
 
 ## 搭建
-<Color id="GREEN">IWF</Color> 有一个分级结构部件。物品管道方块决定机器的速度加成。玻璃可以使用任意等级，且不会影响机器运行。总线与仓室可以替换结构中任意位置的任意一块线材轧机机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并通过 `item_pipe` 与 `glass` 子信道指定这些部件的等级。
+<Color id="GREEN">IWF</Color> 有一个分级结构部件。物品管道方块决定机器的速度加成。玻璃可以使用任意等级，且不会影响机器运行。总线和仓室可以替换结构中任意位置的线材轧机机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并通过 `item_pipe` 与 `glass` 子信道指定这些部件的等级。
 
 ### 需要：
 

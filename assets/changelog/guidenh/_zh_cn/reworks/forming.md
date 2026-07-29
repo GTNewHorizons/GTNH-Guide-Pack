@@ -26,7 +26,7 @@ date: 2026-05-27
 > - 并行增加：由每个电压等级 4 并行提升到 6 并行
 
 ## 搭建
-<Color id="GREEN">IFP</Color> 没有任何分级结构部件。总线与仓室可以替换结构中任意位置的任意一块金属加工机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">IFP</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的金属加工机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15552"/>

@@ -16,7 +16,7 @@ date: 2026-05-31
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15548"/>
 </GameScene>
-<Color id="GREEN">工业电弧炉（IAF）</Color> 是一台 IV 级多方块，用于借助电弧对材料进行极高温加热、熔炼与拆解。<Color id="GREEN">IAF</Color> 是单方块 <Color id="GREEN">电弧炉</Color> 的直接升级版，因为它可以切换多种模式以应对不同用途，并且最高可提供 <Color id="RED">10 倍</Color> 速度、双倍完美（8/4）超频，以及 <Color id="BLUE">1024</Color> 并行。<Color id="GREEN">支持多 A 与激光能源仓</Color>，适合激进超频。对绝大多数配方来说，<Color id="GREEN">IAF</Color> 还可以改用等离子体，而这一点在单方块电弧炉上已经做不到了。
+<Color id="GREEN">工业电弧炉（IAF）</Color> 是一台 IV 级多方块，用于借助电弧对材料进行极高温加热、熔炼与拆解。<Color id="GREEN">IAF</Color> 是单方块 <Color id="GREEN">电弧炉</Color> 的直接升级版，因为它可以切换多种模式以应对不同用途，并且最高可提供 <Color id="RED">10 倍</Color> 速度、双倍完美（8/4）超频，以及 <Color id="BLUE">1024</Color> 并行。<Color id="GREEN">支持多安能源仓和激光靶仓</Color>，适合激进超频。对绝大多数配方来说，<Color id="GREEN">IAF</Color> 还可以改用等离子体，而这一点在单方块电弧炉上已经做不到了。
 <br clear="all"/>
 
 > [!NOTE]
@@ -25,7 +25,7 @@ date: 2026-05-31
 > - 全新电极机制：<Color id="GREEN">IAF</Color> 现在必须使用电极物品，其属性会直接决定机器的速度、并行、超频与能耗；具体见后文
 
 ## 搭建
-<Color id="GREEN">IAF</Color> 没有任何分级结构部件。<Color id="GREEN">支持多 A 与激光能源仓</Color>，可用于激进超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">IAF</Color> 没有分级结构部件。<Color id="GREEN">支持多安能源仓和激光靶仓</Color>，可用于激进超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15548"/><ItemImage id="gregtech:gt.blockmachines:15548"/>

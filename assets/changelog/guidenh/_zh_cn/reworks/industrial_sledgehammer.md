@@ -21,7 +21,7 @@ date: 2026-05-27
 <br clear="all"/>
 
 ## 搭建
-<Color id="GREEN">工业锻造锤</Color> 有一个分级结构部件。螺线管超导线圈决定机器的总并行数。总线与仓室可以替换结构中任意位置的任意一块锻造机械方块。<Color id="RED">不支持多 A 与激光能源仓</Color>，但可以安装多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `solenoid` 子信道指定螺线管超导线圈的等级。
+<Color id="GREEN">工业锻造锤</Color> 有一个分级结构部件。螺线管超导线圈决定机器的总并行数。总线和仓室可以替换结构中任意位置的锻造机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `solenoid` 子信道指定螺线管超导线圈的等级。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15555"/><ItemImage id="gregtech:gt.blockmachines:15555"/>

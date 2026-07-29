@@ -19,7 +19,7 @@ date: 2026-05-25
 <Color id="GREEN">异星铸造塔</Color> 是一台 UEV 级多方块，用于把液态金属以极高规模浇铸进各类模具中。它可以视作 <ItemLink id="gregtech:gt.blockmachines:368" /> <ItemImage id="gregtech:gt.blockmachines:368" /> 的直接升级版，因为它能跑得更快、拥有更高的 EU 折扣以及更多并行。具体数值会随着安装模块的种类和数量发生很大变化。整机总共有 7 种模块可选，但根据结构等级不同，只能安装 2/3/4 个模块。模块可以彼此不同，也可以重复安装来叠加增益。此外还有 4 组固定模块搭配，会提供一次性的额外奖励。
 
 ## 搭建：
-<Color id="GREEN">异星铸造塔</Color> 分为 3 个等级。三者唯一的结构区别在于中央使用的 <Color id="GREEN">磁力塔架</Color> 等级不同，而功能区别则只体现在模块槽位数量上，分别为 2/3/4 个。总线与仓室可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔基础机械方块</Color>。在最低机械方块需求下，整机依然可以提供最多 25 个输入位来服务 35 个总模具位。机器支持 <Color id="RED">多 A 与激光能源仓</Color>，但若没有 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9"/> 或 <Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，就不能超频到高于能源仓本身电压等级的档位。机器不需要维护仓或消声仓。可用螺丝刀右键控制器关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构；其中子信道 `chassis` 用于指定中央磁力塔架等级。
+<Color id="GREEN">异星铸造塔</Color> 分为 3 个等级。三者唯一的结构区别在于中央使用的 <Color id="GREEN">磁力塔架</Color> 等级不同，而功能区别则只体现在模块槽位数量上，分别为 2/3/4 个。总线与仓室可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔基础机械方块</Color>。在最低机械方块需求下，整机依然可以提供最多 25 个输入位来服务 35 个总模具位。机器支持 <Color id="RED">多安能源仓和激光靶仓</Color>，但若没有 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9"/> 或 <Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，就不能超频到高于能源仓本身电压等级的档位。机器不需要维护仓或消声仓。可用螺丝刀右键控制器关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构；其中子信道 `chassis` 用于指定中央磁力塔架等级。
 
 先在控制器界面中选择要启用的模块，再使用多方块结构全息投影仪去实际搭建。模块会以圆环形式套在中央立柱周围，它们的属性摘要会显示在控制器界面的“显示机器信息”部分。模块的顺序不会影响机器运行。若想拆除模块，需要先在模块选择菜单中对其按住 Shift 左键取消选择，再用 <ItemLink id="gregtech:gt.Tool_Vajra" /> <ItemImage id="gregtech:gt.Tool_Vajra" /> 或其他工具把对应结构真正打掉。
 
@@ -115,7 +115,7 @@ date: 2026-05-25
 - 12 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:13" /><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:13" />
 
 ## 超级冷却器 <ItemImage id="gregtech:gt.foundrycasings:9" />
-<Color id="GREEN">超级冷却器</Color>（HC，UIV）会在机器运行时消耗冷却液，从而让最大超频次数突破能源仓等级本身的限制。冷却液必须从模块自身的输入仓送入，而不是主机本体。额外超频次数取决于你提供的冷却液种类，如下表所示。每台异星铸造塔最多只能安装 1 个 HC。若它与 <Color id="GREEN">宇宙坍缩者</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">现实潜能</Color>：允许使用永恒作为冷却液，获得最多 3 次额外超频，同时耗电乘 2、速度乘 2。
+<Color id="GREEN">超级冷却器</Color>（HC，UIV）会在机器运行时消耗冷却液，从而让最大超频次数突破能源仓等级本身的限制。冷却液必须从模块自身的输入仓送入，而不是控制器本体。额外超频次数取决于你提供的冷却液种类，如下表所示。每台异星铸造塔最多只能安装 1 个 HC。若它与 <Color id="GREEN">宇宙坍缩者</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">现实潜能</Color>：允许使用永恒作为冷却液，获得最多 3 次额外超频，同时耗电乘 2、速度乘 2。
 | 冷却液 | 速率 | 额外超频 |
 | --------------- | --------------- | --------------- |
 | 超级冷却液 | 100 L/s | +1 |

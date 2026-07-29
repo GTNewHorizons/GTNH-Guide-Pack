@@ -15,7 +15,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15535"/>
 </GameScene>
-<Color id="GREEN">通用化学燃料引擎（UCFE）</Color>是一台 IV 级多方块，几乎可以把所有可燃液体都拿来发电。<Color id="GREEN">UCFE</Color> 基本上把 <Color id="GREEN">大型燃气涡轮</Color> <ItemImage id="gregtech:gt.blockmachines:15527"/>、<Color id="GREEN">火箭引擎 F-1A</Color> <ItemImage id="gregtech:gt.blockmachines:996"/> 和 <Color id="GREEN">大型内燃引擎</Color> <ItemImage id="gregtech:gt.blockmachines:15533"/> 的燃料范围揉进了一台效率极高、而且 <Color id="RED">没有 EU/t 上限</Color> 的机器里。唯一的例外是半流质燃料，它们依然只能交给 <Color id="GREEN">大型半流质发电机</Color> <ItemImage id="gregtech:gt.blockmachines:31026"/>。除了燃料本身，机器还需要额外输入 <Color id="GREEN">助燃剂</Color>，它会把燃料效率提升到最多 150%。火箭燃料所需的助燃剂远少于燃气/柴油类燃料。
+<Color id="GREEN">通用化学燃料引擎（UCFE）</Color> 是一台 IV 级多方块，几乎可以把所有可燃液体都拿来发电。<Color id="GREEN">UCFE</Color> 基本上把 <Color id="GREEN">大型燃气涡轮</Color> <ItemImage id="gregtech:gt.blockmachines:15527"/>、<Color id="GREEN">火箭引擎 F-1A</Color> <ItemImage id="gregtech:gt.blockmachines:996"/> 和 <Color id="GREEN">大型内燃引擎</Color> <ItemImage id="gregtech:gt.blockmachines:15533"/> 的燃料范围揉进了一台效率极高、而且 <Color id="RED">没有 EU/t 上限</Color> 的机器里。唯一的例外是半流质燃料，它们依然只能交给 <Color id="GREEN">大型半流质发电机</Color> <ItemImage id="gregtech:gt.blockmachines:31026"/>。除了燃料本身，机器还需要额外输入 <Color id="GREEN">助燃剂</Color>，它会把燃料效率提升到最多 150%。火箭燃料所需的助燃剂远少于燃气/柴油类燃料。
 
 [GTNH Power Planner ](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
@@ -24,7 +24,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，核心机制与旧版保持一致
 
 ## 搭建
-<Color id="GREEN">UCFE</Color> 没有任何分级结构部件。动力仓固定在结构背面中央。其余仓室可以替换结构上的任意一块 <Color id="GREEN">加强钛机械方块</Color>。<Color id="BLUE">支持多 A 与激光能源仓</Color>，适合高功率发电。若你愿意，燃料与助燃剂也可以共用同一个输入仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">UCFE</Color> 没有分级结构部件。动力仓固定在结构背面中央。其余仓室可以替换结构上的任意一块 <Color id="GREEN">加强钛机械方块</Color>。<Color id="BLUE">支持多安能源仓和激光靶仓</Color>，适合高功率发电。若你愿意，燃料与助燃剂也可以共用同一个输入仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15535"/><ItemImage id="gregtech:gt.blockmachines:15535"/>

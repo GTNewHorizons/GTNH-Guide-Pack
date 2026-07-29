@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15534"/>
 </GameScene>
-<Color id="GREEN">极限内燃引擎（ECE）</Color>是一台 IV 级多方块，用于把可燃液体燃料转化为电力。<Color id="GREEN">ECE</Color> 是 <Color id="GREEN">大型内燃引擎</Color> 的直接升级版，因为它的输出功率超过前者的 5 倍。不过，<Color id="GREEN">ECE</Color> 运行时必须持续供应每小时 8,000L 润滑油，还可以额外供应 40L/s 液氧来进入增压模式。强烈建议使用增压，因为它会把最大输出功率提高到 3 倍，并把燃料效率从 100% 提高到 150%。电力从机器背面的 4A 动力仓输出。机器运行时不要拆掉动力仓，否则会直接爆炸。若想节省燃料，可以用 RS 锁存器配合兰波顿超级电容 <ItemImage id="gregtech:gt.blockmachines:13106"/> 自动启停 <Color id="GREEN">ECE</Color>。这台机器之后会被 <Color id="GREEN">通用化学燃料引擎</Color> <ItemImage id="gregtech:gt.blockmachines:15535"/> 取代，因为后者没有输出功率上限。
+<Color id="GREEN">极限内燃引擎（ECE）</Color> 是一台 IV 级多方块，用于把可燃液体燃料转化为电力。<Color id="GREEN">ECE</Color> 是 <Color id="GREEN">大型内燃引擎</Color> 的直接升级版，因为它的输出功率超过前者的 5 倍。不过，<Color id="GREEN">ECE</Color> 运行时必须持续供应每小时 8,000L 润滑油，还可以额外供应 40L/s 液氧来进入增压模式。强烈建议使用增压，因为它会把最大输出功率提高到 3 倍，并把燃料效率从 100% 提高到 150%。电力从机器背面的 4A 动力仓输出。机器运行时不要拆掉动力仓，否则会直接爆炸。若想节省燃料，可以用 RS 锁存器配合兰波顿超级电容 <ItemImage id="gregtech:gt.blockmachines:13106"/> 自动启停 <Color id="GREEN">ECE</Color>。这台机器之后会被 <Color id="GREEN">通用化学燃料引擎</Color> <ItemImage id="gregtech:gt.blockmachines:15535"/> 取代，因为后者没有输出功率上限。
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
@@ -25,7 +25,7 @@ date: 2026-05-27
 > 这台多方块这次只改了结构，核心机制与旧版保持一致
 
 ## 搭建
-<Color id="GREEN">ECE</Color> 没有任何分级结构部件。维护仓和消声仓可以替换任意一块 <Color id="GREEN">强化钨钢机械方块</Color>，但不能紧贴齿轮箱机械方块。输入仓则必须替换那些 <Color id="GREEN">紧贴齿轮箱机械方块</Color> 的钨钢涡轮机械方块。为了同时输入全部流体，四联输入仓会比较好用。动力仓固定在结构右侧中央、与控制器相对的位置，而且不能超过 4A。极限引擎进气机械方块上方还必须留空，只能是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">ECE</Color> 没有分级结构部件。维护仓和消声仓可以替换任意一块 <Color id="GREEN">强化钨钢机械方块</Color>，但不能紧贴齿轮箱机械方块。输入仓则必须替换那些 <Color id="GREEN">紧贴齿轮箱机械方块</Color> 的钨钢涡轮机械方块。为了同时输入全部流体，四联输入仓会比较好用。动力仓固定在结构右侧中央、与控制器相对的位置，而且不能超过 4A。极限引擎进气机械方块上方还必须留空，只能是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15534"/><ItemImage id="gregtech:gt.blockmachines:15534"/>
