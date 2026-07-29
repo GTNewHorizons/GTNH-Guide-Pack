@@ -38,9 +38,9 @@ date: 2026-05-26
 - 0+ 个输出总线（控制室内任意侧面接口机械方块） <ItemImage id="gregtech:gt.blockmachines:80"/>
 
 ## 真空传送系统
-<Color id="GREEN">NAC</Color> 独有的物流部件是 <ItemLink id="gregtech:gt.blockmachines:9501"/>（VCI）<ItemImage id="gregtech:gt.blockmachines:9501"/> 和 <ItemLink id="gregtech:gt.blockmachines:9502"/>（VCO）<ItemImage id="gregtech:gt.blockmachines:9502"/>。它们专门用于在模块之间搬运普通物品或 <Color id="GREEN">电路组件</Color>。这套系统和光学传输/接收仓有些类似，必须经过染色才能工作，而且每条连接都是严格的一对一。由于这些仓室与具体机器绑定，它们不能在不同 <Color id="GREEN">NAC</Color> 之间互传电路组件。连接这些仓室的真空传送管道同样需要染色，但线路本身可以自由拐弯。强烈建议使用 <ItemLink id="gregtech:gt.metaitem.01:32468"/><ItemImage id="gregtech:gt.metaitem.01:32468"/> 给整套系统统一上色。
+<Color id="GREEN">NAC</Color> 独有的物流部件是 <ItemLink id="gregtech:gt.blockmachines:9501"/>（VCI）<ItemImage id="gregtech:gt.blockmachines:9501"/> 和 <ItemLink id="gregtech:gt.blockmachines:9502"/>（VCO）<ItemImage id="gregtech:gt.blockmachines:9502"/>。它们专门用于在模块之间搬运普通物品或 <Color id="GREEN">电路组件</Color>。这套系统和光学传递/接收仓有些类似，必须经过染色才能工作，而且每条连接都是严格的一对一。由于这些仓室与具体机器绑定，它们不能在不同 <Color id="GREEN">NAC</Color> 之间互传电路组件。连接这些仓室的真空传送管道同样需要染色，但线路本身可以自由拐弯。强烈建议使用 <ItemLink id="gregtech:gt.metaitem.01:32468"/><ItemImage id="gregtech:gt.metaitem.01:32468"/> 给整套系统统一上色。
 
-VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量没有上限，连接间的传输速率也没有上限。这让 <Color id="GREEN">NAC</Color> 的吞吐能力在后期仍然能持续扩展。存进真空传送仓里的内容无法直接手动取出，但你可以选择把其中存储的电路组件转移到 AE2 元件里，或者直接清空删除。流体不会进入真空传送系统，必须直接输送到真正需要它们的模块。
+VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量没有上限，连接间的传递速率也没有上限。这让 <Color id="GREEN">NAC</Color> 的吞吐能力在后期仍然能持续扩展。存进真空传送仓里的内容无法直接手动取出，但你可以选择把其中存储的电路组件转移到 AE2 元件里，或者直接清空删除。流体不会进入真空传送系统，必须直接输送到真正需要它们的模块。
 
 要想确保物品被路由到正确的模块，通常有两种办法。第一种是在物品进入 <Color id="GREEN">NAC</Color> 之前就完成过滤；第二种则是使用 <ItemLink id="gregtech:gt.blockmachines:9510"/><ItemImage id="gregtech:gt.blockmachines:9510"/>。后者会占用一个模块槽位，但可以根据输入颜色、输出颜色、物品类型和/或红石信号强度进行自定义分流。
 

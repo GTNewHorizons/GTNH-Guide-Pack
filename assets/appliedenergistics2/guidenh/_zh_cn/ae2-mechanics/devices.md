@@ -7,7 +7,7 @@ navigation:
 
 # 设备
 
-"设备"是指执行与网络本身相关的某些功能的AE2网络组件。它们几乎总是需要一个频道，但有一些例外，比如[等级发射器](../items-blocks/level_emitter.md)或[分子装配室](../items-blocks/molecular_assembler.md)。
+"设备"是指执行某些与网络相关功能的AE2网络组件。它们几乎全部需要一个频道，但有一些例外，比如[ME标准发信器](../items-blocks/level_emitter.md)或[分子装配室](../items-blocks/molecular_assembler.md)。
 
 一些示例包括：
 

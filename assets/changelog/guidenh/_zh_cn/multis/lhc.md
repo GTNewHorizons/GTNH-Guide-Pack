@@ -113,7 +113,7 @@ date: 2026-05-25
 
 如果你以前用过回旋加速器，可能会发现 <Color id="GREEN">LHC</Color> 不再把粒子直接作为“物品”输出。现在它们会以 <Color id="GREEN">粒子包</Color> 的形式存储在内部束流中，这和研究站里的数据包概念很相似。每个粒子包有四个属性：类型、能量、通量和聚焦。其中 <Color id="GREEN">聚焦</Color> 在 <Color id="GREEN">LHC</Color> 和束流合成器中都不会被直接使用。
 
-束流会通过 <ItemLink id="gregtech:gt.blockmachines:10502"/><ItemImage id="gregtech:gt.blockmachines:10502"/> 从束流输出仓传输到目标机器。
+束流会通过 <ItemLink id="gregtech:gt.blockmachines:10502"/><ItemImage id="gregtech:gt.blockmachines:10502"/> 从束流输出仓传递到目标机器。
 
 ### 对撞机模式：
 
