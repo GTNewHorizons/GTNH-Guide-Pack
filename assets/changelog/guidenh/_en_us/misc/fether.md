@@ -15,7 +15,7 @@ date: 2026-05-22
 - Brand new trees with haunting textures
 - Glow flower plants as a source of glowstone
 - Some brand new foods to try out!
-<FloatingImage src="./assets/fether.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/misc/fether.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     Some of the new items available
   </ImageAnnotation>

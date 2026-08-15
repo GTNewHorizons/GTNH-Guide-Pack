@@ -20,7 +20,7 @@ The <Color id="GREEN">Industrial 3D Copying Machine</Color> is an EV tier multib
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
+> There are no mechanical changes to this multiblock aside from the new structure
 
 ## Construction
 The <Color id="GREEN">Industrial 3D Copying Machine</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. The heating coil must be cupronickel specifically and also has no effect on the operation of the machine. Buses/hatches may replace any sturdy printer casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
@@ -51,7 +51,7 @@ The <Color id="GREEN">Industrial 3D Copying Machine</Color> is a direct upgrade 
 
 ### Parallels:
 
-| LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMX | UXV | MAX | MAX+ |
+| LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
 

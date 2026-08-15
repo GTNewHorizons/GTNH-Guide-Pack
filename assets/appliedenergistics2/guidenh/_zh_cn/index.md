@@ -4,7 +4,7 @@ item_ids:
 navigation:
   title: 应用能源2
   icon: guidenh:guide
-  position: 0
+  position: 50
   recommend: 1
 ---
 
@@ -29,17 +29,10 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   - 将鼠标放置在场景的方块上可以查看方块tooltip。
   - 将鼠标放置在场景的各种高亮注解（菱形注解、线注解、方块注解等）上可以查看注解的内容。
 
-<GameScene zoom="4" interactive={true}>
+<GameScene width="400" height="200" zoom="3" interactive={true}>
   <ImportStructure src="./assets/structures/autocraft_setup_greebles.snbt" />
-  <IsometricCamera yaw="195" pitch="30" />
-  <RemoveBlocks id="minecraft:furnace" />
+  <IsometricCamera yaw="195" pitch="15" />
   <Block id="minecraft:furnace" x="9" y="1" z="0" facing="north" />
-</GameScene>
-
-{/* 
-<GameScene zoom="4" interactive={true}>
-  <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
-  <IsometricCamera yaw="195" pitch="30" />
   <BlockAnnotation pos="2 0 2" color="#ff0000" alwaysOnTop={true}>
   这是一个红色高亮方块注解。
   </BlockAnnotation>
@@ -55,5 +48,4 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   <TextAnnotation pos="0.5 2 2.5" color="#00ffcc">
   这是一个青色文本气泡
   </TextAnnotation>
-</GameScene> 
-*/}
+</GameScene>

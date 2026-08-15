@@ -10,16 +10,16 @@ navigation:
 > [!NOTE]
 > Some links are broken due to their pages not being available at this time. Help support GTNH's development by [contributing to the guide](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
 
-A **Multiblock** is a machine built from two or more blocks. Sizes range from small [Thermal Refineries]() to massive superstructures like the [Forge of the Gods](). They typically serve a very specific purpose and are always better than their singleblock equivalent (ie. runs faster, better recipes), if one exists. Most multiblocks have their own unique casings and structure, but the input/output (I/O) of items, fluids, and energy is nearly universal. Items are transferred via buses, fluids are transferred via hatches, and power is transferred via energy/dynamo hatches. There is also the maintenance hatch for repairing the machine and the muffler hatch for releasing pollution. Use the tooltip and/or the [Multiblock Structure Hologram Projector]() to see which buses/hatches are necessary and where they fit into the overall structure.
+A **Multiblock** is a machine built from two or more blocks. Sizes range from small Thermal Refineries to massive superstructures like the Forge of the Gods. They typically serve a very specific purpose and are always better than their singleblock equivalent (ie. runs faster, better recipes), if one exists. Most multiblocks have their own unique casings and structure, but the input/output (I/O) of items, fluids, and energy is nearly universal. Items are transferred via buses, fluids are transferred via hatches, and power is transferred via energy/dynamo hatches. There is also the maintenance hatch for repairing the machine and the muffler hatch for releasing pollution. Use the tooltip and/or the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to see which buses/hatches are necessary and where they fit into the overall structure.
 
 > [!IMPORTANT]
-> Not all multiblocks in GTNH are from GregTech. There are a select few from other mods (ie. [Railcraft Boiler]() and [Smeltery]()) that do not follow any of the information on this page. Visit their individual pages for more details.
+> Not all multiblocks in GTNH are from GregTech. There are a select few from other mods (ie. Railcraft Boilers and Smelteries) that do not follow any of the information on this page. Visit their individual pages for more details.
 
 ---
 
 # Construction
 
-Although multiblocks come in a variety of shapes, sizes, and casings, there are many common components for the I/O of items, fluids, and energy. The following subsections describe the purpose and function of each one. Note that multiblocks rarely require ALL of these to form and that there may be restrictions on their amounts and locations. Always check the tooltip and [Multiblock Structure Hologram Projector]() for detailed information about a multiblock's construction requirements.
+Although multiblocks come in a variety of shapes, sizes, and casings, there are many common components for the I/O of items, fluids, and energy. The following subsections describe the purpose and function of each one. Note that multiblocks rarely require ALL of these to form and that there may be restrictions on their amounts and locations. Always check the tooltip and <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> for detailed information about a multiblock's construction requirements.
 
 ## Controller
 
@@ -39,14 +39,14 @@ There are two options inside the power panel. The first is setting the maximum n
 /powerfails clear
 ```
 
-There are also a few unique interactions and shortcuts to changing the operational settings of the machine without having to enter the GUI. All of these involve right-clicking the controller with some sort of [GregTech Tool]() in hand. This reduces the durability of the tool, but it works very well with the [Ring of Loki]() to quickly configure many machines at the same time.
+There are also a few unique interactions and shortcuts to changing the operational settings of the machine without having to enter the GUI. All of these involve right-clicking the controller with some sort of GregTech tool in hand. This reduces the durability of the tool, but it works very well with the Ring of Loki to quickly configure many machines at the same time.
 
 - **Wrench** - Rotate the controller and therefore the entire structure. Sneak right-click to flip the controller horizontally.
 - **Screwdriver** - Enable/disable input separation. Also used to change the mode of certain multiblocks.
 - **Wire Cutters** - Enable/disable batch mode.
 - **Soft Mallet** - Enable/disable the machine.
 - **Hammer** - Enable/disable sound muffling.
-- **Soldering Iron** - Set the strength (strong/weak) of the redstone signal from [covers](). This is not exclusive to controllers.
+- **Soldering Iron** - Set the strength (strong/weak) of the redstone signal from covers. This is not exclusive to controllers.
 
 ## Buses
 
@@ -58,11 +58,11 @@ Input and output buses are for inserting and extracting SOLID ingredients, respe
 |------|-----|----|----|-----|
 | Slots | 1 | 4 | 9 | 16 |
 
-Right-click an input bus with a screwdriver to enable/disable the filter which prevents any ingredients without a use in the multiblock from entering the bus. Sneak right-click the input bus with a screwdriver to enable/disable sorting and limiting mode. Sorting mode constantly pushes items to the top-most slots while limiting mode prevents more than one stack of an item from entering the bus. There is also a filter in the GUI of output buses to lock them to specific items (drag from [NEI]()).
+Right-click an input bus with a screwdriver to enable/disable the filter which prevents any ingredients without a use in the multiblock from entering the bus. Sneak right-click the input bus with a screwdriver to enable/disable sorting and limiting mode. Sorting mode constantly pushes items to the top-most slots while limiting mode prevents more than one stack of an item from entering the bus. There is also a filter in the GUI of output buses to lock them to specific items (drag from NEI).
 
 - **Super Buses** - An upgrade from regular input/output buses although the only difference is their slot capacity. Regular buses are capped at 16 slots while super buses range from 32-160 slots. The problem, however, is that they are much more expensive and require a Tier+3 regular input bus to craft. The LV super bus, for example, is crafted from five LV conveyor modules, two LV motors, and an EV input bus.
 
-- **Stocking Input Bus (ME)** and **Output Bus (ME)** - An even better upgrade from regular input/output buses because they connect directly to an [AE2]() network for seamless I/O of items. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any item in the network.
+- **Stocking Input Bus (ME)** and **Output Bus (ME)** - An even better upgrade from regular input/output buses because they connect directly to an AE2 network for seamless I/O of items. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any item in the network.
 
 ## Hatches
 
@@ -74,17 +74,17 @@ Input and output hatches are for inserting and extracting FLUID ingredients, res
 |------|-----|----|----|----|----|----|-----|
 | Capacity | 8,000 L | 16,000 L | 32,000 L | 64,000 L | 128,000 L | 256,000 L | ... |
 
-Right-click an output hatch with a screwdriver to change whether to output steam and/or other fluids. Alternatively, set the filter in the GUI of the output hatch to lock it to a specific fluid (drag from [NEI]()).
+Right-click an output hatch with a screwdriver to change whether to output steam and/or other fluids. Alternatively, set the filter in the GUI of the output hatch to lock it to a specific fluid (drag from NEI).
 
 - **Quadruple Input Hatches** - An upgrade from regular input hatches that can hold up to four different fluids simultaneously at 1/4th the capacity of a regular input hatch of the same tier. These pair nicely with quadruple fluid pipes for transporting multiple fluids around.
 
-- **Stocking Input Hatch (ME)** and **Output Hatch (ME)** - An even better upgrade from regular input/output hatches because they connect directly to an [AE2]() network for seamless I/O of fluids. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any fluid in the network.
+- **Stocking Input Hatch (ME)** and **Output Hatch (ME)** - An even better upgrade from regular input/output hatches because they connect directly to an AE2 network for seamless I/O of fluids. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any fluid in the network.
 
 ## Energy & Dynamo Hatches
 
 <ItemImage id="minecraft:redstone_block" /> **Energy Hatch** / <ItemImage id="minecraft:redstone_block" /> **Dynamo Hatch**
 
-These are for inserting and extracting power at a specific voltage tier. More specifically, a standard energy hatch can supply up to 2A of power to a multiblock and a standard dynamo hatch can extract up to 1A of power from a multiblock. Be very careful to use the correct voltage and amperage with these hatches otherwise cables could burn, ingredients could void, and machines could [explode]().
+These are for inserting and extracting power at a specific voltage tier. More specifically, a standard energy hatch can supply up to 2A of power to a multiblock and a standard dynamo hatch can extract up to 1A of power from a multiblock. Be very careful to use the correct voltage and amperage with these hatches otherwise cables could burn, ingredients could void, and machines could explode.
 
 - **Buffered Dynamo Hatches** - A small upgrade from standard dynamo hatches and can extract up to 4A of power from a multiblock. These also have a slightly larger internal buffer for storing power when there is nowhere for it to go. *(Deprecated as of 2.9 - instead, use a 4A Multi-Amp hatch.)*
 
@@ -96,7 +96,7 @@ These are for inserting and extracting power at a specific voltage tier. More sp
 
 <ItemImage id="minecraft:iron_door" /> **Maintenance Hatch**
 
-This hatch is for repairing any maintenance issues -- random occurrences that increase the power consumption of the multiblock by 10% each. There are six different maintenance issues in total and having all of them simultaneously is enough to shut the multiblock down. Each one generates a very specific message in the controller and corresponds to a very specific [GregTech Tool](). [WAILA]() also displays **HAS PROBLEMS** in red text while looking at the controller.
+This hatch is for repairing any maintenance issues -- random occurrences that increase the power consumption of the multiblock by 10% each. There are six different maintenance issues in total and having all of them simultaneously is enough to shut the multiblock down. Each one generates a very specific message in the controller and corresponds to a very specific GregTech tool. WAILA also displays **HAS PROBLEMS** in red text while looking at the controller.
 
 Repair maintenance issues by opening the maintenance hatch, picking up the necessary tool, and left-clicking the center button. This consumes a small amount of durability and/or charge with every use.
 
@@ -111,19 +111,19 @@ Repair maintenance issues by opening the maintenance hatch, picking up the neces
 
 There is a 1 in 6,000 chance every 50 seconds of runtime for a new maintenance issue to appear. That is an average of 300,000 seconds or 83.3 hours of runtime between maintenance issues. Disabled or idle multiblocks do not increase runtime and therefore do not generate any maintenance issues or increase the likelihood thereof. Multiblocks without maintenance hatches ignore the mechanic entirely.
 
-There are a few different types of maintenance hatches and methods to repair them, listed below. Maintenance hatches may be [wallshared]() between machines, although repairs must still be made for each one individually.
+There are a few different types of maintenance hatches and methods to repair them, listed below. Maintenance hatches may be wallshared between machines, although repairs must still be made for each one individually.
 
-- **Tool Box ([LV]())** - Holds up to nine tools and applies all of them simultaneously when a maintenance hatch is right-clicked from OUTSIDE its internal GUI. This consumes durability and/or charge of all tools inside regardless of the issue(s) present. Soldering material for the soldering iron may also be stored in and used from the Tool Box. Can be automated with a [Dynamism Tablet]() and needs maintenance [cover]().
+- **Tool Box (LV)** - Holds up to nine tools and applies all of them simultaneously when a maintenance hatch is right-clicked from OUTSIDE its internal GUI. This consumes durability and/or charge of all tools inside regardless of the issue(s) present. Soldering material for the soldering iron may also be stored in and used from the Tool Box. Can be automated with a Dynamism Tablet and needs a maintenance cover.
 
-- **BrainTech Aerospace Advanced Reinforced Duct Tape ([MV]())** - A single use item that solves all maintenance issues simultaneously. The tape visually appears around the maintenance hatch but that does not prevent future maintenance issues or reduce the chances of them occurring.
+- **BrainTech Aerospace Advanced Reinforced Duct Tape (MV)** - A single use item that solves all maintenance issues simultaneously. The tape visually appears around the maintenance hatch but that does not prevent future maintenance issues or reduce the chances of them occurring.
 
-- **Wand Focus: Maintenance ([HV]())** - A reusable [Thaumcraft wand]() focus from Electromagic tools that solves all maintenance issues simultaneously at the cost of 25 ignis, 25 terra, and 25 ordo. Vis discounts and the frugal focus upgrade can reduce the cost of these repairs.
+- **Wand Focus: Maintenance (HV)** - A reusable Thaumcraft wand focus from Electromagic Tools that solves all maintenance issues simultaneously at the cost of 25 ignis, 25 terra, and 25 ordo. Vis discounts and the frugal focus upgrade can reduce the cost of these repairs.
 
-- **Drone Downlink Module ([IV]())** - Automatically repairs any maintenance issues if there is an active [Drone Centre]() within range of the hatch. Tier 1 and Tier 2 drones have a chance to crash and be destroyed every second, but fixing maintenance issues is completely free. It also allows remote control over connected multiblocks which is very useful after a widespread power outage.
+- **Drone Downlink Module (IV)** - Automatically repairs any maintenance issues if there is an active Drone Centre within range of the hatch. Tier 1 and Tier 2 drones have a chance to crash and be destroyed every second, but fixing maintenance issues is completely free. It also allows remote control over connected multiblocks which is very useful after a widespread power outage.
 
-- **Auto Maintenance Hatch ([LuV]())** - Automatically repairs any maintenance issue at the cost of 4 duct tape, 2 lubricant cells, 4 steel screws, and 2 HV circuits. The internal inventory has four total slots, or one for each type of item.
+- **Auto Maintenance Hatch (LuV)** - Automatically repairs any maintenance issue at the cost of 4 duct tape, 2 lubricant cells, 4 steel screws, and 2 HV circuits. The internal inventory has four total slots, or one for each type of item.
 
-- **Auto-Taping Maintenance Hatch ([UV]())** - Automatically repairs any maintenance issue at no cost. The permanent solution to maintenance.
+- **Auto-Taping Maintenance Hatch (UV)** - Automatically repairs any maintenance issue at no cost. The permanent solution to maintenance.
 
 ## Muffler Hatch
 
@@ -139,7 +139,7 @@ If pollution is disabled, muffler hatches are still required, but their tier is 
 
 ## Wallsharing
 
-A unique property of GregTech multiblocks is their ability to wallshare parts of their structure to save on casings, glass, coils, buses/hatches, and more. Simply overlap structures to allow multiple machines to use the same block(s) simultaneously. There are *very* few exceptions where that is not beneficial to the player and is therefore extremely useful throughout the entire game, whether building a second [Electric Blast Furnace]() or a second [Eye of Harmony]().
+A unique property of GregTech multiblocks is their ability to wallshare parts of their structure to save on casings, glass, coils, buses/hatches, and more. Simply overlap structures to allow multiple machines to use the same block(s) simultaneously. There are *very* few exceptions where that is not beneficial to the player and is therefore extremely useful throughout the entire game, whether building a second [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md) or a second Eye of Harmony.
 
 Maintenance and muffler hatches are always safe to share, but be careful when sharing energy hatches because they can only pull up to 2A of power. Ensure that the recipes for a multiblock do not exceed 1A of power and repair maintenance issues as soon as possible, or else the additional power cost could cause both machines to powerfail.
 
@@ -147,17 +147,17 @@ Maintenance and muffler hatches are always safe to share, but be careful when sh
 
 # Usage
 
-Although multiblocks operate very similarly to [singleblock machines](), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
+Although multiblocks operate very similarly to [singleblock machines](../singleblock/index.md), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
 
 ## Overclocking
 
-An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depends on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
+An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depends on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
 
 - **Imperfect Overclocks** - Consume 4x the power for 2x the speed (4/2). This is the standard behavior of most multiblocks. For example, consider a recipe that normally takes 128 EU/t and 60s to run for a total of 153,600 EU. An imperfect overclock changes that to 512 EU/t and 30s to run for a total of 307,200 EU. Notice that the total energy is doubled which means the extra speed may not always be worth the additional power cost. Alternatively, build more of the same multiblock at the same voltage tier to provide the same effect for half the power.
 
 - **Perfect Overclocks** - Consume 4x the power for 4x the speed (4/4). The total energy remains the same so there is no downside to increasing the supplied voltage/amperage. The only reason to build multiple of the same multiblock with perfect overclocks is when there is not enough room for additional energy hatches. Very few multiblocks allow perfect overclocks.
 
-Overclocking is only possible down to 1 tick because that is the smallest unit of time in Minecraft, but nearly every multiblock in GTNH is capable of subticking or increasing its number of parallels by a corresponding amount to simulate additional overclocks. The only exception is the [Advanced Assembly Line]() which is capped at 1 tick per slice.
+Overclocking is only possible down to 1 tick because that is the smallest unit of time in Minecraft, but nearly every multiblock in GTNH is capable of subticking or increasing its number of parallels by a corresponding amount to simulate additional overclocks. The only exception is the Advanced Assembly Line which is capped at 1 tick per slice.
 
 ## Parallels
 
@@ -166,7 +166,7 @@ A parallel is a multiple of a recipe that runs concurrently with the original. P
 - **Batch Size** - More recipes per iteration, same EU/t, longer duration.
 - **Parallels** - More recipes per iteration, higher EU/t, same duration.
 
-Parallels are calculated AFTER energy discounts and BEFORE overclocks. Consider a recipe that consumes 2,000 EU/t over 16 seconds in the [Volcanus]() which offers 8 parallels and only uses 90% of the EU/t normally required. The energy discount first reduces the base recipe to 1,800 EU/t over 16 seconds. If there is enough power for the maximum number of parallels then the multiblock consumes 8 x 1,800 = 14,400 EU/t over 16 seconds. If there is still enough power and high enough coils to grant a perfect overclock then the multiblock consumes 4 x 14,400 = 57,600 EU/t over 4 seconds. Lastly, one imperfect overclock increases the power consumption to 4 x 57,600 = 230,400 EU/t over 2 seconds.
+Parallels are calculated AFTER energy discounts and BEFORE overclocks. Consider a recipe that consumes 2,000 EU/t over 16 seconds in the Volcanus which offers 8 parallels and only uses 90% of the EU/t normally required. The energy discount first reduces the base recipe to 1,800 EU/t over 16 seconds. If there is enough power for the maximum number of parallels then the multiblock consumes 8 x 1,800 = 14,400 EU/t over 16 seconds. If there is still enough power and high enough coils to grant a perfect overclock then the multiblock consumes 4 x 14,400 = 57,600 EU/t over 4 seconds. Lastly, one imperfect overclock increases the power consumption to 4 x 57,600 = 230,400 EU/t over 2 seconds.
 
 ```
 EU/t = Base EU/t x EU Usage x Parallels x 4^Overclocks
@@ -174,7 +174,7 @@ EU/t = Base EU/t x EU Usage x Parallels x 4^Overclocks
 
 ## Troubleshooting
 
-If a multiblock is not working, the first thing to do is open the controller for a clue on what is wrong. The following are some common error messages and what they could mean. If all else fails, reread the tooltip and the construction requirements on the wiki before rebuilding the entire multiblock with the [Multiblock Structure Hologram Projector]().
+If a multiblock is not working, the first thing to do is open the controller for a clue on what is wrong. The following are some common error messages and what they could mean. If all else fails, reread the tooltip and the construction requirements on the wiki before rebuilding the entire multiblock with the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />.
 
 ### \*\* HAS PROBLEMS \*\*
 
@@ -184,17 +184,17 @@ If a multiblock is not working, the first thing to do is open the controller for
     - Must have full complement of tools
     - Soldering Iron must be charged
     - Needs soldering material (consumable)
-- [Volcanus]() with no Pyrotheum - causes voiding & maintenance issues
-- [Cryogenic Freezer]() with no Cryotheum - causes voiding & maintenance issues
+- Volcanus with no Pyrotheum - causes voiding & maintenance issues
+- Cryogenic Freezer with no Cryotheum - causes voiding & maintenance issues
 
 ### \*\* INCOMPLETE STRUCTURE \*\*
 
 - Multiblock built incorrectly
-  - Missing parts - left-Shift over controller in [NEI]()
+  - Missing parts - left-Shift over controller in NEI
   - Parts are in the wrong position
   - Exceeds maximums or does not meet minimums
   - Wrong casings - some blocks are visually similar
-  - Energy Hatch is insufficient [tier]()
+  - Energy Hatch is insufficient tier
   - Mixed coils or casing types
   - Controller is facing the interior of the multiblock
   - Something inside a multi that should be hollow
@@ -244,8 +244,8 @@ If a multiblock is not working, the first thing to do is open the controller for
   - Advanced Muffler Hatches need air filters
 - Missing Consumables
   - Turbine item for Air Filters and Turbines
-  - Cryotheum for [Cryogenic Freezer]()
-  - Pyrotheum for [Volcanus]()
+  - Cryotheum for Cryogenic Freezer
+  - Pyrotheum for Volcanus
 
 ### Wrong Output
 
@@ -256,7 +256,7 @@ If a multiblock is not working, the first thing to do is open the controller for
 ### Voids at Random / Runs Intermittently
 
 - Power loss - another machine is competing for amps, or power production is inconsistent
-- Job Done - no ingredients left to process, or no pollution in chunks for [Air Filter]()
+- Job Done - no ingredients left to process, or no pollution in chunks for Air Filter
 
 ### Needs More Power
 

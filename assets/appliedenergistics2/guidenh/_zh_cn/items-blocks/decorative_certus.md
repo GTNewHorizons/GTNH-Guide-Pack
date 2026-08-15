@@ -1,4 +1,4 @@
-﻿---
+---
 navigation:
   parent: /items-blocks-index.md
   title: 装饰赛特斯方块
@@ -6,100 +6,58 @@ navigation:
 categories:
 - misc ingredients blocks
 item_ids:
-- ae2:cut_quartz_block
-- ae2:smooth_quartz_block
-- ae2:quartz_bricks
-- ae2:quartz_pillar
-- ae2:chiseled_quartz_block
-- ae2:quartz_stairs
-- ae2:cut_quartz_stairs
-- ae2:smooth_quartz_stairs
-- ae2:quartz_brick_stairs
-- ae2:quartz_pillar_stairs
-- ae2:chiseled_quartz_stairs
-- ae2:quartz_wall
-- ae2:cut_quartz_wall
-- ae2:smooth_quartz_wall
-- ae2:quartz_brick_wall
-- ae2:quartz_pillar_wall
-- ae2:chiseled_quartz_wall
-- ae2:quartz_slab
-- ae2:cut_quartz_slab
-- ae2:smooth_quartz_slab
-- ae2:quartz_brick_slab
-- ae2:quartz_pillar_slab
-- ae2:chiseled_quartz_slab
+- appliedenergistics2:tile.BlockQuartz
+- appliedenergistics2:tile.BlockQuartzChiseled
+- appliedenergistics2:tile.BlockQuartzPillar
+- appliedenergistics2:tile.QuartzStairBlock
+- appliedenergistics2:tile.ChiseledQuartzStairBlock
+- appliedenergistics2:tile.QuartzPillarStairBlock
+- appliedenergistics2:tile.QuartzSlabBlock
+- appliedenergistics2:tile.ChiseledQuartzSlabBlock
+- appliedenergistics2:tile.QuartzPillarSlabBlock
 ---
 
-# Decorative Certus Blocks
+# 装饰性赛特斯石英方块
+<Row>
+<BlockImage id="appliedenergistics2:tile.BlockQuartz" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockQuartzChiseled" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockQuartzPillar" scale="4" />
 
-<GameScene zoom="3" background="transparent">
-  <ImportStructure src="../assets/assemblies/decorative_certus.snbt" />
-  <IsometricCamera yaw="195" pitch="30" />
-</GameScene>
+<BlockImage id="appliedenergistics2:tile.QuartzStairBlock" scale="4" perspective="isometric-north-west" />
+<BlockImage id="appliedenergistics2:tile.ChiseledQuartzStairBlock" scale="4" perspective="isometric-north-west" />
+<BlockImage id="appliedenergistics2:tile.QuartzPillarStairBlock" scale="4" perspective="isometric-north-west" />
 
-<ItemLink id="quartz_block" />s can be crafted, smelted, and stonecut into some decorative building blocks
+<BlockImage id="appliedenergistics2:tile.QuartzSlabBlock" scale="4" />
+<BlockImage id="appliedenergistics2:tile.ChiseledQuartzSlabBlock" scale="4" />
+<BlockImage id="appliedenergistics2:tile.QuartzPillarSlabBlock" scale="4" />
+</Row>
 
-## Recipes
+<ItemLink id="appliedenergistics2:tile.BlockQuartz" />可通过合成、熔炼或切石机制加工成多种装饰性建筑方块。
+
+## 配方
 
 <Column>
   <Row gap="0">
-    <RecipeFor id="cut_quartz_block" />
+    <RecipeFor id="appliedenergistics2:tile.BlockQuartz" />
 
-    <RecipeFor id="smooth_quartz_block" />
+    <RecipeFor id="appliedenergistics2:tile.BlockQuartzChiseled" handlerId="Chisel" />
 
-    <RecipeFor id="quartz_bricks" />
-
-    <RecipeFor id="quartz_pillar" />
-
-    <RecipeFor id="chiseled_quartz_block" />
+    <RecipeFor id="appliedenergistics2:tile.BlockQuartzPillar" />
   </Row>
 
   <Row>
-    <RecipeFor id="quartz_stairs" />
+    <RecipeFor id="appliedenergistics2:tile.QuartzStairBlock" />
 
-    <RecipeFor id="cut_quartz_stairs" />
+    <RecipeFor id="appliedenergistics2:tile.ChiseledQuartzStairBlock" />
 
-    <RecipeFor id="smooth_quartz_stairs" />
+    <RecipeFor id="appliedenergistics2:tile.QuartzPillarStairBlock" />
   </Row>
 
   <Row>
-    <RecipeFor id="quartz_brick_stairs" />
+    <RecipeFor id="appliedenergistics2:tile.QuartzSlabBlock" />
 
-    <RecipeFor id="quartz_pillar_stairs" />
+    <RecipeFor id="appliedenergistics2:tile.ChiseledQuartzSlabBlock" />
 
-    <RecipeFor id="chiseled_quartz_stairs" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="quartz_wall" />
-
-    <RecipeFor id="cut_quartz_wall" />
-
-    <RecipeFor id="smooth_quartz_wall" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="quartz_brick_wall" />
-
-    <RecipeFor id="quartz_pillar_wall" />
-
-    <RecipeFor id="chiseled_quartz_wall" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="quartz_slab" />
-
-    <RecipeFor id="cut_quartz_slab" />
-
-    <RecipeFor id="smooth_quartz_slab" />
-  </Row>
-
-  <Row>
-    <RecipeFor id="quartz_brick_slab" />
-
-    <RecipeFor id="quartz_pillar_slab" />
-
-    <RecipeFor id="chiseled_quartz_slab" />
+    <RecipeFor id="appliedenergistics2:tile.QuartzPillarSlabBlock" />
   </Row>
 </Column>

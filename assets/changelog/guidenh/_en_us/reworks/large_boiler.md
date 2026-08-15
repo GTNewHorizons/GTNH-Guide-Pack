@@ -19,7 +19,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15529"/>
 </GameScene>
-The <Color id="GREEN">Large Boiler</Color> is an MV tier multiblock for burning combustible fuels to evaporate water into steam or superheated steam. There are four tiers of the Large Boiler to further improve its efficiency and throughput as better materials are unlocked. Higher density fuels not only burn for longer, but they also receive bonus ticks proportional to their total burn time. The boilers can accept both solids and fuels, giving a 25% output boost. The <Color id="GREEN">Large Boiler</Color> ultimately supersedes the Railcraft Boiler <ItemImage id="Railcraft:machine.beta:5"/>, but the bronze version has slightly less maximum throughput. 
+The <Color id="GREEN">Large Boiler</Color> is an MV tier multiblock for burning combustible fuels to evaporate water into steam or superheated steam. There are four tiers of the Large Boiler to further improve its efficiency and throughput as better materials are unlocked. Higher density fuels not only burn for longer, but they also receive bonus ticks proportional to their total burn time. The boilers can accept both solid and fluid fuels, giving a 25% output boost. The <Color id="GREEN">Large Boiler</Color> ultimately supersedes the Railcraft Boiler <ItemImage id="Railcraft:machine.beta:5"/>, but the bronze version has slightly less maximum throughput. 
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit)
 <br clear="all"/>
@@ -57,9 +57,9 @@ The <Color id="GREEN">Large Boiler</Color> burns combustible fuels to evaporate 
 
 <Color id="GREEN">Large Boilers</Color> lose efficiency at a rate of 0.2% per second when not running, so aiming for high uptime is ideal. Long burn time fuels are given a boost based on the following formula:
 
-<Latex formula="\text{Time Bonus} = (\log (\text{Burn Time} \div 16,000) \times 0.025"/>
+<Latex formula="\text{Time Bonus} = \log (\text{Burn Time} \div 16,000) \times 0.025"/>
 
-The rate that water is consumed and the rate at which steam is produced is fixed based on the tier of the machine. However, the Large Bronze Boiler <ItemImage id="gregtech:gt.blockmachines:15529"/> and Large Steel Boiler <ItemImage id="gregtech:gt.blockmachines:15530"/> produce regular steam while the Large Titanium Boiler <ItemImage id="gregtech:gt.blockmachines:15531"/> and Large Tungstensteel Boiler <ItemImage id="gregtech:gt.blockmachines:15532"/> produce superheated (SH) steam. Distilled water may be in used in place of regular water if looping the output of the [Large Steam Turbine](large_steam_turbine.md)<ItemImage id="gregtech:gt.blockmachines:15524"/> back into the Large Boiler. Maintenance issues reduce the amount of steam produced by 10% each.
+The rate that water is consumed and the rate at which steam is produced is fixed based on the tier of the machine. However, the Large Bronze Boiler <ItemImage id="gregtech:gt.blockmachines:15529"/> and Large Steel Boiler <ItemImage id="gregtech:gt.blockmachines:15530"/> produce regular steam while the Large Titanium Boiler <ItemImage id="gregtech:gt.blockmachines:15531"/> and Large Tungstensteel Boiler <ItemImage id="gregtech:gt.blockmachines:15532"/> produce superheated (SH) steam. Distilled water may be used in place of regular water if looping the output of the [Large Steam Turbine](large_steam_turbine.md)<ItemImage id="gregtech:gt.blockmachines:15524"/> back into the Large Boiler. Maintenance issues reduce the amount of steam produced by 10% each.
 
 Optionally, a programmed circuit can be placed inside the controller to reduce the total steam output by 1,000 L/s per value. For example, a programmed circuit of 3 reduces the steam output by 3,000 L/s. This is rarely ever useful since more steam always produces more power in the LST, even if above the optimal flow rate of the turbine. 
 
@@ -69,4 +69,3 @@ Optionally, a programmed circuit can be placed inside the controller to reduce t
 | Steel | HV | 12.50 L/t | 2,000 L/t |
 | Titanium | EV | 16.67 L/t | 2,666 L/t (SH) |
 | Tungstensteel | IV | 66.67 L/t | 10,666 L/t (SH) |
-

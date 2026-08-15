@@ -11,12 +11,12 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# 
+# Industrial Coke Oven
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15543"/>
 </GameScene>
-The <Color id="GREEN" >Industrial Coke Oven (ICO)</Color> is an EV tier multiblock for mass burning logs into charcoal and one fluid byproduct (coal gas, wood gas, wood vinegar, wood tar, or charcoal byproducts). The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven <ItemImage id="gregtech:gt.blockmachines:15546"/> and Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it gains a <Color id="RED">2%</Color> energy discount per heating coil tier (multiplicative) and offers <Color id="BLUE">32</Color> parallels plus <Color id="BLUE">16</Color> per additional slice added to the structure. The number of slices is capped at 16 for all heating coil tiers except eternal which has no limit. The <Color id="GREEN">ICO</Color> also unlocks the ability to use one <Color id="GREEN">Multi-Amp Energy Hatch</Color> with infinity heating coils or better. 
+The <Color id="GREEN" >Industrial Coke Oven (ICO)</Color> is an EV tier multiblock for mass burning logs into charcoal and one fluid byproduct (coal gas, wood gas, wood vinegar, wood tar, or charcoal byproducts). The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven <ItemImage id="gregtech:gt.blockmachines:15546"/> and Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it gains a <Color id="RED">2%</Color> energy discount per heating coil tier (multiplicative) and offers <Color id="BLUE">32</Color> parallels plus <Color id="BLUE">16</Color> per additional slice added to the structure. Additional slices are capped at 15 (16 total including the base structure) for all heating coil tiers except eternal, which has no limit. The <Color id="GREEN">ICO</Color> also unlocks the ability to use one <Color id="GREEN">Multi-Amp Energy Hatch</Color> with infinity heating coils or better. 
 
 <br clear="all"/>
 
@@ -54,6 +54,6 @@ The <Color id="GREEN">ICO</Color> has two tiered components. The coke oven casin
 <Color id="GREEN">ICOs</Color> may wallshare nearly their entire structure with another one on the opposite end and flipped horizontally. This is highly recommended because it saves an incredible amount of casings, frame boxes, and heating coils--the second machine is basically free. However, buses/hatches are limited to the base structure and therefore cannot be shared in that configuration. No recipe uses more than 1A of power regardless of the energy discount so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
-The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven and Advanced Coke Oven because it gains a 2% energy discount per heating coil tier (multiplicative) and offers 32 parallels plus 16 per additional slice added to the structure, as seen in the following tables. The number of slices is capped at 16 for all heating coil tiers except eternal which has no limit. 
+The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven and Advanced Coke Oven because it gains a 2% energy discount per heating coil tier (multiplicative) and offers 32 parallels plus 16 per additional slice added to the structure, as seen in the following tables. Additional slices are capped at 15 (16 total including the base structure) for all heating coil tiers except eternal, which has no limit. 
 
 The <Color id="GREEN">ICO</Color> is primarily used to burn logs into charcoal with the option of ONE fluid byproduct--determined by the programmed circuit in the input bus or controller. The most common choice is charcoal byproducts because it breaks down into dimethylbenzene, wood gas, wood vinegar, and wood tar in a Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>. Another common choice is wood tar for making nitrobenzene more directly/efficiently. There is also the option to use 250L of nitrogen gas per 4 logs to double the processing speed of the machine, which is again determined by the programmed circuit in the input bus or controller.

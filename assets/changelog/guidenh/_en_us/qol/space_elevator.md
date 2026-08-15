@@ -21,7 +21,7 @@ If you still want precise tinkering of computation and/or plasma between modules
 > Old setups will still work as before
 
 # Space Miner GUI Improvements
-<FloatingImage src="./assets/space_gui.png" align="left" wrap="square" width="128">
+<FloatingImage src="../assets/qol/space_gui.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
     The new <Color id="RED">Space Miner Utility</Color> panel
   </ImageAnnotation>

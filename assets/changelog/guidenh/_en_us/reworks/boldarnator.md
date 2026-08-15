@@ -15,7 +15,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15556"/>
 </GameScene>
-The <Color id="GREEN">Boldarnator</Color> is an IV tier multiblock for creating and harvesting basic rocks. The <Color id="GREEN">Boldarnator</Color> is a direct upgrade from the singleblock rock breaker because it runs at 300% speed, only uses <Color id="BLUE">75%</Color> of the EU/t normally required, and offers <Color id="RED">8</Color> parallels per voltage tier. The available rocks are cobblestone, stone, obsidian, basalt, deepslate, and netherrack. The only requirement is a catalyst and/or programmed circuit inside an input bus. The lava, water, and catalyst are NOT consumed during processing so the only cost is 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Everything else is completely free. 
+The <Color id="GREEN">Boldarnator</Color> is an IV tier multiblock for creating and harvesting basic rocks. The <Color id="GREEN">Boldarnator</Color> is a direct upgrade from the singleblock rock breaker because it runs at 300% speed, only uses <Color id="BLUE">75%</Color> of the EU/t normally required, and offers <Color id="RED">8</Color> parallels per voltage tier. The available rocks are cobblestone, stone, obsidian, basalt, deepslate, netherrack, and end stone. The only requirement is a catalyst and/or programmed circuit inside an input bus. The lava, water, and catalyst are NOT consumed during processing so the only cost is 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Everything else is completely free. 
 
 <br clear="all"/>
 
@@ -43,7 +43,7 @@ The <Color id="GREEN">Boldarnator</Color> has no tiered components. The glass ca
 ## Usage
 The <Color id="GREEN">Boldarnator</Color> is a direct upgrade from the singleblock rock breaker because it runs at 300% speed, only uses 75% of the EU/t normally required, and offers 8 parallels per voltage tier. 
 
-The <Color id="GREEN">Boldarnator</Color> has only six available recipes, listed below by their programmed circuit value. Four of them are completely free and only require specific non-consumable catalysts in the input bus. The other two consume 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Despite appearing as a requirement in NEI, the lava and water is taken directly from the tanks on either side and does not need to be present in an input hatch.
+The <Color id="GREEN">Boldarnator</Color> has seven available recipes, listed below by their programmed circuit value. Five of them are completely free and only require specific non-consumable catalysts in the input bus. The other two consume 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Despite appearing as a requirement in NEI, the lava and water is taken directly from the tanks on either side and does not need to be present in an input hatch.
 
 1. Cobblestone - Free
 2. Stone - Free
@@ -51,10 +51,10 @@ The <Color id="GREEN">Boldarnator</Color> has only six available recipes, listed
 4. Basalt - Free. Requires soul sand and blue ice in the input bus.
 5. Deepslate - Free. Requires soul sand and magma block in the input bus.
 6. Netherrack - Consumes 1 glowstone per operation.
+7. End Stone - Free.
 
 The <Color id="GREEN">Boldarnator</Color> is particularly useful for a cobblestone to silicon processing line. Crush the cobblestone into gravel and then again into sand. Electrolyze the sand into silicon dioxide dust and react it with magnesium dust to obtain an endless supply of silicon. The magnesia dust can be electrolyzed back into magnesium dust in a closed-loop system with no loss. This also produces some oxygen as a byproduct.
 
 The <Color id="GREEN">Boldarnator</Color> is also useful for producing cobblestone for Thaumcraft saplings which automatically convert the cobblestone into soul sand (nether sapling) or end stone (end sapling). Centrifuge the soul sand for unlimited saltpeter, coal dust, sand, and oil. Centrifuge the end stone dust for unlimited tungstate, platinum metallic powder, sand, and helium. A video tutorial on setting this up can be found [here](https://www.youtube.com/watch?v=-Xvlm86FScA).
 
 Other uses for the Boldarnator include producing enough obsidian for the Ender Quarry in LuV and enough cobblestone for bedrockium in UV (26,244 cobblestone per ingot). 
-

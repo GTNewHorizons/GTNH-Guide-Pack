@@ -1,0 +1,164 @@
+{
+  "totalTime": 600,
+  "keyframes": [
+    {
+      "time": 0,
+      "labelKey": "changelog.crops.spreading.ponder.label.start",
+      "camera": {
+        "zoom": 4.0,
+        "rotX": 20.0,
+        "rotY": 100.0,
+        "rotZ": 0.0,
+        "offX": 0.0,
+        "offY": 0.0
+      },
+      "layer": null,
+      "modifyTileNBT": [
+        {
+          "x": 0, "y": 1, "z": 0,
+          "path": "progress",
+          "value": "1200"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.start",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 120,
+      "labelKey": "changelog.crops.spreading.ponder.label.first_spread",
+      "camera": {
+        "rotY": 70.0
+      },
+      "layer": null,
+      "blockChanges": [
+        {
+        "x": 0, "y": 1, "z": 1, "block": "cropsnh:cropSticks", "particles": false,
+          "nbt": "{progress:0,fert:0,water:0,weedEX:0,crop:{amount:1,crop:cropsnh:bonsaiOak,ga:1,gr:1,re:1,scan:1}}"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.first_spread",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 240,
+      "labelKey": "changelog.crops.spreading.ponder.label.spread_stats",
+      "camera": {
+        "rotY": 50.0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.spread_stats",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        },
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.fertilized_stats",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": 60,
+          "maxWidth": 180,
+          "color": "0xFF00FFFF"
+        },
+        {
+         "type": "input",
+          "x": 0, "y": 1, "z": 1,
+          "inputType": "rmb",
+          "item": "cropsnh:fertilizer"
+        }
+      ]
+    },
+    {
+      "time": 360,
+      "labelKey": "changelog.crops.spreading.ponder.label.weeds",
+      "camera": {
+        "rotY": -110.0
+      },
+      "layer": null,
+      "blockChanges": [
+        {
+          "x": 0, "y": 0, "z": -1, "block": "minecraft:grass", "particles": true
+        },
+        {
+
+          "x": 0, "y": 1, "z": -1, "block": "cropsnh:cropSticks", "particles": false,
+          "nbt": "{progress:0,fert:0,water:0,weedEX:0,crop:{amount:1,crop:cropsnh:weed,ga:1,gr:1,re:1,scan:1}}"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.weeds",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": 60,
+          "maxWidth": 180,
+          "color": "0xFFFF0088"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 1.05, "minZ": -0.05,
+          "maxX": 0.95, "maxY": 1.95, "maxZ": -0.95,
+          "color": "0x88FF0088",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 480,
+      "labelKey": "changelog.crops.spreading.ponder.label.sickness",
+      "camera": {
+        "rotY": -130.0
+      },
+      "layer": null,
+      "modifyTileNBT": [
+        {
+          "x": 0, "y":1, "z": 0,
+          "path": "sick",
+          "value": "true"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.sickness_spread",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFFF0088"
+        },
+        {
+          "type": "text",
+          "textKey": "changelog.crops.spreading.ponder.text.sickness_requirements",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": 60,
+          "maxWidth": 180,
+          "color": "0xFFFF0088"
+        }
+      ]
+    }
+  ]
+}

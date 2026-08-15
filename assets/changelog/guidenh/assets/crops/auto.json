@@ -1,0 +1,148 @@
+{
+  "totalTime": 600,
+  "keyframes": [
+    {
+      "time": 0,
+      "labelKey": "changelog.crops.auto.ponder.label.automation_setup",
+      "camera": {
+        "zoom": 3.0,
+        "rotX": 20.0,
+        "rotY": 100.0,
+        "rotZ": 0.0,
+        "offX": -75.0,
+        "offY": -90.0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.auto.ponder.text.crop_manager_overview",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 120,
+      "labelKey": "changelog.crops.auto.ponder.label.soil_setup",
+      "camera": {
+        "rotY": 140
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.auto.ponder.text.subsoil",
+          "independent": true,
+          "yOffset": 80,
+          "maxWidth": 180,
+          "color": "0xFFFF0000"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 0.05, "minZ": 0.05,
+          "maxX": 4.95, "maxY": 0.95, "maxZ": 4.95,
+          "color": "0xFFFF0000",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        },
+        {
+          "type": "text",
+          "textKey": "changelog.crops.auto.ponder.text.soil_type",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFF00FF00"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 1.05, "minZ": 0.05,
+          "maxX": 4.95, "maxY": 1.95, "maxZ": 4.95,
+          "color": "0xFF00FF00",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 240,
+      "labelKey": "changelog.crops.auto.ponder.label.water",
+      "camera": {
+        "rotY": 170
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.auto.ponder.text.water",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFF0000FF"
+        },
+        {
+          "type": "box",
+          "minX": 3.05, "minY": 3.3, "minZ": 2.25,
+          "maxX": 5.75, "maxY": 3.7, "maxZ": 2.75,
+          "color": "0xFF0000FF",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 360,
+      "labelKey": "changelog.crops.auto.ponder.label.power",
+      "camera": {
+        "rotY": 0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.auto.ponder.text.power",
+          "independent": true,
+          "yOffset": 80,
+          "maxWidth": 180,
+          "color": "0xFFFF00FF"
+        },
+        {
+          "type": "box",
+          "minX": 2.05, "minY": 5.05, "minZ": 4.05,
+          "maxX": 2.95, "maxY": 5.95, "maxZ": 4.95,
+          "color": "0xFFFF00FF",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 480,
+      "labelKey": "changelog.crops.auto.ponder.label.output_items",
+      "camera": {
+        "rotY": -210
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "changelog.crops.auto.ponder.text.output_items",
+          "independent": true,
+          "yOffset": 90,
+          "maxWidth": 120,
+          "color": "0xFF00FFFF"
+        },
+        {
+          "type": "box",
+          "minX": 2.25, "minY": 4.05, "minZ": 2.25,
+          "maxX": 2.75, "maxY": 6.85, "maxZ": 2.75,
+          "color": "0xFF00FFFF",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    }
+  ]
+}

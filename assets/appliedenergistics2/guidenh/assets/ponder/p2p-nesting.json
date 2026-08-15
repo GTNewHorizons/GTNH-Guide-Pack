@@ -36,7 +36,7 @@
           "z": 1.5,
           "yOffset": -100,
           "independent": true,
-          "textLabel": "appliedenergistics2.p2p_nesting.ponder.text.overview_description",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.text.overview_description",
           "color": "0xFFFFFFFF"
         },
         {
@@ -88,7 +88,7 @@
           "x": 4.5,
           "y": 0.8,
           "z": 1.5,
-          "textKey": "Nested Network",
+          "textKey": "appliedenergistics2.p2p_nesting.ponder.label.nested_network",
           "color": "0xFFff0000"
         }
       ]

@@ -37,7 +37,7 @@ A <Color id="GREEN">Coke Oven</Color> with three hatches requires 114 coke oven 
 - 0+ <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
 
 ### Wallsharing
-<FloatingImage src="./assets/coke_oven_wallshare.png" width="128" align="right">
+<FloatingImage src="../assets/reworks/coke_oven_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
     An example of a quad wallshared coke oven
   </ImageAnnotation>
@@ -69,6 +69,6 @@ The Coke Oven automatically stops processing when there is no more room for creo
 The Coke Oven can be fully automated with coke oven hatches, as seen in the following video. Coke oven hatches cannot auto-pull from adjacent inventories but they can auto-push, which means a hopper or conveyor module is all that is really required. If using the latter, set the conveyor module to IMPORT because it is probably attached to the item pipe rather than the inventory itself. 
 
 <GameScene width="420" height="280" zoom={3} interactive={true}>
-  <ImportStructure src="./assets/coke_oven.snbt" />
-  <ImportPonder src="./assets/coke_oven.json"/>
+  <ImportStructure src="../assets/reworks/coke_oven.snbt" />
+  <ImportPonder src="../assets/reworks/coke_oven.json"/>
 </GameScene>

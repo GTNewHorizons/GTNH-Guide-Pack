@@ -41,7 +41,7 @@ The <Color id="GREEN">IBM</Color> has no tiered components. Buses/hatches may re
 - 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
 
 ### Wallsharing
-<Color id="GREEN">IBMs</Color> may wallshare each of their sides to save on casings, frame boxes, forming cores, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+<Color id="GREEN">IBMs</Color> may wallshare each of their sides to save on casings, frame boxes, stamping cores, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
 The <Color id="GREEN">IBM</Color> is a direct upgrade from the singleblock bending machine because it runs at 600% speed and offers 6 parallels per voltage tier, as seen in the following table.

@@ -24,7 +24,7 @@ The <Color id="GREEN">AWD</Color> can process both packaging and unpackaging rec
 
 > [!NOTE]
 > The following changes have been made to the multiblock (aside from the structure):
-> - Tiered Speed: Recipe speed now depends on Pipe Casing tier from 100-800% (old max was 600%)
+> - Tiered Speed: Recipe speed now depends on item pipe casing tier from 200-900% (old max was 600%)
 
 ## Construction
 The <Color id="GREEN">AWD</Color> has one tiered component. The item pipe casings determine the speed bonus of the machine. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches </Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components.
@@ -50,12 +50,12 @@ The <Color id="GREEN">AWD</Color> is a direct upgrade from the singleblock packa
 | --------------- | --------------- | --------------- |
 | 1 | Tin | 200% |
 | 2 | Brass | 300% |
-| 4 | Electrum | 400% |
-| 5 | Platinum | 500% |
-| 6 | Osmium | 600% |
-| 7 | Quantium | 700% |
-| 8 | Fluxed Electrum | 800% |
-| 9 | Black Plutonium | 900% |
+| 3 | Electrum | 400% |
+| 4 | Platinum | 500% |
+| 5 | Osmium | 600% |
+| 6 | Quantium | 700% |
+| 7 | Fluxed Electrum | 800% |
+| 8 | Black Plutonium | 900% |
 
 ----------
 
@@ -63,5 +63,4 @@ The <Color id="GREEN">AWD</Color> is a direct upgrade from the singleblock packa
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
-
 

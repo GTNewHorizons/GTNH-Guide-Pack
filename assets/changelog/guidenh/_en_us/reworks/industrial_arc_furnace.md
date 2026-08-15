@@ -58,6 +58,7 @@ The <Color id="GREEN">IAF</Color> has 3 operating modes as described below. Rega
 On startup, the arc furnace must ignite the arc before processing, and after recipes are finished, a 6 second shutdown phase takes place.
 
 ### Normal Mode:
+The <Color id="GREEN">IAF</Color> processes standard arc furnace recipes in this mode, including recycling recipes. Most normal recipes may also optionally use plasma, something that is no longer possible in the singleblock arc furnace.
 
 ### Blasting Mode:
 The <Color id="GREEN">IAF</Color> can now process all EBF recipes, but at the cost of 16x the power cost. This can potentially alleviate some of the burden on your EBFs if you have the power to spare

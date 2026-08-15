@@ -26,7 +26,7 @@ The <Color id="GREEN">LST</Color>  is superseded by the [XL Turbo Steam Turbine]
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
+> Only the structure has changed; the mechanics are otherwise unchanged
 
 ## Construction
 The <Color id="GREEN">LST</Color> has no tiered components. The maintenance hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. There is NO muffler hatch so do not include one. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
@@ -50,7 +50,7 @@ Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.block
 ----------
 
 ## Usage
-he <Color id="GREEN">LST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+The <Color id="GREEN">LST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
 
 - Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
 - Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
@@ -144,4 +144,6 @@ Turbines slowly lose durability proportional to the power generated. The total d
 
 The following equation calculates the lifespan of a turbine (in hours) from the current power output of an <Color id="GREEN">LST</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
 
-<Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6}} \times 1.25 \text{ if loose}"/>
+<Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6})}"/>
+
+- Multiply the lifespan result by 1.25 in loose fitting mode.

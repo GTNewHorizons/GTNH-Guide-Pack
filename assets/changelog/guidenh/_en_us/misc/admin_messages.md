@@ -14,7 +14,7 @@ New to 2.9, some of the title and subtitle text displays have been backported to
 
 Titles can also fade in, stay, and fade out with configurable timings via `/title <player> times <fadeIn> <stay> <fadeOut>`
 
-<FloatingImage src="./assets/admin_messages.png" width="384">
+<FloatingImage src="../assets/misc/admin_messages.png" displayWidth="384">
   <ImageAnnotation>
     An example of a title/subtitle overlay being displayed
   </ImageAnnotation>

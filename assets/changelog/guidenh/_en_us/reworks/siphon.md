@@ -1,6 +1,6 @@
 ---
 item_ids:
-  - gregtech:gt.blockmachines:gregtech:gt.blockmachines:15559
+  - gregtech:gt.blockmachines:15559
 navigation:
   title: Planetary Gas Siphon
   parent: reworks.md
@@ -44,7 +44,7 @@ The <Color id="GREEN">PGS</Color> has one tiered component. The heating coils de
 PGS may wallshare each of their sides to save on casings, heating coils, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> or even <u>__four__</u> machines.
 
 ## Space Stations
-<Color id="GREEN">PGS</Color>" must be built on a space station orbiting a gas giant. <Color id="BLUE">Space Stations</Color> are built by launching a rocket into space, clicking on a planet, and pressing the CREATE button on the right side of the screen where it says "A Space Station can be created here!". The cost of the space station for each of the gas giants is listed below. The player must have the required materials in their inventory (not a backpack or compressed chest) to press the button. The space station then appears as a satellite orbiting around the planet in the Galaxy Map, similar to a moon.
+<Color id="GREEN">PGS</Color> must be built on a space station orbiting a gas giant. <Color id="BLUE">Space Stations</Color> are built by launching a rocket into space, clicking on a planet, and pressing the CREATE button on the right side of the screen where it says "A Space Station can be created here!". The cost of the space station for each of the gas giants is listed below. The player must have the required materials in their inventory (not a backpack or compressed chest) to press the button. The space station then appears as a satellite orbiting around the planet in the Galaxy Map, similar to a moon.
 
 - Jupiter - 1 EV Machine Hull, 4 EV Circuits, 6 Glass Panes, 231 Decorative Nickel Block
 - Saturn - 1 LuV Machine Hull, 4 LuV Circuits, 6 Glass Panes, 231 Decorative Mithril Block
@@ -78,4 +78,3 @@ The rate (L/s) at which gas is extracted depends on the gas giant, type of gas, 
 | Infinity   | 320%   |
 | Hypogen   | 330%   |
 | Eternal   | 340%   |
-

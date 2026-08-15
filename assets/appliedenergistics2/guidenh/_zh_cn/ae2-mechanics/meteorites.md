@@ -7,6 +7,10 @@ navigation:
 
 # 陨石
 
+<GameScene zoom="3" background="transparent">
+  <ImportStructure src="../assets/structures/meteor_interior.snbt" />
+</GameScene>
+
 陨石是使用 AE2 的起点。关键在于，陨石中心有一个[陨石箱子](../items-blocks/skystone_chest.md)，它可能会为你提供多种压印模板的一种。
 
 [快速开始](../getting-started.md)将介绍发现陨石后该如何操作。

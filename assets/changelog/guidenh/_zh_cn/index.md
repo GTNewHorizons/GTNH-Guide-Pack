@@ -2,31 +2,33 @@
 item_ids:
   - minecraft:dirt
 navigation:
-  title: What's New (2.9.0)
+  title: 2.9 新内容
   position: 0
 author: Skorched
 date: 2026-05-15
 ---
 
-# What's New (2.9.0 Changelog)
+# 2.9.0 更新日志
 
-The wait is over <PlayerName />... GTNH 2.9 is finally out!
-So much has changed that it can be hard to keep track, even if you actively follow the pack's development, so this page aims to give a brief overview of some of the changes you can expect to encounter in your playthrough! As with everything in the pack, this is a work in progress, and any suggestions can be given through our <a href="https://discord.gg/gtnh">Discord Server</a>.
+久等了，<PlayerName />……GTNH 2.9 终于正式发布了！
+
+这次改动很多，即使你一直在关注整包开发，也很难把所有变化都记全。所以这页的目标，是对你在游玩过程中最可能遇到的一部分更新做一个简要概览。和整包中的其他内容一样，这页也仍在持续完善中；如果你有建议，可以前往我们的 <a href="https://discord.gg/gtnh">Discord 服务器</a> 提出反馈。
 
 > [!NOTE]
-> This is not an exhaustive list of changes in 2.9.x. Between minor bug fixes, and optimisations, there are many things that just cannot fit on this list. This list instead intends to give an idea of some of the *larger* changes or features added in this version.
+> 这并不是 2.9.x 全部改动的完整清单。除了大量小型修复与性能优化外，还有很多内容根本无法全部塞进这里。这份列表主要用来展示本版本里一些*较大的*改动和新增特性。
 
-# Changes
-The changes made can be generally grouped into categories as shown below, however there are some that "overlap" multiple categories. In that case, they will show in both categories:
-## [Applied Energistics](./ae2/ae2.md)
+# 改动分类
+本次更新内容大致可以按下面这些类别来查看。当然，也有一些条目会同时跨越多个分类；这类内容会出现在多个分类页中。
+
+## [AE2 改动](./ae2/ae2.md)
 ## [CropsNH](./crops/crops.md)
-## [Magic Changes](./magic/magic.md)
-## [Miscellaneous Changes](./misc/misc.md)
-## [New Multi-blocks](./multis/multis.md)
-## [Quality of Life](./qol/qol.md)
-## [Structure Reworks](./reworks/reworks.md)
+## [魔法改动](./magic/magic.md)
+## [杂项改动](./misc/misc.md)
+## [新增多方块](./multis/multis.md)
+## [体验优化](./qol/qol.md)
+## [结构重制](./reworks/reworks.md)
 
-# What Am I Even Reading?!
-You are currently reading a changelog made via a new mod inclusion, [GuideNH](./misc/guide.md) in 2.9! This mod will (eventually) come with lots of guides on different aspects of the pack, and offers a large range of methods to showcase ideas. For more information, check out the page!
+# 我现在看到的是什么？
+你现在读到的这份更新日志，是由 2.9 新加入的模组 [GuideNH](./misc/guide.md) 制作的！这个模组未来会逐步加入大量关于整包不同内容的指南，并提供许多展示思路与机制的方式。想了解更多，可以点进对应页面看看。
 
-If you feel you have something to contribute, follow the link on the discord, and find the `#guide-dev` channel to get stuck in!
+如果你也想参与贡献，可以前往 Discord 服务器，在 `#guide-dev` 频道加入我们。

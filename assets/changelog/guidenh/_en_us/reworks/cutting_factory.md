@@ -1,6 +1,6 @@
 ---
 item_ids:
-  - gregtech:gt.blockmachines:gregtech:gt.blockmachines:15540
+  - gregtech:gt.blockmachines:15540
 navigation:
   title: Industrial Cutting Factory
   parent: reworks.md
@@ -13,10 +13,10 @@ date: 2026-05-27
 # Industrial Cutting Factory
 
 <GameScene wrap="square" align="right">
-  <ImportStructure src="./assets/cutting.snbt"/>
+  <ImportStructure src="../assets/reworks/cutting.snbt"/>
 </GameScene>
 
-The <Color id="GREEN">Industrial Cutting Factory (ICF)</Color> is an IV tier multiblock for cutting rods, wafers, blocks, and more. The <Color id="GREEN">ICF</Color> is a direct upgrade from the singleblock cutting machine because it runs up to <Color id="BLUE">450%"</Color> speed, uses as little as <Color id="RED">60%</Color> of the EU/t normally required, and offers up to <Color id="GREEN">6</Color> parallels per voltage tier. The exact bonuses and the maximum tier of the energy hatches depend on the tier of the sawblade in the controller. Only one sawblade is required and all four tiers have unlimited durability--they are a one time cost to upgrade the machine. The transcendent metal sawblade <ItemImage id="gregtech:gt.metaitem.01:32105"/> is the most powerful and unlocks the ability to use one multi-amp energy hatch instead of regular energy hatches. Input separation should be enabled on the <Color id="GREEN">ICF</Color> for using different programmed circuits and/or non-consumables within the same machine.
+The <Color id="GREEN">Industrial Cutting Factory (ICF)</Color> is an IV tier multiblock for cutting rods, wafers, blocks, and more. The <Color id="GREEN">ICF</Color> is a direct upgrade from the singleblock cutting machine because it runs up to <Color id="BLUE">450%</Color> speed, uses as little as <Color id="RED">60%</Color> of the EU/t normally required, and offers up to <Color id="GREEN">6</Color> parallels per voltage tier. The exact bonuses and the maximum tier of the energy hatches depend on the tier of the sawblade in the controller. Only one sawblade is required and all four tiers have unlimited durability--they are a one time cost to upgrade the machine. The transcendent metal sawblade <ItemImage id="gregtech:gt.metaitem.01:32105"/> is the most powerful and unlocks the ability to use one multi-amp energy hatch instead of regular energy hatches. Input separation should be enabled on the <Color id="GREEN">ICF</Color> for using different programmed circuits and/or non-consumables within the same machine.
 <br clear="all"/>
 
 > [!NOTE]
@@ -32,7 +32,7 @@ The <Color id="GREEN">ICF</Color> has no tiered components. The glass can be any
 - 1 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
 - 10-30 <ItemLink id="miscutils:gtplusplus.blockcasings.2:13"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:13"/>
 - 18 <ItemLink id="miscutils:blockFrameGtTantalumCarbide"/><ItemImage id="miscutils:blockFrameGtTantalumCarbide"/>
-- <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
+- 13 <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
 - 1+ Energy Hatch (any frame, tier limited by sawblade) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:91" />

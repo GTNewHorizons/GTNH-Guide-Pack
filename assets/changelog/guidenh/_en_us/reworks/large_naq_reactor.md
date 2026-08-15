@@ -11,7 +11,7 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Lareg Naquadah Reactor
+# Large Naquadah Reactor
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15537"/>
@@ -27,7 +27,7 @@ The first two tiers of naquadah based liquid fuel (naq fuel) are crafted in the 
 > Only the structure of this multiblock has changed, the mechanics stay the same
 
 ## Construction
-The <Color id="GREEN">LNR</Color> has no tiered components. Buses/hatches may replace any naquadah reactor casing anywhere on the structure. A stocking input hatch is highly recommended to hold the four different input fluids. Multi-amp and laser dynamo hatches are supported for serious power generation, but there cannot be more than one. The <Color id="GREEN">LNR</Color> shuts down if the dynamo hatch cannot support 100% of the current power output so it is practically mandatory to use a high-amp laser source hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+The <Color id="GREEN">LNR</Color> has no tiered components. Buses/hatches may replace any naquadah reactor casing anywhere on the structure. A stocking input hatch is highly recommended to hold the four different input fluids. Multi-amp and laser dynamo hatches are supported for serious power generation, but there cannot be more than one. The <Color id="GREEN">LNR</Color> shuts down if the dynamo hatch cannot support 100% of the current power output so it is practically mandatory to use a high-amp laser dynamo hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15537"/><ItemImage id="gregtech:gt.blockmachines:15537"/>
@@ -37,15 +37,15 @@ The <Color id="GREEN">LNR</Color> has no tiered components. Buses/hatches may re
 - 1 Dynamo Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 Maintenance Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ Input Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Output Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:60" />
 
 ### Wallsharing
-<FloatingImage src="./assets/lnr_wallshare.png" width="128" align="right">
+<FloatingImage src="../assets/reworks/lnr_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
     An example of a dual wallshared reactor
   </ImageAnnotation>
 </FloatingImage>
-<Color id="GREEN">LNR</Color> may wallshare each of their sides or the sphere at the center of the structure to save on casings, frame boxes, and buses/hatches. That includes the laser source hatch if it has enough throughput to support 2-4 machines simultaneously. The image above depicts two machines, but a third could be placed on the remaining axis if preferred (requires a laser mirror). 
+<Color id="GREEN">LNR</Color> may wallshare each of their sides or the sphere at the center of the structure to save on casings, frame boxes, and buses/hatches. That includes the laser dynamo hatch if it has enough throughput to support 2-4 machines simultaneously. The image above depicts two machines, but a third could be placed on the remaining axis if preferred (requires a laser mirror). 
 
 ## Usage
 Compared to other generator multiblocks, the <Color id="GREEN">LNR</Color> is very simple to use. The <Color id="GREEN">LNR</Color> converts the fuel into EU directly, does not have a warm-up period, and does not use turbines. The only challenge is meeting the following input requirements:
@@ -74,4 +74,3 @@ Optionally, a booster can be provided to increase the throughput of the <Color i
 | Molten Naquadah | 4x | 20 L/s |
 | Molten Atomic Separation Catalyst | 16x | 20 L/s |
 | Spatially Enlarged Fluid | 64x | 20 L/s |
-

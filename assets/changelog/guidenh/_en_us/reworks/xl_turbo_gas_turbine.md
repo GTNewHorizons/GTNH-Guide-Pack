@@ -38,8 +38,8 @@ The <Color id="GREEN">XLGT</Color> has no tiered components. The glass can be an
 - 7 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
 - 1+ Dynamo Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 Maintenance Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 4 Maintenance Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 1+ Input Bus (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 4 Muffler Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 1+ Input Bus (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
 - 1+ Input Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
 
 ### Wallsharing
@@ -48,13 +48,13 @@ The <Color id="GREEN">XLGT</Color> has no tiered components. The glass can be an
 ## Usage
 The rate (L/t) at which gas enters the <Color id="GREEN">XLGT</Color> is extremely important. Too little gas and only a fraction of the potential power is generated; too much gas and a tremendous amount of fuel is wasted. Ideally, gas enters the <Color id="GREEN">XLGT</Color> at the optimal flow rate of the turbine, which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine. Note that these are exactly 16x the optimal flow rates of the Large Gas Turbine.
 
-<Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 800 \div 800/L">
+<Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 800 \div EU/L">
   Where:
   - $$\dot{m}^*$$: Optimal Fuel Rate
   - $$k$$: Material Multiplier
   - size: Constant based on turbine size (1=small, 4=huge)
 </Latex>
-<Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 1,600 \div 800/L \times 1.05^{20(\eta_0 - 0.8)}">
+<Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 1,600 \div EU/L \times 1.05^{20(\eta_0 - 0.8)}">
   Where:
   - $$\dot{m}^*$$: Optimal Fuel Rate
   - $$k$$: Material Multiplier
@@ -98,4 +98,6 @@ The turbines slowly lose durability proportional to the power generated. The tot
 
 The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">XLGT</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
 
-<Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6})} \times 1.25"/>
+<Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
+
+- Multiply the lifespan result by 1.25 in loose fitting mode.

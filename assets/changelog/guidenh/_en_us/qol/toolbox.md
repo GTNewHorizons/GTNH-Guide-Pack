@@ -28,13 +28,13 @@ Changing a Programmable Circuit <ItemImage id="gregtech:gt.integrated_circuit" /
 
 Tools with "modes" (such as <Color id="BLUE">Line Mode</Color> on the wrench) can be toggled from the toolbox itself as long as the tool is equipped
 <RecipeFor id="gregtech:gt.Item_Toolbox"/>
-<FloatingImage src="./assets/toolbox_ui.png" wrap="inline" align="left" width="256">
+<FloatingImage src="../assets/qol/toolbox_ui.png" wrap="inline" align="left" displayWidth="256">
   <ImageAnnotation>
     The internal UI of the new toolbox  
 </ImageAnnotation>
 </FloatingImage>
 
-<FloatingImage src="./assets/toolbox_radial.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/qol/toolbox_radial.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     The radial menu of the new toolbox  
 </ImageAnnotation>

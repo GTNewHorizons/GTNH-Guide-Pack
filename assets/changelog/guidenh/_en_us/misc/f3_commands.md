@@ -12,7 +12,7 @@ date: 2026-05-30
 # F3 Commands
 As part of 2.9, almost all F3 commands now have translatable debug messages. F3+Q and F3+D have also been backported which shows the list of commands, or clears chat respectively.
 
-<FloatingImage src="./assets/f3.png" width="384">
+<FloatingImage src="../assets/misc/f3.png" displayWidth="384">
   <ImageAnnotation>
     The list of key bindings for debug commands
   </ImageAnnotation>

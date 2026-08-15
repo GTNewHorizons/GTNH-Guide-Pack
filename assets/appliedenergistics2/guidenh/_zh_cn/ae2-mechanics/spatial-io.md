@@ -21,7 +21,7 @@ navigation:
   * 每个空间柱至少由2个空间塔方块构成，空间柱只能呈直线。
   * 所有空间柱必须在同一个ME网络中，每个空间柱占用1个频道。
   
-<GameScene zoom="2" rotateY={200} height="200"  >
+<GameScene zoom="2" rotateY={200} width="200" height="100"  >
     <ImportStructure src="../assets/structures/spatial_io-spatial_pylons_rule.snbt" />
     <BoxAnnotation min="3 0 0" max="5 1 1" color="#EE3333" thickness="1">
       这个空间柱是暗红色的，代表未通电，此场景可能难以区分二者，但游戏中更加明显。
@@ -37,7 +37,7 @@ navigation:
     * 亮红色的空间柱表示空间柱结构合法但多方块结构未构成合法的作用范围。
     * 亮紫色的空间柱则表示多方块结构完全成型。
 
-<GameScene zoom="2"  width ="300" height="200" rotateY={225} >
+<GameScene zoom="2"  width="300" height="200" rotateX={15} rotateY={-135} >
     <ImportStructure src="../assets/structures/spatial_io-spatial_pylons_rule2.snbt" />
     <Block id="appliedenergistics2:tile.BlockCableBus" nbt='{__guidenh_encoded_keys_v1:[0:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:36s},k:"def:6"},1:{v:{},k:"extra:6"}],id:"BlockCableBus",hasRedstone:2}' x="2" z="2"/>
     <BoxAnnotation min="5 0 0" max="0 5 5" color="#EE3333" thickness="1" alwaysOnTop={true}>
@@ -68,7 +68,7 @@ navigation:
 # 完整的可运行结构
 如果你理解了多方块结构的所有规则，就能看出下面这个结构是合法可运行的。
 
-<GameScene zoom="2" width="300" rotateY={200} >
+<GameScene zoom="2" width="300" height="200" rotateX={15} rotateY={-120} >
     <ImportStructure src="../assets/structures/spatial_io-mess.snbt" />
     <BoxAnnotation min="7 0 8" max="0 5 0" color="#EE3333" thickness="1">
     </BoxAnnotation>
@@ -77,7 +77,7 @@ navigation:
 </GameScene>
 
 但是它太杂乱、不够简洁。实践时可以参考下面的结构设计：
-<GameScene zoom="2" width="300" rotateY={200} >
+<GameScene zoom="2" width="300" rotateX={10} rotateY={-160} >
     <ImportStructure src="../assets/structures/spatial_io-simple.snbt" />
     <BoxAnnotation min="9 0 0" max="5 4 4" color="#EE3333" thickness="1">
     </BoxAnnotation>
@@ -91,7 +91,7 @@ navigation:
 
 能量效率较大的结构：
 
-<GameScene zoom="2" width="300" rotateY={-135} >
+<GameScene zoom="2" width="300" height="200" rotateX={12} rotateY={-135} >
     <ImportStructure src="../assets/structures/spatial_io-efficiency.snbt" />
     <BoxAnnotation min="6 0 6" max="0 5 0" color="#EE3333" thickness="1">
     </BoxAnnotation>

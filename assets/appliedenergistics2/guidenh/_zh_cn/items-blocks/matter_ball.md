@@ -1,4 +1,4 @@
-﻿---
+---
 navigation:
   parent: /items-blocks-index.md
   title: 物质球
@@ -9,3 +9,17 @@ categories:
 item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:6
 ---
+
+# 物质球
+
+<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:6" scale="4" />
+
+一种通用物质聚合体，可用作<ItemLink id="appliedenergistics2:item.ToolMassCannon" />（物质炮）的弹药或用于生产[染色球](paintballs.md)。
+
+在<ItemLink id="appliedenergistics2:tile.BlockCondenser" />（物质聚合器）的物质球模式下，消耗256个物品或流体桶可制成。
+
+因为子弹击中方块会掉落，也可以用作挖矿。
+
+用以合成染色球。
+
+<RecipeFor id="appliedenergistics2:tile.BlockCondenser" />

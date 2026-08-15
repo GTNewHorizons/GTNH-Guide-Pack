@@ -61,7 +61,7 @@ There are four tiers of drones available. They are all functionally the same but
 
 The range is determined by the <Color id="RED">Euclidean Distance</Color> between a <Color id="BLUE">Drone Downlink Module</Color> and the <Color id="GREEN">Drone Centre</Color> controller. Use the following equation to calculate distance from their coordinates:
 
-<Latex formula="\text{Distance} = \sqrt{(x_1 - x_2)^2 + (y_1 + y_2)^2 + (z_1 + z_2)^2}" />
+<Latex formula="\text{Distance} = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2 + (z_1 - z_2)^2}" />
 
 ### Power Control
 All machines with a <Color id="BLUE">Drone Downlink Module</Color> installed appear on the machine list within the GUI of the controller. The machines can be renamed, highlighted in the world, and enabled/disabled remotely. There are also buttons in the GUI of the controller to enable/disable ALL machines in the same dimension regardless of distance. The power control is extremely useful when trying to re-enable everything after powerfailing, or preparing to upgrade/move a <ItemLink id="gregtech:gt.blockmachines:13106" /> . 

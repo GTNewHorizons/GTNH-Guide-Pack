@@ -54,7 +54,7 @@ The <Color id="GREEN">LPT</Color> has two operating modes, listed below, but see
 The speed of the <Color id="GREEN">LPT</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LPT</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner on the controller or looking at the "efficiency" value in WAILA. 
 
 ## Optimal Flow Rate
-The rate (L/s) at which plasma enters the <Color id="GREEN">LPT</Color> is extremely important. Too little plasma and only a fraction of the potential power is generated; too much plasma and a tremendous of fuel is wasted. Ideally, plasma enters the <Color id="GREEN">LPT</Color> at the optimal flow rate of the turbine which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/s is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine.
+The rate (L/s) at which plasma enters the <Color id="GREEN">LPT</Color> is extremely important. Too little plasma and only a fraction of the potential power is generated; too much plasma and a tremendous amount of fuel is wasted. Ideally, plasma enters the <Color id="GREEN">LPT</Color> at the optimal flow rate of the turbine which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/s is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine.
 
 <Latex formula="\dot{m}^* \text{Tight} = k \times \text{size} \times 1,000 \div EU/L">
   Where:
@@ -94,7 +94,7 @@ Power is extracted from a 4A dynamo hatch on the back of the structure. Do not b
 </Latex>
 
 # Turbines
-The 12 turbines must all be the exact same for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+A turbine must be placed inside the GUI of the controller for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
 
 - Small turbines are crafted with long magnalium rods (available as early as LV)
 - Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
@@ -107,5 +107,4 @@ The turbines slowly lose durability proportional to the power generated. The tot
 The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">LPT</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
 
 <Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(36 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
-
 

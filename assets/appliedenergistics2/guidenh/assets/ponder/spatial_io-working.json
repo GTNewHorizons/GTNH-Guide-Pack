@@ -133,7 +133,7 @@
                     "x": 9.5,
                     "y": 0,
                     "z": 1.5,
-                    "textKey": "appliedenergistics2.spatial_io_working.ponder.label.insert_description",
+                    "textKey": "appliedenergistics2.spatial_io_working.ponder.text.insert_description",
                     "color": "0xFF44AAFF",
                     "connectorSide": "top",
                     "connectorLength": 0

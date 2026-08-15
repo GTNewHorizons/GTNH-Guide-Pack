@@ -22,7 +22,7 @@ The <Color id="GREEN">Industrial Mixing Machine</Color> is an IV tier multiblock
 
 > [!NOTE]
 > The changes from the previous Industrial Mixer are as follows (apart from new structure):
-> - Tiered Item Pipes: 100-1000% speed depending on tier of item pipe casing!
+> - Tiered Item Pipes: 200-900% speed depending on item pipe casing tier!
 > - New Casings: Looks cooler!
 > - Multi-Amp Hatches: Now unlocked from infinity glass and beyond!
 
@@ -67,4 +67,3 @@ The <Color id="GREEN">IMM</Color> is a direct upgrade from the singleblock mixer
 | 6 | Quantium | 700% |
 | 7 | Fluxed Electrum | 800% |
 | 8 | Black Plutonium | 900% |
-

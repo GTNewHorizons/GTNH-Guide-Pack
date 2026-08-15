@@ -10,7 +10,7 @@ date: 2026-05-20
 ---
 
 # Sudoku Lootgames
-<FloatingImage src="./assets/sudoku.png" width="180" wrap="square">
+<FloatingImage src="../assets/misc/sudoku.png" displayWidth="180" wrap="square">
   <ImageAnnotation>
     Example sudoku layouts
   </ImageAnnotation>

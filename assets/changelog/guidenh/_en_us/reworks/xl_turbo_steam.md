@@ -40,9 +40,9 @@ The <Color id="GREEN">XLST</Color> has no tiered components. The glass can be an
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
 - 1 Dynamo Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 Maintenance Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1+ Input Bus (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 1+ Input Bus (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
 - 1+ Input Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 1+ Output Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ Output Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
 
 ### Wallsharing
 <Color id="GREEN">XLSTs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">XLSTs</Color> -- one consumes everything and the other receives nothing. 
@@ -58,6 +58,17 @@ The speed of the <Color id="GREEN">XLST</Color> increases linearly up to 100% wh
 ## Optimal Flow Rate
 The rate (L/t) at which steam enters the <Color id="GREEN">XLST</Color> is extremely important. Too little steam and only a fraction of the potential power is generated; too much steam and a tremendous amount of fuel is wasted. Ideally, steam enters the <Color id="GREEN">XLST</Color> at the optimal flow rate of the turbine, which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine. Note that these are exactly 16x the optimal flow rates of the Large Steam Turbine and the rate is divided by 1,000 if the steam is dense.
 
+<Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 800">
+  - $$\dot{m}^*$$: Optimal Flow Rate
+  - $$k$$: Material Multiplier
+  - $$\text{size}$$: Constant in range (1:4) based on turbine size
+</Latex>
+<Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 2,400 \times 1.1^{20(\eta_0 - 0.8)}">
+  - $$\dot{m}^*$$: Optimal Flow Rate
+  - $$k$$: Material Multiplier
+  - $$\text{size}$$: Constant in range (1:4) based on turbine size
+  - $$\eta_0$$: Base Efficiency of Turbine
+</Latex>
 
 The optimal flow rates of some turbines are incredibly high because steam has a very low fuel density of 0.5 EU/L, especially if the <Color id="GREEN">XLST</Color> is in loose mode. If not using dense steam, it is practically mandatory to use AE2 fluid P2P tunnels which effectively have no transfer limit and no concern for temperature or heat capacity.
 | Fuel   | EU/L    |
@@ -87,4 +98,6 @@ The turbines slowly lose durability proportional to the power generated. The tot
 
 The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">XLST</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
 
-<Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6}) \times 1.25 \text{ if loose}"/>
+<Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
+
+- Multiply the lifespan result by 1.25 in loose fitting mode.

@@ -14,7 +14,7 @@ Do you like to have every keybind set at once, but hate having to rely on strang
 
 Now this is a thing of the past, as we have combination keybinds! This massively increases the amount of __reasonable__ keybinds you can have at once!
 
-<FloatingImage src="./assets/combo_keys.png" wrap="square" width="256" align="left">
+<FloatingImage src="../assets/qol/combo_keys.png" wrap="square" displayWidth="256" align="left">
   <ImageAnnotation>
     An example of some combo keybinds!
   </ImageAnnotation>

@@ -45,10 +45,10 @@ Unique to the <Color id="GREEN">IEM</Color> is the extrusion bus which is effect
 <Color id="GREEN">IEMs</Color> may wallshare each of their sides to save on casings and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
-The <Color id="GREEN">IEM</Color> is a direct upgrade from the singleblock extruder because it runs at 350% speed and offers 4 parallels per voltage tier, as seen in the following table. 
+The <Color id="GREEN">IEM</Color> is a direct upgrade from the singleblock extruder because it runs at 350% speed and offers 6 parallels per voltage tier, as seen in the following table. 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
-| 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
+| 6 | 12 | 18 | 24 | 30 | 36 | 42 | 48 | 54 | 60 | 66 | 72 | 78 | 84 | 90 |
 
 
 Input separation is permanently enabled on the <Color id="GREEN">IEM</Color> which prevents SOLID ingredients in different input buses from being used in the same recipe, including any extruder shapes. That means a single <Color id="GREEN">IEM</Color> with many extrusion/input buses can support many different extruder shapes simultaneously. Just don't forget to stay above the minimum number of containment and stainless steel casings. 

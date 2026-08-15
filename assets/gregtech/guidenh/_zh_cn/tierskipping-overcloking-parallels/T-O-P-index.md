@@ -65,12 +65,3 @@ navigation:
 | **降低一级** | 1/4 A × 能源仓电压 | <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" />的电路组装机模式 |
 | **不受限制** | Tooltip 含"只要有足够的能量，这台机器能运行任何等级的配方" | <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
 
-## 例
-
-| 情况 | 电压等级 | 额定功率 |
-|------|----------|----------|
-| 工业高炉，一个 LV能源仓 | 128 EU/t (1A MV) | 32 EU/t (1A LV) |
-| 工业高炉，两个 LV能源仓 | 128 EU/t (1A MV) | 128 EU/t (4A LV) |
-| 工业高炉，三个 LV能源仓 | 128 EU/t (1A MV) | 192 EU/t (6A LV) |
-| 工业高炉，一个 LV能源仓 + 一个 MV能源仓 | 320 EU/t | 320 EU/t |
-| 进阶装配线，一个 16安LuV能源仓 | 32,768 EU/t (1A LuV) | 524,288 EU/t (16A LuV) |

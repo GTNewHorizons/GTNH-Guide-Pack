@@ -20,7 +20,7 @@ You can now shift right-click with the tool to open a GUI showing all colors, an
 
 You can also middle-click on any existing colored AE2 part to instantly copy the color to your applicator!
 
-<FloatingImage src="./assets/applicator.png" align="left" width="384" wrap="square">
+<FloatingImage src="../assets/ae2/applicator.png" align="left" displayWidth="384" wrap="square">
   <ImageAnnotation>
     The GUI for the Color Applicator
   </ImageAnnotation>

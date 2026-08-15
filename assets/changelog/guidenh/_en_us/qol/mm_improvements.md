@@ -18,7 +18,7 @@ The Copy/Paste radial menu now comes with an <Color id="BLUE">__Advanced Options
 - __Auto-P2P Interfaces (MKII+)__: Replaces ME interfaces with P2P ME Interface tunnels. The source will receive an "input-side" tunnel, and the pasted version will get the "output-side" tunnel, with frequencies automatically matches. Patterns will remain at the source, so you can replicate processing set-ups that all route to that single set of patterns! (This also works with Fluid P2P Interface tunnels)
 - __Auto-Proxy CRIBs (MKIII)__: Replaces <Color id="RED">Crafting Input Buses</Color> in the copied structure with <Color id="BLUE">Crafting Input Proxies</Color> linked back to the original bus! Again, the linking is automatic!
 
-<FloatingImage src="./assets/mm_smart.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/qol/mm_smart.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     The new Smart Copy menu
   </ImageAnnotation>

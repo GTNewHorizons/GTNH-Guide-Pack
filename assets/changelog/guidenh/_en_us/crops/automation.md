@@ -14,8 +14,8 @@ This page is less about crop specifics, and more about how crops can be automate
 
 
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
-  <ImportStructure src="./assets/auto.snbt" />
-  <ImportPonder src="./assets/auto.json" />
+  <ImportStructure src="../assets/crops/auto.snbt" />
+  <ImportPonder src="../assets/crops/auto.json" />
 </GameScene>
 
 If you're lost on how to gather infinite water sources, there are many options depending on your progression! Try searching through some of your favourite methods, from <Color id="RED">Thaumcraft</Color> to <Color id="GREEN">GregTech Multis</Color>!

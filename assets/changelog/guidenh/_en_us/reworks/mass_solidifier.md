@@ -24,7 +24,7 @@ The <Color id="GREEN">Mass Solidifier</Color> is an IV tier multiblock for casti
 > [!NOTE]
 > The following changes have been made to the multiblock (aside from the structure):
 > - Deprecation: This replaces the old Fluid Shaper
-> - Solidifer Hatches: New hatches that take fluids and have a ghost mold slot
+> - Solidifier Hatches: New hatches that take fluids and have a ghost mold slot
 > - Parallels: 10 Parallels per Voltage Tier instead of 2 + 3 per "slice"
 
 

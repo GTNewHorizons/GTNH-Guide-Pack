@@ -16,8 +16,8 @@ Let's say you've got the crop you want. One crop likely isn't going to cut it, b
 
 Okay kids, teacher is off so let's roll out the video!
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
-  <ImportStructure src="./assets/spreading.snbt" />
-  <ImportPonder src="./assets/spreading.json" />
+  <ImportStructure src="../assets/crops/spreading.snbt" />
+  <ImportPonder src="../assets/crops/spreading.json" />
 </GameScene>
 
 # Explanations:

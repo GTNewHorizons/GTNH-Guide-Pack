@@ -27,7 +27,7 @@ Modules are their own multiblocks with their own controller and construction req
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9500"/><ItemImage id="gregtech:gt.blockmachines:9500"/>
 - 3,956 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 2,226 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8/"/>
+- 2,226 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 1,708-1,720 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 721 <ItemLink id="gregtech:gt.blockcasings12:3"/><ItemImage id="gregtech:gt.blockcasings12:3"/>
 - 53 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
@@ -55,7 +55,7 @@ The general workflow of the <Color id="GREEN">NAC</Color> is listed below. The i
 4. The modules turn the packaged CCs into processed components (PCs) which cannot be unpackaged or leave the <Color id="GREEN">NAC</Color>
 5. Join the PCs in the Nanochip Assembly Matrix to create circuit CCs and route them back to the control room
 6. The <Color id="GREEN">NAC</Color> unpackages the circuit CCs and transfers them to an output bus for retrieval
-<FloatingImage src="./assets/nac_overview.png" width="384">
+<FloatingImage src="../assets/multis/nac_overview.png" displayWidth="384">
   <ImageAnnotation>
     An overview of the Nanochip Assembly Complex by Fox
   </ImageAnnotation>
@@ -75,7 +75,7 @@ The inputs to the <Color id="GREEN">Nanochip Assembly Matrix</Color> can be in s
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>
 - 25 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
+- 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 20 Component Assembly Line Casing (Tiered) <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
 - 12 <ItemLink id="gregtech:gt.blockframes:325"/><ItemImage id="gregtech:gt.blockframes:325"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
