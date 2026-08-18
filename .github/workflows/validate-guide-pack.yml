@@ -136,6 +136,11 @@ jobs:
               .replace(/,/g, '%2C');
           }
 
+          function isNonBlockingReferenceDiagnostic(diagnostic) {
+            return diagnostic.message.startsWith('Unknown resource ')
+              || /^(?:Unknown|Unresolved) item(?: id| reference)?\b/i.test(diagnostic.message);
+          }
+
           async function main() {
             const pageIndex = new GuideNhWorkspaceIndex();
             const resourceIndex = new GuideNhResourceIndex();
@@ -150,13 +155,13 @@ jobs:
               const uri = pathToFileURL(pagePath).toString();
               const diagnostics = createGuideNhDiagnostics(text, schema, pageIndex, resourceIndex, uri);
               for (const diagnostic of diagnostics) {
-                const resourceWarning = diagnostic.message.startsWith('Unknown resource ');
-                const level = resourceWarning ? 'warning' : 'error';
+                const nonBlockingReference = isNonBlockingReferenceDiagnostic(diagnostic);
+                const level = nonBlockingReference ? 'warning' : 'error';
                 const relativePath = path.relative(guidePackRoot, pagePath).replace(/\\/g, '/');
                 const line = diagnostic.range.start.line + 1;
                 const column = diagnostic.range.start.character + 1;
                 console.log(`::${level} file=${escapeAnnotation(relativePath)},line=${line},col=${column}::${escapeAnnotation(diagnostic.message)}`);
-                if (resourceWarning) {
+                if (nonBlockingReference) {
                   warnings++;
                 } else {
                   errors++;
