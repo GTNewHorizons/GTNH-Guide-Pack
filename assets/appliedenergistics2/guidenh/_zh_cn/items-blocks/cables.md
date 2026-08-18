@@ -5,79 +5,7 @@ navigation:
   icon: appliedenergistics2:item.ItemMultiPart:36
 categories:
 - network infrastructure
-item_ids:
-- appliedenergistics2:item.ItemMultiPart
-- appliedenergistics2:item.ItemMultiPart:1
-- appliedenergistics2:item.ItemMultiPart:2
-- appliedenergistics2:item.ItemMultiPart:3
-- appliedenergistics2:item.ItemMultiPart:4
-- appliedenergistics2:item.ItemMultiPart:5
-- appliedenergistics2:item.ItemMultiPart:6
-- appliedenergistics2:item.ItemMultiPart:7
-- appliedenergistics2:item.ItemMultiPart:8
-- appliedenergistics2:item.ItemMultiPart:9
-- appliedenergistics2:item.ItemMultiPart:10
-- appliedenergistics2:item.ItemMultiPart:11
-- appliedenergistics2:item.ItemMultiPart:12
-- appliedenergistics2:item.ItemMultiPart:13
-- appliedenergistics2:item.ItemMultiPart:14
-- appliedenergistics2:item.ItemMultiPart:15
-- appliedenergistics2:item.ItemMultiPart:16
-
-- appliedenergistics2:item.ItemMultiPart:20
-- appliedenergistics2:item.ItemMultiPart:21
-- appliedenergistics2:item.ItemMultiPart:22
-- appliedenergistics2:item.ItemMultiPart:23
-- appliedenergistics2:item.ItemMultiPart:24
-- appliedenergistics2:item.ItemMultiPart:25
-- appliedenergistics2:item.ItemMultiPart:26
-- appliedenergistics2:item.ItemMultiPart:27
-- appliedenergistics2:item.ItemMultiPart:28
-- appliedenergistics2:item.ItemMultiPart:29
-- appliedenergistics2:item.ItemMultiPart:30
-- appliedenergistics2:item.ItemMultiPart:31
-- appliedenergistics2:item.ItemMultiPart:32
-- appliedenergistics2:item.ItemMultiPart:33
-- appliedenergistics2:item.ItemMultiPart:34
-- appliedenergistics2:item.ItemMultiPart:35
-- appliedenergistics2:item.ItemMultiPart:36
-
-- appliedenergistics2:item.ItemMultiPart:40
-- appliedenergistics2:item.ItemMultiPart:41
-- appliedenergistics2:item.ItemMultiPart:42
-- appliedenergistics2:item.ItemMultiPart:43
-- appliedenergistics2:item.ItemMultiPart:44
-- appliedenergistics2:item.ItemMultiPart:45
-- appliedenergistics2:item.ItemMultiPart:46
-- appliedenergistics2:item.ItemMultiPart:47
-- appliedenergistics2:item.ItemMultiPart:48
-- appliedenergistics2:item.ItemMultiPart:49
-- appliedenergistics2:item.ItemMultiPart:50
-- appliedenergistics2:item.ItemMultiPart:51
-- appliedenergistics2:item.ItemMultiPart:52
-- appliedenergistics2:item.ItemMultiPart:53
-- appliedenergistics2:item.ItemMultiPart:54
-- appliedenergistics2:item.ItemMultiPart:55
-- appliedenergistics2:item.ItemMultiPart:56
-
-- appliedenergistics2:item.ItemMultiPart:520
-- appliedenergistics2:item.ItemMultiPart:521
-- appliedenergistics2:item.ItemMultiPart:522
-- appliedenergistics2:item.ItemMultiPart:523
-- appliedenergistics2:item.ItemMultiPart:524
-- appliedenergistics2:item.ItemMultiPart:525
-- appliedenergistics2:item.ItemMultiPart:526
-- appliedenergistics2:item.ItemMultiPart:527
-- appliedenergistics2:item.ItemMultiPart:528
-- appliedenergistics2:item.ItemMultiPart:529
-- appliedenergistics2:item.ItemMultiPart:530
-- appliedenergistics2:item.ItemMultiPart:531
-- appliedenergistics2:item.ItemMultiPart:532
-- appliedenergistics2:item.ItemMultiPart:533
-- appliedenergistics2:item.ItemMultiPart:534
-- appliedenergistics2:item.ItemMultiPart:535
-- appliedenergistics2:item.ItemMultiPart:536
-
+item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 ---
 
 <GameScene zoom="3" background="transparent">
@@ -154,6 +82,7 @@ ME网络可通过相邻的ME兼容设备建立，而线缆是扩展ME网络覆�
   <ImportStructure src="../assets/structures/fluix_smart_cable.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
+</Row>
 
 可视化诊断功能：
 - 普通智能线缆：前4个频道显示线缆颜色，后4个显示白色条纹

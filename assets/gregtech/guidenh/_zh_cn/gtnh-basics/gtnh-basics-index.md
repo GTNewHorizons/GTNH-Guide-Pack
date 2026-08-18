@@ -1,7 +1,7 @@
 ---
 navigation:
   title: GTNH基础
-  icon: minecraft:grass_block
+  icon: minecraft:grass
   parent: /index.md
 ---
 

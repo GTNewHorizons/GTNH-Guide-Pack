@@ -6,19 +6,9 @@ navigation:
 categories:
 - misc ingredients blocks
 item_ids:
-- ae2:sky_stone_brick
-- ae2:sky_stone_small_brick
-- ae2:sky_stone_stairs
-- ae2:smooth_sky_stone_stairs
-- ae2:sky_stone_brick_stairs
-- ae2:sky_stone_small_brick_stairs
-- ae2:sky_stone_wall
-- ae2:smooth_sky_stone_wall
-- ae2:sky_stone_brick_wall
-- ae2:sky_stone_small_brick_wall
-- ae2:sky_stone_slab
-- ae2:smooth_sky_stone_slab
-- ae2:sky_stone_brick_slab
-- ae2:sky_stone_small_brick_slab
+- appliedenergistics2:tile.BlockSkyStone
+- appliedenergistics2:tile.BlockSkyStone:1
+- appliedenergistics2:tile.BlockSkyStone:2
+- appliedenergistics2:tile.BlockSkyStone:3
 ---
 

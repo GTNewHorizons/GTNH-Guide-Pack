@@ -6,28 +6,14 @@ navigation:
 categories:
 - misc ingredients blocks
 item_ids:
-- ae2:cut_quartz_block
-- ae2:smooth_quartz_block
-- ae2:quartz_bricks
-- ae2:quartz_pillar
-- ae2:chiseled_quartz_block
-- ae2:quartz_stairs
-- ae2:cut_quartz_stairs
-- ae2:smooth_quartz_stairs
-- ae2:quartz_brick_stairs
-- ae2:quartz_pillar_stairs
-- ae2:chiseled_quartz_stairs
-- ae2:quartz_wall
-- ae2:cut_quartz_wall
-- ae2:smooth_quartz_wall
-- ae2:quartz_brick_wall
-- ae2:quartz_pillar_wall
-- ae2:chiseled_quartz_wall
-- ae2:quartz_slab
-- ae2:cut_quartz_slab
-- ae2:smooth_quartz_slab
-- ae2:quartz_brick_slab
-- ae2:quartz_pillar_slab
-- ae2:chiseled_quartz_slab
+- appliedenergistics2:tile.BlockQuartz
+- appliedenergistics2:tile.BlockQuartzChiseled
+- appliedenergistics2:tile.BlockQuartzPillar
+- appliedenergistics2:tile.QuartzStairBlock
+- appliedenergistics2:tile.ChiseledQuartzStairBlock
+- appliedenergistics2:tile.QuartzPillarStairBlock
+- appliedenergistics2:tile.QuartzSlabBlock
+- appliedenergistics2:tile.ChiseledQuartzSlabBlock
+- appliedenergistics2:tile.QuartzPillarSlabBlock
 ---
 

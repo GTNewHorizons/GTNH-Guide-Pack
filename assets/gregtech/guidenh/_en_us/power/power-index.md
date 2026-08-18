@@ -12,7 +12,7 @@ The GregTech power system uses EU (Energy Units). Its core is the [local power n
 
 - For power generation methods, see the generation overview.
 - For network layout and transport advice, see power storage and transport.
-- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/index.md)**.
+- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T-O-P-index.md)**.
 
 # Voltage and Current
 

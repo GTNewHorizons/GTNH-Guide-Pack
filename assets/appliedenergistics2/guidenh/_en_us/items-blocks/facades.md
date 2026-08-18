@@ -2,13 +2,12 @@
 navigation:
   parent: /items-blocks-index.md
   title: Facades
-  icon: facade
-  icon_nbt: '{item: "minecraft:stone"}'
+  icon: appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}
   position: 110
 categories:
 - network infrastructure
 item_ids:
-- ae2:facade
+- appliedenergistics2:item.ItemFacade
 ---
 
 # Facades

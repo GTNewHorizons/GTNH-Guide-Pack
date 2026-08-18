@@ -20,7 +20,7 @@ ME破坏面板具备破坏方块与收集物品的功能，其工作原理类似
 
 可为其附加镐类附魔：时运附魔可用于[自动化矿物处理](../example-setups/ore-fortuner.md)（需整合包支持）；精准采集按预期工作；效率降低能耗；耐久提供免耗能概率。
 
-属于[线缆组件](../ae2-mechanics/cable-subparts.md)。
+属于[线缆组件](../ae2-mechanics/cables-subparts.md)。
 
 **请确保在领地插件中启用假人权限**
 

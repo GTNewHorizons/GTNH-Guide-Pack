@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 阶段
-  icon: minecraft:grass_block
+  icon: minecraft:grass
   parent: /index.md
   position: -1
 ---

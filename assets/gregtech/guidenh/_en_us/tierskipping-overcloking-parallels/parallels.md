@@ -13,7 +13,7 @@ navigation:
 
 When a machine runs in parallel, its power draw becomes (actual parallels x actual recipe power), all input consumption and output production are multiplied by the actual number of parallels, and recipe time stays unchanged.
 
-After parallels are applied, the multiblock then calculates and attempts **[overclocking](overclocking.md)**, assuming [rated power](index.md#rated-power) is still sufficient. Parallels and batch mode are completely separate features.
+After parallels are applied, the multiblock then calculates and attempts **[overclocking](overclocking.md)**, assuming [rated power](T-O-P-index.md#rated-power) is still sufficient. Parallels and batch mode are completely separate features.
 
 # Maximum Parallels
 

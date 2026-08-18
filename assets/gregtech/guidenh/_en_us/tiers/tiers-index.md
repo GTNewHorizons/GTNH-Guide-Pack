@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Tiers
-  icon: minecraft:grass_block
+  icon: minecraft:grass
   parent: /index.md
   position: -1
 ---

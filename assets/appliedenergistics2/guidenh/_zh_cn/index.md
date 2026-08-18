@@ -1,11 +1,10 @@
 ---
-item_ids:
-  - guidenh:guide
 navigation:
   title: 应用能源2
-  icon: guidenh:guide
+  icon: appliedenergistics2:tile.BlockController
   position: 50
   recommend: 1
+item_id: appliedenergistics2:tile.BlockController
 ---
 
 # 什么是应用能源2（Applied Energistics 2）？
@@ -17,7 +16,7 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
 - [快速开始](getting-started.md)
 - [物品与方块](items-blocks-index.md)
 - [AE2 机制](ae2-mechanics-index.md)
-- [技巧与实用实例](tricks-example.md)
+- [技巧与实用实例](tricks-example-index.md)
 
 # 怎么使用本指南
 

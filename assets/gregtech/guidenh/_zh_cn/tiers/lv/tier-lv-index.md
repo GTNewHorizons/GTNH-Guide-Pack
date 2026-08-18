@@ -1,7 +1,7 @@
 ---
 navigation:
   title: LV（低压）
-  icon: minecraft:grass_block
+  icon: minecraft:grass
   parent: /tiers/tiers-index.md
   position: -1
 ---

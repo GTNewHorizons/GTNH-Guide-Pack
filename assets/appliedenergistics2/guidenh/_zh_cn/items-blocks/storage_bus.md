@@ -26,7 +26,7 @@ item_ids:
 
 基于AE2"通过设备交互实现复合功能"的设计理念，存储总线并非只能用于*存储*。通过[子网络](../ae2-mechanics/subnetworks.md)将存储总线设置为网络中*唯一*的存储设备，可将其作为物品传输的源头或终点（参见["管道子网"示例](../example-setups/pipe-subnet.md)）。
 
-存储总线属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+存储总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 过滤功能
 

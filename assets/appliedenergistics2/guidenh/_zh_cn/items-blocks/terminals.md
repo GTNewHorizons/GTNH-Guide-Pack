@@ -27,11 +27,11 @@ item_ids:
 
 终端颜色会继承所在[线缆](cables.md)的颜色。
 
-终端属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+终端属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 终端放置技巧
 
-由于终端通常是玩家首次接触的[子部件](../ae2-mechanics/cable-subparts.md)，常见错误是反向安装。以下是正确与错误示例：
+由于终端通常是玩家首次接触的[子部件](../ae2-mechanics/cables-subparts.md)，常见错误是反向安装。以下是正确与错误示例：
 
 <GameScene width="350" height="250" zoom="6" background="transparent">
   <ImportStructure src="../assets/structures/terminal_placement.snbt" />
@@ -74,7 +74,7 @@ item_ids:
 
 **右侧插槽**用于放置<ItemLink id="appliedenergistics2:item.ItemViewCell" />（显示元件）
 
-**右上角锤子按钮**显示[自动合成](../ae2-mechanics/autocrafting.md)状态，可查看各[合成CPU](crafting_cpu_multiblock.md)的工作进度。
+**右上角锤子按钮**显示[自动合成](../ae2-mechanics/autocrafting.md)状态，可查看各[合成CPU](crafting_cpu.md)的工作进度。
 
 ## 合成配方
 

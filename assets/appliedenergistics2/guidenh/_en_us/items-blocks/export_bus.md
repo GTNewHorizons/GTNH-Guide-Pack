@@ -11,8 +11,6 @@ item_ids:
 - thaumicenergistics:part.base:3
 ---
 <Row>
-
-
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:260" scale="4"/>
 
 <ItemImage id="ae2fc:part_fluid_export" scale="4"/>

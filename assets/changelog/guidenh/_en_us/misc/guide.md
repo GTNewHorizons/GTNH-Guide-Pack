@@ -1,10 +1,8 @@
 ---
-item_ids:
-  - guidenh:region_wand
 navigation:
   title: GuideNH
   parent: misc.md
-  icon: guidenh:guide
+  icon: minecraft:book
 categories:
     - Miscellaneous Changes
 author: Skorched

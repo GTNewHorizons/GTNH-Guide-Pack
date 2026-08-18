@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: items-blocks-index.md
+  parent: /items-blocks-index.md
   title: Pattern
   icon: appliedenergistics2:item.ItemMultiMaterial:52
   position: 410

@@ -26,7 +26,7 @@ item_ids:
 
 若安装在地面或天花板，可使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转方向。
 
-该设备属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 # ME存储监控器
 

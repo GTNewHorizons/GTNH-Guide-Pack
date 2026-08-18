@@ -25,7 +25,7 @@ date: 2026-05-31
 > - 全新电极机制：<Color id="GREEN">IAF</Color> 现在必须使用电极物品，其属性会直接决定机器的速度、并行、超频与能耗；具体见后文
 
 ## 搭建
-<Color id="GREEN">IAF</Color> 没有分级结构部件。<Color id="GREEN">支持多安能源仓和激光靶仓</Color>，可用于激进超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">IAF</Color> 没有分级结构部件。<Color id="GREEN">支持多安能源仓</Color>，可用于激进超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15548"/><ItemImage id="gregtech:gt.blockmachines:15548"/>

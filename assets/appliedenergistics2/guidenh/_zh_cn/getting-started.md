@@ -44,4 +44,4 @@ navigation:
 
 [AE2 机制](ae2-mechanics-index.md)
 
-[技巧与实用实例](tricks-example.md)
+[技巧与实用实例](tricks-example-index.md)

@@ -1,14 +1,13 @@
 ---
 navigation:
-  parent: /items-blocks-machines-index.md
+  parent: /items-blocks-index.md
   title: Facades
-  icon: facade
-  icon_nbt: '{item: "minecraft:stone"}'
+  icon: appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}
   position: 110
 categories:
 - network infrastructure
 item_ids:
-- ae2:facade
+- appliedenergistics2:item.ItemFacade
 ---
 
 # Facades
@@ -21,7 +20,7 @@ kinds of blocks.
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-They can cover all sides of a cable, but will let [subparts](../ae2-mechanics/cable-subparts.md) and cable connections
+They can cover all sides of a cable, but will let [subparts](../ae2-mechanics/cables-subparts.md) and cable connections
 protrude though.
 
 <GameScene zoom="6"  interactive={true}>
