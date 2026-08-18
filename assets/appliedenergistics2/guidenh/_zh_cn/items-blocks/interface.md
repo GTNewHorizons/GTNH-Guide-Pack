@@ -16,7 +16,7 @@ categories:
 
 <Row gap="20">
 <BlockImage id="appliedenergistics2:tile.BlockInterface" scale="4" />
-<ItemImage id="appliedenergistics2:item.ItemMultiPart:440" scale="4" 
+<ItemImage id="appliedenergistics2:item.ItemMultiPart:440" scale="4" />
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:471" scale="4" />
 </Row>
 

@@ -13,7 +13,7 @@ item_ids:
  成型面板
 
 <Row gap="20">
-<ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" 
+<ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" />
 <ItemImage id="ae2fc:part_fluid_formation_plane" scale="4" />
 </Row>
 

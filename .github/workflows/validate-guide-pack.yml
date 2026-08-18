@@ -177,14 +177,13 @@ jobs:
               `endColumn=${end.column}`,
               `title=${escapeAnnotation('GuideNH validation')}`
             ].join(',');
-            const text = escapeAnnotation(message);
-            console.log(`::${level} ${properties}::${text}`);
-            console.log(`${relativePath}:${start.line}:${start.column}: ${level}: ${String(message).replace(/\r?\n/g, ' ')}`);
+            const text = `${relativePath}:${start.line}:${start.column}: ${String(message).replace(/\r?\n/g, ' ')}`;
+            console.log(`::${level} ${properties}::${escapeAnnotation(text)}`);
           }
 
           function isNonBlockingReferenceDiagnostic(diagnostic) {
             const message = String(diagnostic?.message ?? '');
-            return message.startsWith('Unknown resource ')
+            return /^Unknown GuideNH resource\b/i.test(message)
               || /^(?:Unknown|Unresolved) item(?: id| reference)?\b/i.test(message);
           }
 

@@ -16,7 +16,7 @@ categories:
 
 <Row gap="20">
 <BlockImage id="ae2fc:fluid_interface" scale="4" />
-<ItemImage id="ae2fc:part_fluid_interface" scale="4" 
+<ItemImage id="ae2fc:part_fluid_interface" scale="4" />
 <ItemImage id="ae2fc:part_fluid_p2p_interface" scale="4" />
 </Row>
 

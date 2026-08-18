@@ -15,7 +15,7 @@ item_ids:
 
 <Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:220" scale="4" />
-<ItemImage id="ae2fc:part_fluid_storage_bus" scale="4" 
+<ItemImage id="ae2fc:part_fluid_storage_bus" scale="4" />
 <ItemImage id="thaumicenergistics:part.base:2" scale="4" />
 </Row>
 
