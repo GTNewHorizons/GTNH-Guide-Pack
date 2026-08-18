@@ -24,7 +24,7 @@ item_ids:
 
 # ME流体输入总线
 
-<ItemImage id="ae2fc:part_fluid_import" scar />
+<ItemImage id="ae2fc:part_fluid_import" />
 
 输入总线从相邻容器中提取物品和流体（通过模组支持可处理更多类型），并将其存入[网络存储](../ae2-mechanics/import-export-storage.md)。
 

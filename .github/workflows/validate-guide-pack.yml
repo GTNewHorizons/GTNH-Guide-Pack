@@ -47,14 +47,33 @@ jobs:
 
           import yaml
 
-          json.loads(Path("pack.mcmeta").read_text(encoding="utf-8-sig"))
-
           errors = 0
+
+          def escape_annotation(value):
+              return (str(value).replace("%", "%25").replace("\r", "%0D")
+                      .replace("\n", "%0A").replace(":", "%3A").replace(",", "%2C"))
+
+          def emit_error(file, line, column, message):
+              print(
+                  f"::error file={escape_annotation(file)},line={line},col={column},"
+                  f"title=GuideNH%20metadata%20validation::{escape_annotation(message)}"
+              )
+              print(f"{file}:{line}:{column}: error: {str(message).replace(chr(10), ' ')}")
+
+          try:
+              json.loads(Path("pack.mcmeta").read_text(encoding="utf-8-sig"))
+          except json.JSONDecodeError as error:
+              emit_error("pack.mcmeta", error.lineno, error.colno, error.msg)
+              errors += 1
+          except OSError as error:
+              emit_error("pack.mcmeta", 1, 1, f"Unable to read pack.mcmeta: {error}")
+              errors += 1
+
           for path in sorted(Path("assets").glob("**/guidenh/**/*.md")):
               text = path.read_text(encoding="utf-8-sig")
               if not text.startswith("---\n"):
                   if text.partition("\n")[0].rstrip(" \t") == "---":
-                      print(f"::error file={path},line=1::Opening YAML fence must be exactly ---")
+                      emit_error(path, 1, 1, "Opening YAML fence must be exactly ---")
                       errors += 1
                   continue
 
@@ -62,7 +81,7 @@ jobs:
               if end < 0 and text.endswith("\n---"):
                   end = len(text) - 4
               if end < 0:
-                  print(f"::error file={path},line=1::Unclosed YAML frontmatter")
+                  emit_error(path, 1, 1, "Unclosed YAML frontmatter")
                   errors += 1
                   continue
 
@@ -73,11 +92,12 @@ jobs:
               except yaml.YAMLError as error:
                   mark = getattr(error, "problem_mark", None)
                   line = mark.line + 2 if mark else 1
+                  column = mark.column + 1 if mark else 1
                   message = str(error).replace("\n", " ")
-                  print(f"::error file={path},line={line}::{message}")
+                  emit_error(path, line, column, message)
                   errors += 1
               except TypeError as error:
-                  print(f"::error file={path},line=1::{error}")
+                  emit_error(path, 1, 1, error)
                   errors += 1
 
           if errors:
@@ -136,9 +156,36 @@ jobs:
               .replace(/,/g, '%2C');
           }
 
+          function toAnnotationPosition(position, fallback) {
+            const line = Number.isInteger(position?.line) && position.line >= 0
+              ? position.line + 1
+              : fallback.line;
+            const column = Number.isInteger(position?.character) && position.character >= 0
+              ? position.character + 1
+              : fallback.column;
+            return { line, column };
+          }
+
+          function emitDiagnostic(level, relativePath, message, range) {
+            const start = toAnnotationPosition(range?.start, { line: 1, column: 1 });
+            const end = toAnnotationPosition(range?.end, start);
+            const properties = [
+              `file=${escapeAnnotation(relativePath)}`,
+              `line=${start.line}`,
+              `col=${start.column}`,
+              `endLine=${end.line}`,
+              `endColumn=${end.column}`,
+              `title=${escapeAnnotation('GuideNH validation')}`
+            ].join(',');
+            const text = escapeAnnotation(message);
+            console.log(`::${level} ${properties}::${text}`);
+            console.log(`${relativePath}:${start.line}:${start.column}: ${level}: ${String(message).replace(/\r?\n/g, ' ')}`);
+          }
+
           function isNonBlockingReferenceDiagnostic(diagnostic) {
-            return diagnostic.message.startsWith('Unknown resource ')
-              || /^(?:Unknown|Unresolved) item(?: id| reference)?\b/i.test(diagnostic.message);
+            const message = String(diagnostic?.message ?? '');
+            return message.startsWith('Unknown resource ')
+              || /^(?:Unknown|Unresolved) item(?: id| reference)?\b/i.test(message);
           }
 
           async function main() {
@@ -151,21 +198,24 @@ jobs:
             let errors = 0;
             let warnings = 0;
             for (const pagePath of pages) {
-              const text = await fs.readFile(pagePath, 'utf8');
-              const uri = pathToFileURL(pagePath).toString();
-              const diagnostics = createGuideNhDiagnostics(text, schema, pageIndex, resourceIndex, uri);
-              for (const diagnostic of diagnostics) {
-                const nonBlockingReference = isNonBlockingReferenceDiagnostic(diagnostic);
-                const level = nonBlockingReference ? 'warning' : 'error';
-                const relativePath = path.relative(guidePackRoot, pagePath).replace(/\\/g, '/');
-                const line = diagnostic.range.start.line + 1;
-                const column = diagnostic.range.start.character + 1;
-                console.log(`::${level} file=${escapeAnnotation(relativePath)},line=${line},col=${column}::${escapeAnnotation(diagnostic.message)}`);
-                if (nonBlockingReference) {
-                  warnings++;
-                } else {
-                  errors++;
+              const relativePath = path.relative(guidePackRoot, pagePath).replace(/\\/g, '/');
+              try {
+                const text = await fs.readFile(pagePath, 'utf8');
+                const uri = pathToFileURL(pagePath).toString();
+                const diagnostics = createGuideNhDiagnostics(text, schema, pageIndex, resourceIndex, uri);
+                for (const diagnostic of diagnostics) {
+                  const nonBlockingReference = isNonBlockingReferenceDiagnostic(diagnostic);
+                  const level = nonBlockingReference ? 'warning' : 'error';
+                  emitDiagnostic(level, relativePath, diagnostic.message, diagnostic.range);
+                  if (nonBlockingReference) {
+                    warnings++;
+                  } else {
+                    errors++;
+                  }
                 }
+              } catch (error) {
+                emitDiagnostic('error', relativePath, `Failed to validate page: ${error?.stack ?? error}`, undefined);
+                errors++;
               }
             }
             console.log(`GuideVSC validation completed with ${errors} error(s) and ${warnings} warning(s).`);
@@ -175,7 +225,7 @@ jobs:
           }
 
           main().catch((error) => {
-            console.error(error);
+            console.error(`GuideVSC validation failed before a page could be identified: ${error?.stack ?? error}`);
             process.exitCode = 1;
           });
           NODE

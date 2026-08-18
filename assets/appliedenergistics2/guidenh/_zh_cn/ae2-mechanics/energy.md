@@ -46,9 +46,9 @@ FE、RF以及EU与AE的转换比率为：
 ## 能量存储
 
 <Row>
-  <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" scale="4" p:fullness="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" meta="7" nbt='{proxy:{p:0,g:14L,k:-1L},id:"BlockEnergyCell",internalCurrentPower:200000.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockDenseEnergyCell" scale="4" p:fullness="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockDenseEnergyCell" meta="7" nbt='{proxy:{p:0,g:15L,k:-1L},id:"BlockDenseEnergyCell",internalCurrentPower:1600000.0d}' scale="4" />
 
   <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyCell" scale="4" />
 </Row>
