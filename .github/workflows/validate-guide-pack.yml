@@ -49,14 +49,17 @@ jobs:
 
           errors = 0
 
-          def escape_annotation(value):
+          def escape_annotation_property(value):
               return (str(value).replace("%", "%25").replace("\r", "%0D")
                       .replace("\n", "%0A").replace(":", "%3A").replace(",", "%2C"))
 
+          def escape_annotation_message(value):
+              return str(value).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
           def emit_error(file, line, column, message):
               print(
-                  f"::error file={escape_annotation(file)},line={line},col={column},"
-                  f"title=GuideNH%20metadata%20validation::{escape_annotation(message)}"
+                  f"::error file={escape_annotation_property(file)},line={line},col={column},"
+                  f"title=GuideNH%20metadata%20validation::{escape_annotation_message(message)}"
               )
               print(f"{file}:{line}:{column}: error: {str(message).replace(chr(10), ' ')}")
 
@@ -147,13 +150,20 @@ jobs:
             return paths;
           }
 
-          function escapeAnnotation(value) {
+          function escapeAnnotationProperty(value) {
             return String(value)
               .replace(/%/g, '%25')
               .replace(/\r/g, '%0D')
               .replace(/\n/g, '%0A')
               .replace(/:/g, '%3A')
               .replace(/,/g, '%2C');
+          }
+
+          function escapeAnnotationMessage(value) {
+            return String(value)
+              .replace(/%/g, '%25')
+              .replace(/\r/g, '%0D')
+              .replace(/\n/g, '%0A');
           }
 
           function toAnnotationPosition(position, fallback) {
@@ -170,15 +180,15 @@ jobs:
             const start = toAnnotationPosition(range?.start, { line: 1, column: 1 });
             const end = toAnnotationPosition(range?.end, start);
             const properties = [
-              `file=${escapeAnnotation(relativePath)}`,
+              `file=${escapeAnnotationProperty(relativePath)}`,
               `line=${start.line}`,
               `col=${start.column}`,
               `endLine=${end.line}`,
               `endColumn=${end.column}`,
-              `title=${escapeAnnotation('GuideNH validation')}`
+              `title=${escapeAnnotationProperty('GuideNH validation')}`
             ].join(',');
             const text = `${relativePath}:${start.line}:${start.column}: ${String(message).replace(/\r?\n/g, ' ')}`;
-            console.log(`::${level} ${properties}::${escapeAnnotation(text)}`);
+            console.log(`::${level} ${properties}::${escapeAnnotationMessage(text)}`);
           }
 
           function isNonBlockingReferenceDiagnostic(diagnostic) {
