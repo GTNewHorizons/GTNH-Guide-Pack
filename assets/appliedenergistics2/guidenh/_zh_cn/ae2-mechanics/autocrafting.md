@@ -1,4 +1,4 @@
-﻿---
+---
 navigation:
   parent: /ae2-mechanics-index.md
   title: 自动合成
@@ -91,7 +91,7 @@ navigation:
 
 # 合成CPU架构
 
-<GameScene width="350" height="220" zoom="4" background="transparent">
+<GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
   <IsometricCamera yaw="195" pitch="15" />
 </GameScene>
@@ -113,7 +113,7 @@ navigation:
 <Row>
    - <BlockImage id="appliedenergistics2:tile.BlockInterface" scale="4" /> 
    - <BlockImage id="ae2fc:fluid_interface" scale="4" />
-<GameScene width="220" zoom="3" zoom="4" align="center" background="transparent">
+<GameScene width="220" zoom="3" zoom="4" align="center" showBackground={false}>
   <ImportStructure src="../assets/structures/cable_pattern_provider.snbt" />
   <IsometricCamera yaw="30" pitch="30" />
 </GameScene>
@@ -149,7 +149,7 @@ navigation:
 
 <ItemImage id="appliedenergistics2:tile.BlockMolecularAssembler" scale="4" />
 
-<GameScene width="300" height="200" zoom="4" background="transparent">
+<GameScene width="300" height="200" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/assembler_tower.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

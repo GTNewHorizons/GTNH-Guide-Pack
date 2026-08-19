@@ -8,7 +8,7 @@ categories:
 item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 ---
 
-<GameScene zoom="3" background="transparent">
+<GameScene zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/cables.snbt" />
   <IsometricCamera yaw="135" pitch="30" />
 </GameScene>
@@ -78,7 +78,7 @@ ME网络可通过相邻的ME兼容设备建立，而线缆是扩展ME网络覆�
 ## 智能线缆
 
 <Row>
-<GameScene zoom="6" background="transparent">
+<GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/fluix_smart_cable.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

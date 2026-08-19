@@ -15,7 +15,7 @@ item_ids:
 
 # 石英纤维
 
-<GameScene zoom="8" background="transparent">
+<GameScene zoom="8" showBackground={false}>
 <ImportStructure src="../assets/structures/quartz_fiber.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

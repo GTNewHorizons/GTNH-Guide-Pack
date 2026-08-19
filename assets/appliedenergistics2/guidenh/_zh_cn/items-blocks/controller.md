@@ -29,7 +29,7 @@ ME控制器是[ME网络](../ae2-mechanics/me-network-connections.md)的核心组
 
 控制器可自由组合构建，但需遵循以下原则：
 
-<GameScene width="400" height="200" zoom="2" background="transparent">
+<GameScene width="400" height="200" zoom="2" showBackground={false}>
   <ImportStructure src="../assets/structures/controllers.snbt" />
   <IsometricCamera yaw="195" pitch="25" />
 </GameScene>
@@ -38,7 +38,7 @@ ME控制器是[ME网络](../ae2-mechanics/me-network-connections.md)的核心组
 2. **尺寸限制**：最大7x7x7体积，超出部分显示红色
 3. **轴线限制**：同一轴线最多允许两个相邻方块，违规部分停用变红
 
-<GameScene width="350" zoom="2" background="transparent">
+<GameScene width="350" zoom="2" showBackground={false}>
   <ImportStructure src="../assets/structures/controller_rules.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

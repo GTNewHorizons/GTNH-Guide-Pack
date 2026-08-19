@@ -24,16 +24,16 @@ item_ids:
 
 量子网桥可实现[ME网络](../ae2-mechanics/me-network-connections.md)的无限距跨维度连接。该结构总共可承载32个频道（与各面线缆连接方式无关），本质上相当于无线[致密线缆](cables.md#dense-cable)。
 
-<GameScene width="400" height="300" zoom="4" background="transparent">
+<GameScene width="400" height="300" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/quantum_bridge_internal_structure_1.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<GameScene zoom="4" background="transparent">
+<GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/quantum_bridge_internal_structure_2.snbt" />
 
   <BoxAnnotation color="#33dd33" min="1 1 1" max="6 2 3">
-        两端之间的虚拟线缆连接
+    两端之间的虚拟线缆连接
   </BoxAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />

@@ -32,23 +32,23 @@ categories:
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
 
   <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">
-        控制库存数量的多组电平发信器
+     控制库存数量的多组电平发信器
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">
-        控制库存数量的多组电平发信器
+     控制库存数量的多组电平发信器
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">
-        单游戏刻可传输1组物品的超级输入总线阵列
+     单游戏刻可传输1组物品的超级输入总线阵列
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">
-        单游戏刻可传输1组物品的超级输出总线阵列
+     单游戏刻可传输1组物品的超级输出总线阵列
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">
-        9个独立存储槽位
+     9个独立存储槽位
   </BoxAnnotation>
 
   <IsometricCamera yaw="15" pitch="15" />
@@ -67,19 +67,19 @@ categories:
 
 * [子网](../ae2-mechanics/subnetworks.md)中的样板供应器与接口存在特殊交互：未配置的接口将允许供应器直接推送物品至子网存储，跳过接口槽位填充，且仅在存储有空位时才会推送新批次。
 
-<GameScene width="320" height="200" zoom="4" background="transparent">
+<GameScene width="320" height="200" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/provider_interface_storages.snbt" />
 
 <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
-        接口（必须为扁平版）
+    接口（必须为扁平版）
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
-        存储总线阵列
+    存储总线阵列
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
-        目标机器（可多台或多面输入）
+    目标机器（可多台或多面输入）
   </BoxAnnotation>
 
 <IsometricCamera yaw="185" pitch="30" />

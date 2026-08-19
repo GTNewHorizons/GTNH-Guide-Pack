@@ -1,4 +1,4 @@
-﻿---
+---
 navigation:
   title: P2P通道
   parent: /ae2-mechanics-index.md
@@ -85,7 +85,7 @@ GTNH新增的两种P2P通道，它们并非用于传输，而是与接口/二合
 
 使用它们你可以只在输入端放入样板来并发样板材料，实现物理并行。
   
-  <GameScene zoom="3" background="transparent" width="450" height="250" >
+  <GameScene zoom="3" showBackground={false} width="450" height="250" >
     <ImportStructure src="../assets/structures/p2p-interface.snbt" />
     <TextAnnotation pos="0.5 2 5.5" color="#ff0000" text="将样板放入此接口将不能正常工作。"/>
     <TextAnnotation pos="4.5 1.7 5" color="#00ff00" text="将样板放入此输入端中即可在不空置的端口处发送材料。" maxWidth="180"/>

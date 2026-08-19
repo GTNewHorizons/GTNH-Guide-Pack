@@ -23,7 +23,7 @@ ME箱子集成了<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、
 * **其他面**：显示存储元件插槽和优先级设置（支持物流设备存取）
 * 使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />调整设备朝向
 
-<GameScene width="250" height="190" zoom="4" background="transparent">
+<GameScene width="250" height="190" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/chest_color.snbt" />
 <IsometricCamera yaw="135" pitch="30" />
 </GameScene>

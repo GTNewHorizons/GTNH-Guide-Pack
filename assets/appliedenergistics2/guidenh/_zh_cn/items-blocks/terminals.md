@@ -18,7 +18,7 @@ item_ids:
 
 # 终端系统
 
-<GameScene zoom="6" background="transparent">
+<GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/terminals.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
@@ -33,7 +33,7 @@ item_ids:
 
 由于终端通常是玩家首次接触的[子部件](../ae2-mechanics/cables-subparts.md)，常见错误是反向安装。以下是正确与错误示例：
 
-<GameScene width="350" height="250" zoom="6" background="transparent">
+<GameScene width="350" height="250" zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/terminal_placement.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 

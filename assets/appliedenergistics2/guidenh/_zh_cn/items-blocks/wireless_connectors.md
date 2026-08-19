@@ -35,13 +35,13 @@ ME无线连接器可建立类似<ItemLink id="appliedenergistics2:tile.BlockQuan
 成功建立连接后，连接器纹理将发生变化：
 
 未连接状态：
-<GameScene zoom="5" background="transparent">
+<GameScene zoom="5" showBackground={false}>
     <ImportStructure src="../assets/structures/wireless_connector_off.snbt">
     </ImportStructure>
 </GameScene>
 
 已连接状态：
-<GameScene zoom="5" background="transparent">
+<GameScene zoom="5" showBackground={false}>
     <ImportStructure src="../assets/structures/wireless_connector_on.snbt">
     </ImportStructure>
 </GameScene>
@@ -52,7 +52,7 @@ ME无线连接器可建立类似<ItemLink id="appliedenergistics2:tile.BlockQuan
 - 支持16色通道隔离
 
 典型应用场景：
-<GameScene  zoom="3" background="transparent" interactive={true}>
+<GameScene  zoom="3" showBackground={false} interactive={true}>
     <ImportStructure src="../assets/structures/wireless_connector_setup.snbt">
     </ImportStructure>
 </GameScene>

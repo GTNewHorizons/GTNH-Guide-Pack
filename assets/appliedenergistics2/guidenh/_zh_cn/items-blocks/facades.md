@@ -14,7 +14,7 @@ item_ids:
 
 伪装板能让基地看起来更整洁。它们能遮挡各种形制的线缆，且可由多种方块制成。
 
-<GameScene zoom="6" background="transparent">
+<GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/facades_1.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

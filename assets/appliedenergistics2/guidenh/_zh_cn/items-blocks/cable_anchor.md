@@ -15,7 +15,7 @@ item_ids:
 
 # 线缆锚
 
-<GameScene width="300" height="200" zoom="5" background="transparent">
+<GameScene width="300" height="200" zoom="5" showBackground={false}>
   <ImportStructure src="../assets/structures/cable_anchor.snbt" />
   <IsometricCamera yaw="30" pitch="30" />
 </GameScene>

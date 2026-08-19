@@ -32,28 +32,28 @@ P2P通道能在不直接干预网络的情况下传输物品、流体、红石�
 
 例如，物品P2P通道连接的漏斗与木桶将建立直接传输链路：
 
-<GameScene width="300" height="200" zoom="4" background="transparent">
+<GameScene width="300" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_hopper_barrel.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 但相邻的两个木桶不会通过P2P通道自动传输物品：
 
-<GameScene width="300" height="200" zoom="4" background="transparent">
+<GameScene width="300" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_barrel_barrel.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 红石P2P通道的典型应用场景：
 
-<GameScene width="350" height="200" zoom="4" background="transparent">
+<GameScene width="350" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_redstone.snbt" />
   <IsometricCamera yaw="0" pitch="50" />
 </GameScene>
 
 ## 通道类型与调谐
 
-<GameScene width="400" zoom="6" background="transparent">
+<GameScene width="400" zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_tunnels.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
 </GameScene>
@@ -88,14 +88,14 @@ ME通道最常用于[频道](../ae2-mechanics/channels.md)的高密度传输。�
 
 ME通道不支持递归嵌套传输（红色线缆的ME通道处于离线状态），但其他类型通道可穿透ME通道：
 
-<GameScene width="350" height="300" zoom="3" background="transparent">
+<GameScene width="350" height="300" zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_nesting.snbt" />
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
 
 ## 通道绑定
 
-<GameScene zoom="6" background="transparent">
+<GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_linking_frequency.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
