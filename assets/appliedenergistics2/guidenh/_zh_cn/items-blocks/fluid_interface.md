@@ -32,23 +32,23 @@ categories:
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
 
   <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">
-     控制库存数量的多组电平发信器
+    控制库存数量的多组电平发信器
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">
-     控制库存数量的多组电平发信器
+    控制库存数量的多组电平发信器
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">
-     单游戏刻可传输1组物品的超级输入总线阵列
+    单游戏刻可传输1组物品的超级输入总线阵列
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">
-     单游戏刻可传输1组物品的超级输出总线阵列
+    单游戏刻可传输1组物品的超级输出总线阵列
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">
-     9个独立存储槽位
+    9个独立存储槽位
   </BoxAnnotation>
 
   <IsometricCamera yaw="15" pitch="15" />
