@@ -35,8 +35,8 @@ GuideNH 是 2.9 中加入的全新模组，目标是把过去埋在任务书里�
 <Color id="GREEN">这 _就_ 是一个 __示例__，用来展示 ~~同样~~ <u>不同</u> ___格式___</Color>
 
 <GameScene width="420" height="280" zoom={3} interactive={true}>
-  <ImportStructure src="../reworks/assets/coke_oven.snbt" />
-  <ImportPonder src="../reworks/assets/coke_oven.json"/>
+  <ImportStructure src="../assets/reworks/coke_oven.snbt" />
+  <ImportPonder src="../assets/reworks/coke_oven.json"/>
 </GameScene>
 
 <br clear="all"/>

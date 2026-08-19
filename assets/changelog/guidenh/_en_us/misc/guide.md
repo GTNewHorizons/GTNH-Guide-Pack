@@ -32,8 +32,8 @@ The list of features is frankly too long to properly list here, so please accept
 <Color id="GREEN">This _is_ an __example__ of ~~the same~~ <u>different</u> ___formats___</Color>
 
 <GameScene width="420" height="280" zoom={3} interactive={true}>
-  <ImportStructure src="../reworks/assets/coke_oven.snbt" />
-  <ImportPonder src="../reworks/assets/coke_oven.json"/>
+  <ImportStructure src="../assets/reworks/coke_oven.snbt" />
+  <ImportPonder src="../assets/reworks/coke_oven.json"/>
 </GameScene>
 
 <br clear="all"/>
