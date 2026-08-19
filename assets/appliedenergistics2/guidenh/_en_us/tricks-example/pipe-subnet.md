@@ -14,26 +14,21 @@ There are generally two different methods of achieving this:
 
 ## Import Bus -> Storage Bus
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_pipe.snbt" />
-
-<BoxAnnotation color="#dddddd" min="3.7 0 0" max="4 1 1">
-        (1) Import Bus: Can be filtered.
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
+    (1) Import Bus: Can be filtered.
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 1">
-        (2) Storage Bus: Can be filtered. This (and other storage busses you want to be a destination)
-        must be the only storage on the network.
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
+    (2) Storage Bus: Can be filtered. This (and other storage busses you want to be a destination)
+    must be the only storage on the network.
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-        Source
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-        Destination
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
+    Source
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
+    Destination
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -45,26 +40,21 @@ This setup also works with multiple import busses and multiple storage busses.
 
 ## Storage Bus -> Export Bus
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/storage_export_pipe.snbt" />
-
-<BoxAnnotation color="#dddddd" min="3.7 0 0" max="4 1 1">
-        (1) Storage Bus: Can be filtered. This (and other storage busses you want to be a source)
-        must be the only storage on the network.
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
+    (1) Storage Bus: Can be filtered. This (and other storage busses you want to be a source)
+    must be the only storage on the network.
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 1">
-        (2) Export Bus: Must be filtered.
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
+    (2) Export Bus: Must be filtered.
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-        Source
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-        Destination
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
+    Source
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
+    Destination
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -76,25 +66,20 @@ This setup also works with multiple storage busses and multiple export busses.
 
 ## A Setup That Does Not Work (Import Bus -> Export Bus)
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_export_pipe.snbt" />
-
-<BoxAnnotation color="#dd3333" min="3.7 0 0" max="4 1 1">
-        Import Bus: Since the network has no storage, there is nowhere for it to import to.
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dd3333" thickness="1">
+    Import Bus: Since the network has no storage, there is nowhere for it to import to.
   </BoxAnnotation>
-
-<BoxAnnotation color="#dd3333" min="1 0 0" max="1.3 1 1">
-        (2) Export Bus: Since the network has no storage, there is nothing for it to export.
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dd3333" thickness="1">
+    (2) Export Bus: Since the network has no storage, there is nothing for it to export.
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 0.5" color="#ff0000">
-        Source
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 0.5" color="#ff0000">
-        Destination
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 0.5" color="#ff0000">
+    Source
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 0.5" color="#ff0000">
+    Destination
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -108,34 +93,27 @@ and the export bus can't export, so nothing happens.
 Say you have some machine that can receive input and have its output pulled through 1 face. (Like a <ItemLink id="appliedenergistics2:tile.BlockCharger" />)
 You can both push in the ingredients and pull out the result, by combining the 2 pipe subnet methods:
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_export_pipe.snbt" />
-
-<BoxAnnotation color="#dddddd" min="4 1 1" max="5 1.3 2">
-        (1) Import Bus: Can be filtered.
+  <BoxAnnotation min="4 1 1" max="5 1.3 2" color="#dddddd" thickness="1">
+    (1) Import Bus: Can be filtered.
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="2 1 1" max="3 1.3 2">
-        (2) Storage Bus: Can be filtered. This (and other storage busses you want to push and pull items)
-        must be the only storage on the network.
+  <BoxAnnotation min="2 1 1" max="3 1.3 2" color="#dddddd" thickness="1">
+    (2) Storage Bus: Can be filtered. This (and other storage busses you want to push and pull items)
+    must be the only storage on the network.
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="2 0 1" max="3 1 2">
-        (3) Thing You Want To Push To And Pull From: In this case a Charger.
+  <BoxAnnotation min="2 0 1" max="3 1 2" color="#dddddd" thickness="1">
+    (3) Thing You Want To Push To And Pull From: In this case a Charger.
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 1 1" max="1 1.3 2">
-        (4) Export Bus: Must be filtered.
+  <BoxAnnotation min="0 1 1" max="1 1.3 2" color="#dddddd" thickness="1">
+    (4) Export Bus: Must be filtered.
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 1.5" color="#00ff00">
-        Source
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 1.5" color="#00ff00">
-        Destination
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 1.5" color="#00ff00">
+    Source
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 1.5" color="#00ff00">
+    Destination
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -148,36 +126,30 @@ push it to network storage, which we can exploit similarly to the import bus -> 
 stock some item will pull it from network storage, similar to the storage bus -> export bus pipe. Interfaces can be set to
 stock some things and not stock others, allowing you to remotely push and pull through storage busses, if you for some reason want to do that.
 
-<GameScene zoom="6" background="transparent" interactive={false}>
-<ImportStructure src="../assets/structures/interface_pipes.snbt" />
-
-<BoxAnnotation color="#dddddd" min="3.7 0 0" max="4 1 1">
-        Interface
+<GameScene zoom="6" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/interface_pipes.snbt" />
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
+    Interface
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 1">
-        Storage Bus
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
+    Storage Bus
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="3.7 0 2" max="4 1 3">
-        Storage Bus
+  <BoxAnnotation min="3.7 0 2" max="4 1 3" color="#dddddd" thickness="1">
+    Storage Bus
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 1 2" max="1 1.3 3">
-        Interface
+  <BoxAnnotation min="0 1 2" max="1 1.3 3" color="#dddddd" thickness="1">
+    Interface
   </BoxAnnotation>
-
-<IsometricCamera yaw="195" pitch="30" />
+  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 ## One-To-Many and Many-To One (and many-to-many)
 
 Of course, you don't have to use just one <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />
 
-<GameScene zoom="3" background="transparent" interactive={false}>
-<ImportStructure src="../assets/structures/many_to_many_pipe.snbt" />
-
-<IsometricCamera yaw="185" pitch="30" />
+<GameScene zoom="3" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/many_to_many_pipe.snbt" />
+  <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
 ## Providing To Multiple Places
@@ -185,20 +157,16 @@ Of course, you don't have to use just one <ItemLink id="appliedenergistics2:item
 From all this, we can derive a method to send ingredients from one <ItemLink id="appliedenergistics2:tile.BlockInterface" /> to many different
 locations, like an array of machines, or several different faces of one machine.
 
-<GameScene zoom="6" background="transparent" interactive={false}>
-<ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
-
-<BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
-        Interface (must be flat, not fullblock)
+<GameScene zoom="6" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
+  <BoxAnnotation min="2.7 0 1" max="3 1 2" color="#dddddd" thickness="1">
+    Interface (must be flat, not fullblock)
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
-        Storage Busses
+  <BoxAnnotation min="1 0 0" max="1.3 1 4" color="#dddddd" thickness="1">
+    Storage Busses
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
-        Places you want to pattern-provide to (multiple machines, or multiple faces of 1 machine)
+  <BoxAnnotation min="0 0 0" max="1 1 4" color="#dddddd" thickness="1">
+    Places you want to pattern-provide to (multiple machines, or multiple faces of 1 machine)
   </BoxAnnotation>
-
-<IsometricCamera yaw="185" pitch="30" />
+  <IsometricCamera yaw="185" pitch="30" />
 </GameScene>

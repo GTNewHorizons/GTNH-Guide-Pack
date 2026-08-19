@@ -13,25 +13,20 @@ navigation:
 
 ## 输入总线 -> 存储总线
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_pipe.snbt" />
-
-<BoxAnnotation color="#dddddd" min="3.7 0 0" max="4 1 1">
-        （1）输入总线：可过滤。
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
+    （1）输入总线：可过滤。
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 1">
-        （2）存储总线：可过滤。此总线（以及其他要设为传输终点的存储总线）必须为网络中唯一的存储位置。
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
+    （2）存储总线：可过滤。此总线（以及其他要设为传输终点的存储总线）必须为网络中唯一的存储位置。
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-        起点
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-        终点
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
+    起点
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
+    终点
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -39,25 +34,20 @@ navigation:
 
 ## 存储总线 -> 输出总线
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/storage_export_pipe.snbt" />
-
-<BoxAnnotation color="#dddddd" min="3.7 0 0" max="4 1 1">
-        （1）存储总线：可过滤。此总线（以及其他要设为传输起点的存储总线）必须为网络中唯一的存储位置。
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
+    （1）存储总线：可过滤。此总线（以及其他要设为传输起点的存储总线）必须为网络中唯一的存储位置。
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 1">
-        （2）输出总线：必须过滤。
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
+    （2）输出总线：必须过滤。
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-        起点
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-        终点
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
+    起点
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
+    终点
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -65,25 +55,20 @@ navigation:
 
 ## 无法运作的设计（输入总线 -> 输出总线）
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_export_pipe.snbt" />
-
-<BoxAnnotation color="#dd3333" min="3.7 0 0" max="4 1 1">
-        （1）输入总线：由于网络中没有存储空间，输入总线的输入目标不存在。
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dd3333" thickness="1">
+    （1）输入总线：由于网络中没有存储空间，输入总线的输入目标不存在。
   </BoxAnnotation>
-
-<BoxAnnotation color="#dd3333" min="1 0 0" max="1.3 1 1">
-        （2）输出总线：由于网络中没有存储空间，输出总线的输出来源不存在。
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dd3333" thickness="1">
+    （2）输出总线：由于网络中没有存储空间，输出总线的输出来源不存在。
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 0.5" color="#ff0000">
-        起点
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 0.5" color="#ff0000">
-        终点
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 0.5" color="#ff0000">
+    起点
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 0.5" color="#ff0000">
+    终点
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -93,33 +78,26 @@ navigation:
 
 假如有机器能在单个面上同时接收输入和弹出输出（比如<ItemLink id="appliedenergistics2:tile.BlockCharger" />），则可综合2种管道子网络以在同一面上输入材料和抽出产物：
 
-<GameScene zoom="6" background="transparent" interactive={false}>
+<GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_export_pipe.snbt" />
-
-<BoxAnnotation color="#dddddd" min="4 1 1" max="5 1.3 2">
-        （1）输入总线：可过滤。
+  <BoxAnnotation min="4 1 1" max="5 1.3 2" color="#dddddd" thickness="1">
+    （1）输入总线：可过滤。
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="2 1 1" max="3 1.3 2">
-        （2）存储总线：可过滤。此存储总线（以及其他用于输入输出的存储总线）必须为网络中唯一的存储位置。
+  <BoxAnnotation min="2 1 1" max="3 1.3 2" color="#dddddd" thickness="1">
+    （2）存储总线：可过滤。此存储总线（以及其他用于输入输出的存储总线）必须为网络中唯一的存储位置。
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="2 0 1" max="3 1 2">
-        （3）需要输入输出的设备：此处为充能器。
+  <BoxAnnotation min="2 0 1" max="3 1 2" color="#dddddd" thickness="1">
+    （3）需要输入输出的设备：此处为充能器。
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 1 1" max="1 1.3 2">
-        （4）输出总线：必须过滤。
+  <BoxAnnotation min="0 1 1" max="1 1.3 2" color="#dddddd" thickness="1">
+    （4）输出总线：必须过滤。
   </BoxAnnotation>
-
-<DiamondAnnotation pos="4.5 0.5 1.5" color="#00ff00">
-        起点
-    </DiamondAnnotation>
-
-<DiamondAnnotation pos="0.5 0.5 1.5" color="#00ff00">
-        终点
-    </DiamondAnnotation>
-
+  <DiamondAnnotation pos="4.5 0.5 1.5" color="#00ff00">
+    起点
+  </DiamondAnnotation>
+  <DiamondAnnotation pos="0.5 0.5 1.5" color="#00ff00">
+    终点
+  </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
@@ -127,56 +105,46 @@ navigation:
 
 貌似除了输入总线和输出总线，还有其他[设备](../ae2-mechanics/devices.md)能将物品存入或取出[网络存储](../ae2-mechanics/import-export-storage.md)！此处提及的这种设备就是<ItemLink id="appliedenergistics2:tile.BlockInterface" />。如果接口接收到物品而又未设置存储该物品，则其会将该物品存入网络存储，类似于“输入总线 -> 存储总线”管道。将接口设置为存储物品，则其会从网络存储中抽取，类似于“存储总线 -> 输出总线”管道。如果需要，接口还可设置为存储某些物品而非其他物品，即可通过存储总线远程输入输出。
 
-<GameScene zoom="6" background="transparent" interactive={false}>
-<ImportStructure src="../assets/structures/interface_pipes.snbt" />
-
-<BoxAnnotation color="#dddddd" min="3.7 0 0" max="4 1 1">
-        接口
+<GameScene zoom="6" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/interface_pipes.snbt" />
+  <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
+    接口
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 1">
-        存储总线
+  <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
+    存储总线
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="3.7 0 2" max="4 1 3">
-        存储总线
+  <BoxAnnotation min="3.7 0 2" max="4 1 3" color="#dddddd" thickness="1">
+    存储总线
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 1 2" max="1 1.3 3">
-        接口
+  <BoxAnnotation min="0 1 2" max="1 1.3 3" color="#dddddd" thickness="1">
+    接口
   </BoxAnnotation>
-
-<IsometricCamera yaw="195" pitch="30" />
+  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 ## 一对多与多对一（以及多对多）
 
 当然，<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />、<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />、<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />并非只能使用一个。
 
-<GameScene zoom="3" background="transparent" interactive={false}>
-<ImportStructure src="../assets/structures/many_to_many_pipe.snbt" />
-
-<IsometricCamera yaw="185" pitch="30" />
+<GameScene zoom="3" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/many_to_many_pipe.snbt" />
+  <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
 ## 向多处提供材料
 
 综合上述设计，即可得出从单个<ItemLink id="appliedenergistics2:tile.BlockInterface" />面向多处运输材料的方式，适用于机器阵列，或是单台机器的多个面。
 
-<GameScene zoom="6" background="transparent" interactive={false}>
-<ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
-
-<BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
-        接口（必须为面板型，不能为方块型）
+<GameScene zoom="6" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
+  <BoxAnnotation min="2.7 0 1" max="3 1 2" color="#dddddd" thickness="1">
+    接口（必须为面板型，不能为方块型）
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
-        存储总线
+  <BoxAnnotation min="1 0 0" max="1.3 1 4" color="#dddddd" thickness="1">
+    存储总线
   </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
-        样板供应目的地（多台机器，或单台机器的多个面）
+  <BoxAnnotation min="0 0 0" max="1 1 4" color="#dddddd" thickness="1">
+    样板供应目的地（多台机器，或单台机器的多个面）
   </BoxAnnotation>
-
-<IsometricCamera yaw="185" pitch="30" />
+  <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
