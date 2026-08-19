@@ -18,7 +18,7 @@ item_ids:
 
 ME破坏面板具备破坏方块与收集物品的功能，其工作原理类似<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />，将物品存入[网络存储](../ae2-mechanics/import-export-storage.md)。物品需接触面板正面方可被收集，不作用于区域范围。
 
-可为其附加镐类附魔：时运附魔可用于[自动化矿物处理](../example-setups/ore-fortuner.md)（需整合包支持）；精准采集按预期工作；效率降低能耗；耐久提供免耗能概率。
+可为其附加镐类附魔：时运附魔可用于自动化矿物处理（需整合包支持）；精准采集按预期工作；效率降低能耗；耐久提供免耗能概率。
 
 属于[线缆组件](../ae2-mechanics/cables-subparts.md)。
 

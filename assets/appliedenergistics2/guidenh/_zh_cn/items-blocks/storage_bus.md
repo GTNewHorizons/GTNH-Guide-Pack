@@ -24,7 +24,7 @@ item_ids:
 存储总线能将相邻的容器转变为[网络存储](../ae2-mechanics/import-export-storage.md)。
 它通过以下方式实现：让网络能够查看该容器的内容，并通过推入/拉取物品来响应其他[设备](../ae2-mechanics/devices.md)对网络存储的操作。
 
-基于AE2"通过设备交互实现复合功能"的设计理念，存储总线并非只能用于*存储*。通过[子网络](../ae2-mechanics/subnetworks.md)将存储总线设置为网络中*唯一*的存储设备，可将其作为物品传输的源头或终点（参见["管道子网"示例](../example-setups/pipe-subnet.md)）。
+基于AE2"通过设备交互实现复合功能"的设计理念，存储总线并非只能用于*存储*。通过[子网络](../ae2-mechanics/subnetworks.md)将存储总线设置为网络中*唯一*的存储设备，可将其作为物品传输的源头或终点（参见["管道子网"示例](../tricks-example/pipe-subnet.md)）。
 
 存储总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
