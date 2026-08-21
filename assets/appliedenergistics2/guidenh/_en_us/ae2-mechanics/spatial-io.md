@@ -105,7 +105,7 @@ The working principle of the Spatial Pylon is to swap the entire space within th
 
 <Color id="RED">Once a Spatial Storage Cell is used, you cannot reset, format, or adjust its size. If you wish to use a different size, you must craft a new cell.</Color>
 
-<GameScene zoom="2" width="400" height="200" rotateY={200} offsetX={-120} offsetY={-60}  allowLayerSlider={false} gridButtonEnabled={false}>
+<GameScene zoom="2" width="400" height="200" rotateY={200} offsetX={-80} allowLayerSlider={false} gridButtonEnabled={false}>
     <ImportStructure src="../assets/structures/spatial_io-dimension.snbt" />
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
     Spatial Storage Cell Dimension
