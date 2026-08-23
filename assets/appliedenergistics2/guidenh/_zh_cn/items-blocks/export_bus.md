@@ -27,7 +27,7 @@ item_ids:
 
 为优化性能，当总线近期无操作时会进入"休眠模式"降低运行频率。成功输出后将加速至全速模式（每秒4次操作）。
 
-属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 过滤设置
 

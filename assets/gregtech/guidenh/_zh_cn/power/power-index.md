@@ -15,7 +15,7 @@ GT 电力系统的能量单位是 EU（Energy Unit）。GT 电力系统以 [局�
 
 - 关于发电手段，参见发电线路简介。
 - 关于电力网络的架构与搭建建议，参见电力的存储与运输。
-- 关于机器的升压、超频与并行，参见 **[升压、超频与并行](../tierskipping-overcloking-parallels/index.md)**。
+- 关于机器的升压、超频与并行，参见 **[升压、超频与并行](../tierskipping-overcloking-parallels/T-O-P-index.md)**。
 
 # 电压与电流
 

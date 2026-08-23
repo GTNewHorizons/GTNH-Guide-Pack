@@ -38,7 +38,7 @@ item_ids:
 
 通过调整朝向实现半自动化供料：
 
-<GameScene zoom="4" background="transparent">
+<GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/charger_hopper.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

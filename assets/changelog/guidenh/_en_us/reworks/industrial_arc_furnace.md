@@ -25,7 +25,7 @@ The <Color id="GREEN">Industrial Arc Furnace (IAF)</Color> is an IV tier multibl
 > - New Electrode Mechanics: IAF now takes an Electrode item that determines the statistics of the machine. See further for detail as changes are comprehensive
 
 ## Construction
-The <Color id="GREEN">IAF</Color> has no tiered components. Multi-Amp and Laser energy hatches are supported for serious overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+The <Color id="GREEN">IAF</Color> has no tiered components. Multi-Amp energy hatches are supported for serious overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15548"/><ItemImage id="gregtech:gt.blockmachines:15548"/>

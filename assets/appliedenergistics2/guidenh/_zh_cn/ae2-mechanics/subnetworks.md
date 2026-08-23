@@ -11,31 +11,31 @@ navigation:
     <ImportStructure src="../assets/structures/subnet_demonstration.snbt" />
 
     <DiamondAnnotation pos="1.5 2.5 9.5" color="#00ff00">
-            将组装机的产物传递到储物箱中。
+        将组装机的产物传递到储物箱中。
     </DiamondAnnotation>
 
     <DiamondAnnotation pos="1.5 2.5 8.5" color="#00ff00">
-            将上方超级储罐中的流体传递到下方的储罐中。
+        将上方超级储罐中的流体传递到下方的储罐中。
     </DiamondAnnotation>
 
     <DiamondAnnotation pos="1.5 2.5 7.5" color="#00ff00">
-            红石 P2P 子网络，将红石块的 \
-            信号传递到红石灯中。
+        红石 P2P 子网络，将红石块的 \
+        信号传递到红石灯中。
     </DiamondAnnotation>
 
     <DiamondAnnotation pos="1.5 2.5 6.5" color="#00ff00">
-            将储物箱中的物品传递到虚空物品单元中。
+        将储物箱中的物品传递到虚空物品单元中。
     </DiamondAnnotation>
 
     <DiamondAnnotation pos="1.5 2.5 5.5" color="#00ff00">
-            利用接口与存储总线的交互机制构建的子网络，\
-            作为主网络可以访问的本地子存储。
+        利用接口与存储总线的交互机制构建的子网络，\
+        作为主网络可以访问的本地子存储。
     </DiamondAnnotation>
 
     <DiamondAnnotation pos="2.5 0.5 3.5" color="#00ff00">
-            高炉自动合成子网络，将样板中的材料 \
-            传递到高炉的输入端，然后通过样板传入的 \
-            同一个接口将产物输出回主网络。
+        高炉自动合成子网络，将样板中的材料 \
+        传递到高炉的输入端，然后通过样板传入的 \
+        同一个接口将产物输出回主网络。
     </DiamondAnnotation>
 </GameScene>
 

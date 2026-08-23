@@ -147,7 +147,7 @@ Maintenance and muffler hatches are always safe to share, but be careful when sh
 
 # Usage
 
-Although multiblocks operate very similarly to [singleblock machines](../singleblock/index.md), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
+Although multiblocks operate very similarly to [singleblock machines](../singleblock/singleblock-index.md), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
 
 ## Overclocking
 

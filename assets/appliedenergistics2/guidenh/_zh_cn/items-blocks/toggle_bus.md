@@ -12,7 +12,7 @@ item_ids:
 
 # 触发总线
 
-<GameScene zoom="8" background="transparent">
+<GameScene zoom="8" showBackground={false}>
 <ImportStructure src="../assets/structures/toggle_bus.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
@@ -23,7 +23,7 @@ item_ids:
 
 注意：切换连接可能导致网络重启并重新计算连接设备。
 
-触发总线属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+触发总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 合成配方
 

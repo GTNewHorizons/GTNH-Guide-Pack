@@ -14,7 +14,7 @@ item_ids:
   - gregtech:gt.blockmachines:11186
 navigation:
   title: 罐装机合并
-  parent: reworks.md
+  parent: ../reworks/reworks.md
   icon: gregtech:gt.blockmachines:231
 categories:
     - Miscellaneous Changes

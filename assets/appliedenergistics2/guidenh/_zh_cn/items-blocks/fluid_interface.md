@@ -16,7 +16,7 @@ categories:
 
 <Row gap="20">
 <BlockImage id="ae2fc:fluid_interface" scale="4" />
-<ItemImage id="ae2fc:part_fluid_interface" scale="4" 
+<ItemImage id="ae2fc:part_fluid_interface" scale="4" />
 <ItemImage id="ae2fc:part_fluid_p2p_interface" scale="4" />
 </Row>
 
@@ -32,23 +32,23 @@ categories:
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
 
   <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">
-        控制库存数量的多组电平发信器
+    控制库存数量的多组电平发信器
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">
-        控制库存数量的多组电平发信器
+    控制库存数量的多组电平发信器
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">
-        单游戏刻可传输1组物品的超级输入总线阵列
+    单游戏刻可传输1组物品的超级输入总线阵列
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">
-        单游戏刻可传输1组物品的超级输出总线阵列
+    单游戏刻可传输1组物品的超级输出总线阵列
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">
-        9个独立存储槽位
+    9个独立存储槽位
   </BoxAnnotation>
 
   <IsometricCamera yaw="15" pitch="15" />
@@ -67,19 +67,19 @@ categories:
 
 * [子网](../ae2-mechanics/subnetworks.md)中的样板供应器与接口存在特殊交互：未配置的接口将允许供应器直接推送物品至子网存储，跳过接口槽位填充，且仅在存储有空位时才会推送新批次。
 
-<GameScene width="320" height="200" zoom="4" background="transparent">
+<GameScene width="320" height="200" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
 
 <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
-        接口（必须为扁平版）
+    接口（必须为扁平版）
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
-        存储总线阵列
+    存储总线阵列
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
-        目标机器（可多台或多面输入）
+    目标机器（可多台或多面输入）
   </BoxAnnotation>
 
 <IsometricCamera yaw="185" pitch="30" />
@@ -87,7 +87,7 @@ categories:
 
 ## 变体类型
 
-接口有两种形态：标准版和扁平版/[子部件](../ae2-mechanics/cable-subparts.md)：
+接口有两种形态：标准版和扁平版/[子部件](../ae2-mechanics/cables-subparts.md)：
 
 * **标准接口**：允许所有面进行物品存取，并提供全向网络连接
 * **扁平接口**：作为线缆子部件，可密集排布。仅允许正面存取物品，且不提供正面网络连接

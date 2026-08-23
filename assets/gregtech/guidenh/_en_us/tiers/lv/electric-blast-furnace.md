@@ -106,7 +106,7 @@ The EBF is finally ready for use once the structure is formed and all maintenanc
 
 The solution is to build two energy hatches into the structure to [overclock](../../tierskipping-overcloking-parallels/overclocking.md) the machine to the next voltage tier. Energy hatches normally only pull 1A of power but they are capable of pulling up to 2A for scenarios such as this. This means two energy hatches can pull 4A of power, or the equivalent of 1A of the next voltage tier.
 
-Supplying a continuous 4A of power requires at least four [singleblock](../../singleblock/index.md) <ItemImage id="gregtech:gt.blockmachines:1115" /> steam turbines nearby. The recipes for steel and aluminium only consume 120 EU/t so there can be some cable loss but not very much. 
+Supplying a continuous 4A of power requires at least four [singleblock](../../singleblock/singleblock-index.md) <ItemImage id="gregtech:gt.blockmachines:1115" /> steam turbines nearby. The recipes for steel and aluminium only consume 120 EU/t so there can be some cable loss but not very much. 
 
 The following are the two methods for meeting these power requirements and running the EBF. These both assume that the player is **NOT** using superconductor wires which have zero cable loss regardless of the amps or distance.
 

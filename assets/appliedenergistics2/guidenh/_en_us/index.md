@@ -1,11 +1,10 @@
 ---
 navigation:
   title: Applied Energistics 2
-  icon: guidenh:guide
+  icon: appliedenergistics2:tile.BlockController
   position: 0
   recommend: 1
-item_ids:
-- guidenh:guide
+item_id: appliedenergistics2:tile.BlockController
 ---
 
 ![Logo](assets/logo.png)

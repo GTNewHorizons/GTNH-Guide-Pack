@@ -13,7 +13,7 @@ categories:
 > [!NOTE]
 > 延伸阅读: "[GTNH中文维基 - 多方块机器](https://gtnh.huijiwiki.com/wiki/多方块机器)"。
 
-**多方块机器**是由复数个方块构成的机器。其规模从小型的<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />到极巨型的<ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />不等。GT多方块机器总是具有一个**主机方块**，通常有特定的用途，并且总是比对应的 [单方块机器](../singleblock/index.md)（如果存在）运行更快或配方更高效。相比只能 [超频](../tierskipping-overcloking-parallels/overclocking.md) 的 [单方块机器](../singleblock/index.md)，多方块机器还能够进行 **[升压](../tierskipping-overcloking-parallels/tierskipping.md)** 和 **[并行](../tierskipping-overcloking-parallels/parallels.md)**。
+**多方块机器**是由复数个方块构成的机器。其规模从小型的<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />到极巨型的<ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />不等。GT多方块机器总是具有一个**主机方块**，通常有特定的用途，并且总是比对应的 [单方块机器](../singleblock/singleblock-index.md)（如果存在）运行更快或配方更高效。相比只能 [超频](../tierskipping-overcloking-parallels/overclocking.md) 的 [单方块机器](../singleblock/singleblock-index.md)，多方块机器还能够进行 **[升压](../tierskipping-overcloking-parallels/tierskipping.md)** 和 **[并行](../tierskipping-overcloking-parallels/parallels.md)**。
 
 尽管大多数多方块机器都有独特的外壳和结构，但物品、流体和电力的输入输出方式几乎是通用的——使用**功能性仓室**。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />可以快速搭建多方块机器。
 
@@ -199,7 +199,7 @@ IV阶段开始出现部分无法升压的机器（如<ItemLink id="gregtech:gt.b
 
 参见 **[并行](../tierskipping-overcloking-parallels/parallels.md)**。
 
-并行是机器在同一时间间隔内同时处理数个相同配方的能力。[单方块机器](../singleblock/index.md)不具备此能力。
+并行是机器在同一时间间隔内同时处理数个相同配方的能力。[单方块机器](../singleblock/singleblock-index.md)不具备此能力。
 
 一般而言，每拥有 $$4^n$$ 的最大并行数，就能在一定程度上等价于 $$n$$ 次无损超频。并行只对同一配方生效。
 
@@ -219,7 +219,7 @@ IV阶段开始出现部分无法升压的机器（如<ItemLink id="gregtech:gt.b
 
 # 故障
 
-与 [单方块机器](../singleblock/index.md) 不同，多方块机器故障会**完全中止配方且不返还原料**。
+与 [单方块机器](../singleblock/singleblock-index.md) 不同，多方块机器故障会**完全中止配方且不返还原料**。
 
 | 故障 | 处理方法 |
 |------|----------|
@@ -235,4 +235,4 @@ IV阶段开始出现部分无法升压的机器（如<ItemLink id="gregtech:gt.b
 
 # 爆炸
 
-与 [单方块机器#爆炸](../singleblock/index.md#爆炸) 类似，多方块机器的**带电仓室**遇雨雪会爆炸。主机方块、结构方块和不缓存电力的仓室遇雨雪不会爆炸。为能源仓超压供电也会爆炸。
+与 [单方块机器#爆炸](../singleblock/singleblock-index.md#爆炸) 类似，多方块机器的**带电仓室**遇雨雪会爆炸。主机方块、结构方块和不缓存电力的仓室遇雨雪不会爆炸。为能源仓超压供电也会爆炸。

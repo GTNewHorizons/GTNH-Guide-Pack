@@ -1,6 +1,6 @@
 ---
 navigation:
   title: 杂项
-  icon: minecraft:grass_block
+  icon: minecraft:grass
   parent: /index.md
 ---

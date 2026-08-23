@@ -24,13 +24,13 @@ item_ids:
 
 # ME流体输入总线
 
-<ItemImage id="ae2fc:part_fluid_import" scar />
+<ItemImage id="ae2fc:part_fluid_import" />
 
 输入总线从相邻容器中提取物品和流体（通过模组支持可处理更多类型），并将其存入[网络存储](../ae2-mechanics/import-export-storage.md)。
 
 为减少延迟，若输入总线近期未执行导入操作，将进入"休眠模式"低速运行，成功导入物品后会唤醒并加速至全速运行（每秒4次操作）。
 
-该设备属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 过滤设置
 

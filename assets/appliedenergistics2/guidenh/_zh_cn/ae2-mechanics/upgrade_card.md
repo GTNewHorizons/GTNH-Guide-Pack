@@ -136,7 +136,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" />
 
-均分卡可应用于<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中的[存储元件](storage_cells.md)，并根据卡片的[分区](cell_workbench.md)将元件划分为大小相等的分区。这可以防止单一物品类型完全填满元件。
+均分卡可应用于<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中的[存储元件](../items-blocks/storage_cells.md)，并根据卡片的[分区](../items-blocks/cell_workbench.md)将元件划分为大小相等的分区。这可以防止单一物品类型完全填满元件。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:69" />
 

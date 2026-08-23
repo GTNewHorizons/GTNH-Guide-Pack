@@ -3,13 +3,13 @@ name: Validate guide pack
 on:
   pull_request:
     paths:
-      - "assets/**/*.md"
+      - "assets/**"
       - "pack.mcmeta"
       - ".github/workflows/validate-guide-pack.yml"
   push:
     branches: [ master ]
     paths:
-      - "assets/**/*.md"
+      - "assets/**"
       - "pack.mcmeta"
       - ".github/workflows/validate-guide-pack.yml"
 
@@ -18,6 +18,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Check out GuideVSC validator
+        uses: actions/checkout@v4
+        with:
+          repository: ABKQPO/GuideNH-VSC
+          ref: master
+          path: .ci/guide-vsc
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: .ci/guide-vsc/package-lock.json
 
       - uses: actions/setup-python@v5
         with:
@@ -34,14 +47,36 @@ jobs:
 
           import yaml
 
-          json.loads(Path("pack.mcmeta").read_text(encoding="utf-8-sig"))
-
           errors = 0
+
+          def escape_annotation_property(value):
+              return (str(value).replace("%", "%25").replace("\r", "%0D")
+                      .replace("\n", "%0A").replace(":", "%3A").replace(",", "%2C"))
+
+          def escape_annotation_message(value):
+              return str(value).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+          def emit_error(file, line, column, message):
+              print(
+                  f"::error file={escape_annotation_property(file)},line={line},col={column},"
+                  f"title=GuideNH%20metadata%20validation::{escape_annotation_message(message)}"
+              )
+              print(f"{file}:{line}:{column}: error: {str(message).replace(chr(10), ' ')}")
+
+          try:
+              json.loads(Path("pack.mcmeta").read_text(encoding="utf-8-sig"))
+          except json.JSONDecodeError as error:
+              emit_error("pack.mcmeta", error.lineno, error.colno, error.msg)
+              errors += 1
+          except OSError as error:
+              emit_error("pack.mcmeta", 1, 1, f"Unable to read pack.mcmeta: {error}")
+              errors += 1
+
           for path in sorted(Path("assets").glob("**/guidenh/**/*.md")):
               text = path.read_text(encoding="utf-8-sig")
               if not text.startswith("---\n"):
                   if text.partition("\n")[0].rstrip(" \t") == "---":
-                      print(f"::error file={path},line=1::Opening YAML fence must be exactly ---")
+                      emit_error(path, 1, 1, "Opening YAML fence must be exactly ---")
                       errors += 1
                   continue
 
@@ -49,7 +84,7 @@ jobs:
               if end < 0 and text.endswith("\n---"):
                   end = len(text) - 4
               if end < 0:
-                  print(f"::error file={path},line=1::Unclosed YAML frontmatter")
+                  emit_error(path, 1, 1, "Unclosed YAML frontmatter")
                   errors += 1
                   continue
 
@@ -60,13 +95,146 @@ jobs:
               except yaml.YAMLError as error:
                   mark = getattr(error, "problem_mark", None)
                   line = mark.line + 2 if mark else 1
+                  column = mark.column + 1 if mark else 1
                   message = str(error).replace("\n", " ")
-                  print(f"::error file={path},line={line}::{message}")
+                  emit_error(path, line, column, message)
                   errors += 1
               except TypeError as error:
-                  print(f"::error file={path},line=1::{error}")
+                  emit_error(path, 1, 1, error)
                   errors += 1
 
           if errors:
               raise SystemExit(f"Invalid guide frontmatter in {errors} file(s)")
           PY
+
+      - name: Build GuideVSC validator
+        working-directory: .ci/guide-vsc
+        run: |
+          npm ci
+          npm run compile
+
+      - name: Validate GuideNH pages, resources, and tags
+        env:
+          GUIDE_VSC_ROOT: ${{ github.workspace }}/.ci/guide-vsc
+        run: |
+          node - <<'NODE'
+          const fs = require('fs/promises');
+          const path = require('path');
+          const { pathToFileURL } = require('url');
+
+          const validatorRoot = process.env.GUIDE_VSC_ROOT;
+          const guidePackRoot = process.env.GITHUB_WORKSPACE;
+          const { GuideNhWorkspaceIndex } = require(path.join(validatorRoot, 'out/server/index/workspaceIndex.js'));
+          const { GuideNhResourceIndex } = require(path.join(validatorRoot, 'out/server/index/resourceIndex.js'));
+          const { indexGuideNhWorkspaceFolder } = require(path.join(validatorRoot, 'out/server/index/workspaceScanner.js'));
+          const { createGuideNhDiagnostics } = require(path.join(validatorRoot, 'out/server/providers/diagnostics.js'));
+          const { loadGuideNhSchema } = require(path.join(validatorRoot, 'out/server/schema/schemaLoader.js'));
+
+          function isGuideMarkdownPath(filePath) {
+            return /\/assets\/[^/]+\/guidenh\/(?:guidenh\/)?_[a-z]{2}_[a-z]{2}\/.+\.md$/i.test(filePath.replace(/\\/g, '/'));
+          }
+
+          async function collectGuideMarkdownPaths(directory) {
+            const paths = [];
+            const entries = await fs.readdir(directory, { withFileTypes: true });
+            for (const entry of entries.sort((left, right) => left.name.localeCompare(right.name))) {
+              const fullPath = path.join(directory, entry.name);
+              if (entry.isDirectory()) {
+                if (!['.git', 'node_modules', 'out', 'dist'].includes(entry.name)) {
+                  paths.push(...await collectGuideMarkdownPaths(fullPath));
+                }
+              } else if (entry.isFile() && isGuideMarkdownPath(fullPath)) {
+                paths.push(fullPath);
+              }
+            }
+            return paths;
+          }
+
+          function escapeAnnotationProperty(value) {
+            return String(value)
+              .replace(/%/g, '%25')
+              .replace(/\r/g, '%0D')
+              .replace(/\n/g, '%0A')
+              .replace(/:/g, '%3A')
+              .replace(/,/g, '%2C');
+          }
+
+          function escapeAnnotationMessage(value) {
+            return String(value)
+              .replace(/%/g, '%25')
+              .replace(/\r/g, '%0D')
+              .replace(/\n/g, '%0A');
+          }
+
+          function toAnnotationPosition(position, fallback) {
+            const line = Number.isInteger(position?.line) && position.line >= 0
+              ? position.line + 1
+              : fallback.line;
+            const column = Number.isInteger(position?.character) && position.character >= 0
+              ? position.character + 1
+              : fallback.column;
+            return { line, column };
+          }
+
+          function emitDiagnostic(level, relativePath, message, range) {
+            const start = toAnnotationPosition(range?.start, { line: 1, column: 1 });
+            const end = toAnnotationPosition(range?.end, start);
+            const properties = [
+              `file=${escapeAnnotationProperty(relativePath)}`,
+              `line=${start.line}`,
+              `col=${start.column}`,
+              `endLine=${end.line}`,
+              `endColumn=${end.column}`,
+              `title=${escapeAnnotationProperty('GuideNH validation')}`
+            ].join(',');
+            const text = `${relativePath}:${start.line}:${start.column}: ${String(message).replace(/\r?\n/g, ' ')}`;
+            console.log(`::${level} ${properties}::${escapeAnnotationMessage(text)}`);
+          }
+
+          function isNonBlockingReferenceDiagnostic(diagnostic) {
+            const message = String(diagnostic?.message ?? '');
+            return /^Unknown GuideNH resource\b/i.test(message)
+              || /^(?:Unknown|Unresolved) item(?: id| reference)?\b/i.test(message);
+          }
+
+          async function main() {
+            const pageIndex = new GuideNhWorkspaceIndex();
+            const resourceIndex = new GuideNhResourceIndex();
+            const rootUri = pathToFileURL(guidePackRoot).toString();
+            await indexGuideNhWorkspaceFolder(rootUri, pageIndex, resourceIndex);
+            const schema = await loadGuideNhSchema(path.join(validatorRoot, 'src/schema'));
+            const pages = await collectGuideMarkdownPaths(guidePackRoot);
+            let errors = 0;
+            let warnings = 0;
+            for (const pagePath of pages) {
+              const relativePath = path.relative(guidePackRoot, pagePath).replace(/\\/g, '/');
+              try {
+                const text = await fs.readFile(pagePath, 'utf8');
+                const uri = pathToFileURL(pagePath).toString();
+                const diagnostics = createGuideNhDiagnostics(text, schema, pageIndex, resourceIndex, uri);
+                for (const diagnostic of diagnostics) {
+                  const nonBlockingReference = isNonBlockingReferenceDiagnostic(diagnostic);
+                  const level = nonBlockingReference ? 'warning' : 'error';
+                  emitDiagnostic(level, relativePath, diagnostic.message, diagnostic.range);
+                  if (nonBlockingReference) {
+                    warnings++;
+                  } else {
+                    errors++;
+                  }
+                }
+              } catch (error) {
+                emitDiagnostic('error', relativePath, `Failed to validate page: ${error?.stack ?? error}`, undefined);
+                errors++;
+              }
+            }
+            console.log(`GuideVSC validation completed with ${errors} error(s) and ${warnings} warning(s).`);
+            if (errors > 0) {
+              process.exitCode = 1;
+            }
+          }
+
+          main().catch((error) => {
+            console.error(`GuideVSC validation failed before a page could be identified: ${error?.stack ?? error}`);
+            process.exitCode = 1;
+          });
+          NODE

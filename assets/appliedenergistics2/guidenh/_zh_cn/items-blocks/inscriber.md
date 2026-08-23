@@ -58,7 +58,7 @@ D. **输出槽** - 通过左右前后四面输出（仅限输出，不可输入�
 
 利用分面模式和可旋转性实现半自动化：
 
-<GameScene width="350" height="220" zoom="4" background="transparent">
+<GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/inscriber_hopper_automation.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

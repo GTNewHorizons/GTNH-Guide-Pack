@@ -11,7 +11,7 @@ navigation:
 
 Channels are a resource consumed by devices in an AE2 [ME Network](me-network-connections.md). An ME network uses channels to support [devices](devices.md) that provide networked storage and other network services. The number of channels available on cables is limited: each cable can only carry so many channels. When you connect a channel-using device to the network by cable, that device occupies one channel on the cable. Once the cable runs out of channels, newly added devices can no longer connect to the ME network.
 
-<GameScene zoom="4" background="transparent" width="300" rotateX={20} rotateY={-75}>
+<GameScene zoom="4" showBackground={false} width="300" rotateX={20} rotateY={-75}>
   <ImportStructure src="../assets/structures/channels-channel_count.snbt" />
   <LineAnnotation
   points="0.35 0.65 5; 0.35 0.65 4.5;0.35 1.5 4.5"
@@ -117,13 +117,13 @@ You can use cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart
 
 For example, in the following setup the cables form a loop. Because channels always try to use the shortest path, some Drives end up losing channels and going offline.
 
-<GameScene zoom="2" background="transparent" width="200" rotateX={90} rotateY={-90}>
+<GameScene zoom="2" showBackground={false} width="200" rotateX={90} rotateY={-90}>
     <ImportStructure src="../assets/structures/channels-channel_loop1.snbt" />
 </GameScene>
 
 This can be fixed by carefully constraining channel paths with cable colors, Quartz Fiber, and Cable Anchors. Network structures should be tree-like, with as few loops and ambiguous mesh paths as possible.
 
-<GameScene zoom="2" background="transparent" width="200" rotateX={90} rotateY={-90}>
+<GameScene zoom="2" showBackground={false} width="200" rotateX={90} rotateY={-90}>
     <ImportStructure src="../assets/structures/channels-channel_loop2.snbt" />
 </GameScene>
 
@@ -134,12 +134,12 @@ As described above, ME networks should be designed as branching trees. Use dense
 
 The following is an example of a <Color id="RED">poorly structured</Color> network. It is full of loops: the cables form loops, and direct channel transmission between devices also creates loops. The result is a network that is hard to read, hard to analyze, and likely to leave some components offline because they do not receive channels.
 
-<GameScene zoom="4" background="transparent" width="400" rotateX={30} rotateY={100}>
+<GameScene zoom="4" showBackground={false} width="400" rotateX={30} rotateY={100}>
     <ImportStructure src="../assets/structures/channels-bad_design.snbt" />
 </GameScene>
 
 Here is an example of a <Color id="GREEN">well-structured</Color> network:
-<GameScene zoom="2" background="transparent" width="400" rotateY={-115} rotateX={30}>
+<GameScene zoom="2" showBackground={false} width="400" rotateY={-115} rotateX={30}>
     <ImportStructure src="../assets/structures/channels-good_design.snbt" />
     <BoxAnnotation min="11 0 8" max="13 1 5" color="#00ff1a" thickness="1">
       Use different cable colors to separate sections so they are easier to identify and less likely to connect accidentally.

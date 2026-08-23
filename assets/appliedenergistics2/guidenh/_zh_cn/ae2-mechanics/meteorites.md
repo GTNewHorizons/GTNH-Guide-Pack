@@ -1,4 +1,4 @@
-﻿---
+---
 navigation:
   parent: /ae2-mechanics-index.md
   title: 陨石
@@ -7,7 +7,7 @@ navigation:
 
 # 陨石
 
-<GameScene zoom="3" background="transparent">
+<GameScene zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/meteor_interior.snbt" />
 </GameScene>
 

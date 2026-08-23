@@ -111,7 +111,7 @@ navigation:
 
 <Color id="RED">空间存储元件一经使用，你就不能重置、格式化或调整空间存储元件的尺寸。如果想使用不同的尺寸，请制作一个新的元件。</Color>
 
-<GameScene zoom="2" width="400" height="200" rotateY={200} offsetX={-120} offsetY={-60}  allowLayerSlider={false} gridButtonEnabled={false}>
+<GameScene zoom="2" width="400" height="200" rotateY={200} offsetX={-80} allowLayerSlider={false} gridButtonEnabled={false}>
     <ImportStructure src="../assets/structures/spatial_io-dimension.snbt" />
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
     空间存储元件维度

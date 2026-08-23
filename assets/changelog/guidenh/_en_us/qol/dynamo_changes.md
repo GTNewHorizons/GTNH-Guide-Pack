@@ -14,12 +14,12 @@ There are two main changes to dynamo hatches that are outlined below.
 ## 256A Dynamo Hatches for UV+
 Tired of having multiple 64A dynamos on your Active Transformers? Use these instead!
 <Row gap="16" alignItems="center">
-<ItemImage id="gregtech:gt.blockmachines:16030" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16031" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16032" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16033" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16034" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16035" wrap="square"/>
+<ItemImage id="gregtech:gt.blockmachines:16030"/>
+<ItemImage id="gregtech:gt.blockmachines:16031"/>
+<ItemImage id="gregtech:gt.blockmachines:16032"/>
+<ItemImage id="gregtech:gt.blockmachines:16033"/>
+<ItemImage id="gregtech:gt.blockmachines:16034"/>
+<ItemImage id="gregtech:gt.blockmachines:16035"/>
 </Row>
 <br clear="none">
 Now you can use 256A dynamo hatches from <Color id="BLUE">UV</Color> and beyond! This will cut down slightly on the duplication of hatches, and allows more effective packing of amps into wires in the late game!

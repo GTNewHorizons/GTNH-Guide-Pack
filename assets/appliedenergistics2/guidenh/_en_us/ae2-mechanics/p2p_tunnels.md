@@ -90,7 +90,7 @@ These are two new P2P Tunnels added by GTNH. They are not used for transmission,
 
 By using them, you only need to place the pattern in the input end to parallelize pattern materials, achieving physical parallelism. 
 
-  <GameScene zoom="3" background="transparent" width="400" height="200">
+  <GameScene zoom="3" showBackground={false} width="400" height="200">
     <ImportStructure src="../assets/structures/p2p-interface.snbt" />
     <TextAnnotation pos="0.5 2 5.5" color="#ff0000" text="Placing patterns in this interface will not work properly."/>
     <TextAnnotation pos="4.5 1.7 5" color="#00ff00" text="Place patterns in this input end to send materials to available ports." maxWidth="180"/>

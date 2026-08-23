@@ -18,15 +18,15 @@ ME网络需要能源来运行，整个网络共用同一个能量缓存，AE的�
 ## 能量接收
 
 <Row>
-  <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" meta="0" nbt='{inv:{},orientation_up:"UP",id:"BlockEnergyAcceptor",orientation_forward:"EAST",internalCurrentPower:0.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockController" p:state="online" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockController" meta="1" nbt='{inv:{},proxy:{p:0,g:6L,k:-1L},orientation_up:"UP",id:"BlockController",orientation_forward:"EAST",internalCurrentPower:0.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyController" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyController" meta="1" nbt='{inv:{},proxy:{p:0,g:11L,k:-1L},orientation_up:"UP",id:"BlockCreativeEnergyController",orientation_forward:"EAST",internalCurrentPower:"9.22337203685477E14d"}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockCableBus" nbt='{__guidenh_encoded_keys_v1:[0:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:36s},k:"def:6"},1:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:690s},k:"def:1"},2:{v:{},k:"extra:6"},3:{v:{},k:"extra:1"}],id:"BlockCableBus",hasRedstone:2}' scale="4" />
+   <BlockImage id="appliedenergistics2:tile.BlockCableBus" nbt='{__guidenh_encoded_keys_v1:[0:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:36s},k:"def:6"},1:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:690s},k:"def:1"},2:{v:{},k:"extra:6"},3:{v:{},k:"extra:1"}],id:"BlockCableBus",hasRedstone:2}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockVibrationChamber" p:active="true" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockVibrationChamber" meta="0" nbt='{inv:{item0:{}},proxy:{p:0,g:12L,k:-1L},burnSpeed:100,orientation_up:"UP",burnTime:0.0d,id:"BlockVibrationChamber",maxBurnTime:0.0d,orientation_forward:"NORTH"}' scale="4" />
 </Row>
 
 AE2 在内部不使用 FE、RF或EU，而是将这些能量转换为自己的能量————AE。其他能量单位可以通过 <ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="left" /> 和<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" /> 来转换为AE。此转换是单向的，在GTNH中，你无法将AE转换为EU。除了从外部接收，你也可以使用<ItemLink id="appliedenergistics2:item.ItemMultiPart:690" showIcon="left" />和<ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyController" showIcon="left" />来获取无限的AE能源。
@@ -46,9 +46,9 @@ FE、RF以及EU与AE的转换比率为：
 ## 能量存储
 
 <Row>
-  <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" scale="4" p:fullness="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" meta="7" nbt='{proxy:{p:0,g:14L,k:-1L},id:"BlockEnergyCell",internalCurrentPower:200000.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockDenseEnergyCell" scale="4" p:fullness="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockDenseEnergyCell" meta="7" nbt='{proxy:{p:0,g:15L,k:-1L},id:"BlockDenseEnergyCell",internalCurrentPower:1600000.0d}' scale="4" />
 
   <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyCell" scale="4" />
 </Row>

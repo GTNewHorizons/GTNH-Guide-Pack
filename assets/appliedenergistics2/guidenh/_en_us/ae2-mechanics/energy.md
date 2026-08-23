@@ -20,15 +20,15 @@ Because storage and distribution are handled at the network level, there is effe
 ## Energy Accepting
 
 <Row>
-  <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" meta="0" nbt='{inv:{},orientation_up:"UP",id:"BlockEnergyAcceptor",orientation_forward:"EAST",internalCurrentPower:0.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockController" p:state="online" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockController" meta="1" nbt='{inv:{},proxy:{p:0,g:6L,k:-1L},orientation_up:"UP",id:"BlockController",orientation_forward:"EAST",internalCurrentPower:0.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyController" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyController" meta="1" nbt='{inv:{},proxy:{p:0,g:11L,k:-1L},orientation_up:"UP",id:"BlockCreativeEnergyController",orientation_forward:"EAST",internalCurrentPower:"9.22337203685477E14d"}' scale="4" />
 
    <BlockImage id="appliedenergistics2:tile.BlockCableBus" nbt='{__guidenh_encoded_keys_v1:[0:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:36s},k:"def:6"},1:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:690s},k:"def:1"},2:{v:{},k:"extra:6"},3:{v:{},k:"extra:1"}],id:"BlockCableBus",hasRedstone:2}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockVibrationChamber" p:active="true" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockVibrationChamber" meta="0" nbt='{inv:{item0:{}},proxy:{p:0,g:12L,k:-1L},burnSpeed:100,orientation_up:"UP",burnTime:0.0d,id:"BlockVibrationChamber",maxBurnTime:0.0d,orientation_forward:"NORTH"}' scale="4" />
 </Row>
 
 AE2 does not internally use FE, RF, or EU. Instead, it converts those energy systems into its own unit, AE. This conversion is one-way; in GTNH, you cannot convert AE back into EU. External power can be converted to AE through <ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="left" /> and <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />, although controller faces are usually better spent on [channels](./channels.md). In addition to accepting external power, you can also use <ItemLink id="appliedenergistics2:item.ItemMultiPart:690" showIcon="left" /> and <ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyController" showIcon="left" /> for effectively unlimited AE.
@@ -48,9 +48,9 @@ The conversion ratios are:
 ## Energy Storage
 
 <Row>
-  <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" scale="4" p:fullness="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" meta="7" nbt='{proxy:{p:0,g:14L,k:-1L},id:"BlockEnergyCell",internalCurrentPower:200000.0d}' scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockDenseEnergyCell" scale="4" p:fullness="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockDenseEnergyCell" meta="7" nbt='{proxy:{p:0,g:15L,k:-1L},id:"BlockDenseEnergyCell",internalCurrentPower:1600000.0d}' scale="4" />
 
   <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyCell" scale="4" />
 </Row>

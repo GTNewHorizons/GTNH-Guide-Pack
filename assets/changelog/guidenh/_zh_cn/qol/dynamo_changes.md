@@ -18,12 +18,12 @@ date: 2026-05-16
 是不是受够了在有源变压器上摆一堆 64A 动力仓？现在可以直接用这些了！
 
 <Row gap="16" alignItems="center">
-<ItemImage id="gregtech:gt.blockmachines:16030" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16031" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16032" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16033" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16034" wrap="square"/>
-<ItemImage id="gregtech:gt.blockmachines:16035" wrap="square"/>
+<ItemImage id="gregtech:gt.blockmachines:16030"/>
+<ItemImage id="gregtech:gt.blockmachines:16031"/>
+<ItemImage id="gregtech:gt.blockmachines:16032"/>
+<ItemImage id="gregtech:gt.blockmachines:16033"/>
+<ItemImage id="gregtech:gt.blockmachines:16034"/>
+<ItemImage id="gregtech:gt.blockmachines:16035"/>
 </Row>
 <br clear="none">
 

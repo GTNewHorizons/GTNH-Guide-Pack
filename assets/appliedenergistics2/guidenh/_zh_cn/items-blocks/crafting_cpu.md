@@ -28,7 +28,7 @@ item_ids:
 
 # 合成CPU多方块结构（存储器/协处理器/监控器/单元）
 
-<GameScene width="350" height="220" zoom="4" background="transparent">
+<GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

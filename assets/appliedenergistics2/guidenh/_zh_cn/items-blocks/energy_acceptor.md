@@ -27,7 +27,7 @@ item_ids:
 
 能源接收器提供两种形态：
 - 标准形态
-- 扁平化/[线缆子部件](../ae2-mechanics/cable-subparts.md)形态
+- 扁平化/[线缆子部件](../ae2-mechanics/cables-subparts.md)形态
 
 两种形态可通过合成网格自由转换，便于构建紧凑型系统。
 

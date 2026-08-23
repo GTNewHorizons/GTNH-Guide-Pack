@@ -13,7 +13,7 @@ item_ids:
  成型面板
 
 <Row gap="20">
-<ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" 
+<ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" />
 <ItemImage id="ae2fc:part_fluid_formation_plane" scale="4" />
 </Row>
 
@@ -24,9 +24,9 @@ item_ids:
   <IsometricCamera yaw="-30" pitch="30" />
 </GameScene>
 
-该[设备](../ae2-mechanics/devices.md)利用了[管道子网](../example-setups/pipe-subnet.md)中存储总线的机制，若需要丢弃物品/放置方块而非运输物品，可用其替代存储总线。
+该[设备](../ae2-mechanics/devices.md)利用了[管道子网](../tricks-example/pipe-subnet.md)中存储总线的机制，若需要丢弃物品/放置方块而非运输物品，可用其替代存储总线。
 
-成型面板属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+成型面板属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 **请确保在领地插件中启用假玩家权限**
 

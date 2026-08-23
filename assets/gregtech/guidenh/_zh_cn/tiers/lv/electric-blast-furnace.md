@@ -102,7 +102,7 @@ quest_ids:
 
 解决办法是在结构里安装两只能源仓，让机器通过[超频](../../tierskipping-overcloking-parallels/overclocking.md)升到下一电压阶段。普通能源仓平时通常只会拉取 1A，但在这种场景下它们最多可拉取 2A。因此，两只能源仓合计可以拉取 4A LV，也就是相当于 1A MV。
 
-想持续稳定地提供 4A 电流，附近至少需要四台[单方块](../../singleblock/index.md) <ItemImage id="gregtech:gt.blockmachines:1115" /> 蒸汽轮机。钢和铝的基础配方只需 120 EU/t，因此允许存在一定线损，但余地并不大。
+想持续稳定地提供 4A 电流，附近至少需要四台[单方块](../../singleblock/singleblock-index.md) <ItemImage id="gregtech:gt.blockmachines:1115" /> 蒸汽轮机。钢和铝的基础配方只需 120 EU/t，因此允许存在一定线损，但余地并不大。
 
 下面给出两种常见的供电方式。两种方式都默认你**没有**使用超导线，因为超导线无论距离和安培数如何都没有线损。
 

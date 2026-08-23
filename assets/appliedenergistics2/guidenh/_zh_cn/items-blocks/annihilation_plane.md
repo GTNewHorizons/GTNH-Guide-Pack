@@ -12,15 +12,15 @@ item_ids:
 
 # ME破坏面板
 
-<GameScene zoom="8" background="transparent" interactive={false}>
+<GameScene zoom="8" showBackground={false} interactive={false}>
 <ImportStructure src="../assets/structures/annihilation_plane.snbt" />
 </GameScene>
 
 ME破坏面板具备破坏方块与收集物品的功能，其工作原理类似<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />，将物品存入[网络存储](../ae2-mechanics/import-export-storage.md)。物品需接触面板正面方可被收集，不作用于区域范围。
 
-可为其附加镐类附魔：时运附魔可用于[自动化矿物处理](../example-setups/ore-fortuner.md)（需整合包支持）；精准采集按预期工作；效率降低能耗；耐久提供免耗能概率。
+可为其附加镐类附魔：时运附魔可用于自动化矿物处理（需整合包支持）；精准采集按预期工作；效率降低能耗；耐久提供免耗能概率。
 
-属于[线缆组件](../ae2-mechanics/cable-subparts.md)。
+属于[线缆组件](../ae2-mechanics/cables-subparts.md)。
 
 **请确保在领地插件中启用假人权限**
 
@@ -32,11 +32,11 @@ ME破坏面板具备破坏方块与收集物品的功能，其工作原理类似
   <ImportStructure src="../assets/structures/annihilation_filtering.snbt" />
 
   <DiamondAnnotation pos="1 0.5 0.5" color="#00ff00">
-        过滤目标方块的掉落物
+    过滤目标方块的掉落物
   </DiamondAnnotation>
 
   <DiamondAnnotation pos=".5 0.5 2.5" color="#00ff00">
-        对掉落物进行存储分区
+    对掉落物进行存储分区
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
