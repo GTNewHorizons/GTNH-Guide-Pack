@@ -26,7 +26,7 @@ ME监控器可在不打开GUI的情况下展示并操作单一物品或流体。
 
 若安装在地面或天花板，可使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转方向。
 
-该设备属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 # ME存储监控器
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:400" scale="4" />

@@ -17,7 +17,7 @@ item_ids:
 
 成型面板用于放置方块和丢弃物品。使用它一般需要构建一个[子网](../ae2-mechanics/subnetworks.md),当AE子网中的成型面板优先级高于所有存储设备时，进入子网的物品会被成型面板放置或丢弃。**使用时请确保在领地插件中启用假玩家权限**
 
-成型面板属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+成型面板属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 
 

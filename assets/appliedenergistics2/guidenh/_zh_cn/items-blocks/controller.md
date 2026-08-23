@@ -12,7 +12,7 @@ item_ids:
 
 # ME控制器
 <Row>
-<BlockImage id="appliedenergistics2:tile.BlockController" p:state="online" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockController"  scale="4" />
 
 <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyController" scale="4" />
 </Row>

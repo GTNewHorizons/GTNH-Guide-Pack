@@ -15,7 +15,7 @@ item_ids:
 
 <Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:220" scale="4" />
-<ItemImage id="ae2fc:part_fluid_storage_bus" scale="4" 
+<ItemImage id="ae2fc:part_fluid_storage_bus" scale="4" />
 <ItemImage id="thaumicenergistics:part.base:2" scale="4" />
 </Row>
 
@@ -25,7 +25,7 @@ item_ids:
 
 基于AE2"通过设备交互实现复合功能"的设计理念，存储总线并非只能用于存储。通过[子网络](../ae2-mechanics/subnetworks.md)将存储总线设置为网络中唯一的存储设备，可将其作为物品传输的源头或终点。
 
-存储总线属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+存储总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 过滤功能
 

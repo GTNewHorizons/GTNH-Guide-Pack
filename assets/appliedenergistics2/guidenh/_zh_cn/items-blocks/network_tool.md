@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ToolNetworkTool" scale="4" />
 
-网络工具是改良版[石英扳手](wrench.md)，兼具网络诊断功能和[升级卡](upgrade_cards.md)存储能力。保留快速拆卸设备和移除线缆[子部件](../ae2-mechanics/cable-subparts.md)的功能，但无法旋转方块。
+网络工具是改良版[石英扳手](wrench.md)，兼具网络诊断功能和[升级卡](upgrade_cards.md)存储能力。保留快速拆卸设备和移除线缆[子部件](../ae2-mechanics/cables-subparts.md)的功能，但无法旋转方块。
 
 内置9个升级卡槽位，当工具在物品栏时，所有AE2设备界面均可访问这些升级卡。
 

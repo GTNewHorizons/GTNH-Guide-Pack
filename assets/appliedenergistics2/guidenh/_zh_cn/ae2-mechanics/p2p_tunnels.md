@@ -49,7 +49,7 @@ P2P通道-ME是传输AE频道的P2P通道，它可以让你将至多32个频道�
   
 - 下面是典型的使用P2P通道传输大量ME频道的网络架构。
 
-  ![P2P与量子环](../assets/p2p_quantum_network.png)
+  ![P2P与量子环](../assets/images/p2p_quantum_network.png)
 
 
 # P2P通道的变体

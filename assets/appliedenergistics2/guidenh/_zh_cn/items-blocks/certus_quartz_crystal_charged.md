@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:1" scale="4" />
 
-用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />和[赛特斯石英母岩](../items-blocks/budding_certus.md)。
+用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />。
 
 ## 合成配方
 

@@ -24,7 +24,7 @@ item_ids:
 
 终端颜色会继承所在[线缆](cables.md)的颜色。
 
-终端属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+终端属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 # 基础终端
 
@@ -52,7 +52,7 @@ item_ids:
 
 **右侧插槽**用于放置<ItemLink id="appliedenergistics2:item.ItemViewCell" />（显示元件）
 
-**右上角锤子按钮**显示[自动合成](../ae2-mechanics/autocrafting.md)状态，可查看各[合成CPU](crafting_cpu_multiblock.md)的工作进度。
+**右上角锤子按钮**显示[自动合成](../ae2-mechanics/autocrafting.md)状态，可查看各合成CPU的工作进度。
 
 ## 合成配方
 

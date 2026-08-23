@@ -23,7 +23,7 @@ item_ids:
 
 照明面板是一种装饰性光源，同时也用于制作[终端设备](terminals.md)。
 
-这些面板属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+这些面板属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 合成配方
 

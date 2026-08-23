@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: /items-blocks-machines-index.md
+  parent: /items-blocks-index.md
   title: 线缆伪装板
   icon: appliedenergistics2:item.ItemFacade
 categories:

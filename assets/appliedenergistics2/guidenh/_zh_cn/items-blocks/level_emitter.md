@@ -21,7 +21,7 @@ ME标准发信器会根据[网络存储](../ae2-mechanics/import-export-storage.
 
 右键点击流体容器（如桶或储罐）可设置流体过滤器而非容器物品本身。
 
-该设备属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 与其他[设备](../ae2-mechanics/devices.md)不同，标准发信器*无需*占用[频道](../ae2-mechanics/channels.md)。
 
