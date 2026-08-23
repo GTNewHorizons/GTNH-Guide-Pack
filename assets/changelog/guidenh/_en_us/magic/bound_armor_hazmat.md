@@ -9,4 +9,4 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-<Color id="RED">Blood Magic's</Color> <Color id="BLUE">Bound Armor</Color> and <Color id="GREEN">Omega Armor</Color> now offer <Color color="#FFFF55FF">full hazmat protection</Color> and have the <Color color="#FFFF55FF">SpaceSuit capability</Color>! These modular armor sets just got a bit more useful.
+<Color id="RED">Blood Magic's</Color> <Color id="BLUE">Bound Armor</Color> and <Color id="GREEN">Omega Armor</Color> now offer <Color color="#FF55FFFF">full hazmat protection</Color> and have the <Color color="#FF55FFFF">SpaceSuit capability</Color>! These modular armor sets just got a bit more useful.
