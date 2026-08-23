@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: 成型核心与破坏核心

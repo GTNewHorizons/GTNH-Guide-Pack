@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: 充能赛特斯石英水晶
@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:1" scale="4" />
 
-经<ItemLink id="appliedenergistics2:tile.BlockCharger" />处理的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:0" />。用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />。
+用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />和[赛特斯石英母岩](../items-blocks/budding_certus.md)。
 
 ## 合成配方
 

@@ -1,7 +1,7 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
-  title: 石英切割刀
+  title: 赛特斯石英切割刀
   icon: appliedenergistics2:item.ToolCertusQuartzCuttingKnife
 categories:
 - tools
@@ -20,7 +20,7 @@ item_ids:
 
 切割刀用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />。
 
-制作名称压印模板只需手持切割刀右击并放入一个金属锭，输入希望印上去的名字后拿出产物即可。
+使用切割刀可以给[自动合成](../ae2-mechanics/autocrafting.md)CPU重命名。
 
 ## 配方
 

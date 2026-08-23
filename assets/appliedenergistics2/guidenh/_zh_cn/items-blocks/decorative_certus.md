@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: 装饰赛特斯方块

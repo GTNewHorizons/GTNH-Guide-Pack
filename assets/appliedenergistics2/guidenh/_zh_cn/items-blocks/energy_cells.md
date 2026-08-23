@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: 能源元件
@@ -41,8 +41,8 @@ item_ids:
 ## 元件类型
 
 *   <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />：基础型号，可存储20万AE能源，足以应对常规网络操作中的能耗波动
-*   <ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" />：致密型号，可存储160万AE能源，适用于依赖储能运行网络或处理大型[空间存储系统](../ae2-mechanics/spatial-io.md)的瞬时高负载
-*   <ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" />：创造模式专用，提供无限能源
+*   <ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" />：致密型号，可存储160万AE能源，适用于依赖储能运行网络或处理大型[空间IO](../ae2-mechanics/spatial-io.md)系统的瞬时高负载
+*   <ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" />：创造模式能源元件，可以提供无限能源给AE网络，在GTNH中可以在到达UHV电压阶段后制造。
 
 ## 配方
 
@@ -50,4 +50,6 @@ item_ids:
   <RecipeFor id="appliedenergistics2:tile.BlockEnergyCell" />
 
   <RecipeFor id="appliedenergistics2:tile.BlockDenseEnergyCell" />
+
+  <RecipeFor id="appliedenergistics2:tile.BlockCreativeEnergyCell" />
 </Row>

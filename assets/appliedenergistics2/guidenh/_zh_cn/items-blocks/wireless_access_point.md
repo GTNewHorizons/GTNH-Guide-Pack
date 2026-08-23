@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: ME无线访问点
@@ -15,6 +15,8 @@ item_ids:
 <ItemImage id="appliedenergistics2:tile.BlockWireless" scale="4" />
 
 允许通过<ItemLink id="appliedenergistics2:item.ToolWirelessTerminal" />（无线终端）进行无线访问。覆盖范围和能耗取决于安装的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:42" />（无线信号增幅器）数量。
+
+>[!NOTE]GTNH中无线信号增幅器的耗电极高，在使用前请计算发电水平。 具体计算公式为:半径=<Latex formula="16+s^{1.5}" />,耗电=<Latex formula="80+10*s^{1+s/64}" />,此耗电相较于AE原本被GTNH制作组翻了10倍。
 
 一个网络中可以存在任意数量的无线访问点，每个访问点可安装多个增幅器，通过调整配置优化能耗和覆盖范围。
 

@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: 赛特斯石英镐
@@ -34,6 +34,7 @@ item_ids:
 
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzSword" scale="4" />
 </Row>
+>[!NOTE]在GTNH中它们几乎没有任何作用
 
 石英工具在功能上与铁制工具相同，具有相同的伤害、耐久度、挖掘速度等属性。包含[赛特斯石英](fluix_crystal.md)和下界石英两种变体。
 

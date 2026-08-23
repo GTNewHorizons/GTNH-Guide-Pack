@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: 终端
@@ -16,43 +16,21 @@ item_ids:
 - thaumicenergistics:part.base:4632:5
 ---
 
-# 终端系统
+>[!NOTE]本页面内容等待进一步补充优化，更多信息参考[GTNH中文维基](https://gtnh.huijiwiki.com/p/94401)
 
-<GameScene zoom="6" showBackground={false}>
-  <ImportStructure src="../assets/structures/terminals.snbt" />
-  <IsometricCamera yaw="195" pitch="30" />
-</GameScene>
+# 终端
 
-虽然<ItemLink id="appliedenergistics2:tile.BlockInterface" />（ME样板供应器）、<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（ME输入总线）和<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（ME存储总线）等设备是AE2网络与外界交互的主要方式，但终端系统是网络与*玩家*交互的核心界面。各类终端提供不同功能。
+虽然<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />等设备是AE2网络与外界交互的主要方式，但终端系统是网络与玩家交互的核心界面。各类终端提供不同功能。
 
 终端颜色会继承所在[线缆](cables.md)的颜色。
 
-终端属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
-
-## 终端放置技巧
-
-由于终端通常是玩家首次接触的[子部件](../ae2-mechanics/cables-subparts.md)，常见错误是反向安装。以下是正确与错误示例：
-
-<GameScene width="350" height="250" zoom="6" showBackground={false}>
-  <ImportStructure src="../assets/structures/terminal_placement.snbt" />
-  <IsometricCamera yaw="195" pitch="30" />
-
-  <LineAnnotation color="#ff3333" from="2.5 .5 .5" to="4.5 2.5 .5" alwaysOnTop={true} thickness="1"/>
-  <LineAnnotation color="#ff3333" from="2.5 2.5 .5" to="4.5 .5 .5" alwaysOnTop={true} thickness="1"/>
-
-  <LineAnnotation color="#33ff33" from="-.5 2.5 .5" to="1 .5 .5" alwaysOnTop={true} thickness="1"/>
-  <LineAnnotation color="#33ff33" from="1 .5 .5" to="1.5 1 .5" alwaysOnTop={true} thickness="1"/>
-</GameScene>
-
-正确布局不仅方向正确，还能更紧凑地接入网络，同时包含终端和能源接收器。
-
-<a name="terminal-ui"></a>
+终端属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
 # 基础终端
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:380" scale="4" />
 
-基础终端允许查看和操作[网络存储](../ae2-mechanics/import-export-storage.md)，并提交[自动合成](../ae2-mechanics/autocrafting.md)请求。
+基础终端允许查看和操作存储，并提交[自动合成](../ae2-mechanics/autocrafting.md)请求。
 
 ## 界面说明
 
@@ -74,7 +52,7 @@ item_ids:
 
 **右侧插槽**用于放置<ItemLink id="appliedenergistics2:item.ItemViewCell" />（显示元件）
 
-**右上角锤子按钮**显示[自动合成](../ae2-mechanics/autocrafting.md)状态，可查看各[合成CPU](crafting_cpu.md)的工作进度。
+**右上角锤子按钮**显示[自动合成](../ae2-mechanics/autocrafting.md)状态，可查看各[合成CPU](crafting_cpu_multiblock.md)的工作进度。
 
 ## 合成配方
 
@@ -118,7 +96,7 @@ item_ids:
 - <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:52" />（空白样板）输入槽
 - 编码确认按钮（箭头图标）
 - 已编码样板槽（可放入修改）
-- 右侧四类样板切换标签（合成/处理/锻造/切石）
+- 右侧四类样板切换标签（合成/处理）
 
 不同模式功能差异：
 
@@ -136,7 +114,6 @@ item_ids:
 - 主产物与副产物需明确区分
 - 支持从JEI/REI界面直接编码
 
-~~**锻造/切石模式**：界面分别对应锻造台和切石机布局。~~
 
 ## 合成配方
 

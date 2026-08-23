@@ -1,7 +1,7 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
-  title: 监控器
+  title: ME监控器
   icon: appliedenergistics2:item.ItemMultiPart:400
 categories:
 - devices
@@ -12,23 +12,24 @@ item_ids:
 - ae2fc:part_fluid_conversion_monitor
 - appliedenergistics2:item.ItemMultiPart:410
 ---
+<Row>
+  <ItemImage id="appliedenergistics2:item.ItemMultiPart:400" scale="4" />
 
-# ME监控器
+  <ItemImage id="appliedenergistics2:item.ItemMultiPart:410" scale="4" />
 
-<GameScene zoom="8" showBackground={false}>
-<ImportStructure src="../assets/structures/monitors.snbt" />
-<IsometricCamera yaw="195" pitch="30" />
-</GameScene>
+  <ItemImage id="appliedenergistics2:item.ItemMultiPart:420" scale="4" />
+</Row>
 
-监控器可在不打开GUI的情况下展示并操作单一物品或流体类型。
+ME监控器可在不打开GUI的情况下展示并操作单一物品或流体。
 
 监控器颜色继承其所在[线缆](cables.md)的颜色。
 
 若安装在地面或天花板，可使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转方向。
 
-该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
+该设备属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
 # ME存储监控器
+<ItemImage id="appliedenergistics2:item.ItemMultiPart:400" scale="4" />
 
 显示指定物品/流体及其存储数量。可安装于自动化农场等区域作为可视化指示器。
 
@@ -43,9 +44,19 @@ item_ids:
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:400" />
 
+# ME吞吐量监控器
+
+<ItemImage id="appliedenergistics2:item.ItemMultiPart:410" scale="4" />
+
+显示指定物品/流体的吞吐速度。
+
+## 合成配方
+
+<RecipeFor id="appliedenergistics2:item.ItemMultiPart:410" />
+
 # ME交换监控器
 
-在存储监控功能基础上，支持物品存取操作。当配置物品[可自动合成](../ae2-mechanics/autocrafting.md)且库存为零时，提取操作将触发合成界面。
+在存储监控功能基础上，支持物品存取操作。当配置物品可以[自动合成](../ae2-mechanics/autocrafting.md)且库存为零时，提取操作将触发合成界面。
 
 *需要*占用[频道](../ae2-mechanics/channels.md)。
 

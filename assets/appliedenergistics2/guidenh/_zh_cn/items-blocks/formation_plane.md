@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: ME成型面板
@@ -10,25 +10,16 @@ item_ids:
 ---
 
 
- 成型面板
+# 成型面板
 
-<Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" />
-<ItemImage id="ae2fc:part_fluid_formation_plane" scale="4" />
-</Row>
 
-成型面板用于放置方块和丢弃物品。其功能类似仅允许存入的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，当[设备](../ae2-mechanics/devices.md)（如<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:tile.BlockInterface" />）向[网络存储](../ae2-mechanics/import-export-storage.md)存入物品时触发放置/丢弃操作。
 
-<GameScene width="220" height="150" zoom="4" interactive={true}>
-  <ImportStructure src="../assets/structures/formation_plane_demonstration.snbt" />
-  <IsometricCamera yaw="-30" pitch="30" />
-</GameScene>
+成型面板用于放置方块和丢弃物品。使用它一般需要构建一个[子网](../ae2-mechanics/subnetworks.md),当AE子网中的成型面板优先级高于所有存储设备时，进入子网的物品会被成型面板放置或丢弃。**使用时请确保在领地插件中启用假玩家权限**
 
-该[设备](../ae2-mechanics/devices.md)利用了[管道子网](../tricks-example/pipe-subnet.md)中存储总线的机制，若需要丢弃物品/放置方块而非运输物品，可用其替代存储总线。
+成型面板属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
-成型面板属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-**请确保在领地插件中启用假玩家权限**
 
 ## 过滤设置
 
@@ -41,10 +32,6 @@ item_ids:
 ## 优先级
 
 点击GUI右上角的扳手图标可设置优先级。物品进入网络时将优先存入最高优先级的存储设备。
-
-## 设置项
-
-* 可配置为在世界上放置方块或直接丢弃物品
 
 ## 可安装升级
 

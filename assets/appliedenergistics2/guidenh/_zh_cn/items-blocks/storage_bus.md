@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items-blocks-index.md
   title: ME存储总线
@@ -15,18 +15,17 @@ item_ids:
 
 <Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:220" scale="4" />
-<ItemImage id="ae2fc:part_fluid_storage_bus" scale="4" />
+<ItemImage id="ae2fc:part_fluid_storage_bus" scale="4" 
 <ItemImage id="thaumicenergistics:part.base:2" scale="4" />
 </Row>
 
-是否希望保留你的"箱子怪兽"而不是替换成更合理的存储方案？存储总线正是为此而生！
+>*当你第一次获得存储总线时会获得<Color color="#aa00fffc">成就:无限潜能</Color>，这是你第一次瞥见AE自动化的冰山一角*
 
-存储总线能将相邻的容器转变为[网络存储](../ae2-mechanics/import-export-storage.md)。
-它通过以下方式实现：让网络能够查看该容器的内容，并通过推入/拉取物品来响应其他[设备](../ae2-mechanics/devices.md)对网络存储的操作。
+存储总线能将相邻的容器接入AE网络存储中。
 
-基于AE2"通过设备交互实现复合功能"的设计理念，存储总线并非只能用于*存储*。通过[子网络](../ae2-mechanics/subnetworks.md)将存储总线设置为网络中*唯一*的存储设备，可将其作为物品传输的源头或终点（参见["管道子网"示例](../tricks-example/pipe-subnet.md)）。
+基于AE2"通过设备交互实现复合功能"的设计理念，存储总线并非只能用于存储。通过[子网络](../ae2-mechanics/subnetworks.md)将存储总线设置为网络中唯一的存储设备，可将其作为物品传输的源头或终点。
 
-存储总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
+存储总线属于[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
 ## 过滤功能
 
@@ -39,16 +38,13 @@ item_ids:
 ## 优先级
 
 通过点击GUI右上角的扳手图标设置优先级。
-物品进入网络时会优先存入最高优先级的存储。当多个存储优先级相同时：
-- 若某个存储已存在该物品，则优先选择该存储
-- 在相同优先级组中，已设置过滤的存储会被视为"已包含过滤物品"
+物品进入网络时会优先存入最高优先级的存储。当多个存储优先级相同时，若某个存储已存在该物品，则优先选择该存储。
 物品取出时会优先从最低优先级的存储提取。该机制使高优先级存储被优先填充，低优先级存储被优先清空。
 
 ## 设置选项
 
 * 可根据相邻容器当前内容进行分区（过滤）
-* 可设置是否允许网络查看总线无法提取的容器内物品（例如存储总线无法从<ItemLink id="appliedenergistics2:tile.BlockInscriber" />的中部输入槽提取物品）
-* 可设置过滤应用于存入/取出或仅存入
+* 可设置是否允许网络查看总线无法提取的容器内物品
 * 可设置为双向、仅存入或仅取出模式
 
 ## 升级卡支持
@@ -58,7 +54,6 @@ item_ids:
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" />：增加过滤槽数量
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />：支持按耐久度过滤或忽略物品NBT
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />：将过滤模式从白名单切换为黑名单
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />：当相邻容器满时销毁多余物品，防止生产设施堵塞（需谨慎设置过滤）~~
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />：用于对矿典的过滤，最大字节上限为256个字符，2.9.0现在字节上限增大到1024个字符了 __感谢youkoaona吧__
 
 ## 合成配方
