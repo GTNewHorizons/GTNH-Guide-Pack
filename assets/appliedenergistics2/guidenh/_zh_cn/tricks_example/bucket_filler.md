@@ -22,8 +22,8 @@ navigation:
   （1）ME接口：设置为“有红石信号时”锁定合成，装有相应处理样板。
 
   <Row>
-    <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="480" />
-    <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="480" />
+    <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="150" />
+    <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="150" />
   </Row>
   </BoxAnnotation>
 

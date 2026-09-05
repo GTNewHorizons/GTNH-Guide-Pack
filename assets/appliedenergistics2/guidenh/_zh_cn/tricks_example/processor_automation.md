@@ -32,9 +32,9 @@ navigation:
   （1）ME接口：默认配置，装有相关处理样板。
 
   <Row>
-            <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="逻辑样板" />
-            <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="计算样板" />
-            <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="工程样板" />
+    <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="逻辑样板" />
+    <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="计算样板" />
+    <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="工程样板" />
   </Row>
   </BoxAnnotation>
 

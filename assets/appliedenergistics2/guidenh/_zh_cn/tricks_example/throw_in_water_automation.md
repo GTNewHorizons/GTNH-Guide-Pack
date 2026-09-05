@@ -17,9 +17,9 @@ navigation:
   <ImportStructure src="../assets/structures/throw_in_water.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
   <BlockAnnotation pos="1 0 0">
-    （1）ME接口：默认配置，装有相应处理样板。
+  （1）ME接口：默认配置，装有相应处理样板。
   <Row>
-    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="福鲁伊克斯样板" />
+    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="150" title="福鲁伊克斯样板" />
   </Row>
   </BlockAnnotation>
   <BoxAnnotation min="0.7 0 0" max="1 1 1">

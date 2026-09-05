@@ -16,7 +16,7 @@ navigation:
   <BlockAnnotation pos="1 0 0">
   （1）ME接口：默认配置，装有相应样板。同时提供能量。
         
-  <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="480" title="充能器样板" />
+  <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="150" title="充能器样板" />
   </BlockAnnotation>
   <BoxAnnotation min="0.25 1 0.25" max="0.75 1.3 0.75">
   （2）输入总线：默认配置。
@@ -30,7 +30,7 @@ navigation:
 
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）处于默认配置并装有相应<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />。其也同时为<ItemLink id="appliedenergistics2:tile.BlockCharger" />提供[能量](../ae2_mechanics/energy.md)，类似[线缆](../items_blocks/cables.md)。
   
-  <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="480" title="充能器样板" />
+  <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="150" title="充能器样板" />
 
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（2）处于默认配置。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（3）处于默认配置。

@@ -19,7 +19,7 @@ This setup can be combined with [charger automation](charger_automation.md) to p
   <BlockAnnotation pos="1 0 0">
   (1) ME Interface: default configuration, with the relevant processing patterns.
   <Row>
-    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="Fluix Pattern" />
+    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="150" title="Fluix Pattern" />
   </Row>
   </BlockAnnotation>
   <BoxAnnotation min="0.7 0 0" max="1 1 1">

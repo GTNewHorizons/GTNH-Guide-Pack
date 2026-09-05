@@ -39,9 +39,9 @@ inputs the raw resources and outputs the completed processor, and since the pres
   (1) ME Interface: In its default configuration, with the relevant processing patterns.
 
   <Row>
-            <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="Logic Pattern" />
-            <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="Calculation Pattern" />
-            <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="Engineering Pattern" />
+    <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="Logic Pattern" />
+    <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="Calculation Pattern" />
+    <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="Engineering Pattern" />
   </Row>
   </BoxAnnotation>
 

@@ -26,7 +26,7 @@ Here's how you can do it with just 1 channel:
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
   (1) ME Interface: The directional variant, via use of a certus quartz wrench, with the relevant processing patterns.
 
-  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="480" title="Iron Pattern" />
+  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="150" title="Iron Pattern" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">

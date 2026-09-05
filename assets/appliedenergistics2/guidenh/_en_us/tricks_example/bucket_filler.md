@@ -27,8 +27,8 @@ a crafting recipe instead of a bucket.**
   (1) ME Interface: Set to lock crafting "With redstone signal", with the relevant processing patterns.
 
   <Row>
-    <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="480" />
-    <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="480" />
+    <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="150" />
+    <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="150" />
   </Row>
   </BoxAnnotation>
 

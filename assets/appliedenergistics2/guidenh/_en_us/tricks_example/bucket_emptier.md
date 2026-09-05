@@ -23,8 +23,8 @@ vanilla Minecraft has a slightly-less-convenient way, the <ItemLink id="minecraf
   (1) ME Interface: Set to lock crafting "With redstone signal" and blocking mode turned on, with the relevant processing patterns.
 
   <Row>
-    <FloatingImage src="../assets/images/water_empty_pattern.png" displayWidth="480" />
-    <FloatingImage src="../assets/images/lava_empty_pattern.png" displayWidth="480" />
+    <FloatingImage src="../assets/images/water_empty_pattern.png" displayWidth="150" />
+    <FloatingImage src="../assets/images/lava_empty_pattern.png" displayWidth="150" />
   </Row>
   </BoxAnnotation>
 

@@ -21,7 +21,7 @@ navigation:
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
   （1）ME接口：以赛特斯石英扳手改为方向型，装有相应样板。
 
-  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="480" title="铁样板" />
+  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="150" title="铁样板" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">

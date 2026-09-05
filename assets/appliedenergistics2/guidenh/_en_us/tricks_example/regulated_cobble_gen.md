@@ -53,7 +53,7 @@ quartz fiber, cutting power to the planes.
 
   <DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
   Waterlogged stairs keep the water from flowing and turning the lava into obsidian.
-    </DiamondAnnotation>
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
