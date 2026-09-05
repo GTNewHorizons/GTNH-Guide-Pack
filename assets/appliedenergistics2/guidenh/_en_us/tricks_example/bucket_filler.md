@@ -23,40 +23,40 @@ a crafting recipe instead of a bucket.**
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/bucket_filler.snbt" />
 
-<BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
-        (1) ME Interface: Set to lock crafting "With redstone signal", with the relevant processing patterns.
+  <BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
+  (1) ME Interface: Set to lock crafting "With redstone signal", with the relevant processing patterns.
 
-        <Row>
-        <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="480" />
-        <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="480" />
-        </Row>
+  <Row>
+    <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="480" />
+    <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="480" />
+  </Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
-        (2) Interface: In its default configuration.
+  <BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
+  (2) Interface: In its default configuration.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.1 1.1 0.8" max="3.9 1.9 1">
-        (3) Storage Bus #1: In its default configuration.
+  <BoxAnnotation color="#dddddd" min="3.1 1.1 0.8" max="3.9 1.9 1">
+  (3) Storage Bus #1: In its default configuration.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
-        (4) Formation Plane: Filtered to blacklist buckets, using an inverter card.
-        <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
+  (4) Formation Plane: Filtered to blacklist buckets, using an inverter card.
+  <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.2 2 1.2" max="3.8 2.2 1.8">
-        (5) Import Bus: Filtered to blacklist buckets, using an inverter card.
-        <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="3.2 2 1.2" max="3.8 2.2 1.8">
+  (5) Import Bus: Filtered to blacklist buckets, using an inverter card.
+  <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
-        (6) Storage Bus #2: In its default configuration.
+  <BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
+  (6) Storage Bus #2: In its default configuration.
   </BoxAnnotation>
 
-<DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
-        To Main Network
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
+  To Main Network
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="225" pitch="45" />
 </GameScene>

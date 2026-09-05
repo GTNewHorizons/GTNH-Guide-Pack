@@ -13,7 +13,7 @@ item_ids:
 # ME破坏面板
 
 <GameScene zoom="8" showBackground={false} interactive={false}>
-<ImportStructure src="../assets/structures/annihilation_plane.snbt" />
+  <ImportStructure src="../assets/structures/annihilation_plane.snbt" />
 </GameScene>
 
 破坏面板能破坏方块和捡起物品。它会将物品输入[网络存储](../ae2_mechanics/import_export_storage.md)，与<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />工作方式类似。普通情况下，它会主动拾取破坏方块后目标位置附近的物品；对于直接碰撞到面板的物品，则只会拾取位于面板表面碰撞范围内的物品。

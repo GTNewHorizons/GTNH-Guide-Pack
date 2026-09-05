@@ -18,22 +18,22 @@ You can of course make your network craft continuously, by omitting the level em
   <ImportStructure src="../assets/structures/level_emitter_autostocking.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-        (1) Export Bus: Filtered to the desired item. Has a Redstone Card and Crafting Card. Redstone mode set to
-        "Active with signal", Crafting behavior set to "Do not use stocked items".
-        <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" /></Row>
+  (1) Export Bus: Filtered to the desired item. Has a Redstone Card and Crafting Card. Redstone mode set to
+  "Active with signal", Crafting behavior set to "Do not use stocked items".
+  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0.7 1 0" max="1 2 1">
-        (2) Level Emitter: Configured with the desired item and quantity, set to "Emit when levels are below limit".
+  (2) Level Emitter: Configured with the desired item and quantity, set to "Emit when levels are below limit".
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-        (3) Interface: In its default configuration.
+  (3) Interface: In its default configuration.
   </BoxAnnotation>
 
-<DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        To Main Network
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
+  To Main Network
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

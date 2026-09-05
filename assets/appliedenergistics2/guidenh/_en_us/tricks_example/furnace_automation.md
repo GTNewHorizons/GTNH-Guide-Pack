@@ -23,29 +23,29 @@ Here's how you can do it with just 1 channel:
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/furnace_automation.snbt" />
 
-<BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-        (1) ME Interface: The directional variant, via use of a certus quartz wrench, with the relevant processing patterns.
+  <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
+  (1) ME Interface: The directional variant, via use of a certus quartz wrench, with the relevant processing patterns.
 
-        <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="480" title="Iron Pattern" />
+  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="480" title="Iron Pattern" />
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-        (2) Interface: In its default configuration.
+  <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
+  (2) Interface: In its default configuration.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1 1 0" max="1.3 2 1">
-        (3) Storage Bus #1: Filtered to coal.
-        <ItemImage id="minecraft:coal" scale="2" />
+  <BoxAnnotation color="#dddddd" min="1 1 0" max="1.3 2 1">
+  (3) Storage Bus #1: Filtered to coal.
+  <ItemImage id="minecraft:coal" scale="2" />
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="0 2 0" max="1 2.3 1">
-        (4) Storage Bus #2: Filtered to blacklist coal, using an inverter card.
-        <Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="0 2 0" max="1 2.3 1">
+  (4) Storage Bus #2: Filtered to blacklist coal, using an inverter card.
+  <Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
   </BoxAnnotation>
 
-<DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        To Main Network
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
+  To Main Network
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

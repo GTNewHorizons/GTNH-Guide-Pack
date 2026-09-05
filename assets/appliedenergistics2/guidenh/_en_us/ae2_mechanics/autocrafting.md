@@ -182,6 +182,6 @@ crafts to adjacent inventories (and thus into the return slots of the interface)
 is all that is needed to automate crafting patterns.
 
 <GameScene zoom="4" showBackground={false}>
-<ImportStructure src="../assets/structures/assembler_tower.snbt" />
-<IsometricCamera yaw="195" pitch="30" />
+  <ImportStructure src="../assets/structures/assembler_tower.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

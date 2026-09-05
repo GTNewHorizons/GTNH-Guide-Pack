@@ -16,39 +16,39 @@ navigation:
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/bucket_emptier.snbt" />
 
-<BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
-        （1）ME接口：设置为“有红石信号时”锁定合成，阻挡模式启用，装有相应处理样板。
+  <BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
+  （1）ME接口：设置为“有红石信号时”锁定合成，阻挡模式启用，装有相应处理样板。
 
-        <Row>
-        <FloatingImage src="../assets/images/water_empty_pattern.png" displayWidth="480" />
-        <FloatingImage src="../assets/images/lava_empty_pattern.png" displayWidth="480" />
-        </Row>
+  <Row>
+    <FloatingImage src="../assets/images/water_empty_pattern.png" displayWidth="480" />
+    <FloatingImage src="../assets/images/lava_empty_pattern.png" displayWidth="480" />
+  </Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
-        （2）接口：默认配置。
+  <BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
+  （2）接口：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.1 2 1.1" max="3.9 2.2 1.9">
-        （3）存储总线#1：默认配置。
+  <BoxAnnotation color="#dddddd" min="3.1 2 1.1" max="3.9 2.2 1.9">
+  （3）存储总线#1：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
-        （4）破坏面板：无可用GUI。
+  <BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
+  （4）破坏面板：无可用GUI。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.2 1.2 0.8" max="3.8 1.8 1">
-        （5）输入总线：过滤铁桶。
-        <ItemImage id="minecraft:bucket" scale="2" />
+  <BoxAnnotation color="#dddddd" min="3.2 1.2 0.8" max="3.8 1.8 1">
+  （5）输入总线：过滤铁桶。
+  <ItemImage id="minecraft:bucket" scale="2" />
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
-        （6）存储总线#2：默认配置。
+  <BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
+  （6）存储总线#2：默认配置。
   </BoxAnnotation>
 
-<DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
+  至主网络
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="225" pitch="45" />
 </GameScene>

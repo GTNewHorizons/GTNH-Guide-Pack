@@ -26,33 +26,33 @@ quartz fiber, cutting power to the planes.
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/regulated_cobble_gen.snbt" />
 
-<BoxAnnotation color="#dddddd" min="3 2 2" max="7 2.3 3">
-        (1) Annihilation Planes: No GUI to configure, but can be enchanted with Efficiency and Unbreaking to reduce power draw.
+  <BoxAnnotation color="#dddddd" min="3 2 2" max="7 2.3 3">
+  (1) Annihilation Planes: No GUI to configure, but can be enchanted with Efficiency and Unbreaking to reduce power draw.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 2" max="2.3 3 3">
-        (2) Storage Bus: In its default configuration.
+  (2) Storage Bus: In its default configuration.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 2.3 2" max="2.7 2.7 2.3">
-        (3) Toggle Bus: Very important that the toggle bus is on the
-        subnetwork, and not the main network.
+  (3) Toggle Bus: Very important that the toggle bus is on the
+  subnetwork, and not the main network.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
-        (4) Level Emitter: Configured with cobblestone and the desired quantity, set to "Emit when levels are below limit".
+  (4) Level Emitter: Configured with cobblestone and the desired quantity, set to "Emit when levels are below limit".
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 3" max="2 3 2">
-        (5) Interface: In its default configuration.
+  (5) Interface: In its default configuration.
   </BoxAnnotation>
 
-<DiamondAnnotation pos="0 2.5 1.5" color="#00ff00">
-        To Main Network
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="0 2.5 1.5" color="#00ff00">
+  To Main Network
+  </DiamondAnnotation>
 
-<DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
-        Waterlogged stairs keep the water from flowing and turning the lava into obsidian.
+  <DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
+  Waterlogged stairs keep the water from flowing and turning the lava into obsidian.
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />

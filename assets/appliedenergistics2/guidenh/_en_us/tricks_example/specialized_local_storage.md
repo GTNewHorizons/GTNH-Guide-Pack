@@ -16,35 +16,35 @@ This is useful for local storage at some farm, so that the items will not overfl
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/local_storage.snbt" />
 
-<BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
-        (1) Some method of importing items (in this case an interface)
+  <BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
+  (1) Some method of importing items (in this case an interface)
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
-        (2) Drive: Has some cells in it. The cells should be filtered to whatever the farm outputs.
-        The cells can have Equal Distribution Cards and Overflow Destruction Cards.
-        <Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
+  (2) Drive: Has some cells in it. The cells should be filtered to whatever the farm outputs.
+  The cells can have Equal Distribution Cards and Overflow Destruction Cards.
+  <Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
-        (3) Crafting Terminal: This can see the contents of the Drive on the subnet, but not the contents of your main network's storage.
+  <BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
+  (3) Crafting Terminal: This can see the contents of the Drive on the subnet, but not the contents of your main network's storage.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2 0 0" max="2.3 1 1">
-        (4) Interface #2: In its default configuration.
+  <BoxAnnotation color="#dddddd" min="2 0 0" max="2.3 1 1">
+  (4) Interface #2: In its default configuration.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1.7 0 0" max="2 1 1">
-        (5) Storage Bus: Has priority set higher than the main storage, can be filtered to whatever the farm outputs.
+  <BoxAnnotation color="#dddddd" min="1.7 0 0" max="2 1 1">
+  (5) Storage Bus: Has priority set higher than the main storage, can be filtered to whatever the farm outputs.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 0.3">
-        Crafting Terminal: This can see both the contents of the main network's storage *and* the subnetwork.
+  <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 0.3">
+  Crafting Terminal: This can see both the contents of the main network's storage *and* the subnetwork.
   </BoxAnnotation>
 
-<DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
-        To Main Network
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
+  To Main Network
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

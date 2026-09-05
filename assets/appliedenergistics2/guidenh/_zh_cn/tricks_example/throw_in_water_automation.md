@@ -14,29 +14,29 @@ navigation:
 此设施可与[充能器自动化](charger_automation.md)配合使用以生产<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />。
 
 <GameScene offsetX="-85" offsetY="-70">
-    <ImportStructure src="../assets/structures/throw_in_water.snbt" />
-	<IsometricCamera yaw="180" pitch="0" />
-    <BlockAnnotation pos="1 0 0">
-                （1）ME接口：默认配置，装有相应处理样板。
-				<Row>
-                <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="福鲁伊克斯样板" />
-				</Row>
-    </BlockAnnotation>
-    <BoxAnnotation min="0.7 0 0" max="1 1 1">
-        （2）接口：默认配置。
-    </BoxAnnotation>
-    <BoxAnnotation min="0 0.7 0" max="1 1 1">
-        （3）成型面板：设置为以物品形式掉落。
-    </BoxAnnotation>
-    <BoxAnnotation min="0.027999878 2 -0.0032958984" max="1 2.3 1">
-        （4）破坏面板：无可用GUI。
-    </BoxAnnotation>
-    <BoxAnnotation min="1 1 0" max="2 1.3 1">
-        （5）存储总线：过滤样板输出。
-    </BoxAnnotation>
-    <DiamondAnnotation pos="2.5 0.5 0.5">
-        至主网络或充能器自动化设施
-    </DiamondAnnotation>
+  <ImportStructure src="../assets/structures/throw_in_water.snbt" />
+  <IsometricCamera yaw="180" pitch="0" />
+  <BlockAnnotation pos="1 0 0">
+    （1）ME接口：默认配置，装有相应处理样板。
+  <Row>
+    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="福鲁伊克斯样板" />
+  </Row>
+  </BlockAnnotation>
+  <BoxAnnotation min="0.7 0 0" max="1 1 1">
+    （2）接口：默认配置。
+  </BoxAnnotation>
+  <BoxAnnotation min="0 0.7 0" max="1 1 1">
+  （3）成型面板：设置为以物品形式掉落。
+  </BoxAnnotation>
+  <BoxAnnotation min="0.027999878 2 -0.0032958984" max="1 2.3 1">
+  （4）破坏面板：无可用GUI。
+  </BoxAnnotation>
+  <BoxAnnotation min="1 1 0" max="2 1.3 1">
+  （5）存储总线：过滤样板输出。
+  </BoxAnnotation>
+  <DiamondAnnotation pos="2.5 0.5 0.5">
+  至主网络或充能器自动化设施
+  </DiamondAnnotation>
 </GameScene>
 
 ## 配置与样板

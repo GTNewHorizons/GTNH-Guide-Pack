@@ -67,21 +67,21 @@ categories:
 ME接口和ME接口有一特殊交互效果⸺[子网络](../ae2_mechanics/subnetworks.md)：如果接口未经修改（请求槽内无内容），则ME接口会跳过这个接口，直接输出到该子网络的[存储模块](../ae2_mechanics/import_export_storage.md)，而非输出到接口的存储槽；更重要的是，只要对应的存储模块没有足够的空间，下一批物品就不会输出。
 
 <GameScene width="320" height="200" zoom="4" showBackground={false}>
-<ImportStructure src="../assets/structures/interface_storages.snbt" />
+  <ImportStructure src="../assets/structures/interface_storages.snbt" />
 
-<BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
+  <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
     接口（必须为扁平版）
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
+  <BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
     存储总线阵列
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
+  <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
     目标机器（可多台或多面输入）
   </BoxAnnotation>
 
-<IsometricCamera yaw="185" pitch="30" />
+  <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
 ## 变种

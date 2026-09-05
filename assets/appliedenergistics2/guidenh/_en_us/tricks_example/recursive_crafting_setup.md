@@ -18,52 +18,52 @@ The standard level emitter can then be used to start a small setup that crafts c
 ***
 
 <GameScene zoom="6" width="350" interactive={true}>
-	<ImportStructure src="../assets/structures/recursive_recipe_setup.snbt" />
-    <IsometricCamera yaw="15" pitch="30" />
-	<DiamondAnnotation pos="3.5 0.5 1.5" color="#00ff00">
-        To the main network
-    </DiamondAnnotation>
-    <BlockAnnotation pos="2 0 1">
-	(1) Interface: configure it to store the extra materials required: magma cream, blaze powder, and a Small Pile of Nether Star Dust.
-	<Row>
-		<ItemImage id="minecraft:magma_cream" scale="2" />
-		<ItemImage id="minecraft:blaze_powder" scale="2" />
-		<ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
-	</Row>
-    </BlockAnnotation>
-    <BlockAnnotation pos="0 0 0">
-	(5) Molecular Assembler: contains the pattern for duplicating <ItemLink id="witchery:ingredient:130" />.
-		<Row><RecipeFor id="witchery:ingredient:130" /></Row>
-		One ingredient must be placed in it manually when setting it up.
-    </BlockAnnotation>
-    <BoxAnnotation min="1.3 1 1.3" max="1.7 1.3 1.7">
-	(2) Standard level emitter: configure it for “<ItemLink id="witchery:ingredient:130" />” and set it to “emit a redstone signal to craft the item”.
-	<Row>
-		<ItemImage id="witchery:ingredient:130" scale="2" /> 
-		<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
-	</Row>
-    </BoxAnnotation>
-    <BoxAnnotation min="1.7 0 1" max="2 1 2">
-	(3) Import bus #1: filter it to the items stored in the interface. Install a redstone card. Set the redstone mode to “active with a redstone signal”.
-	<Row>
-		<ItemImage id="minecraft:magma_cream" scale="2" />
-		<ItemImage id="minecraft:blaze_powder" scale="2" />
-		<ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
-		<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
-	</Row>
-    </BoxAnnotation>
-    <BoxAnnotation min="1 0 0" max="1.3 1 1">
-	(6) Import bus #2: default configuration.
-    </BoxAnnotation>
-    <BoxAnnotation min="0 1 0" max="1 1.3 1">
-	(4) Storage bus #1: priority higher than the other storage bus. This is very important.
-    </BoxAnnotation>
-    <BoxAnnotation min="2 0 0.7" max="3 1 1">
-	(7) Storage bus #2: filter “<ItemLink id="witchery:ingredient:130" />”. Its priority is lower than the other storage bus.
-	<Row>
-		<ItemImage id="witchery:ingredient:130" scale="2" /> 
-	</Row>
-    </BoxAnnotation>
+  <ImportStructure src="../assets/structures/recursive_recipe_setup.snbt" />
+  <IsometricCamera yaw="15" pitch="30" />
+  <DiamondAnnotation pos="3.5 0.5 1.5" color="#00ff00">
+    To the main network
+  </DiamondAnnotation>
+  <BlockAnnotation pos="2 0 1">
+    (1) Interface: configure it to store the extra materials required: magma cream, blaze powder, and a Small Pile of Nether Star Dust.
+    <Row>
+      <ItemImage id="minecraft:magma_cream" scale="2" />
+      <ItemImage id="minecraft:blaze_powder" scale="2" />
+      <ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
+    </Row>
+  </BlockAnnotation>
+  <BlockAnnotation pos="0 0 0">
+    (5) Molecular Assembler: contains the pattern for duplicating <ItemLink id="witchery:ingredient:130" />.
+    <Row><RecipeFor id="witchery:ingredient:130" /></Row>
+    One ingredient must be placed in it manually when setting it up.
+  </BlockAnnotation>
+  <BoxAnnotation min="1.3 1 1.3" max="1.7 1.3 1.7">
+    (2) Standard level emitter: configure it for “<ItemLink id="witchery:ingredient:130" />” and set it to “emit a redstone signal to craft the item”.
+    <Row>
+      <ItemImage id="witchery:ingredient:130" scale="2" />
+      <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
+    </Row>
+  </BoxAnnotation>
+  <BoxAnnotation min="1.7 0 1" max="2 1 2">
+    (3) Import bus #1: filter it to the items stored in the interface. Install a redstone card. Set the redstone mode to “active with a redstone signal”.
+    <Row>
+      <ItemImage id="minecraft:magma_cream" scale="2" />
+      <ItemImage id="minecraft:blaze_powder" scale="2" />
+      <ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
+      <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
+    </Row>
+  </BoxAnnotation>
+  <BoxAnnotation min="1 0 0" max="1.3 1 1">
+    (6) Import bus #2: default configuration.
+  </BoxAnnotation>
+  <BoxAnnotation min="0 1 0" max="1 1.3 1">
+    (4) Storage bus #1: priority higher than the other storage bus. This is very important.
+  </BoxAnnotation>
+  <BoxAnnotation min="2 0 0.7" max="3 1 1">
+    (7) Storage bus #2: filter “<ItemLink id="witchery:ingredient:130" />”. Its priority is lower than the other storage bus.
+    <Row>
+      <ItemImage id="witchery:ingredient:130" scale="2" />
+    </Row>
+  </BoxAnnotation>
 </GameScene>
 
 ## Configuration

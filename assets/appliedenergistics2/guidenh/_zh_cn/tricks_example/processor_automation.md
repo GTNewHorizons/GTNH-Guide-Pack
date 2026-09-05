@@ -29,113 +29,113 @@ navigation:
   <ImportStructure src="../assets/structures/processor_automation.snbt" />
 
   <BoxAnnotation color="#dddddd" min="5 1 0" max="6 2 1">
-        （1）ME接口：默认配置，装有相关处理样板。
+  （1）ME接口：默认配置，装有相关处理样板。
 
-        <Row>
+  <Row>
             <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="逻辑样板" />
             <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="计算样板" />
             <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="工程样板" />
-        </Row>
+  </Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4.7 2 0" max="5 3 1">
-        （2）存储总线#1：默认配置。
+  （2）存储总线#1：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="4.3 2 1">
-        （3）输出总线#1：过滤硅，装有2张加速卡。
+  （3）输出总线#1：过滤硅，装有2张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:5" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1">
-        （4）输出总线#2：过滤金锭，装有2张加速卡。
+  （4）输出总线#2：过滤金锭，装有2张加速卡。
   <Row><ItemImage id="minecraft:gold_ingot" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 5 0" max="4.3 4 1">
-        （5）输出总线#3：过滤赛特斯石英水晶，装有2张加速卡。
+  （5）输出总线#3：过滤赛特斯石英水晶，装有2张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:0" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 6 0" max="4.3 5 1">
-        （6）输出总线#4：过滤钻石，装有2张加速卡。
+  （6）输出总线#4：过滤钻石，装有2张加速卡。
   <Row><ItemImage id="minecraft:diamond" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 0" max="2 2 1">
-        （7）输出总线#5：过滤红石粉，装有2张加速卡。
+  （7）输出总线#5：过滤红石粉，装有2张加速卡。
   <Row><ItemImage id="minecraft:redstone" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="3 2 1">
-        （8）压印器#1：默认配置。装有硅压印模板和4张加速卡。
+  （8）压印器#1：默认配置。装有硅压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 3 0" max="3 4 1">
-        （9）压印器#2：默认配置。装有逻辑压印模板和4张加速卡。
+  （9）压印器#2：默认配置。装有逻辑压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="3 5 1">
-        （10）压印器#3：默认配置。装有计算压印模板和4张加速卡。
+  （10）压印器#3：默认配置。装有计算压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 5 0" max="3 6 1">
-        （11）压印器#4：默认配置。装有工程压印模板和4张加速卡。
+  （11）压印器#4：默认配置。装有工程压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 0" max="1 3 1">
-        （12）压印器#5：默认配置。装有4张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  （12）压印器#5：默认配置。装有4张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 2 0" max="3 1 1">
-        （13）输入总线#1：默认配置，装有2张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  （13）输入总线#1：默认配置，装有2张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 4 0" max="3 3 1">
-        （14）输入总线#2：默认配置，装有2张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  （14）输入总线#2：默认配置，装有2张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 5 0" max="3 4 1">
-        （15）输入总线#3：默认配置，装有2张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  （15）输入总线#3：默认配置，装有2张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 6 0" max="3 5 1">
-        （16）输入总线#4：默认配置，装有2张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  （16）输入总线#4：默认配置，装有2张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 3 0" max="1 3.3 1">
-        （17）存储总线#2：默认配置。
+  （17）存储总线#2：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 1.7 0" max="1 2 1">
-        （18）存储总线#3：默认配置。
+  （18）存储总线#3：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 0" max="0.7 3 1">
-        （19）输入总线#5：默认配置，装有2张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  （19）输入总线#5：默认配置，装有2张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="5 0.7 0" max="6 1 1">
-        （20）存储总线#4：默认配置。
+  （20）存储总线#4：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.3 2.7 0.3" max="3.7 3 0.7">
-        石英纤维能为全部3台压印器供能，压印器与线缆功能类似，能够传输能量。
+  <BoxAnnotation color="#dddddd" min="3.3 2.7 0.3" max="3.7 3 0.7">
+  石英纤维能为全部3台压印器供能，压印器与线缆功能类似，能够传输能量。
   </BoxAnnotation>
 
-<DiamondAnnotation pos="7 1.5 0.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="7 1.5 0.5" color="#00ff00">
+  至主网络
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="185" pitch="5" />
 </GameScene>
@@ -151,21 +151,21 @@ navigation:
 
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（2、17、18、20）处于默认配置。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />（3-7）设置为过滤相应材料。均装有2张<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />。
-    <Row>
-      <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:5" scale="2" />
-      <ItemImage id="minecraft:gold_ingot" scale="2" />
-      <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:0" scale="2" />
-      <ItemImage id="minecraft:diamond" scale="2" />
-      <ItemImage id="minecraft:redstone" scale="2" />
-    </Row>
+<Row>
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:5" scale="2" />
+  <ItemImage id="minecraft:gold_ingot" scale="2" />
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:0" scale="2" />
+  <ItemImage id="minecraft:diamond" scale="2" />
+  <ItemImage id="minecraft:redstone" scale="2" />
+</Row>
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（13-16、19）处于默认配置。均装有2张<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />。
 * <ItemLink id="appliedenergistics2:tile.BlockInscriber" />处于默认配置。装有相应[压印模板](../items_blocks/presses.md)和4张加速卡。
-   <Row>
-     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" />
-     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" />
-     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="2" />
-     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" />
-   </Row>
+<Row>
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" />
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" />
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="2" />
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" />
+</Row>
 
 ## 工作原理
 

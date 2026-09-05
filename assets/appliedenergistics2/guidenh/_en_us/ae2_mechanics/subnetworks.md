@@ -8,36 +8,36 @@ navigation:
 # Subnetworks
 
 <GameScene width="600" height="400" zoom={4} rotateX={25} rotateY={-45}>
-    <ImportStructure src="../assets/structures/subnet_demonstration.snbt" />
+  <ImportStructure src="../assets/structures/subnet_demonstration.snbt" />
 
-    <DiamondAnnotation pos="1.5 2.5 9.5" color="#00ff00">
-        Transports the assembler outputs into the barrel.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="1.5 2.5 9.5" color="#00ff00">
+  Transports the assembler outputs into the barrel.
+  </DiamondAnnotation>
 
-    <DiamondAnnotation pos="1.5 2.5 8.5" color="#00ff00">
-        Transports the top Super Tank's fluids into the bottom one.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="1.5 2.5 8.5" color="#00ff00">
+  Transports the top Super Tank's fluids into the bottom one.
+  </DiamondAnnotation>
 
-    <DiamondAnnotation pos="1.5 2.5 7.5" color="#00ff00">
-        Redstone P2P subnet, transmitting the redstone block \
-        power into the redstone lamp.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="1.5 2.5 7.5" color="#00ff00">
+  Redstone P2P subnet, transmitting the redstone block \
+  power into the redstone lamp.
+  </DiamondAnnotation>
 
-    <DiamondAnnotation pos="1.5 2.5 6.5" color="#00ff00">
-        Transports the barrel's contents into an item void cell.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="1.5 2.5 6.5" color="#00ff00">
+  Transports the barrel's contents into an item void cell.
+  </DiamondAnnotation>
 
-    <DiamondAnnotation pos="1.5 2.5 5.5" color="#00ff00">
-        Subnet using the Interface-Storage Bus interaction to \
-        act as a local sub-storage that the main network can \
-        access.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="1.5 2.5 5.5" color="#00ff00">
+  Subnet using the Interface-Storage Bus interaction to \
+  act as a local sub-storage that the main network can \
+  access.
+  </DiamondAnnotation>
 
-    <DiamondAnnotation pos="2.5 0.5 3.5" color="#00ff00">
-        EBF autocrafting subnet that transports a pattern's contents \
-        into the EBF's inputs, then outputting back to the main network \
-        from the same interface that the patterns came through.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="2.5 0.5 3.5" color="#00ff00">
+  EBF autocrafting subnet that transports a pattern's contents \
+  into the EBF's inputs, then outputting back to the main network \
+  from the same interface that the patterns came through.
+  </DiamondAnnotation>
 </GameScene>
 
 "Subnetwork" is a rather loosely-defined term, but one might say that a subnetwork is any [network](./me_network_connections.md) that supports your

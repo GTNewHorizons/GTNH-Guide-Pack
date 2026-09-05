@@ -12,25 +12,25 @@ navigation:
 自动化<ItemLink id="appliedenergistics2:tile.BlockCharger" />相对简单。<ItemLink id="appliedenergistics2:tile.BlockInterface" />将材料送入充能器，再由[管道子网络](pipe_subnet.md)或其他物品管道将产物送回ME接口即可。
 
 <GameScene>
-    <ImportStructure src="../assets/structures/charger_automation.snbt" />
-    <BlockAnnotation pos="1 0 0">
-                （1）ME接口：默认配置，装有相应样板。同时提供能量。
+  <ImportStructure src="../assets/structures/charger_automation.snbt" />
+  <BlockAnnotation pos="1 0 0">
+  （1）ME接口：默认配置，装有相应样板。同时提供能量。
         
-                <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="480" title="充能器样板" />
-    </BlockAnnotation>
-    <BoxAnnotation min="0.25 1 0.25" max="0.75 1.3 0.75">
-        （2）输入总线：默认配置。
-    </BoxAnnotation>
-    <BoxAnnotation min="1.15 1 0.15" max="1.85 1.25 0.85">
-        （3）存储总线：默认配置。
-            </BoxAnnotation>
+  <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="480" title="充能器样板" />
+  </BlockAnnotation>
+  <BoxAnnotation min="0.25 1 0.25" max="0.75 1.3 0.75">
+  （2）输入总线：默认配置。
+  </BoxAnnotation>
+  <BoxAnnotation min="1.15 1 0.15" max="1.85 1.25 0.85">
+  （3）存储总线：默认配置。
+  </BoxAnnotation>
 </GameScene>
 
 ## 配置
 
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）处于默认配置并装有相应<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />。其也同时为<ItemLink id="appliedenergistics2:tile.BlockCharger" />提供[能量](../ae2_mechanics/energy.md)，类似[线缆](../items_blocks/cables.md)。
   
-    <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="480" title="充能器样板" />
+  <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="480" title="充能器样板" />
 
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（2）处于默认配置。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（3）处于默认配置。

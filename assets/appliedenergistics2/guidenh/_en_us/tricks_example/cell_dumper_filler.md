@@ -14,27 +14,27 @@ The answer is use of an <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> a
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/cell_dumper_filler.snbt" />
 
-<BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
-        (1) IO Port: Can be set to either "Transfer data to Network" or "Transfer data to Storage Cell" using the arrow button
-        in the middle of the GUI. Has 3 Acceleration Cards.
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
+  (1) IO Port: Can be set to either "Transfer data to Network" or "Transfer data to Storage Cell" using the arrow button
+  in the middle of the GUI. Has 3 Acceleration Cards.
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
-        (2) Storage Bus: In its default configuration.
+  <BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
+  (2) Storage Bus: In its default configuration.
   </BoxAnnotation>
 
-<BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
-        Place whatever you want to fill or empty here.
+  <BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
+  Place whatever you want to fill or empty here.
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2 0.35 0.35" max="2.3 0.65 0.65">
-        Quartz Fiber: Only needed if the energy source is another network.
+  <BoxAnnotation color="#dddddd" min="2 0.35 0.35" max="2.3 0.65 0.65">
+  Quartz Fiber: Only needed if the energy source is another network.
   </BoxAnnotation>
 
-<DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
-        To some energy source, like another network, or an energy acceptor.
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
+  To some energy source, like another network, or an energy acceptor.
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

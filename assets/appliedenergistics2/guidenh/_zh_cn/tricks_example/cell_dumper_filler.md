@@ -14,26 +14,26 @@ navigation:
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/cell_dumper_filler.snbt" />
 
-<BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
-        （1）IO端口：可使用GUI中间的箭头按钮将其设置为“从元件导入网络”或“传输数据到存储元件中”。装有3张加速卡。
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
+  <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
+  （1）IO端口：可使用GUI中间的箭头按钮将其设置为“从元件导入网络”或“传输数据到存储元件中”。装有3张加速卡。
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
-        （2）存储总线：默认配置。
+  <BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
+  （2）存储总线：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
-        在这里放置用于装填或清空的事物。
+  <BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
+  在这里放置用于装填或清空的事物。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2 0.35 0.35" max="2.3 0.65 0.65">
-        石英纤维：仅在能量供给来自另一网络时必需。
+  <BoxAnnotation color="#dddddd" min="2 0.35 0.35" max="2.3 0.65 0.65">
+  石英纤维：仅在能量供给来自另一网络时必需。
   </BoxAnnotation>
 
-<DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
-        至能量源，例如另一网络和能源接收器。
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
+  至能量源，例如另一网络和能源接收器。
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

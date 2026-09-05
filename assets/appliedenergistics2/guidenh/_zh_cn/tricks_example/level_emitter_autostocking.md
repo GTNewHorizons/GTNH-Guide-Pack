@@ -17,21 +17,21 @@ navigation:
   <ImportStructure src="../assets/structures/level_emitter_autostocking.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-        （1）输出总线：设置为过滤所需物品。装有红石卡和合成卡。红石模式设置为“有红石信号时激活”，合成行为设置为“不使用已存储物品”。
-        <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" /></Row>
+  （1）输出总线：设置为过滤所需物品。装有红石卡和合成卡。红石模式设置为“有红石信号时激活”，合成行为设置为“不使用已存储物品”。
+  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0.7 1 0" max="1 2 1">
-        （2）标准发信器：配置为所需数量个所需物品，设置为“当数量小于设定数值时发出红石信号”。
+  （2）标准发信器：配置为所需数量个所需物品，设置为“当数量小于设定数值时发出红石信号”。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-        （3）接口：默认配置。
+  （3）接口：默认配置。
   </BoxAnnotation>
 
-<DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
+  至主网络
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

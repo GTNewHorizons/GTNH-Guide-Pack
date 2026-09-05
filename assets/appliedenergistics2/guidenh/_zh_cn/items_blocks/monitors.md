@@ -16,8 +16,8 @@ item_ids:
 # ME监控器
 
 <GameScene zoom="8" showBackground={false}>
-<ImportStructure src="../assets/structures/monitors.snbt" />
-<IsometricCamera yaw="195" pitch="30" />
+  <ImportStructure src="../assets/structures/monitors.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 监控器可在不打开GUI的情况下展示单种物品或流体，并允许与其交互。

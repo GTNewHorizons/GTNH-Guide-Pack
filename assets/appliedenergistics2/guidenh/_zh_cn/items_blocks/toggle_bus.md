@@ -13,8 +13,8 @@ item_ids:
 # 触发总线
 
 <GameScene zoom="8" showBackground={false}>
-<ImportStructure src="../assets/structures/toggle_bus.snbt" />
-<IsometricCamera yaw="195" pitch="30" />
+  <ImportStructure src="../assets/structures/toggle_bus.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 触发总线是与<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />和其他线缆功能类似的总线，区别在于其连接状态会受红石信号调控。可用其连通或切断[ME网络](../ae2_mechanics/me_network_connections.md)的连接。

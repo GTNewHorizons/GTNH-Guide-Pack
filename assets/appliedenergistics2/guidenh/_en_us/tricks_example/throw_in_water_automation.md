@@ -14,29 +14,29 @@ Some recipes require an item to be thrown into water. The same design can handle
 This setup can be combined with [charger automation](charger_automation.md) to produce <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />.
 
 <GameScene offsetX="-85" offsetY="-70">
-    <ImportStructure src="../assets/structures/throw_in_water.snbt" />
-    <IsometricCamera yaw="180" pitch="0" />
-    <BlockAnnotation pos="1 0 0">
-        (1) ME Interface: default configuration, with the relevant processing patterns.
-        <Row>
-        <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="Fluix Pattern" />
-        </Row>
-    </BlockAnnotation>
-    <BoxAnnotation min="0.7 0 0" max="1 1 1">
-        (2) Interface: default configuration.
-    </BoxAnnotation>
-    <BoxAnnotation min="0 0.7 0" max="1 1 1">
-        (3) Formation Plane: set to drop items.
-    </BoxAnnotation>
-    <BoxAnnotation min="0.027999878 2 -0.0032958984" max="1 2.3 1">
-        (4) Annihilation Plane: no configurable GUI.
-    </BoxAnnotation>
-    <BoxAnnotation min="1 1 0" max="2 1.3 1">
-        (5) Storage Bus: filtered to the pattern outputs.
-    </BoxAnnotation>
-    <DiamondAnnotation pos="2.5 0.5 0.5">
-        To the main network or charger automation
-    </DiamondAnnotation>
+  <ImportStructure src="../assets/structures/throw_in_water.snbt" />
+  <IsometricCamera yaw="180" pitch="0" />
+  <BlockAnnotation pos="1 0 0">
+  (1) ME Interface: default configuration, with the relevant processing patterns.
+  <Row>
+    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="Fluix Pattern" />
+  </Row>
+  </BlockAnnotation>
+  <BoxAnnotation min="0.7 0 0" max="1 1 1">
+  (2) Interface: default configuration.
+  </BoxAnnotation>
+  <BoxAnnotation min="0 0.7 0" max="1 1 1">
+  (3) Formation Plane: set to drop items.
+  </BoxAnnotation>
+  <BoxAnnotation min="0.027999878 2 -0.0032958984" max="1 2.3 1">
+  (4) Annihilation Plane: no configurable GUI.
+  </BoxAnnotation>
+  <BoxAnnotation min="1 1 0" max="2 1.3 1">
+  (5) Storage Bus: filtered to the pattern outputs.
+  </BoxAnnotation>
+  <DiamondAnnotation pos="2.5 0.5 0.5">
+  To the main network or charger automation
+  </DiamondAnnotation>
 </GameScene>
 
 ## Configuration And Patterns

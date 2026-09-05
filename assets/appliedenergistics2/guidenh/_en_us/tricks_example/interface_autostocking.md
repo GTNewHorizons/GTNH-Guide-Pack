@@ -19,18 +19,18 @@ to use all 8 [channels](../ae2_mechanics/channels.md) in a regular [cable](../it
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/interface_autostocking.snbt" />
 
-<BoxAnnotation color="#dddddd" min="0 0 0" max="2 1 1">
-        (1) Interfaces: Set to keep the desired items in themselves. They have Crafting Cards.
-        <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
+  <BoxAnnotation color="#dddddd" min="0 0 0" max="2 1 1">
+  (1) Interfaces: Set to keep the desired items in themselves. They have Crafting Cards.
+  <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="0 1 0" max="2 1.3 1">
-        (2) Storage Busses: "Input/Output Mode" set to "Extract Only".
+  <BoxAnnotation color="#dddddd" min="0 1 0" max="2 1.3 1">
+  (2) Storage Busses: "Input/Output Mode" set to "Extract Only".
   </BoxAnnotation>
 
-<DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        To Main Network
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
+  To Main Network
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

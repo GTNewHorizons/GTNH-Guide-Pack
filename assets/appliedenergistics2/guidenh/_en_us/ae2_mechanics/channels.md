@@ -67,7 +67,7 @@ Channels are a resource consumed by devices in an AE2 [ME Network](me_network_co
   thickness="1"
   alwaysOnTop={true}>
   </LineAnnotation>
- <LineAnnotation
+  <LineAnnotation
   points="0.5 0.55 4.4;0.5 0.55 4"
   color="#ff0000"
   thickness="1"

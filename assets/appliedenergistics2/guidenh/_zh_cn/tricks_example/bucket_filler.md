@@ -18,40 +18,40 @@ navigation:
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/bucket_filler.snbt" />
 
-<BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
-        （1）ME接口：设置为“有红石信号时”锁定合成，装有相应处理样板。
+  <BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
+  （1）ME接口：设置为“有红石信号时”锁定合成，装有相应处理样板。
 
-        <Row>
-        <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="480" />
-        <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="480" />
-        </Row>
+  <Row>
+    <FloatingImage src="../assets/images/water_fill_pattern.png" displayWidth="480" />
+    <FloatingImage src="../assets/images/lava_fill_pattern.png" displayWidth="480" />
+  </Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
-        （2）接口：默认配置。
+  <BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
+  （2）接口：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.1 1.1 0.8" max="3.9 1.9 1">
-        （3）存储总线#1：默认配置。
+  <BoxAnnotation color="#dddddd" min="3.1 1.1 0.8" max="3.9 1.9 1">
+  （3）存储总线#1：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
-        （4）成型面板：通过反相卡设置为排除铁桶。
-        <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
+  （4）成型面板：通过反相卡设置为排除铁桶。
+  <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.2 2 1.2" max="3.8 2.2 1.8">
-        （5）输入总线：通过反相卡设置为排除铁桶。
-        <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="3.2 2 1.2" max="3.8 2.2 1.8">
+  （5）输入总线：通过反相卡设置为排除铁桶。
+  <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
-        （6）存储总线#2：默认配置。
+  <BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
+  （6）存储总线#2：默认配置。
   </BoxAnnotation>
 
-<DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
+  至主网络
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="225" pitch="45" />
 </GameScene>

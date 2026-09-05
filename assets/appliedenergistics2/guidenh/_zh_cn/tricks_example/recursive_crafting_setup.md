@@ -18,52 +18,52 @@ navigation:
 ***
 
 <GameScene zoom="6" width="350" interactive={true}>
-	<ImportStructure src="../assets/structures/recursive_recipe_setup.snbt" />
-    <IsometricCamera yaw="15" pitch="30" />
-	<DiamondAnnotation pos="3.5 0.5 1.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
-    <BlockAnnotation pos="2 0 1">
-	（1）接口：设置为存储所需的额外材料：岩浆膏、烈焰粉和小撮下界之星粉。
-	<Row>
-		<ItemImage id="minecraft:magma_cream" scale="2" />
-		<ItemImage id="minecraft:blaze_powder" scale="2" />
-		<ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
-	</Row>
-    </BlockAnnotation>
-    <BlockAnnotation pos="0 0 0">
-	（5）分子装配室：装有复制<ItemLink id="witchery:ingredient:130" />的样板。
-		<Row><RecipeFor id="witchery:ingredient:130" /></Row>
-		搭建时需向其中手动放入一个原料。
-    </BlockAnnotation>
-    <BoxAnnotation min="1.3 1 1.3" max="1.7 1.3 1.7">
-	（2）标准发信器：配置为“<ItemLink id="witchery:ingredient:130" />”，设置为“发出红石信号以合成物品”。
-	<Row>
-		<ItemImage id="witchery:ingredient:130" scale="2" /> 
-		<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
-	</Row>
-    </BoxAnnotation>
-    <BoxAnnotation min="1.7 0 1" max="2 1 2">
-	（3）输入总线#1：过滤接口所存储的物品。装有红石卡。红石模式设置为“有红石信号时激活”。
-	<Row>
-		<ItemImage id="minecraft:magma_cream" scale="2" />
-		<ItemImage id="minecraft:blaze_powder" scale="2" />
-		<ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
-		<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
-	</Row>
-    </BoxAnnotation>
-    <BoxAnnotation min="1 0 0" max="1.3 1 1">
-	（6）输入总线#2：默认配置。
-    </BoxAnnotation>
-    <BoxAnnotation min="0 1 0" max="1 1.3 1">
-	（4）存储总线#1：优先级高于另一个存储总线。非常重要。
-    </BoxAnnotation>
-    <BoxAnnotation min="2 0 0.7" max="3 1 1">
-	（7）存储总线#2：过滤“<ItemLink id="witchery:ingredient:130"/>”。优先级低于另一个存储总线。
-	<Row>
-		<ItemImage id="witchery:ingredient:130" scale="2" /> 
-	</Row>
-    </BoxAnnotation>
+  <ImportStructure src="../assets/structures/recursive_recipe_setup.snbt" />
+  <IsometricCamera yaw="15" pitch="30" />
+  <DiamondAnnotation pos="3.5 0.5 1.5" color="#00ff00">
+    至主网络
+  </DiamondAnnotation>
+  <BlockAnnotation pos="2 0 1">
+    （1）接口：设置为存储所需的额外材料：岩浆膏、烈焰粉和小撮下界之星粉。
+    <Row>
+      <ItemImage id="minecraft:magma_cream" scale="2" />
+      <ItemImage id="minecraft:blaze_powder" scale="2" />
+      <ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
+    </Row>
+  </BlockAnnotation>
+  <BlockAnnotation pos="0 0 0">
+    （5）分子装配室：装有复制<ItemLink id="witchery:ingredient:130" />的样板。
+    <Row><RecipeFor id="witchery:ingredient:130" /></Row>
+    搭建时需向其中手动放入一个原料。
+  </BlockAnnotation>
+  <BoxAnnotation min="1.3 1 1.3" max="1.7 1.3 1.7">
+    （2）标准发信器：配置为“<ItemLink id="witchery:ingredient:130" />”，设置为“发出红石信号以合成物品”。
+    <Row>
+      <ItemImage id="witchery:ingredient:130" scale="2" />
+      <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
+    </Row>
+  </BoxAnnotation>
+  <BoxAnnotation min="1.7 0 1" max="2 1 2">
+    （3）输入总线#1：过滤接口所存储的物品。装有红石卡。红石模式设置为“有红石信号时激活”。
+    <Row>
+      <ItemImage id="minecraft:magma_cream" scale="2" />
+      <ItemImage id="minecraft:blaze_powder" scale="2" />
+      <ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
+      <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
+    </Row>
+  </BoxAnnotation>
+  <BoxAnnotation min="1 0 0" max="1.3 1 1">
+    （6）输入总线#2：默认配置。
+  </BoxAnnotation>
+  <BoxAnnotation min="0 1 0" max="1 1.3 1">
+    （4）存储总线#1：优先级高于另一个存储总线。非常重要。
+  </BoxAnnotation>
+  <BoxAnnotation min="2 0 0.7" max="3 1 1">
+    （7）存储总线#2：过滤“<ItemLink id="witchery:ingredient:130"/>”。优先级低于另一个存储总线。
+    <Row>
+      <ItemImage id="witchery:ingredient:130" scale="2" />
+    </Row>
+  </BoxAnnotation>
 </GameScene>
 
 ## 配置

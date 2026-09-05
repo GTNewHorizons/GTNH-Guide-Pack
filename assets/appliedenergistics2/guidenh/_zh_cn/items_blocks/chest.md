@@ -26,8 +26,8 @@ ME箱子类似于带有<ItemLink id="appliedenergistics2:item.ItemMultiPart:380"
 终端可用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
 
 <GameScene width="250" height="100" zoom="4" showBackground={false} interactive={false}>
-<ImportStructure src="../assets/structures/chest_color.snbt" />
-<IsometricCamera yaw="105" pitch="30" />
+  <ImportStructure src="../assets/structures/chest_color.snbt" />
+  <IsometricCamera yaw="105" pitch="30" />
 </GameScene>
 
 ## 设置

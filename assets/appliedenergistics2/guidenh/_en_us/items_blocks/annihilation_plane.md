@@ -13,7 +13,7 @@ item_ids:
 # ME Annihilation Plane
 
 <GameScene zoom="8" showBackground={false} interactive={false}>
-<ImportStructure src="../assets/structures/annihilation_plane.snbt" />
+  <ImportStructure src="../assets/structures/annihilation_plane.snbt" />
 </GameScene>
 
 The Annihilation Plane can break blocks and pick up items. It inserts items into [network storage](../ae2_mechanics/import_export_storage.md), working similarly to an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />. Under normal circumstances, it actively picks up items near the target position after breaking a block. For items that directly collide with the plane, it only picks up items within the collision range on the surface of the plane.

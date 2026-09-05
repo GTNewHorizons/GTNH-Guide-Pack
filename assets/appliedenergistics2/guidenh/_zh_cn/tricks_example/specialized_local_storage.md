@@ -14,34 +14,34 @@ navigation:
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/local_storage.snbt" />
 
-<BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
-        （1）物品输入部分（此例中为接口）。
+  <BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
+  （1）物品输入部分（此例中为接口）。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
-        （2）驱动器：装有若干元件。元件应过滤农场输出产物。可装有均分卡和溢出销毁卡。
-<Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
+  <BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
+  （2）驱动器：装有若干元件。元件应过滤农场输出产物。可装有均分卡和溢出销毁卡。
+  <Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
-        （3）合成终端：此终端可查看子网络驱动器的内容物，但无法查看主网络存储。
+  <BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
+  （3）合成终端：此终端可查看子网络驱动器的内容物，但无法查看主网络存储。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="2 0 0" max="2.3 1 1">
-        （4）接口#2：默认配置。
+  <BoxAnnotation color="#dddddd" min="2 0 0" max="2.3 1 1">
+  （4）接口#2：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1.7 0 0" max="2 1 1">
-        （5）存储总线：优先级高于主存储，可过滤农场输出产物。
+  <BoxAnnotation color="#dddddd" min="1.7 0 0" max="2 1 1">
+  （5）存储总线：优先级高于主存储，可过滤农场输出产物。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 0.3">
-        合成终端：此终端可同时查看主网络存储*和*子网络存储。
+  <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 0.3">
+  合成终端：此终端可同时查看主网络存储*和*子网络存储。
   </BoxAnnotation>
 
-<DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
+  <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
+  至主网络
+  </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

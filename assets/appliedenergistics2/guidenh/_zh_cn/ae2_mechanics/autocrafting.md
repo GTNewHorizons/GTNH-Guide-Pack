@@ -137,6 +137,6 @@ ME接口有多种模式：
 它们的主要用途是放在<ItemLink id="appliedenergistics2:tile.BlockInterface" />的相邻位置。ME接口在此情况下有特殊行为，会将相关样板和材料输入相邻装配室。因为装配室会将产物自动弹出到相邻容器（也即弹出到ME接口的返回栏内），相邻放置的装配室和ME接口就是自动化合成样板所需的一切了。
 
 <GameScene zoom="4" showBackground={false}>
-<ImportStructure src="../assets/structures/assembler_tower.snbt" />
-<IsometricCamera yaw="195" pitch="30" />
+  <ImportStructure src="../assets/structures/assembler_tower.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

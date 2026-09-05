@@ -48,22 +48,22 @@ item_ids:
     <RecipeFor id="appliedenergistics2:tile.BlockSkyChest:1" />
   </Row>
 
-	 <Row gap="23">
-		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone" />
-		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone:1" />
-		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone:2"  />
-		<RecipeFor id="appliedenergistics2:tile.BlockSkyStone:3"  />
-	</Row>
-	<Row>
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneStairBlock"  />
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneBlockStairBlock"  />
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneBrickStairBlock" />
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneSmallBrickStairBlock" />
-	</Row>
-	<Row>
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneSlabBlock" />
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneBlockSlabBlock" />
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneBrickSlabBlock" />
-		<RecipeFor id="appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock" />
-	</Row>
+  <Row gap="23">
+    <RecipeFor id="appliedenergistics2:tile.BlockSkyStone" />
+    <RecipeFor id="appliedenergistics2:tile.BlockSkyStone:1" />
+    <RecipeFor id="appliedenergistics2:tile.BlockSkyStone:2"  />
+    <RecipeFor id="appliedenergistics2:tile.BlockSkyStone:3"  />
+  </Row>
+  <Row>
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneStairBlock"  />
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneBlockStairBlock"  />
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneBrickStairBlock" />
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneSmallBrickStairBlock" />
+  </Row>
+  <Row>
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneSlabBlock" />
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneBlockSlabBlock" />
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneBrickSlabBlock" />
+    <RecipeFor id="appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock" />
+  </Row>
 </Column>
