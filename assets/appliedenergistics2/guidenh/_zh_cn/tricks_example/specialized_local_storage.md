@@ -13,14 +13,18 @@ navigation:
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/local_storage.snbt" />
-
+  <IsometricCamera yaw="195" pitch="30" />
 <BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
         （1）物品输入部分（此例中为接口）。
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
         （2）驱动器：装有若干元件。元件应过滤农场输出产物。可装有均分卡和溢出销毁卡。
-<Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
+		<Row>
+		<ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> 
+		<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> 
+		<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
+		</Row>
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
@@ -42,9 +46,12 @@ navigation:
 <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
         至主网络
     </DiamondAnnotation>
-
-  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
+
+*👇	此标签为重排版文本
+	什么时候能修这个碧油鸡。
+	写标签的时候别直接从1.21的文档复制GameScene内的标签*
+</Row>
 
 ## 配置
 

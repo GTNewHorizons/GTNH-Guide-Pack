@@ -15,21 +15,18 @@ navigation:
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/interface_autostocking.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
 
-<BoxAnnotation color="#dddddd" min="0 0 0" max="2 1 1">
+	<BoxAnnotation min="0 0 0" max="2 1 1">
         （1）接口：设置为在自身处存储所需物品。装有合成卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 1 0" max="2 1.3 1">
+    </BoxAnnotation>
+	<BoxAnnotation min="0 1 0" max="2 1.3 1">
         （2）存储总线：“输入/输出模式”设置为“仅取出”。
-  </BoxAnnotation>
-
-<DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
+    </BoxAnnotation>
+	<DiamondAnnotation pos="3.5 0.5 0.5">
         至主网络
     </DiamondAnnotation>
-
-  <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
 ## 配置

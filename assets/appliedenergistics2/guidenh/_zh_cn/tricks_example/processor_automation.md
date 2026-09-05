@@ -140,6 +140,10 @@ navigation:
   <IsometricCamera yaw="185" pitch="5" />
 </GameScene>
 
+*👇此标签为重排版文本，什么时候能修这个碧油鸡。写标签的时候别直接从1.21的文档复制GameScene标签*
+</Row>
+
+
 ## 配置
 
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）处于默认配置，装有相应<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />。

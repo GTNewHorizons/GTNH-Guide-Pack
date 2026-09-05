@@ -15,42 +15,37 @@ navigation:
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/bucket_emptier.snbt" />
-
-<BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
+  <IsometricCamera yaw="45" pitch="45" />
+  
+    <BlockAnnotation pos="2 1 3">
         （1）ME接口：设置为“有红石信号时”锁定合成，阻挡模式启用，装有相应处理样板。
-
         <Row>
-        <FloatingImage src="../assets/images/water_empty_pattern.png" displayWidth="480" />
-        <FloatingImage src="../assets/images/lava_empty_pattern.png" displayWidth="480" />
+        ![充能器样板](../assets/images/water_empty_pattern.png)
+        ![充能器样板](../assets/images/lava_empty_pattern.png)
         </Row>
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
+    </BlockAnnotation>
+    <BoxAnnotation min="2.1 2 3.1" max="2.9 2.25 3.9">
         （2）接口：默认配置。
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="3.1 2 1.1" max="3.9 2.2 1.9">
+    </BoxAnnotation>
+    <BoxAnnotation min="1.1 2 2.1" max="1.9 2.25 2.9">
         （3）存储总线#1：默认配置。
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
+    </BoxAnnotation>
+    <BoxAnnotation min="1.75 1.1 3.1" max="2 1.9 3.9">
+        （6）存储总线#2：默认配置。
+    </BoxAnnotation>
+    <BoxAnnotation min="2.1 0.75 3.1" max="2.9 1 3.9">
+        （6）存储总线#2：默认配置。
+    </BoxAnnotation>
+    <BoxAnnotation min="0.05 1.05 3" max="0.95 1.95 3.15">
         （4）破坏面板：无可用GUI。
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="3.2 1.2 0.8" max="3.8 1.8 1">
+    </BoxAnnotation>
+    <BoxAnnotation min="1.25 1.25 3" max="1.75 1.75 3.25">
         （5）输入总线：过滤铁桶。
         <ItemImage id="minecraft:bucket" scale="2" />
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
-        （6）存储总线#2：默认配置。
-  </BoxAnnotation>
-
-<DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
+    </BoxAnnotation>
+    <DiamondAnnotation pos="4.5 1.5 3.5">
         至主网络
     </DiamondAnnotation>
-
-  <IsometricCamera yaw="225" pitch="45" />
 </GameScene>
 
 ## 设置

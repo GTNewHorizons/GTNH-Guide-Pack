@@ -16,37 +16,29 @@ navigation:
 可以设计一个由<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />组成的独立[子网络](../ae2_mechanics/subnetworks.md)以将物品输入主网络的<ItemLink id="appliedenergistics2:tile.BlockInterface" />。触发总线则与<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />连接或断开，以此提供或切断能量供给。
 
 <GameScene zoom="4" interactive={true}>
-  <ImportStructure src="../assets/structures/regulated_cobble_gen.snbt" />
-
+<ImportStructure src="../assets/structures/regulated_cobble_gen.snbt" />
+<IsometricCamera yaw="195" pitch="30" />
 <BoxAnnotation color="#dddddd" min="3 2 2" max="7 2.3 3">
-        （1）破坏面板：无可用GUI，可附有效率和耐久以减少能量消耗。
-  </BoxAnnotation>
-
-  <BoxAnnotation color="#dddddd" min="2 2 2" max="2.3 3 3">
-        （2）存储总线：默认配置。
-  </BoxAnnotation>
-
-  <BoxAnnotation color="#dddddd" min="2.3 2.3 2" max="2.7 2.7 2.3">
-        （3）触发总线：注意要放在子网络上，而非主网络。
-  </BoxAnnotation>
-
-  <BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
-        （4）标准发信器：配置为所需数量的圆石，红石模式为“当数量小于设定数值时发出红石信号”。
-  </BoxAnnotation>
-
-  <BoxAnnotation color="#dddddd" min="1 2 3" max="2 3 2">
-        （5）接口：默认配置。
-  </BoxAnnotation>
-
+（1）破坏面板：无可用GUI，可附有效率和耐久以减少能量消耗。
+</BoxAnnotation>
+<BoxAnnotation color="#dddddd" min="2 2 2" max="2.3 3 3">
+（2）存储总线：默认配置。
+</BoxAnnotation>
+<BoxAnnotation color="#dddddd" min="2.3 2.3 2" max="2.7 2.7 2.3">
+（3）触发总线：注意要放在子网络上，而非主网络。
+</BoxAnnotation>
+<BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
+（4）标准发信器：配置为所需数量的圆石，红石模式为“当数量小于设定数值时发出红石信号”。
+</BoxAnnotation>
+<BoxAnnotation color="#dddddd" min="1 2 3" max="2 3 2">
+（5）接口：默认配置。
+</BoxAnnotation>
 <DiamondAnnotation pos="0 2.5 1.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
-
+至主网络
+</DiamondAnnotation>
 <DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
-        含水楼梯，防止水流至熔岩处而将其变为黑曜石。
-    </DiamondAnnotation>
-
-  <IsometricCamera yaw="195" pitch="30" />
+含水楼梯，防止水流至熔岩处而将其变为黑曜石。
+</DiamondAnnotation>
 </GameScene>
 
 ## 配置

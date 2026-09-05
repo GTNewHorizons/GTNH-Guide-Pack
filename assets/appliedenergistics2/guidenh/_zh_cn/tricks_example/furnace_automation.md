@@ -17,32 +17,28 @@ navigation:
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/furnace_automation.snbt" />
-
-<BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-        （1）ME接口：以赛特斯石英扳手改为方向型，装有相应样板。
-
-        <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="480" title="铁样板" />
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-        （2）接口：默认配置。
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="1 1 0" max="1.3 2 1">
-        （3）存储总线#1：过滤煤炭。
-        <ItemImage id="minecraft:coal" scale="2" />
-  </BoxAnnotation>
-
-<BoxAnnotation color="#dddddd" min="0 2 0" max="1 2.3 1">
-        （4）存储总线#2：通过反相卡设置为排除煤炭。
-        <Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
-  </BoxAnnotation>
-
-<DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        至主网络
-    </DiamondAnnotation>
-
   <IsometricCamera yaw="195" pitch="30" />
+<BlockAnnotation pos="1 0 0">
+（1）ME接口：以赛特斯石英扳手改为方向型，装有相应样板。
+<Row>
+![铁样板](../assets/images/furnace_pattern.png)
+</Row>
+</BlockAnnotation>
+<BoxAnnotation min="1 1 0" max="2 1.3 1">
+（2）接口：默认配置。
+</BoxAnnotation>
+<BoxAnnotation min="1 1 0" max="1.3 2 1">
+（3）存储总线#1：过滤煤炭。
+<ItemImage id="minecraft:coal" scale="2" />
+</BoxAnnotation>
+<BoxAnnotation min="0 2 0" max="1 2.3 1">
+（4）存储总线#2：通过反相卡设置为排除煤炭。
+<Row>
+<ItemImage id="minecraft:coal" scale="2" />
+<ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" />
+</Row>
+</BoxAnnotation>
+<DiamondAnnotation pos="3.5 0.5 0.5" />
 </GameScene>
 
 ## 配置
