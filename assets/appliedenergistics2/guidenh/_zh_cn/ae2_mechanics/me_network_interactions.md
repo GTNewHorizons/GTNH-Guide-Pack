@@ -18,7 +18,7 @@ navigation:
 * 两个只通过 <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/> 或 <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="left"/> 连接的 ME 网络，也同样视为独立网络。石英纤维只传递能源不传递频道，而线缆锚既不传递能源也不传递频道，仅用于隔开相邻线缆。不同颜色的线缆之间同样不会连接，详见[频道](./channels.md)。
 
 # 网络之间的交互
-网络除了相互独立，还可以产生相互联系，这种联系可以非常多样化与灵活，是绝大多数AE自动化系统的基础。广义上，只要两个独立的ME网络发生了互相的影响，就可以视作网络交互，[P2P](./p2p_tunnels.md)中利用MEP2P通道传递频道就是一种网络交互。ME网络之间的交互基本依赖于[接口](../items-blocks/interface.md)与[存储总线](../items-blocks/storage_bus.md)。二者的特性给了网络交互中不同网络不同的地位。
+网络除了相互独立，还可以产生相互联系，这种联系可以非常多样化与灵活，是绝大多数AE自动化系统的基础。广义上，只要两个独立的ME网络发生了互相的影响，就可以视作网络交互，[P2P](./p2p_tunnels.md)中利用MEP2P通道传递频道就是一种网络交互。ME网络之间的交互基本依赖于[接口](../items_blocks/interface.md)与[存储总线](../items_blocks/storage_bus.md)。二者的特性给了网络交互中不同网络不同的地位。
 
 > 另见：[子网络](./subnetworks.md)
 
