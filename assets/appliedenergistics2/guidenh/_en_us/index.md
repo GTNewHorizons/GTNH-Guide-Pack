@@ -7,7 +7,7 @@ navigation:
 item_id: appliedenergistics2:tile.BlockController
 ---
 
-![Logo](assets/logo.png)
+![Logo](../assets/logo.png)
 
 # What is Applied Energistics 2?
 
@@ -17,18 +17,19 @@ Applied Energistics is meant to work with and allow automation of other mods in 
 with a single click, craft all of the prerequisites (and the final result) of a complex crafting chain, or keep certain
 quantities of items in stock, crafting more as needed, or simply transfer items around your base.
 
-* [Getting Started](getting-started.md)
-* [AE2 Mechanics](ae2-mechanics-index.md)
-* [Tips and Practical Examples](tricks-example-index.md)
-* [Items & Blocks](items-blocks-index.md)
+* [Getting Started](getting_started.md)
+* [AE2 Mechanics](ae2_mechanics_index.md)
+* [Tips and Practical Examples](tricks_example_index.md)
+* [Tips and Tricks](tips_and_tricks.md)
+* [Items & Blocks](items_blocks_index.md)
 
 # How To Use This Guide
 
-* Many pages have interactive scenes. If a scene has ![Plus](assets/images/plus.png) and ![Minus](assets/images/minus.png) zoom buttons beside it, you can move the camera around.
+* Many pages have interactive scenes. If a scene has ![Plus](../assets/images/plus.png) and ![Minus](../assets/images/minus.png) zoom buttons beside it, you can move the camera around.
 * Left-click and drag to rotate the scene. Right-click and drag to pan it.
 * Hover over blocks or annotations to see their tooltips.
 
 <GameScene zoom="4" interactive={true}>
-  <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
+  <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

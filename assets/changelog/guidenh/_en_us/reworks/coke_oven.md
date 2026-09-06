@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:236
   - gregtech:gt.blockmachines:237
-  - gregtech:gt.blockcasings12
+  - gregtech:gt.blockcasings12:0
 navigation:
   title: Coke Oven
   parent: reworks.md
