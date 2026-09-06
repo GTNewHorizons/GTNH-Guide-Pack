@@ -5,7 +5,7 @@ navigation:
   icon: appliedenergistics2:item.ItemExtremeStorageCell.Universe
 ---
 
-# Bytes and Types
+# 字节与类型
 
 <Column>
   <Row>
