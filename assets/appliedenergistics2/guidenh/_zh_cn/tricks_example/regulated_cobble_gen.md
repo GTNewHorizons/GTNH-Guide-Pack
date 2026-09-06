@@ -42,10 +42,6 @@ navigation:
   至主网络
   </DiamondAnnotation>
 
-  <DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
-  含水楼梯，防止水流至熔岩处而将其变为黑曜石。
-  </DiamondAnnotation>
-
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
