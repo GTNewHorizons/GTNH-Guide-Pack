@@ -20,7 +20,7 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:24" scale="4" />
 </Row>
 
-Processors are primary ingredients for AE2 [devices](../ae2_mechanics/devices.md) and machines. There are three types, made with gold, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:0" />, and diamond. They are produced in an <ItemLink id="appliedenergistics2:tile.BlockInscriber" /> using [presses](presses.md) in several steps.
+Processors are primary ingredients for AE2 [devices](../ae2_mechanics/devices.md) and machines. There are three types, made with gold, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:10" />, and diamond. They are produced in an <ItemLink id="appliedenergistics2:tile.BlockInscriber" /> using [presses](presses.md) in several steps.
 
 ## Production Steps
 
