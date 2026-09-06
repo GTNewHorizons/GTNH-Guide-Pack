@@ -13,10 +13,11 @@ item_id: appliedenergistics2:tile.BlockController
 应用能源2（Applied Energistics 2，简称AE/AE2）增加了许多组件和机制以提供物流和存储解决方案。最简单的应用————你可以用一个紧凑的ME网络取代你那个装满箱子的大房间。
 AE旨在与模组包中的其他模组协同工作，让这些模组实现自动化。你可以建造一个自动合成系统，只需简单设置就可以合成复杂合成链中所有的前置材料（以及最终产物），或保持一定数量的物品库存，根据需要合成更多物品，或只是在你的基地内转移物品。
 
-- [快速开始](getting-started.md)
-- [物品与方块](items-blocks-index.md)
-- [AE2 机制](ae2-mechanics-index.md)
-- [技巧与实用实例](tricks-example-index.md)
+- [快速开始](getting_started.md)
+- [物品与方块](items_blocks_index.md)
+- [AE2 机制](ae2_mechanics_index.md)
+- [技巧与实用实例](tricks_example_index.md)
+- [提示与技巧](tips_and_tricks.md)
 
 # 怎么使用本指南
 
@@ -29,7 +30,7 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   - 将鼠标放置在场景的各种高亮注解（菱形注解、线注解、方块注解等）上可以查看注解的内容。
 
 <GameScene width="400" height="200" zoom="3" interactive={true}>
-  <ImportStructure src="./assets/structures/autocraft_setup_greebles.snbt" />
+  <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="15" />
   <Block id="minecraft:furnace" x="9" y="1" z="0" facing="north" />
   <BlockAnnotation pos="2 0 2" color="#ff0000" alwaysOnTop={true}>
