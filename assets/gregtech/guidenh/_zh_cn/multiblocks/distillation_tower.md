@@ -42,13 +42,13 @@ navigation:
 | 部件 | 数量与位置 |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" /> | 1 个，正面底层中央 |
-| <ItemLink id="gregtech:gt.blockcasings4:1" showIcon="left" /> | 至少 $$7h-5$$ 个，即 16–79 个 |
+| <ItemLink id="gregtech:gt.blockcasings4:1" showIcon="left" /> | 至少 16–79 个 |
 | 输入仓 | 至少 1 个，任意底层外壳位置 |
 | 输入总线 | 可选，任意底层外壳位置；配方需要物品输入时安装 |
 | 输出总线 | 可选，任意底层外壳位置；配方会产出物品时安装 |
 | 输出仓 | 每个非底层至少 1 个，共至少 2–11 个 |
-| 普通能源仓 | 至少 1 个，任意合法外壳位置 |
-| 维护仓 | 1 个，任意合法外壳位置 |
+| 普通能源仓 | 至少 1 个，任意合适外壳位置 |
+| 维护仓 | 1 个，任意合适外壳位置 |
 
 最低的 3 层结构需要 2 个输出层和至少 16 个外壳。常见的四流体产物配方需要 5 层结构、4 个输出层和至少 30 个外壳；最高的 12 层结构可以容纳 11 种流体产物，需要至少 79 个外壳。
 
@@ -82,7 +82,7 @@ $$
 NEI 中流体产物的读取顺序为**从左到右、从下到上**。第一个流体产物进入第二层输出仓，第二个进入第三层，之后依次向上。例如一个有四种流体产物的配方会使用第二至第五层，因此至少需要一座 5 层蒸馏塔。
 
 > [!WARNING]
-> 输出仓不是按其中已有的流体或管道过滤自动分配的。接错层会把产物送入错误的储罐或管线，甚至造成流体混合和产线堵塞。每次更换配方后，都应重新对照 NEI 确认各层产物。
+> 输出仓不是按其中已有的流体或管道过滤自动分配的。接错层会把产物送入错误的储罐或管道，甚至造成流体混合和产线堵塞。每次更换配方后，都应重新对照 NEI 确认各层产物。
 
 ## 供电与产能
 
@@ -125,4 +125,3 @@ HV 是取得控制器的阶段，不代表蒸馏塔只能接受 HV 电力。机�
 
 - [GTNH Wiki：Distillation Tower](https://wiki.gtnewhorizons.com/wiki/Distillation_Tower)
 - [GTNH 中文维基：蒸馏塔](https://gtnh.huijiwiki.com/p/160)
-- [GT5-Unofficial：MTEDistillationTower](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/common/tileentities/machines/multi/MTEDistillationTower.java)
