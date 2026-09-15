@@ -124,4 +124,3 @@ See [Multiblock Machines](./multiblocks-index.md) for general multiblock operati
 ## References
 
 - [GTNH Wiki: Distillation Tower](https://wiki.gtnewhorizons.com/wiki/Distillation_Tower)
-- [GTNH Chinese Wiki: Distillation Tower](https://gtnh.huijiwiki.com/p/160)
