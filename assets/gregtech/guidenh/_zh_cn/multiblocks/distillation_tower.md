@@ -123,5 +123,4 @@ HV 是取得控制器的阶段，不代表蒸馏塔只能接受 HV 电力。机�
 
 ## 参考资料
 
-- [GTNH Wiki：Distillation Tower](https://wiki.gtnewhorizons.com/wiki/Distillation_Tower)
 - [GTNH 中文维基：蒸馏塔](https://gtnh.huijiwiki.com/p/160)
