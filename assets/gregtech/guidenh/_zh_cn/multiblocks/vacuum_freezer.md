@@ -103,5 +103,4 @@ HV 是取得机器的阶段，不代表它只能使用 HV 电力。升级能源�
 
 ## 参考资料
 
-- [GTNH Wiki：Vacuum Freezer](https://wiki.gtnewhorizons.com/wiki/Vacuum_Freezer)
 - [GTNH 中文维基：真空冷冻机](https://gtnh.huijiwiki.com/wiki/真空冷冻机)
