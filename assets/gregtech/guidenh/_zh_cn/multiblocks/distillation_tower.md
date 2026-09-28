@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1126
 navigation:
   title: 蒸馏塔
-  parent: ./multiblocks-index.md
+  parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1126
   position: 11
 ---
@@ -119,7 +119,7 @@ HV 是取得控制器的阶段，不代表蒸馏塔只能接受 HV 电力。机�
 | 加高后仍按旧高度成型 | 顶层中央的旧封顶是否已拆除；新增各层是否安装输出仓；完成后手动更新结构检查 |
 | 运行后立即停机 | 检查供电功率、线损、能源缓存和维护状态，不要连续投入更多原料试机 |
 
-更多通用操作见[多方块机器](./multiblocks-index.md)。IV 阶段可以进一步了解丹格特蒸馏厂，LuV 阶段则可使用巨型蒸馏塔扩大产能。
+更多通用操作见[多方块机器](./multiblocks_index.md)。IV 阶段可以进一步了解丹格特蒸馏厂，LuV 阶段则可使用巨型蒸馏塔扩大产能。
 
 ## 参考资料
 

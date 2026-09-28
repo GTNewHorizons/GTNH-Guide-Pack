@@ -15,7 +15,7 @@ GT 电力系统的能量单位是 EU（Energy Unit）。GT 电力系统以 [局�
 
 - 关于发电手段，参见发电线路简介。
 - 关于电力网络的架构与搭建建议，参见电力的存储与运输。
-- 关于机器的升压、超频与并行，参见 **[升压、超频与并行](../tierskipping-overcloking-parallels/T-O-P-index.md)**。
+- 关于机器的升压、超频与并行，参见 **[升压、超频与并行](../tierskipping-overcloking-parallels/T_O_P_index.md)**。
 
 # 电压与电流
 
@@ -39,4 +39,4 @@ EU 能量以能量包为载体传输。能量包的个数总是整数。
 
 电能为功率与时间（tick）之积，单位 EU。
 
-GT 电力系统与现实的电学基本相当——在将 [线损](cable-loss.md) 和 [输电内阻](output-loss.md) 纳入考量后，能量守恒定律成立。
+GT 电力系统与现实的电学基本相当——在将 [线损](cable_loss.md) 和 [输电内阻](output_loss.md) 纳入考量后，能量守恒定律成立。

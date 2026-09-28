@@ -2,7 +2,7 @@
 navigation:
   title: "输电内阻"
   icon: gregtech:gt.blockmachines:21
-  parent: power-index.md
+  parent: power_index.md
   position: -6
 ---
 

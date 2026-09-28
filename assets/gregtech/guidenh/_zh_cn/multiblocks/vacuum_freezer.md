@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1002
 navigation:
   title: 真空冷冻机
-  parent: ./multiblocks-index.md
+  parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
   position: 10
 ---
@@ -99,7 +99,7 @@ HV 是取得机器的阶段，不代表它只能使用 HV 电力。升级能源�
 | 输出空间不足 | 对应的输出总线或输出仓是否存在、已满，或无法容纳本次产物 |
 | 开始运行后立即停机 | 检查供电功率、线损、能源缓存和维护状态，不要连续投入更多原料试机 |
 
-更多通用操作见[多方块机器](./multiblocks-index.md)。后期需要提高冷却产能时，可以进一步了解凛冰冷冻机。
+更多通用操作见[多方块机器](./multiblocks_index.md)。后期需要提高冷却产能时，可以进一步了解凛冰冷冻机。
 
 ## 参考资料
 
