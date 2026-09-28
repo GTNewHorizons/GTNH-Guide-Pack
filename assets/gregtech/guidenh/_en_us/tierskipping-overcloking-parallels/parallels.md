@@ -20,7 +20,7 @@ After parallels are applied, the multiblock then calculates and attempts **[over
 Multiblocks have a parallel configuration window, and the maximum parallels can be manually lowered.
 
 - Machines without any special note default to 1 parallel, such as <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />
-- <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:12731" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:12738" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13366" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13367" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> have a fixed maximum of 256 parallels
+- <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> have a fixed maximum of 256 parallels
 - Most machines calculate maximum parallels from voltage or from the tier of a structure component. When a tooltip says "each voltage tier provides $$x$$ parallels", that is calculated from the sum of the voltage inputs of all Energy Hatches, capped at 15 (MAX+)
 
 Only <ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" /> have cross-recipe parallels, meaning a single parallel batch can contain multiple distinct recipes.
