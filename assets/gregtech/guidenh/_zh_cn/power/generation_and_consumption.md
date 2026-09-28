@@ -2,7 +2,7 @@
 navigation:
   title: "发电与用电"
   icon: gregtech:gt.blockmachines:1120
-  parent: power-index.md
+  parent: power_index.md
   position: -2
 ---
 
@@ -27,6 +27,6 @@ navigation:
 
 **[单方块机器](../singleblock/singleblock-index.md)** 自 LV 阶段开始投入使用，先按需接受能量包到内部电力缓存中，随后不断使用电力执行配方。单方块机器的最大输入电流通常为 2A；热力离心机为 4A；电弧炉为 6A。
 
-**[多方块机器](../multiblocks/multiblocks-index.md)** 通常使用能源仓接收电力。普通能源仓的最大输入电流为 2A；多安能源仓为 1.25 × 额定电流。
+**[多方块机器](../multiblocks/multiblocks_index.md)** 通常使用能源仓接收电力。普通能源仓的最大输入电流为 2A；多安能源仓为 1.25 × 额定电流。
 
 用电器耗尽内部缓存的能量时，机器会停止执行配方，发生**电力故障**（跳电）。单方块机器跳电后配方进度清空但原料信息仍保留；多方块机器跳电后配方进度清空且原料不会保留。务必保证 [稳定供电](enet.md#稳定地供应电力)。

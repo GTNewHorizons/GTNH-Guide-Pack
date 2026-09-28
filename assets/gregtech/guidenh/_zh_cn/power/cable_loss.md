@@ -2,7 +2,7 @@
 navigation:
   title: "线损"
   icon: gregtech:gt.metatool.01:26
-  parent: power-index.md
+  parent: power_index.md
   position: -5
 ---
 

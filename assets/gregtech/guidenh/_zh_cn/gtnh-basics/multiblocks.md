@@ -2,7 +2,7 @@
 navigation:
   title: 多方块机器
   icon: structurelib:item.structurelib.constructableTrigger
-  parent: ./gtnh-basics-index.md
+  parent: ./gtnh_basics_index.md
 ---
 
 # 多方块机器

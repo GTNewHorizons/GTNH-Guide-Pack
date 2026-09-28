@@ -2,7 +2,7 @@
 navigation:
   title: 蒸汽时代
   icon: minecraft:grass
-  parent: /tiers/tiers-index.md
+  parent: /tiers/tiers_index.md
   position: 0
 ---
 

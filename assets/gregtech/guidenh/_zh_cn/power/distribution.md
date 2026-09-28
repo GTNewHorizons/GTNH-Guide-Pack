@@ -2,7 +2,7 @@
 navigation:
   title: "电力调配"
   icon: gregtech:gt.blockmachines:15300
-  parent: power-index.md
+  parent: power_index.md
   position: -7
 ---
 
