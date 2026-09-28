@@ -63,5 +63,5 @@ navigation:
 | **提升一级** | 4A × 能源仓平均电压。绝大多数机器的默认行为。 | 工业高炉等 |
 | **无法提升** | 1A × 能源仓电压 | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
 | **降低一级** | 1/4 A × 能源仓电压 | <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" />的电路组装机模式 |
-| **不受限制** | Tooltip 含"只要有足够的能量，这台机器能运行任何等级的配方" | <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
+| **不受限制** | Tooltip 含"只要有足够的能量，这台机器能运行任何等级的配方" | <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
 
