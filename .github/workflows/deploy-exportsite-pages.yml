@@ -5,7 +5,8 @@ on:
     branches: [master, main]
     paths:
       - .github/workflows/deploy-exportsite-pages.yml
-      - website/**
+      - website-export.zip
+      - .gitattributes
   workflow_dispatch:
 
 permissions:
@@ -26,18 +27,26 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Extract website package
+        run: |
+          test -f website-export.zip
+          rm -rf website
+          unzip -q website-export.zip
+          test -f website/package.json
+          test -f website/package-lock.json
+          test -f website/scripts/build.mjs
+
       - name: Build static site
         working-directory: website
         run: |
-          test -f package.json
-          test -f package-lock.json
-          test -f scripts/build.mjs
           npm ci
           npm run build
 
