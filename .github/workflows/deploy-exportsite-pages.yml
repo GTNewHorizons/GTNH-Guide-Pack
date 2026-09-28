@@ -1,0 +1,54 @@
+name: Deploy ExportSite to GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - .github/workflows/deploy-exportsite-pages.yml
+      - website/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages-exportsite
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build static site
+        working-directory: website
+        run: |
+          test -f package.json
+          test -f package-lock.json
+          test -f scripts/build.mjs
+          npm ci
+          npm run build
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: website/dist
+
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
