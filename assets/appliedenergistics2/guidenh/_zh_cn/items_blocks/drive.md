@@ -11,7 +11,7 @@ item_ids:
 
 # ME驱动器
 
-<ItemImage id="appliedenergistics2:tile.BlockDrive" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockDrive" scale="4" />
 
 驱动器是用于放置[存储元件](storage_cells.md)的[设备](../ae2_mechanics/devices.md)，其中元件视作[网络存储](../ae2_mechanics/import_export_storage.md)。其有10个接受单个元件的槽位。
 

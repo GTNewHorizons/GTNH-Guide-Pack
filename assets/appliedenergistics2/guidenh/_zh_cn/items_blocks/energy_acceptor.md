@@ -12,7 +12,7 @@ item_ids:
 # 能源接收器
 
 <Row gap="20">
-<BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" /> 
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" /> 
 </Row>
 
 该设备可将其他科技模组的通用能源形式转化为AE2内部使用的[AE能源](../ae2_mechanics/energy.md)。虽然<ItemLink id="appliedenergistics2:tile.BlockController" />控制器也具备此功能，但由于控制器接口较为珍贵，通常建议使用专用能源接收器。

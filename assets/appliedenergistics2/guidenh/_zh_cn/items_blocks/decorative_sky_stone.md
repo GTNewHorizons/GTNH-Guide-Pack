@@ -16,9 +16,9 @@ item_ids:
 
 <Row>
 <BlockImage id="appliedenergistics2:tile.BlockSkyStone" scale="4" />
-<ItemImage id="appliedenergistics2:tile.BlockSkyStone:1" scale="4" />
-<ItemImage id="appliedenergistics2:tile.BlockSkyStone:2" scale="4" />
-<ItemImage id="appliedenergistics2:tile.BlockSkyStone:3" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockSkyStone:1" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockSkyStone:2" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockSkyStone:3" scale="4" />
 </Row>
 <Row>
 <BlockImage id="appliedenergistics2:tile.SkyStoneStairBlock" scale="4" perspective="isometric-north-west" />
