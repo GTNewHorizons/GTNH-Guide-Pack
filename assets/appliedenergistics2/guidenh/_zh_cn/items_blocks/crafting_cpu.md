@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items_blocks_index.md
   title: 合成CPU多方块结构（合成存储器、并行处理单元、合成监控器、合成单元）
@@ -28,19 +28,22 @@ item_ids:
 
 # 合成CPU
 
-<GameScene width="350" height="220" zoom="4" showBackground={false}>
-  <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
-  <IsometricCamera yaw="195" pitch="30" />
-</GameScene>
 
 <Row>
+
+  <BlockImage id="appliedenergistics2:tile.BlockCraftingStorage" scale="4" />
+
   <BlockImage id="appliedenergistics2:tile.BlockCraftingStorage:1" scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:1" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockCraftingStorage:2" scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockCraftingMonitor" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockCraftingStorage:3" scale="4" />
 
-  <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:0" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage" scale="4" />
+
+  <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage:1" scale="4" />
+
+  <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage:2" scale="4" />
 </Row>
 
 合成CPU管理合成请求与合成任务。它们会在执行多步骤合成任务时将中间产物存于自身，并影响合成任务的大小上限，某种程度上也会影响这些任务的完成速度。详细信息见[自动合成](../ae2_mechanics/autocrafting.md)。
