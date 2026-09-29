@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/deploy-exportsite-pages.yml
       - website-export.zip
+      - site-config.json
       - .gitattributes
   workflow_dispatch:
 
@@ -43,6 +44,7 @@ jobs:
           test -f website/package.json
           test -f website/package-lock.json
           test -f website/scripts/build.mjs
+          cp site-config.json website/site-config.json
 
       - name: Build static site
         working-directory: website
