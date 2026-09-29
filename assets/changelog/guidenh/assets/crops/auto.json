@@ -9,8 +9,8 @@
         "rotX": 20.0,
         "rotY": 100.0,
         "rotZ": 0.0,
-        "offX": -75.0,
-        "offY": -90.0
+        "offX": 0.0,
+        "offY": 0.0
       },
       "layer": null,
       "annotations": [

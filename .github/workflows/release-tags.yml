@@ -56,8 +56,13 @@ jobs:
           cp pack.png package-root/
           cp README.md package-root/
           cp LICENSE.txt package-root/
+          test ! -e package-root/website
           cd package-root
           zip -r "../${ZIP_NAME}" ./*
+          if zipinfo -1 "../${ZIP_NAME}" | grep -q '^website/'; then
+            echo "website/ must not be included in the resource pack archive" >&2
+            exit 1
+          fi
 
       - name: Delete existing release for tag (if any)
         shell: bash
