@@ -131,6 +131,9 @@ Reference them with a rooted guide path:
 ## Learning the Tags
 In order to make GuideNH as powerful as it is, there are many custom tags that can be invoked within markdown to give some powerful effects. The full list of tags and how to use them can be found in the wiki, but [the Tags Reference](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Tags-Reference.md) highlights some of the most important ones to know about.
 
+## Online Tools
+The [GuideNH online editor](https://www.gtnewhorizons.com/GuideNH) can open guide files, folders, or ZIP archives so you can edit pages and preview their layout in a browser. Its syntax reference provides examples while you write. The [published online guide](https://www.gtnewhorizons.com/GTNH-Guide-Pack) shows how the current guide content appears on the web. Check game-dependent content, such as recipes and interactive scenes, in Minecraft before submitting a change.
+
 # Contributing to Guide Content
 Also see the [GTNH Contribution Guide for Beginners](https://wiki.gtnewhorizons.com/wiki/GTNH_Contribution_Guide_for_Beginners) for a more generic guide to contributing.
 1. For new contributors, fork the [GTNH-Guide-Pack repo](https://github.com/GTNewHorizons/GTNH-Guide-Pack) to your GitHub account. Members of the [GTNewHorizons GitHub organization](https://github.com/orgs/GTNewHorizons/people) are recommended to make a branch in this repo instead.
@@ -138,7 +141,7 @@ Also see the [GTNH Contribution Guide for Beginners](https://wiki.gtnewhorizons.
 3. Before making changes, first click `Fetch origin` to get the latest updates. Then start a new branch (`Branch`, then `New Branch`). If you followed step 2, it will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
 4. Start GTNH. You need the full modpack, not a mod development environment. The [latest daily version](https://github.com/GTNewHorizons/DreamAssemblerXXL/actions/workflows/daily-modpack-build.yml) is recommended. You should also check that you are using the latest GuideNH version from https://github.com/GTNewHorizons/GuideNH/releases. You should only use normal releases, not ones with a version ending in `-pre`.
 5. Ideally, you should create one new guide or make one related set of changes per commit. Doing regular commits makes it easier to review your changes or to revert to an earlier version, as it serves as a way to back up your work.
-6. Once finished. copy your changed repository into your game's resource packs folder. Load the guide (explained in the New Guides section) to ensure everything works as expected.
+6. Once finished, preview your pages in the online editor, then copy your changed repository into your game's resource packs folder. Load the guide (explained in the New Guides section) to ensure everything works as expected.
 7. Push your branch to GitHub, and make a PR to the GTNewHorizons/GTNH-Guide-Pack master branch. You can go to your forked repo on GitHub to make sure your branch has shown up there. An option should appear to "Open pull request" (you may need to click the "Contribute" button).
 8. Explain all of your changes in the description of the PR. Add screenshots/videos where useful.
 9. Write 'fixes [ISSUE LINK]' in the PR description to automatically link a ticket to the PR.
