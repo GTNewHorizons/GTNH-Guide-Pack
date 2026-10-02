@@ -8,7 +8,7 @@ navigation:
   position: -7001
 ---
 
-# Distillation Tower
+# Active Transformer
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="300">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15300" />
