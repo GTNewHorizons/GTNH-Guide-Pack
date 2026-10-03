@@ -34,7 +34,7 @@ item_ids:
 支持以下[升级卡](upgrade_cards.md)：
 
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> 增加过滤槽数量
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 提升单次操作传输量
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> 提升单次操作传输量
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将过滤模式切换为黑名单
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />：向[自动合成系统](../ae2_mechanics/autocrafting.md)发起合成请求，可配置优先使用现存物品或强制合成新物品
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> 添加红石控制（高电平激活/低电平激活/脉冲激活）
