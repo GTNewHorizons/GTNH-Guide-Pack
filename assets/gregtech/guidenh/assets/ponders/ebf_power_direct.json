@@ -3,7 +3,7 @@
   "keyframes": [
     {
       "time": 0,
-      "labelKey": "gregtech.ebf.guide.direct.label.overview",
+      "labelKey": "gregtech.ebf.ponder.direct.label.overview",
       "camera": {
         "zoom": 1.2,
         "rotX": 25,
@@ -40,7 +40,7 @@
       "annotations": [
         {
           "type": "text",
-          "textKey": "gregtech.ebf.guide.direct.text.overview",
+          "textKey": "gregtech.ebf.ponder.direct.text.overview",
           "independent": true,
           "yOffset": 105,
           "maxWidth": 250,
@@ -50,7 +50,7 @@
     },
     {
       "time": 100,
-      "labelKey": "gregtech.ebf.guide.direct.label.hatches",
+      "labelKey": "gregtech.ebf.ponder.direct.label.hatches",
       "camera": {
         "zoom": 1.5,
         "rotX": 25,
@@ -75,7 +75,7 @@
         },
         {
           "type": "text",
-          "textKey": "gregtech.ebf.guide.direct.text.hatches",
+          "textKey": "gregtech.ebf.ponder.direct.text.hatches",
           "independent": true,
           "yOffset": 105,
           "maxWidth": 250,
@@ -85,7 +85,7 @@
     },
     {
       "time": 200,
-      "labelKey": "gregtech.ebf.guide.direct.label.generators",
+      "labelKey": "gregtech.ebf.ponder.direct.label.generators",
       "camera": {
         "zoom": 1.4,
         "rotX": 20,
@@ -130,7 +130,7 @@
         },
         {
           "type": "text",
-          "textKey": "gregtech.ebf.guide.direct.text.generators",
+          "textKey": "gregtech.ebf.ponder.direct.text.generators",
           "independent": true,
           "yOffset": 105,
           "maxWidth": 250,
@@ -140,7 +140,7 @@
     },
     {
       "time": 300,
-      "labelKey": "gregtech.ebf.guide.direct.label.cables",
+      "labelKey": "gregtech.ebf.ponder.direct.label.cables",
       "camera": {
         "rotY": 315
       },
@@ -214,7 +214,7 @@
         },
         {
           "type": "text",
-          "textKey": "gregtech.ebf.guide.direct.text.cables",
+          "textKey": "gregtech.ebf.ponder.direct.text.cables",
           "independent": true,
           "yOffset": 105,
           "maxWidth": 250,
@@ -224,7 +224,7 @@
     },
     {
       "time": 400,
-      "labelKey": "gregtech.ebf.guide.direct.label.steam",
+      "labelKey": "gregtech.ebf.ponder.direct.label.steam",
       "camera": {
         "zoom": 1.15,
         "rotX": 30,
@@ -270,7 +270,7 @@
         },
         {
           "type": "text",
-          "textKey": "gregtech.ebf.guide.direct.text.steam",
+          "textKey": "gregtech.ebf.ponder.direct.text.steam",
           "independent": true,
           "yOffset": 105,
           "maxWidth": 250,
@@ -280,7 +280,7 @@
     },
     {
       "time": 500,
-      "labelKey": "gregtech.ebf.guide.direct.label.trial",
+      "labelKey": "gregtech.ebf.ponder.direct.label.trial",
       "camera": {
         "rotY": 225
       },
@@ -302,7 +302,7 @@
         },
         {
           "type": "text",
-          "textKey": "gregtech.ebf.guide.direct.text.trial",
+          "textKey": "gregtech.ebf.ponder.direct.text.trial",
           "independent": true,
           "yOffset": 105,
           "maxWidth": 250,
