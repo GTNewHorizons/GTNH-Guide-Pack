@@ -1,0 +1,329 @@
+{
+  "totalTime": 660,
+  "keyframes": [
+    {
+      "time": 0,
+      "labelKey": "gregtech.ebf.ponder.build.label.controller",
+      "camera": {
+        "zoom": 2.0,
+        "rotX": 25,
+        "rotY": 225,
+        "rotZ": 0,
+        "offX": 0,
+        "offY": 0
+      },
+      "cameraEaseTicks": 0,
+      "blockChanges": [
+        {"x": 0, "y": 0, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 0, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 0, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 0, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 0, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 0, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 0, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 0, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 1, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 1, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 1, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 1, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 1, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 1, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 1, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 1, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 2, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 2, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 2, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 2, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 2, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 2, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 2, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 2, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 3, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 3, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 3, "z": 0, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 3, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 3, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 3, "z": 1, "block": "minecraft:air", "particles": false},
+        {"x": 0, "y": 3, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 1, "y": 3, "z": 2, "block": "minecraft:air", "particles": false},
+        {"x": 2, "y": 3, "z": 2, "block": "minecraft:air", "particles": false}
+      ],
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [0, 0, 1],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.controller",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 100,
+      "labelKey": "gregtech.ebf.ponder.build.label.base",
+      "camera": {
+        "rotY": 135
+      },
+      "cameraEaseTicks": 20,
+      "blockChanges": [
+        {"x": 0, "y": 0, "z": 0, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 1, "y": 0, "z": 0, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:81,mFacing:2s,textureIndex:11,texturePage:0,mColor:0b,mActive:0b}"},
+        {"x": 2, "y": 0, "z": 0, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:71,mFacing:2s,textureIndex:11,texturePage:0,mColor:0b,mActive:0b}"},
+        {"x": 1, "y": 0, "z": 1, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 2, "y": 0, "z": 1, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:41,mFacing:5s,textureIndex:11,texturePage:0,mColor:0b,mActive:0b}"},
+        {"x": 0, "y": 0, "z": 2, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:90,mFacing:4s,textureIndex:11,texturePage:0,mColor:0b,mActive:1b}"},
+        {"x": 1, "y": 0, "z": 2, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:51,mFacing:3s,textureIndex:11,texturePage:0,mColor:0b,mActive:0b}"},
+        {"x": 2, "y": 0, "z": 2, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:41,mFacing:5s,textureIndex:11,texturePage:0,mColor:0b,mActive:0b}"}
+      ],
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 0,
+          "minY": 0,
+          "minZ": 0,
+          "maxX": 3,
+          "maxY": 1,
+          "maxZ": 3,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.base",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 200,
+      "labelKey": "gregtech.ebf.ponder.build.label.lower_coil",
+      "camera": {
+        "rotX": 35,
+        "rotY": 225
+      },
+      "cameraEaseTicks": 20,
+      "blockChanges": [
+        {"x": 0, "y": 1, "z": 0, "block": "gregtech:gt.blockcasings5"},
+        {"x": 1, "y": 1, "z": 0, "block": "gregtech:gt.blockcasings5"},
+        {"x": 2, "y": 1, "z": 0, "block": "gregtech:gt.blockcasings5"},
+        {"x": 0, "y": 1, "z": 1, "block": "gregtech:gt.blockcasings5"},
+        {"x": 2, "y": 1, "z": 1, "block": "gregtech:gt.blockcasings5"},
+        {"x": 0, "y": 1, "z": 2, "block": "gregtech:gt.blockcasings5"},
+        {"x": 1, "y": 1, "z": 2, "block": "gregtech:gt.blockcasings5"},
+        {"x": 2, "y": 1, "z": 2, "block": "gregtech:gt.blockcasings5"}
+      ],
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 0,
+          "minY": 1,
+          "minZ": 0,
+          "maxX": 3,
+          "maxY": 2,
+          "maxZ": 3,
+          "color": "0xFFFF4444",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.lower_coil",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 280,
+      "labelKey": "gregtech.ebf.ponder.build.label.upper_coil",
+      "camera": {
+        "rotX": 45,
+        "rotY": 225
+      },
+      "cameraEaseTicks": 20,
+      "blockChanges": [
+        {"x": 0, "y": 2, "z": 0, "block": "gregtech:gt.blockcasings5"},
+        {"x": 1, "y": 2, "z": 0, "block": "gregtech:gt.blockcasings5"},
+        {"x": 2, "y": 2, "z": 0, "block": "gregtech:gt.blockcasings5"},
+        {"x": 0, "y": 2, "z": 1, "block": "gregtech:gt.blockcasings5"},
+        {"x": 2, "y": 2, "z": 1, "block": "gregtech:gt.blockcasings5"},
+        {"x": 0, "y": 2, "z": 2, "block": "gregtech:gt.blockcasings5"},
+        {"x": 1, "y": 2, "z": 2, "block": "gregtech:gt.blockcasings5"},
+        {"x": 2, "y": 2, "z": 2, "block": "gregtech:gt.blockcasings5"}
+      ],
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 0,
+          "minY": 2,
+          "minZ": 0,
+          "maxX": 3,
+          "maxY": 3,
+          "maxZ": 3,
+          "color": "0xFFFF4444",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "box",
+          "minX": 1,
+          "minY": 1,
+          "minZ": 1,
+          "maxX": 2,
+          "maxY": 3,
+          "maxZ": 2,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.upper_coil",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 360,
+      "labelKey": "gregtech.ebf.ponder.build.label.top",
+      "camera": {
+        "rotX": 30,
+        "rotY": 315
+      },
+      "cameraEaseTicks": 20,
+      "blockChanges": [
+        {"x": 0, "y": 3, "z": 0, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 1, "y": 3, "z": 0, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 2, "y": 3, "z": 0, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 0, "y": 3, "z": 1, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 1, "y": 3, "z": 1, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:91,mFacing:1s,textureIndex:11,texturePage:0,mColor:0b,mActive:0b}"},
+        {"x": 2, "y": 3, "z": 1, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 0, "y": 3, "z": 2, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 1, "y": 3, "z": 2, "block": "gregtech:gt.blockcasings", "meta": 11},
+        {"x": 2, "y": 3, "z": 2, "block": "gregtech:gt.blockcasings", "meta": 11}
+      ],
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [1, 3, 1],
+          "color": "0xFF44AAFF",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "box",
+          "minX": 0,
+          "minY": 3,
+          "minZ": 0,
+          "maxX": 3,
+          "maxY": 4,
+          "maxZ": 3,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.top",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 460,
+      "labelKey": "gregtech.ebf.ponder.build.label.roof",
+      "camera": {
+        "zoom": 1.4,
+        "rotX": 25,
+        "rotY": 225
+      },
+      "cameraEaseTicks": 20,
+      "blockChanges": [
+        {"x": 0, "y": 5, "z": 0, "block": "minecraft:glass"},
+        {"x": 0, "y": 5, "z": 1, "block": "minecraft:glass"},
+        {"x": 0, "y": 5, "z": 2, "block": "minecraft:glass"},
+        {"x": 1, "y": 5, "z": 0, "block": "minecraft:glass"},
+        {"x": 1, "y": 5, "z": 1, "block": "minecraft:glass"},
+        {"x": 1, "y": 5, "z": 2, "block": "minecraft:glass"},
+        {"x": 2, "y": 5, "z": 0, "block": "minecraft:glass"},
+        {"x": 2, "y": 5, "z": 1, "block": "minecraft:glass"},
+        {"x": 2, "y": 5, "z": 2, "block": "minecraft:glass"}
+      ],
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 1,
+          "minY": 4,
+          "minZ": 1,
+          "maxX": 2,
+          "maxY": 5,
+          "maxZ": 2,
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.roof",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 560,
+      "labelKey": "gregtech.ebf.ponder.build.label.maintenance",
+      "camera": {
+        "rotX": 20,
+        "rotY": 225
+      },
+      "cameraEaseTicks": 20,
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [0, 0, 2],
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [0, 0, 1],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.ponder.build.text.maintenance",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    }
+  ]
+}
