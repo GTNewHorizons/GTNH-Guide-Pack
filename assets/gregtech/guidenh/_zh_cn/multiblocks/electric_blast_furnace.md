@@ -283,5 +283,3 @@ LV 阶段也可以把工具放进工具盒，再用工具盒右键维护仓，�
 ## 参考资料
 
 - [GTNH 中文维基：工业高炉](https://gtnh.huijiwiki.com/p/117)
-- [GT5-Unofficial：工业高炉结构与炉温规则](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/common/tileentities/machines/multi/MTEElectricBlastFurnace.java)
-- [GT5-Unofficial：加热线圈等级](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/api/enums/HeatingCoilLevel.java)

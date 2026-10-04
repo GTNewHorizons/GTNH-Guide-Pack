@@ -282,6 +282,4 @@ See [Multiblock Machines](../gtnh-basics/multiblocks.md) for general rules. As m
 
 ## References
 
-- [GTNH Chinese Wiki: Electric Blast Furnace](https://gtnh.huijiwiki.com/p/117)
-- [GT5-Unofficial: EBF structure and temperature rules](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/common/tileentities/machines/multi/MTEElectricBlastFurnace.java)
-- [GT5-Unofficial: Heating Coil tiers](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/api/enums/HeatingCoilLevel.java)
+- [GTNH Wiki: Electric Blast Furnace](https://wiki.gtnewhorizons.com/wiki/Electric_Blast_Furnace)
