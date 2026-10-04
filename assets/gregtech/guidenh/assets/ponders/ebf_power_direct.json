@@ -1,0 +1,314 @@
+{
+  "totalTime": 600,
+  "keyframes": [
+    {
+      "time": 0,
+      "labelKey": "gregtech.ebf.guide.direct.label.overview",
+      "camera": {
+        "zoom": 1.2,
+        "rotX": 25,
+        "rotY": 225,
+        "rotZ": 0,
+        "offX": 0,
+        "offY": 0
+      },
+      "cameraEaseTicks": 0,
+      "blockChanges": [
+        {"x": 2, "y": 1, "z": 5, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:71,mFacing:2s,textureIndex:11,texturePage:0,mColor:0b}"},
+        {"x": 3, "y": 1, "z": 5, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:81,mFacing:2s,textureIndex:11,texturePage:0,mColor:0b}"},
+        {"x": 1, "y": 1, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:51,mFacing:4s,textureIndex:11,texturePage:0,mColor:0b}"},
+        {"x": 4, "y": 0, "z": 5, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:44b,mColor:0b}"},
+        {"x": 5, "y": 0, "z": 5, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:24b,mColor:0b}"},
+        {"x": 5, "y": 0, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:28b,mColor:0b}"},
+        {"x": 5, "y": 0, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:20b,mColor:0b}"},
+        {"x": 4, "y": 0, "z": 4, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:10b,mColor:0b}"},
+        {"x": 4, "y": 1, "z": 4, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:3b,mColor:0b}"},
+        {"x": 4, "y": 2, "z": 4, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:3b,mColor:0b}"},
+        {"x": 4, "y": 3, "z": 2, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:40b,mColor:0b}"},
+        {"x": 4, "y": 3, "z": 3, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:12b,mColor:0b}"},
+        {"x": 4, "y": 3, "z": 4, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:13b,mColor:0b}"},
+        {"x": 4, "y": 3, "z": 5, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:12b,mColor:0b}"},
+        {"x": 4, "y": 3, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:13b,mColor:0b}"},
+        {"x": 4, "y": 3, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 4, "nbt": "{id:\"BaseMetaPipeEntity\",mID:30728,mConnections:5b,mColor:0b}"},
+        {"x": 4, "y": 0, "z": 6, "block": "minecraft:air", "particles": false},
+        {"x": 4, "y": 0, "z": 7, "block": "minecraft:air", "particles": false},
+        {"x": 4, "y": 2, "z": 6, "block": "minecraft:air", "particles": false},
+        {"x": 4, "y": 2, "z": 7, "block": "minecraft:air", "particles": false},
+        {"x": 4, "y": 1, "z": 6, "block": "minecraft:air", "particles": false},
+        {"x": 4, "y": 1, "z": 7, "block": "minecraft:air", "particles": false}
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.guide.direct.text.overview",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 100,
+      "labelKey": "gregtech.ebf.guide.direct.label.hatches",
+      "camera": {
+        "zoom": 1.5,
+        "rotX": 25,
+        "rotY": 315
+      },
+      "cameraEaseTicks": 20,
+      "layer": 2,
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [3, 1, 6],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [3, 1, 7],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.guide.direct.text.hatches",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 200,
+      "labelKey": "gregtech.ebf.guide.direct.label.generators",
+      "camera": {
+        "zoom": 1.4,
+        "rotX": 20,
+        "rotY": 315
+      },
+      "cameraEaseTicks": 20,
+      "layer": null,
+      "blockChanges": [
+        {"x": 4, "y": 0, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:1120,mFacing:1s,mColor:0b,mActive:0b}"},
+        {"x": 4, "y": 0, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:1120,mFacing:1s,mColor:0b,mActive:0b}"},
+        {"x": 4, "y": 2, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:1120,mFacing:0s,mColor:0b,mActive:0b}"},
+        {"x": 4, "y": 2, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 1, "nbt": "{id:\"BaseMetaTileEntity\",mID:1120,mFacing:0s,mColor:0b,mActive:0b}"}
+      ],
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [4, 0, 6],
+          "color": "0xFF44AAFF",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [4, 0, 7],
+          "color": "0xFF44AAFF",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [4, 2, 6],
+          "color": "0xFF44AAFF",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [4, 2, 7],
+          "color": "0xFF44AAFF",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.guide.direct.text.generators",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 300,
+      "labelKey": "gregtech.ebf.guide.direct.label.cables",
+      "camera": {
+        "rotY": 315
+      },
+      "cameraEaseTicks": 20,
+      "blockChanges": [
+        {"x": 4, "y": 1, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 9, "nbt": "{id:\"BaseMetaPipeEntity\",mID:1247,mConnections:0b,mColor:0b}"},
+        {"x": 4, "y": 1, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 9, "nbt": "{id:\"BaseMetaPipeEntity\",mID:1247,mConnections:0b,mColor:0b}"}
+      ],
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [4, 1, 6],
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [4, 1, 7],
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [4.5, 0.5, 6.5],
+            [4.5, 1.5, 6.5],
+            [3.5, 1.5, 6.5]
+          ],
+          "color": "0xFF44AAFF",
+          "arrow": "end",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [4.5, 2.5, 6.5],
+            [4.5, 1.5, 6.5],
+            [3.5, 1.5, 6.5]
+          ],
+          "color": "0xFF44AAFF",
+          "arrow": "end",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [4.5, 0.5, 7.5],
+            [4.5, 1.5, 7.5],
+            [3.5, 1.5, 7.5]
+          ],
+          "color": "0xFF44AAFF",
+          "arrow": "end",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [4.5, 2.5, 7.5],
+            [4.5, 1.5, 7.5],
+            [3.5, 1.5, 7.5]
+          ],
+          "color": "0xFF44AAFF",
+          "arrow": "end",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.guide.direct.text.cables",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 400,
+      "labelKey": "gregtech.ebf.guide.direct.label.steam",
+      "camera": {
+        "zoom": 1.15,
+        "rotX": 30,
+        "rotY": 225
+      },
+      "cameraEaseTicks": 20,
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 1,
+          "minY": 1,
+          "minZ": 1,
+          "maxX": 4,
+          "maxY": 5,
+          "maxZ": 4,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "box",
+          "minX": 5,
+          "minY": 1,
+          "minZ": 1,
+          "maxX": 7,
+          "maxY": 5,
+          "maxZ": 3,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "box",
+          "minX": 4,
+          "minY": 0,
+          "minZ": 4,
+          "maxX": 6,
+          "maxY": 1,
+          "maxZ": 8,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.guide.direct.text.steam",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 500,
+      "labelKey": "gregtech.ebf.guide.direct.label.trial",
+      "camera": {
+        "rotY": 225
+      },
+      "cameraEaseTicks": 20,
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [1, 1, 5],
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "block",
+          "pos": [1, 1, 6],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.ebf.guide.direct.text.trial",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    }
+  ]
+}

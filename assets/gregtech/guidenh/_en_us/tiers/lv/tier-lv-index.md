@@ -8,3 +8,7 @@ navigation:
 
 > [!WARNING]
 > This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+
+## Related Guides
+
+- [Electric Blast Furnace](../../multiblocks/electric_blast_furnace.md): Build, maintain, and power an EBF with two LV Energy Hatches to produce your first aluminium.
