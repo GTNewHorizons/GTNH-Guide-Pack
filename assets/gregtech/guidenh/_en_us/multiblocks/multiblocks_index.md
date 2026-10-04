@@ -40,6 +40,7 @@ Electric multiblocks come in many forms and use **Energy Hatches** to receive po
 - [Electric Blast Furnace](./electric_blast_furnace.md): Uses Heating Coils to process aluminium and high-temperature materials, introducing early two-hatch tier skipping.
 - [Vacuum Freezer](./vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
 - [Distillation Tower](./distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
+- [Cleanroom](./cleanroom.md): Provides a clean environment for internal machines to run certain circuit and other recipes; reach 100% cleanness before processing.
 
 # Structure
 

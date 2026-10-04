@@ -43,6 +43,7 @@ categories:
 - [工业高炉](./electric_blast_furnace.md)：利用线圈炉温处理铝和高温材料，是早期双仓升压的入门机器。
 - [真空冷冻机](./vacuum_freezer.md)：冷却热锭、处理部分流体及冷却单元。
 - [蒸馏塔](./distillation_tower.md)：同时分离流体中的全部馏分，并按塔层分别输出。
+- [超净间](./cleanroom.md)：为内部机器提供超净环境，用于部分电路等配方；加工前需达到 100% 洁净度。
 
 # 结构
 
