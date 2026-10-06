@@ -36,6 +36,7 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 
 - [Steam Hearth](./steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
 - [Steam Presser](./steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Grinder](./steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
 - [Steam Squasher](./steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
 
 ## Electric Machines
