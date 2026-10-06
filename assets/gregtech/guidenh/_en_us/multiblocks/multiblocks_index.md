@@ -39,6 +39,7 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - [Steam Separator](./steam_centrifuge.md): Purifies ore dusts and processes Sticky Resin in batches, with eight parallels, fluid outputs, and a high pressure structure upgrade.
 - [Steam Grinder](./steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
 - [Steam Squasher](./steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
+- [Steam Purifier](./steam_washer.md): Washes minerals in batches, with Ore Washer and Simple Washer modes, eight parallels, and a high pressure structure upgrade.
 
 ## Electric Machines
 
