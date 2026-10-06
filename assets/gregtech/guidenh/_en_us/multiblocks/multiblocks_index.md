@@ -18,7 +18,8 @@ Although most multiblocks have unique casings and structures, their item, fluid,
 
 ## Steam Machines
 
-There are only seven steam multiblocks:
+There are eight steam multiblocks:
+<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />,
@@ -33,6 +34,7 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - Run steam recipes at a fixed 125% speed and 62.5% steam cost.
 - Have a fixed maximum of 8 parallels.
 
+- [Steam Hearth](./steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
 - [Steam Presser](./steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
 
 ## Electric Machines
