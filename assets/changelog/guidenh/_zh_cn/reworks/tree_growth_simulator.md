@@ -28,7 +28,7 @@ date: 2026-05-27
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15541"/><ItemImage id="gregtech:gt.blockmachines:15541"/>
-- 60 个 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 60 个 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 57 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 45-55 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:15"/>
 - 25 个泥土 / 草方块 <ItemImage id="minecraft:dirt"/> <ItemImage id="minecraft:grass"/>

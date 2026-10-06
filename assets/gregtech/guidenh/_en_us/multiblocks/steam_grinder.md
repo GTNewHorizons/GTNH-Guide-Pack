@@ -49,7 +49,7 @@ The following quantities assume one Steam Hatch, one Input Bus, and one Output B
 | Component | Basic structure | High pressure structure | Quantity and position |
 | --- | --- | --- | --- |
 | Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 17 in the basic setup; may be replaced with the hatches or buses below, but at least 14 actual casings must remain |
-| Frame Box | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Eight, at the four corners of the second and third layers |
+| Frame Box | <ItemLink id="ml:Bronze:frameGt" showIcon="left" /> | <ItemLink id="ml:Steel:frameGt" showIcon="left" /> | Eight, at the four corners of the second and third layers |
 | Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | One, at the center of the fourth layer |
 | Controller | <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> | Same controller | One, at the front center of the second layer |
 | Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |

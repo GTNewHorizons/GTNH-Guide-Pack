@@ -29,7 +29,7 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15514" /> <ItemImage id="gregtech:gt.blockmachines:15514" />
 - 6-43 个 <ItemLink id="miscutils:miscutils.blockcasings:5" /> <ItemImage id="miscutils:miscutils.blockcasings:5" />
-- 12 个 <ItemLink id="miscutils:blockFrameGtPotin" /> <ItemImage id="miscutils:blockFrameGtPotin" />
+- 12 个 <ItemLink id="ml:Potin:frameGt" /> <ItemImage id="ml:Potin:frameGt" />
 - 4 个 <ItemLink id="gregtech:gt.blockcasings11" /> <ItemImage id="gregtech:gt.blockcasings11" />
 - 4 个 <ItemLink id="gregtech:gt.blockcasings11:1" /> <ItemImage id="gregtech:gt.blockcasings11:1" />
 - 1+ 个能源仓（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />

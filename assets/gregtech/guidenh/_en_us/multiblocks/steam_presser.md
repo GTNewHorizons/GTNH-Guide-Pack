@@ -49,7 +49,7 @@ The following quantities assume one Steam Hatch, one Input Bus, and one Output B
 | --- | --- | --- | --- |
 | Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 39 in the basic setup; may be replaced with hatches or buses, but at least 35 actual casings must remain |
 | Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Two, at the center of the sixth and seventh layers |
-| Metal block | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | Two, at the center of the fourth and fifth layers |
+| Metal block | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="ml:Steel:block" showIcon="left" /> | Two, at the center of the fourth and fifth layers |
 | Controller | <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> | Same controller | One, at the front center of the second layer |
 | Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
 | Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |

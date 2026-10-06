@@ -35,8 +35,8 @@ date: 2026-05-27
 
 ### 需要：
 - 1 个大型蒸汽涡轮控制器（对应具体类型） <ItemImage id="gregtech:gt.blockmachines:15524"/>
-- 14 个框架方块（随涡轮类型变化） <ItemImage id="gregtech:gt.blockframes:32"/>
-- 8-14 个涡轮机械方块（随涡轮类型变化） <ItemImage id="gregtech:gt.blockframes:32"/>
+- 14 个框架方块（随涡轮类型变化） <ItemImage id="ml:Iron:frameGt"/>
+- 8-14 个涡轮机械方块（随涡轮类型变化） <ItemImage id="ml:Iron:frameGt"/>
 - 12 个管道方块（随涡轮类型变化） <ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 1 个动力仓（背面中央涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 个维护仓（任意背部涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />

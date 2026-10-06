@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="appliedenergistics2:tile.BlockQuartzGlass" scale="8" />
 
-Mostly clear glass made with <ItemLink id="gregtech:gt.metaitem.01:2516" />. It is used to make many AE2 machines and items. The vibrant variant emits light.
+Mostly clear glass made with <ItemLink id="ml:CertusQuartz:dust" />. It is used to make many AE2 machines and items. The vibrant variant emits light.
 
 ## Recipes
 

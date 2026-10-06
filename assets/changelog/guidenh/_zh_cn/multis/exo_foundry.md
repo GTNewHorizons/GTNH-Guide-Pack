@@ -29,7 +29,7 @@ date: 2026-05-25
 - 462-486 个 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
 - 281 个 <ItemLink id="gregtech:gt.foundrycasings:11" /> <ItemImage id="gregtech:gt.foundrycasings:11" />
 - 260 个磁力塔架（分级） <ItemImage id="gregtech:gt.foundrycasings:1" />
-- 224 个 <ItemLink id="gregtech:gt.blockframes:132" /> <ItemImage id="gregtech:gt.blockframes:132" />
+- 224 个 <ItemLink id="ml:Netherite:frameGt" /> <ItemImage id="ml:Netherite:frameGt" />
 - 196 个 <ItemLink id="gregtech:gt.foundrycasings:12" /> <ItemImage id="gregtech:gt.foundrycasings:12" />
 - 173 个 <ItemLink id="gregtech:gt.blockcasings11:7" /><ItemImage id="gregtech:gt.blockcasings11:7" />
 - 1+ 个能源仓（任意异星铸造塔基础机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
@@ -68,11 +68,11 @@ date: 2026-05-25
 - 64 个 <ItemLink id="gregtech:gt.blockcasings10:13" /> <ItemImage id="gregtech:gt.blockcasings10:13" />
 - 36 个 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
 - 32 个 <ItemLink id="gregtech:gt.blockcasings10:14" /> <ItemImage id="gregtech:gt.blockcasings10:14" />
-- 30 个 <ItemLink id="gregtech:gt.blockframes:75" /> <ItemImage id="gregtech:gt.blockframes:75" />
-- 8 个 <ItemLink id="bartworks:bw.werkstoffblockscasing.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasing.01:10109"/>
+- 30 个 <ItemLink id="ml:Erbium:frameGt" /> <ItemImage id="ml:Erbium:frameGt" />
+- 8 个 <ItemLink id="ml:PreciousMetalsAlloy:blockCasing"/> <ItemImage id="ml:PreciousMetalsAlloy:blockCasing"/>
 - 8 个 <ItemLink id="gregtech:bw.sheetmetal:10109" /> <ItemImage id="gregtech:bw.sheetmetal:10109" />
-- 6 个 <ItemLink id="gregtech:gt.sheetmetal:75" /> <ItemImage id="gregtech:gt.sheetmetal:75" />
-- 4 个 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/>
+- 6 个 <ItemLink id="ml:Erbium:sheetmetal" /> <ItemImage id="ml:Erbium:sheetmetal" />
+- 4 个 <ItemLink id="ml:PreciousMetalsAlloy:blockCasingAdvanced"/> <ItemImage id="ml:PreciousMetalsAlloy:blockCasingAdvanced"/>
 
 ## 原型电压稳定器 <ItemImage id="gregtech:gt.foundrycasings:6" />
 <Color id="GREEN">原型电压稳定器</Color>（PVS，UEV）会先从配方基础 EU/t 中减去 10%，再把结果乘以 0.8，如下式所示。装 1 个 PVS 相当于获得 28% 的 EU 折扣；装 2 个则能达到 49%。它不会缩短配方时长，因此不会直接提高机器速度。加法折扣可以和 <Color id="GREEN">日耀投射强化</Color> 叠加，而乘法折扣则可以和 <Color id="GREEN">宇宙坍缩者</Color> 叠加。PVS 的安装数量没有上限。若它与 <Color id="GREEN">感知超频器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">谐和效率</Color>：额外 -50% EU/t，并再提高 0.1 超频系数。
@@ -87,12 +87,12 @@ date: 2026-05-25
 
 ### 需要：
 - 64 个 <ItemLink id="gregtech:gt.foundrycasings:6" /><ItemImage id="gregtech:gt.foundrycasings:6" />
-- 32 个 <ItemLink id="gregtech:gt.blockframes:73" /><ItemImage id="gregtech:gt.blockframes:73" />
+- 32 个 <ItemLink id="ml:Dysprosium:frameGt" /><ItemImage id="ml:Dysprosium:frameGt" />
 - 28 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2:3" /> <ItemImage id="miscutils:gtplusplus.blockspecialcasings.2:3"/>
-- 16 个 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
-- 16 个 <ItemLink id="gregtech:gt.sheetmetal:391" /><ItemImage id="gregtech:gt.sheetmetal:391"/>
-- 16 个 <ItemLink id="gregtech:gt.sheetmetal:69" /><ItemImage id="gregtech:gt.sheetmetal:69"/>
-- 4 个 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
+- 16 个 <ItemLink id="ml:TengamAttuned:sheetmetal" /><ItemImage id="ml:TengamAttuned:sheetmetal"/>
+- 16 个 <ItemLink id="ml:Quantium:sheetmetal" /><ItemImage id="ml:Quantium:sheetmetal"/>
+- 16 个 <ItemLink id="ml:Samarium:sheetmetal" /><ItemImage id="ml:Samarium:sheetmetal"/>
+- 4 个 <ItemLink id="ml:TengamAttuned:sheetmetal" /><ItemImage id="ml:TengamAttuned:sheetmetal"/>
 - 4 个 <ItemLink id="gregtech:gt.blockcasings11:5" /><ItemImage id="gregtech:gt.blockcasings11:5" />
 
 ## 流线型铸造器 <ItemImage id="gregtech:gt.foundrycasings:10" />
@@ -108,9 +108,9 @@ date: 2026-05-25
 
 ### 需要：
 - 64 个 <ItemLink id="gregtech:gt.foundrycasings:10" /><ItemImage id="gregtech:gt.foundrycasings:10" />
-- 28 个 <ItemLink id="gregtech:gt.blockframes:974" /><ItemImage id="gregtech:gt.blockframes:974" />
-- 24 个 <ItemLink id="gregtech:gt.blockframes:329" /><ItemImage id="gregtech:gt.blockframes:329" />
-- 16 个 <ItemLink id="gregtech:gt.sheetmetal:974" /><ItemImage id="gregtech:gt.sheetmetal:974" />
+- 28 个 <ItemLink id="ml:SuperconductorUEVBase:frameGt" /><ItemImage id="ml:SuperconductorUEVBase:frameGt" />
+- 24 个 <ItemLink id="ml:Tritanium:frameGt" /><ItemImage id="ml:Tritanium:frameGt" />
+- 16 个 <ItemLink id="ml:SuperconductorUEVBase:sheetmetal" /><ItemImage id="ml:SuperconductorUEVBase:sheetmetal" />
 - 12 个 <ItemLink id="miscutils:gtplusplus.blockcasings.5:3" /><ItemImage id="miscutils:gtplusplus.blockcasings.5:3" />
 - 12 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:13" /><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:13" />
 
@@ -123,12 +123,12 @@ date: 2026-05-25
 | 永恒* | 25 L/s | +3 |
 
 ### 需要：
-- 64 个 <ItemLink id="gregtech:gt.sheetmetal:389" /> <ItemImage id="gregtech:gt.sheetmetal:389" />
-- 48 个 <ItemLink id="gregtech:gt.blockframes:394" /><ItemImage id="gregtech:gt.blockframes:394" />
+- 64 个 <ItemLink id="ml:CallistoIce:sheetmetal" /> <ItemImage id="ml:CallistoIce:sheetmetal" />
+- 48 个 <ItemLink id="ml:InfinityCatalyst:frameGt" /><ItemImage id="ml:InfinityCatalyst:frameGt" />
 - 36 个 <ItemLink id="gregtech:gt.foundrycasings:9" /><ItemImage id="gregtech:gt.foundrycasings:9"/>
 - 20 个 <ItemLink id="gregtech:gt.blockcasings8:14" /> <ItemImage id="gregtech:gt.blockcasings8:14" />
 - 19 个 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10" />
-- 16 个 <ItemLink id="gregtech:gt.sheetmetal:985" /><ItemImage id="gregtech:gt.sheetmetal:985"/>
+- 16 个 <ItemLink id="ml:Longasssuperconductornameforuhvwire:sheetmetal" /><ItemImage id="ml:Longasssuperconductornameforuhvwire:sheetmetal"/>
 - 1 个输入仓（任意凛冰机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 
 ## 日耀投射强化 <ItemImage id="gregtech:gt.foundrycasings:7" />
@@ -143,14 +143,14 @@ date: 2026-05-25
 
 ### 需要：
 - 32 个 <ItemLink id="tectech:gt.godforgecasing:3" /><ItemImage id="tectech:gt.godforgecasing:3" />
-- 24 个 <ItemLink id="gregtech:gt.blockframes:147" /><ItemImage id="gregtech:gt.blockframes:147" />
-- 16 个 <ItemLink id="gregtech:gt.sheetmetal:588" /><ItemImage id="gregtech:gt.sheetmetal:588" />
+- 24 个 <ItemLink id="ml:SixPhasedCopper:frameGt" /><ItemImage id="ml:SixPhasedCopper:frameGt" />
+- 16 个 <ItemLink id="ml:SpaceTime:sheetmetal" /><ItemImage id="ml:SpaceTime:sheetmetal" />
 - 16 个 <ItemLink id="tectech:tile.spatiallyTranscendentGravitationalLens" /> <ItemImage id="tectech:tile.spatiallyTranscendentGravitationalLens"/>
 - 12 个 <ItemLink id="gregtech:gt.foundrycasings:7" /><ItemImage id="gregtech:gt.foundrycasings:7" />
-- 12 个 <ItemLink id="gregtech:gt.blockframes:581"/><ItemImage id="gregtech:gt.blockframes:582"/>
-- 12 个 <ItemLink id="gregtech:gt.blockframes:149"/><ItemImage id="gregtech:gt.blockframes:149"/>
-- 12 个 <ItemLink id="gregtech:gt.blockframes:148"/><ItemImage id="gregtech:gt.blockframes:148"/>
-- 12 个 <ItemLink id="gregtech:gt.blockframes:588"/><ItemImage id="gregtech:gt.blockframes:588"/>
+- 12 个 <ItemLink id="ml:TranscendentMetal:frameGt"/><ItemImage id="ml:EnrichedHolmium:frameGt"/>
+- 12 个 <ItemLink id="ml:Creon:frameGt"/><ItemImage id="ml:Creon:frameGt"/>
+- 12 个 <ItemLink id="ml:Mellion:frameGt"/><ItemImage id="ml:Mellion:frameGt"/>
+- 12 个 <ItemLink id="ml:SpaceTime:frameGt"/><ItemImage id="ml:SpaceTime:frameGt"/>
 
 ## 感知超频器 <ItemImage id="gregtech:gt.foundrycasings:5"/>
 <Color id="GREEN">感知超频器</Color>（SO，UMV）会把机器的超频系数提高 0.35。换句话说，每一次有损超频都会额外多提供 35% 速度，具体可见下表。每台异星铸造塔最多只能安装 1 个 SO。若它与 <Color id="GREEN">原型电压稳定器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">谐和效率</Color>：-50% EU/t，并额外再 +0.1 超频系数。
@@ -167,7 +167,7 @@ date: 2026-05-25
 - 40 个 <ItemLink id="gregtech:gt.foundrycasings:5"/><ItemImage id="gregtech:gt.foundrycasings:5"/>
 - 36 个 <ItemLink id="GoodGenerator:antimatterContainmentCasing"/><ItemImage id="GoodGenerator:antimatterContainmentCasing"/>
 - 24 个 <ItemLink id="gregtech:gt.foundrycasings:1"/> <ItemImage id="gregtech:gt.foundrycasings:1"/>
-- 16 个 <ItemLink id="gregtech:gt.blockframes:327"/> <ItemImage id="gregtech:gt.blockframes:327"/>
+- 16 个 <ItemLink id="ml:Naquadria:frameGt"/> <ItemImage id="ml:Naquadria:frameGt"/>
 
 ## 宇宙坍缩者 <ItemImage id="gregtech:gt.foundrycasings:4"/>
 <Color id="GREEN">宇宙坍缩者</Color>（UC，UXV）会把机器耗电乘以 4、速度乘以 2，并把最低机械方块需求提高 20。实际效果等同于强制追加 1 次有损超频，同时只给 35 个总模具位留出 5 个输入位。每台异星铸造塔最多只能安装 1 个 UC。若它与 <Color id="GREEN">超级冷却器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">现实潜能</Color>：允许使用永恒冷却液，耗电乘 2，速度乘 2，并获得额外超频。
@@ -175,14 +175,14 @@ date: 2026-05-25
 ### 需要：
 - 72 个 <ItemLink id="tectech:gt.blockcasingsBA0:11"/> <ItemImage id="tectech:gt.blockcasingsBA0:11"/>
 - 48 个 <ItemLink id="tectech:gt.blockcasingsBA0:10"/><ItemImage id="tectech:gt.blockcasingsBA0:10"/>
-- 40 个 <ItemLink id="gregtech:gt.blockframes:583" /> <ItemImage id="gregtech:gt.blockframes:583" />
-- 28 个 <ItemLink id="gregtech:gt.blockmetal9:6"/><ItemImage id="gregtech:gt.blockmetal9:6"/>
-- 28 个 <ItemLink id="gregtech:gt.blockmetal9:7"/><ItemImage id="gregtech:gt.blockmetal9:7"/>
-- 16 个 <ItemLink id="gregtech:gt.blockframes:139"/><ItemImage id="gregtech:gt.blockframes:139"/>
-- 8 个 <ItemLink id="gregtech:gt.blockframes:585"/><ItemImage id="gregtech:gt.blockframes:585"/>
-- 8 个 <ItemLink id="gregtech:gt.blockframes:586"/><ItemImage id="gregtech:gt.blockframes:586"/>
+- 40 个 <ItemLink id="ml:MagnetohydrodynamicallyConstrainedStarMatter:frameGt" /> <ItemImage id="ml:MagnetohydrodynamicallyConstrainedStarMatter:frameGt" />
+- 28 个 <ItemLink id="ml:WhiteDwarfMatter:block"/><ItemImage id="ml:WhiteDwarfMatter:block"/>
+- 28 个 <ItemLink id="ml:BlackDwarfMatter:block"/><ItemImage id="ml:BlackDwarfMatter:block"/>
+- 16 个 <ItemLink id="ml:Universium:frameGt"/><ItemImage id="ml:Universium:frameGt"/>
+- 8 个 <ItemLink id="ml:WhiteDwarfMatter:frameGt"/><ItemImage id="ml:WhiteDwarfMatter:frameGt"/>
+- 8 个 <ItemLink id="ml:BlackDwarfMatter:frameGt"/><ItemImage id="ml:BlackDwarfMatter:frameGt"/>
 - 4 个 <ItemLink id="gregtech:gt.foundrycasings:4"/><ItemImage id="gregtech:gt.foundrycasings:4"/>
-- 4 个 <ItemLink id="gregtech:gt.blockmetal9:13"/><ItemImage id="gregtech:gt.blockmetal9:13"/>
+- 4 个 <ItemLink id="ml:MagnetohydrodynamicallyConstrainedStarMatter:block"/><ItemImage id="ml:MagnetohydrodynamicallyConstrainedStarMatter:block"/>
 
 ## 联动
 共有 4 组独特的模块搭配会给异星铸造塔额外奖励。它们前面的各个小节都已经提到过，这里只是集中列出，方便查阅。这些加成无论你每种模块装几份，都只会生效一次。举例来说，装两个 SCB 再装两个 SC，并不会把 <Color id="GREEN">最优生产</Color> 的联动奖励翻倍。

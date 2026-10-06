@@ -26,7 +26,7 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15555"/><ItemImage id="gregtech:gt.blockmachines:15555"/>
 - 10-29 个 <ItemLink id="miscutils:gtplusplus.blockcasings.5:6"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:6"/>
-- 20 个 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:32100"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:32100"/>
+- 20 个 <ItemLink id="ml:BlackSteel:blockCasingAdvanced"/><ItemImage id="ml:BlackSteel:blockCasingAdvanced"/>
 - 3 个螺线管超导线圈（分级） <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10"/>
 - 2 个 <ItemLink id="gregtech:gt.blockcasings13:4"/><ItemImage id="gregtech:gt.blockcasings13:4"/>
 - 1+ 个能源仓（任意锻造机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />

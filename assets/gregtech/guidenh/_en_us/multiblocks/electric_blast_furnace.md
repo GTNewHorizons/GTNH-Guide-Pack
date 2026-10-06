@@ -128,7 +128,7 @@ Input Buses hold dusts and Programmed Circuits; Input Hatches supply the gases o
 
 ### Producing Your First Aluminium
 
-Check the Electric Blast Furnace recipes for <ItemLink id="gregtech:gt.metaitem.01:11019" showIcon="left" /> in NEI. Choose one for which you can obtain all ingredients, fluids, and circuits. Different aluminium sources and gas options can have different processing times; do not apply one recipe's requirements to every aluminium recipe.
+Check the Electric Blast Furnace recipes for <ItemLink id="ml:Aluminium:ingot" showIcon="left" /> in NEI. Choose one for which you can obtain all ingredients, fluids, and circuits. Different aluminium sources and gas options can have different processing times; do not apply one recipe's requirements to every aluminium recipe.
 
 For your first trial, work through this checklist:
 
