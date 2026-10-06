@@ -35,6 +35,7 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - Have a fixed maximum of 8 parallels.
 
 - [Steam Hearth](./steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
+- [Steam Presser](./steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
 
 ## Electric Machines
 
