@@ -21,7 +21,8 @@ categories:
 
 ## 蒸汽机器
 
-多方块蒸汽机器只有七种:
+多方块蒸汽机器有八种:
+<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" />、
 <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />、
 <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />、
 <ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />、
@@ -35,6 +36,8 @@ categories:
 - 不需要维护。
 - 执行蒸汽配方时固定 125% 运行速度、62.5% 蒸汽消耗。
 - 最大并行数固定为 8。
+
+- [蒸汽壁炉](./steam_hearth.md)：批量烧制物品，支持高炉和烟熏模式，可升级为高压结构。
 
 ## 电力机器
 
