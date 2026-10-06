@@ -33,6 +33,8 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - Run steam recipes at a fixed 125% speed and 62.5% steam cost.
 - Have a fixed maximum of 8 parallels.
 
+- [Steam Presser](./steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
+
 ## Electric Machines
 
 Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
