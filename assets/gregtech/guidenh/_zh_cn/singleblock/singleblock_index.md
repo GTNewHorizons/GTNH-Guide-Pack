@@ -61,7 +61,7 @@ navigation:
 | 蒸汽机器 | 2 倍       | 2 倍 |
 | 高压蒸汽机器 | 4 倍       | 1 倍 |
 
-高压版本以二倍速消耗蒸汽，配方执行时间减半，相当于执行了一次 2/2 无损 [超频](../tierskipping-overcloking-parallels/overclocking.md)。
+高压版本以二倍速消耗蒸汽，配方执行时间减半，相当于执行了一次 2/2 无损 [超频](../tierskipping_overcloking_parallels/overclocking.md)。
 
 可使用<ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /><kbd>右键</kbd>机器暂停/恢复执行。
 
@@ -113,7 +113,7 @@ $$最大输入电流 = \left\lfloor\frac{\text{配方额定功率} \times 2}{\te
 
 单方块电力机器执行 4/2 有损超频：每次超频功率翻四倍，加工时间减半，总能耗翻两倍。单方块质量发生器是唯一的例外，执行 2/2 无损超频。
 
-参见 **[超频](../tierskipping-overcloking-parallels/overclocking.md)** 了解完整超频机制。
+参见 **[超频](../tierskipping_overcloking_parallels/overclocking.md)** 了解完整超频机制。
 
 ## 物流
 

@@ -64,7 +64,7 @@ navigation:
 
 ## 供电与产能
 
-HV 是取得机器的阶段，不代表它只能使用 HV 电力。升级能源仓可以提高可用电压，并对符合条件的配方进行[超频](../../tierskipping-overcloking-parallels/overclocking.md)。它也遵循普通多方块的[升压规则](../../tierskipping-overcloking-parallels/tierskipping.md)。
+HV 是取得机器的阶段，不代表它只能使用 HV 电力。升级能源仓可以提高可用电压，并对符合条件的配方进行[超频](../../tierskipping_overcloking_parallels/overclocking.md)。它也遵循普通多方块的[升压规则](../../tierskipping_overcloking_parallels/tierskipping.md)。
 
 冷冻机没有加热线圈，因此不会获得工业高炉的高温折扣或高温无损超频。标准有损超频每次将功率提高到 4 倍、时间缩短为一半，单次加工的总耗电量也随之增加。
 

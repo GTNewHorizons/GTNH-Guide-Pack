@@ -86,7 +86,7 @@ NEI 中流体产物的读取顺序为**从左到右、从下到上**。第一个
 
 ## 供电与产能
 
-HV 是取得控制器的阶段，不代表蒸馏塔只能接受 HV 电力。机器的可用电压由所装普通能源仓决定；更换更高等级的能源仓后，可以处理更高电压配方并进行[超频](../../tierskipping-overcloking-parallels/overclocking.md)。安装两个同等级普通能源仓也可以按照普通多方块规则进行[双仓升压](../../tierskipping-overcloking-parallels/tierskipping.md)。
+HV 是取得控制器的阶段，不代表蒸馏塔只能接受 HV 电力。机器的可用电压由所装普通能源仓决定；更换更高等级的能源仓后，可以处理更高电压配方并进行[超频](../../tierskipping_overcloking_parallels/overclocking.md)。安装两个同等级普通能源仓也可以按照普通多方块规则进行[双仓升压](../../tierskipping_overcloking_parallels/tierskipping.md)。
 
 蒸馏塔不支持多安能源仓或激光靶仓，也没有并行能力。标准有损超频每次把功率提高到 4 倍、耗时缩短为一半；达到 1 tick 后仍可继续超频，但不会因此一次处理多份配方。
 
