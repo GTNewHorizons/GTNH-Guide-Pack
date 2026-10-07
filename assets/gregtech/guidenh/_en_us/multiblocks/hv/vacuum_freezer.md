@@ -14,7 +14,7 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](../LV/electric_blast_furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
+The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](../lv/electric_blast_furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
 
 Not every Electric Blast Furnace product needs cooling. Before setting up a production line, check the product's uses in NEI. If the furnace already produces a regular ingot, it does not need to pass through the Vacuum Freezer.
 

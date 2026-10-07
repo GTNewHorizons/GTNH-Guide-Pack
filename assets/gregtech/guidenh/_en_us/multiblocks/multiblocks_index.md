@@ -34,23 +34,23 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - Run steam recipes at a fixed 125% speed and 62.5% steam cost.
 - Have a fixed maximum of 8 parallels.
 
-- [Steam Hearth](./STEAM/steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
-- [Steam Fuser](./STEAM/steam_alloy_smelter.md): Makes alloys and processes molding recipes in batches, with eight parallels and a high pressure structure upgrade.
-- [Steam Presser](./STEAM/steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
-- [Steam Blender](./STEAM/steam_mixer.md): Mixes dusts and fluids in batches, with recipes that use fluids instead of cells, eight parallels, and a high pressure structure upgrade.
-- [Steam Separator](./STEAM/steam_centrifuge.md): Purifies ore dusts and processes Sticky Resin in batches, with eight parallels, fluid outputs, and a high pressure structure upgrade.
-- [Steam Grinder](./STEAM/steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
-- [Steam Squasher](./STEAM/steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
-- [Steam Purifier](./STEAM/steam_washer.md): Washes minerals in batches, with Ore Washer and Simple Washer modes, eight parallels, and a high pressure structure upgrade.
+- [Steam Hearth](./steam/steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
+- [Steam Fuser](./steam/steam_alloy_smelter.md): Makes alloys and processes molding recipes in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Presser](./steam/steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Blender](./steam/steam_mixer.md): Mixes dusts and fluids in batches, with recipes that use fluids instead of cells, eight parallels, and a high pressure structure upgrade.
+- [Steam Separator](./steam/steam_centrifuge.md): Purifies ore dusts and processes Sticky Resin in batches, with eight parallels, fluid outputs, and a high pressure structure upgrade.
+- [Steam Grinder](./steam/steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
+- [Steam Squasher](./steam/steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
+- [Steam Purifier](./steam/steam_washer.md): Washes minerals in batches, with Ore Washer and Simple Washer modes, eight parallels, and a high pressure structure upgrade.
 
 ## Electric Machines
 
 Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
 
-- [Electric Blast Furnace](./LV/electric_blast_furnace.md): Uses Heating Coils to process aluminium and high-temperature materials, introducing early two-hatch tier skipping.
-- [Vacuum Freezer](./HV/vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
-- [Distillation Tower](./HV/distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
-- [Cleanroom](./HV/cleanroom.md): Provides a clean environment for internal machines to run certain circuit and other recipes; reach 100% cleanness before processing.
+- [Electric Blast Furnace](./lv/electric_blast_furnace.md): Uses Heating Coils to process aluminium and high-temperature materials, introducing early two-hatch tier skipping.
+- [Vacuum Freezer](./hv/vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
+- [Distillation Tower](./hv/distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
+- [Cleanroom](./hv/cleanroom.md): Provides a clean environment for internal machines to run certain circuit and other recipes; reach 100% cleanness before processing.
 
 # Structure
 

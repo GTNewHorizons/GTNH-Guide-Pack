@@ -81,7 +81,7 @@ Right-click the controller with a <ItemLink id="gregtech:gt.metatool.01:22" show
 Blasting and Smoking only process items in their respective recipe maps; they do not automatically fall back to Furnace mode. If an item with a furnace recipe does not process, check the selected mode first. Being a metal or food item alone does not guarantee a recipe in the specialized mode.
 
 > [!NOTE]
-> Blasting here corresponds to the Blast Furnace processing introduced in Minecraft 1.14+. It cannot replace an [Electric Blast Furnace](../LV/electric_blast_furnace.md) or Bricked Blast Furnace. It has no heat or Heating Coil mechanic, and selecting Blasting does not enable Electric Blast Furnace recipes.
+> Blasting here corresponds to the Blast Furnace processing introduced in Minecraft 1.14+. It cannot replace an [Electric Blast Furnace](../lv/electric_blast_furnace.md) or Bricked Blast Furnace. It has no heat or Heating Coil mechanic, and selecting Blasting does not enable Electric Blast Furnace recipes.
 
 ### First Startup
 
