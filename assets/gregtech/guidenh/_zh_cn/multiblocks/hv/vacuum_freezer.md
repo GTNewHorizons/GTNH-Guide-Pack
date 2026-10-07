@@ -14,7 +14,7 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
-<ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" />（Vacuum Freezer，简称 VF，俗称“冰箱”）是 HV 阶段的多方块加工机器。它常与[工业高炉](../LV/electric_blast_furnace.md)配套使用，把高炉产出的热锭冷却成可继续加工的普通锭。
+<ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" />（Vacuum Freezer，简称 VF，俗称“冰箱”）是 HV 阶段的多方块加工机器。它常与[工业高炉](../lv/electric_blast_furnace.md)配套使用，把高炉产出的热锭冷却成可继续加工的普通锭。
 
 并非所有高炉产物都需要冷却。安排生产线前，先在 NEI 中查看产物的用途；如果产出的是普通锭，就不必送入冷冻机。
 
