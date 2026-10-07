@@ -25,7 +25,7 @@ Starting with scanning and research, you gradually learn about the aspects conta
 
 In NH, Thaumcraft is closely connected to technology materials, the Twilight Forest and other magic mods. As your research progresses, you can explore Botania and Blood Magic, connect magical systems to AE, or use magic to maintain GT machines.
 
-This page introduces Thaumcraft's world, basic concepts and NH-specific changes. If you are new to the mod, start with the Thaumonomicon and learn to distinguish <Color color="#B7A0D6">research points, Vis and essentia</Color>.
+This page provides an overview of Thaumcraft's world, basic concepts and NH-specific changes, focusing on the uses of magical facilities and the differences between <Color color="#B7A0D6">research points, Vis and essentia</Color>.
 
 <br clear="all" />
 
@@ -37,27 +37,21 @@ This page introduces Thaumcraft's world, basic concepts and NH-specific changes.
 
 - **Exploration has consequences.** Processing magical materials can pollute the surrounding environment, while learning forbidden knowledge can give the player Warp. When researching a new ability, learn about its uses, costs and effects together.
 
-Thaumcraft's basic learning process can be summarized as:
-
-> **Observe and scan** → Discover aspects and gain research points  
-> **Complete research** → Prepare materials and magical energy  
-> **Craft and use** → Build new magical facilities
-
 ## The Thaumonomicon
 
-The <ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> is your main source of knowledge about Thaumcraft. Right-click while holding it to view discovered research, read explanations, obtain research notes and check unlocked recipes.
+The <ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> is your main source of knowledge about Thaumcraft, containing research explanations, research notes and unlocked recipes. Its research entries provide the operating instructions for individual devices.
 
 The book has separate tabs for different topics and addons. Research has prerequisites, and some entries only appear after specific scans or other conditions are met. **An entry being absent does not necessarily mean it does not exist.**
 
-| Content in the Book | What to Look For |
+| Content in the Book | Information Provided |
 | --- | --- |
-| Research icons and connections | Check how research entries relate to each other and read the icon tooltips |
-| <Color color="#B7A0D6">Research notes</Color> | Prepare paper and Scribing Tools as instructed, then complete the connections at a Research Table |
-| Research that costs research points | Check the required aspects and research points, then unlock it when you meet the requirements |
-| Completed research | Read the explanation to understand the device's purpose, operation and recipes |
+| Research icons and connections | Prerequisites between research entries and hints about unlocking them |
+| <Color color="#B7A0D6">Research notes</Color> | Research solved at a Research Table, primarily through aspect connections |
+| Research that costs research points | The aspect types and research points required to unlock it |
+| Completed research | Device uses, operating instructions and recipes |
 | <Color color="#D5B77A">Forbidden knowledge markers</Color> | Purple effects and the associated warnings indicate that learning this research may cause Warp |
 
-After completing a research note, you still need to read the completed research to learn it. **Unlocking research and obtaining the materials to craft it are also separate steps:** seeing a recipe in the book does not mean your technology and magical facilities can already produce it.
+Completed research must be read to unlock its content. **Research unlocks and material requirements are independent:** seeing a recipe in the book does not mean your technology and magical facilities can already produce it.
 
 ## Aspects, Research Points, Vis and Essentia
 
@@ -70,19 +64,19 @@ These concepts often use the same aspect icons, but serve different purposes. Wh
 | <Color color="#B7A0D6">Vis</Color> | Magical energy stored in a wand, tracked separately for each primal aspect | Crafting at an Arcane Worktable, using wand foci and similar operations |
 | <Color color="#B7A0D6">Essentia</Color> | Aspects extracted from items that can be stored and transported | Alchemy, infusion and some magical devices |
 
-### Aspects and Research Points
+## Aspects and Research Points
 
 The six <Color color="#B7A0D6">primal aspects</Color> are <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order (Ordo) and <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropy (Perditio). Compound aspects are formed from two other aspects; NH's addons also expand the aspect system.
 
 Scanning items, creatures and other targets can reveal aspects and grant research points. Some targets require you to know their component aspects before they can be scanned. Combining aspects at a Research Table can also help you discover new compound aspects. If you lack research points, you need to replenish your research resources; charging a wand will not solve that problem.
 
-### Vis and Essentia
+## Vis and Essentia
 
 Vis in a wand is tracked separately for the six primal aspects. Check the stored amount of each aspect required by an arcane recipe; having one aspect fully charged cannot make up for a shortage of another.
 
 Essentia is usually extracted from items using an Alchemical Furnace or similar facilities, then collected in jars or other containers. A recipe requiring compound aspects such as metal or life is often asking for the corresponding essentia rather than Vis in a wand.
 
-For example, if an Arcane Worktable lacks Aer Vis, recharge the wand with that aspect. If infusion lacks Metallum essentia, prepare materials containing that aspect and extract their essentia. **Research points, wand Vis and essentia in jars must be prepared separately.**
+Aer Vis required by an Arcane Worktable and Metallum essentia required by infusion come from a wand and an essentia supply system, respectively. **Research points, wand Vis and essentia in jars cannot replace each other.**
 
 ## Nodes and Sources of Magical Energy
 
@@ -125,7 +119,7 @@ Cleaning up environmental pollution does not remove the player's Warp, and deali
 
 ## NH-Specific Changes and Mod Integration
 
-NH makes many changes to Thaumcraft's material progression, research and user experience. When reading tutorials or crafting items, pay particular attention to the following areas.
+NH makes many changes to Thaumcraft's material progression, research and user experience, mainly in the following areas.
 
 | Topic | What to Watch For in NH |
 | --- | --- |
@@ -140,18 +134,18 @@ NH makes many changes to Thaumcraft's material progression, research and user ex
 
 Magic offers movement and building tools, equipment and enchantments, durability repair, material processing, and item and essentia automation. Choose a research direction based on your current needs, then follow its prerequisites to develop the facilities you need.
 
-## Chapters and Reading Order
+## Topics
 
-This category organizes content by gameplay. When looking for a specific operation, first identify whether you are working on research, power supply, alchemy or infusion, then read the corresponding chapter.
+This category organizes guides by topic, with each topic page directly under Thaumcraft. The guides focus on an overview of mechanics, facility uses, resource relationships and NH-specific changes. The Thaumonomicon and NEI provide detailed operating instructions and recipes.
 
 | Chapter | Main Content |
 | --- | --- |
 | Thaumcraft Basics | The Thaumonomicon, aspects, nodes, Warp, Vis, Vis discounts and an overview of the world |
-| Aspects, Scanning and Research | Discovering aspects, scanning methods, research points, research notes and hidden prerequisites |
-| Wands, Vis and Nodes | Crafting and upgrading wands, foci, charging, node management and Centi-Vis supply |
-| Alchemy and Essentia | Crucibles, ingredient calculations, essentia production, storage, transport and pollution control |
-| Infusion Crafting | Building the altar, preparing ingredients and essentia, stability and automation |
-| Golems and Automation | Cores and upgrades, work areas, transport, farms and cooperation between golems |
+| Aspects, Scanning and Research | The aspect system, scanning conditions, research points, research notes and prerequisites |
+| Wands, Vis and Nodes | Wand properties, uses of foci, node types, Vis and Centi-Vis supply |
+| Alchemy and Essentia | Crucibles and alchemy devices, essentia production and distribution, pollution control |
+| Infusion Crafting | Altar components, recipe resources, stability and integration with other devices |
+| Golems and Automation | Golem functions, cores and upgrades, work areas and logistics uses |
 | Warp and Eldritch Knowledge | Sources of Warp, ways to deal with it, Eldritch research and exploration |
 | Thaumic Tinkerer | Enchanting, repairs, infused crops, devices and KAMI content |
 | Addons and GT Integration | Thaumic Energistics, other addon facilities, and GT's magical devices and material connections |
