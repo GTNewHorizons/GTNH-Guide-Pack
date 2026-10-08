@@ -140,7 +140,7 @@ This category organizes guides by topic, with each topic page directly under Tha
 
 | Chapter | Main Content |
 | --- | --- |
-| Thaumcraft Basics | The Thaumonomicon, aspects, nodes, Warp, Vis, Vis discounts and an overview of the world |
+| [Thaumcraft Basics](./thaumcraft_basics.md) | The Thaumonomicon, aspects, nodes, Warp, Vis, Vis discounts and an overview of the world |
 | Aspects, Scanning and Research | The aspect system, scanning conditions, research points, research notes and prerequisites |
 | Wands, Vis and Nodes | Wand properties, uses of foci, node types, Vis and Centi-Vis supply |
 | Alchemy and Essentia | Crucibles and alchemy devices, essentia production and distribution, pollution control |
