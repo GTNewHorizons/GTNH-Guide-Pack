@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   title: P2P通道
   parent: /ae2_mechanics_index.md
@@ -26,7 +26,7 @@ P2P通道是一种在网络中传输物品、流体、红石信号、电力、�
 
 ![Portal](../assets/images/p2p_portal.png)
 
-# <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="Left"/>
+# <ItemLink id="appliedenergistics2:item.ItemMultiPart:460" showIcon="left"/>
 
 P2P通道-ME是传输AE频道的P2P通道，它可以让你将至多32个频道传输至所有输出端（所有输出端共用输入端的频道）。与其他P2P通道不同的是，P2P通道-ME本身需要在被传输的网络之外的AE网络上运行。
 
@@ -54,7 +54,7 @@ P2P通道-ME是传输AE频道的P2P通道，它可以让你将至多32个频道�
 
 # P2P通道的变体
 
-<GameScene width="220" zoom="3" interactive={false} allowLayerSlider={false}>
+<GameScene zoom="3" interactive={false} allowLayerSlider={false}>
   <ImportStructure src="../assets/structures/p2p_tunnels.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
 </GameScene>
@@ -70,8 +70,8 @@ P2P通道-ME是传输AE频道的P2P通道，它可以让你将至多32个频道�
 - P2P通道 - OC，使用<ItemImage id="OpenComputers:cable" label="right"/>右键来转化。
 - P2P通道 - 声音，通过音符盒右键来转化。
 - P2P通道 - GT EU，通过任意GT导线或GT线缆右键来转化。
-- P2P通道 - ME接口，<br><RecipesFor id="appliedenergistics2:item.ItemMultiPart:471" />
-- P2P通道 - ME二合一接口，<br><RecipesFor id="ae2fc:part_fluid_p2p_interface" />
+- P2P通道 - ME接口，<br/><RecipesFor id="appliedenergistics2:item.ItemMultiPart:471" />
+- P2P通道 - ME二合一接口，<br/><RecipesFor id="ae2fc:part_fluid_p2p_interface" />
 
 这些变体P2P使用方法与特性与P2P通道 - ME基本相同，<Color id="YELLOW">但其中有几点特性需要特别指出</Color>：
 

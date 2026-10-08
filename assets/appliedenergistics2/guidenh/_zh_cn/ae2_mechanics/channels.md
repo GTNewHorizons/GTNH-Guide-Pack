@@ -101,13 +101,13 @@ navigation:
 
 # 频道路由
 
-在有<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left"/>的ME网络中，频道的传输需要经过三个步骤:
+在有<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left"/>的ME网络中，频道的传输需要经过三个步骤:
 
 1.频道会通过最短的路径，从相邻的设备传输到最近的普通线缆上（无论是玻璃线缆、包层线缆或者智能线缆）。  
 2.频道会继续沿着这条普通线缆，传输到最近的致密线缆上。  
 3.频道再通过这条致密线缆，传输到ME控制器。如果最短路径已被占用，那么某些设备可能无法接收到所需的频道。
 
-可以利用线缆染色、<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="Left"/>或<ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/>等手段来确保频道能按照预期的路径传输。需要注意的是，颜色并不会影响频道的优先级判定，它只会让不同颜色的线缆互相不连接以起到控制频道传输的作用，不染色的Fluix默认色线缆可以与任何颜色的线缆连接。
+可以利用线缆染色、<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>或<ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/>等手段来确保频道能按照预期的路径传输。需要注意的是，颜色并不会影响频道的优先级判定，它只会让不同颜色的线缆互相不连接以起到控制频道传输的作用，不染色的Fluix默认色线缆可以与任何颜色的线缆连接。
 
 例如下面场景中的线缆形成了回环，频道寻路机制让部分驱动器缺失频道离线。
 

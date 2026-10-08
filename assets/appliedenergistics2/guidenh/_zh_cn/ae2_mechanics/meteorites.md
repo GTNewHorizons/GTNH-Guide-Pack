@@ -1,8 +1,11 @@
----
+﻿---
 navigation:
   parent: /ae2_mechanics_index.md
   title: 陨石
   icon: appliedenergistics2:tile.BlockSkyStone
+  item_ids:
+  - appliedenergistics2:tile.BlockSkyStone
+  - appliedenergistics2:tile.BlockSkyStone:1
 ---
 
 # 陨石

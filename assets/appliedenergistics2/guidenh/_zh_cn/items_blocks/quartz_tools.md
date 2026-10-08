@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items_blocks_index.md
   title: 石英工具
@@ -34,6 +34,7 @@ item_ids:
 
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzSword" scale="4" />
 </Row>
+>[!NOTE]在GTNH中它们几乎没有任何作用
 
 石英工具与铁工具完全一致：两者的攻击伤害、耐久度、挖掘速度等均完全一致。有下界石英和[赛特斯石英](fluix_crystal.md)的变种。
 
