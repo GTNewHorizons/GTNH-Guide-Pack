@@ -29,8 +29,8 @@ https://try.github.io/
 # Git Definitions
 
 - Repo - The database of all the files and their history. The remote repo is on Github. The local repo is on your drive. They do *not* automatically track each other.
-- Source/upstream repo - The original/parent/upstream repo, in this case GTNewHorizons/GTNH-Guide-Pack
-- Forked repo - Your personal repo, for example chochem/GTNH-Guide-Pack
+- Source/upstream repo - The original/parent/upstream repo, in this case NTNewHorizons/NTNH-Guide-Pack
+- Forked repo - Your personal repo, for example yourname/NTNH-Guide-Pack
 - Local repo - The copy of a repo on your local PC
 - origin repo - The copy of a repo out on github
 - Commit - A bundle of changes that are added to the repo. Each is assigned a unique SHA tag. Initially commits are stored in your local repo.
@@ -42,7 +42,7 @@ https://try.github.io/
 - Merge - This has to be done when two people are editing the same file. Ideally this should be avoided.
 - Pull Request (PR) - Once you have completed your changes, push your branch to your forked repo. On GitHub, you can go to your forked repo page to create a Pull Request to send the branch to the source repo owners and ask permission for them to add the changes to a branch of their repo, e.g. upstream/master.
 
-# Working on Guides for GTNH with GitHub Desktop
+# Working on Guides for NTNH with GitHub Desktop
 GuideNH works using a mixture of common languages as outlined below:
 - [MDX](https://mdxjs.com/) - A markdown format that allows writing of JSX in markdown documents. For the majority of content, this can be seen as standard markdown with some additional tags for in-game usage (see below for more).
 - [YAML](https://yaml.org/) ([frontmatter](https://dev.to/dailydevtips1/what-exactly-is-frontmatter-123g)) - A markup language used to add metadata at the top of each markdown file to designate navigation data, titles, categories, and more.
@@ -132,17 +132,17 @@ Reference them with a rooted guide path:
 In order to make GuideNH as powerful as it is, there are many custom tags that can be invoked within markdown to give some powerful effects. The full list of tags and how to use them can be found in the wiki, but [the Tags Reference](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Tags-Reference.md) highlights some of the most important ones to know about.
 
 ## Online Tools
-The [GuideNH online editor](https://www.gtnewhorizons.com/GuideNH) can open guide files, folders, or ZIP archives so you can edit pages and preview their layout in a browser. Its syntax reference provides examples while you write. The [published online guide](https://www.gtnewhorizons.com/GTNH-Guide-Pack) shows how the current guide content appears on the web. Check game-dependent content, such as recipes and interactive scenes, in Minecraft before submitting a change.
+The [GuideNH online editor](https://www.gtnewhorizons.com/GuideNH) can open guide files, folders, or ZIP archives so you can edit pages and preview their layout in a browser. Its syntax reference provides examples while you write. The [published online guide](https://www.gtnewhorizons.com/NTNH-Guide-Pack) shows how the current guide content appears on the web. Check game-dependent content, such as recipes and interactive scenes, in Minecraft before submitting a change.
 
 # Contributing to Guide Content
 Also see the [GTNH Contribution Guide for Beginners](https://wiki.gtnewhorizons.com/wiki/GTNH_Contribution_Guide_for_Beginners) for a more generic guide to contributing.
-1. For new contributors, fork the [GTNH-Guide-Pack repo](https://github.com/GTNewHorizons/GTNH-Guide-Pack) to your GitHub account. Members of the [GTNewHorizons GitHub organization](https://github.com/orgs/GTNewHorizons/people) are recommended to make a branch in this repo instead.
-2. Add your new repo to GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way, new branches are automatically based on the GTNewHorizons/GTNH-Guide-Pack master branch.
-3. Before making changes, first click `Fetch origin` to get the latest updates. Then start a new branch (`Branch`, then `New Branch`). If you followed step 2, it will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
-4. Start GTNH. You need the full modpack, not a mod development environment. The [latest daily version](https://github.com/GTNewHorizons/DreamAssemblerXXL/actions/workflows/daily-modpack-build.yml) is recommended. You should also check that you are using the latest GuideNH version from https://github.com/GTNewHorizons/GuideNH/releases. You should only use normal releases, not ones with a version ending in `-pre`.
+1. For new contributors, fork the [NTNH-Guide-Pack repo](https://github.com/NTNewHorizons/NTNH-Guide-Pack) to your GitHub account. Members of the [NTNewHorizons GitHub organization](https://github.com/orgs/NTNewHorizons/people) are recommended to make a branch in this repo instead.
+2. Add your new repo to GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way, new branches are automatically based on the NTNewHorizons/NTNH-Guide-Pack master branch.
+3. Before making changes, first click `Fetch origin` to get the latest updates. Then start a new branch (`Branch`, then `New Branch`). If you followed step 2, it will automatically be based on the NTNewHorizons/NTNH-Guide-Pack master branch.
+4. Start NTNH. You need the full modpack, not a mod development environment. You should also check that you are using the latest GuideNH version from https://github.com/GTNewHorizons/GuideNH/releases. You should only use normal releases, not ones with a version ending in `-pre`.
 5. Ideally, you should create one new guide or make one related set of changes per commit. Doing regular commits makes it easier to review your changes or to revert to an earlier version, as it serves as a way to back up your work.
 6. Once finished, preview your pages in the online editor, then copy your changed repository into your game's resource packs folder. Load the guide (explained in the New Guides section) to ensure everything works as expected.
-7. Push your branch to GitHub, and make a PR to the GTNewHorizons/GTNH-Guide-Pack master branch. You can go to your forked repo on GitHub to make sure your branch has shown up there. An option should appear to "Open pull request" (you may need to click the "Contribute" button).
+7. Push your branch to GitHub, and make a PR to the NTNewHorizons/NTNH-Guide-Pack master branch. You can go to your forked repo on GitHub to make sure your branch has shown up there. An option should appear to "Open pull request" (you may need to click the "Contribute" button).
 8. Explain all of your changes in the description of the PR. Add screenshots/videos where useful.
 9. Write 'fixes [ISSUE LINK]' in the PR description to automatically link a ticket to the PR.
 10. Occasionally check on your PR. If changes are requested, you can simply make more commits on your branch and push them to your GitHub repo. Respond to a comment if you feel it needs more discussion, or mark it as resolved after you make and push the requested change. Once all comments have been addressed, feel free to press the "Re-request review" button in the Reviewers section on the right.
@@ -153,5 +153,5 @@ Also see the [GTNH Contribution Guide for Beginners](https://wiki.gtnewhorizons.
 1. Create a new `<fileName>.md` file within the directory you want this guide to be a part of. This will be the main file you edit, and what is displayed to the player. Ensure that your file is within the correct lang directory for what you intend to write (e.g. inside `_en_us` for American English). If you are creating a new category, make sure you have discussed it with the team in discord, and see above for configuration tips.
 2. Any assets you need (structure `.snbt` files, images, or `.json` files) should be stored in an appropriate `assets` folder.
 3. Ensure that the frontmatter portion of your guide is the first section, and that it has a meaningful title, correct navigation data, and any item ids you want linked assigned correctly.
-4. When ready to test your changes, copy the working directory from its root (`GTNH-Guide-Pack` and everything inside) into your game's `resourcepacks` folder, and refresh your resource pack in game with `F3 + T`. The changes should then be visible in-game.
+4. When ready to test your changes, copy the working directory from its root (`NTNH-Guide-Pack` and everything inside) into your game's `resourcepacks` folder, and refresh your resource pack in game with `F3 + T`. The changes should then be visible in-game.
 5. Once happy with your changes, add, commit, and push your changes as outlined above, and create a PR that describes what you've added in a meaningful way.

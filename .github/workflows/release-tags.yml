@@ -8,7 +8,7 @@ permissions:
   contents: write
 
 env:
-  PACKAGE_NAME: GTNH-Guide-Pack
+  PACKAGE_NAME: NTNH-Guide-Pack
 
 jobs:
   build-and-release:
@@ -43,7 +43,8 @@ jobs:
           jq -n \
             --arg v "$VERSION" \
             --arg g "$PACK_GAME_VERSION" \
-            '{pack_version: $v, pack_game_version: $g}' \
+            --argjson s 1 \
+            '{schema: $s, pack_version: $v, pack_game_version: $g}' \
             > gtnh-pack-update.json
 
       - name: Build resource pack archive
