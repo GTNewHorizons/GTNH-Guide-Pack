@@ -1,0 +1,24 @@
+{
+  size:[7,3,7],
+  palette:[{Name:"Thaumcraft:blockStoneDevice"}],
+  blocks:[
+    {pos:[3,0,3],state:0,meta:1},
+    {pos:[2,0,2],state:0,meta:3,nbt:{id:"TileInfusionPillar",orientation:2b}},
+    {pos:[2,0,4],state:0,meta:3,nbt:{id:"TileInfusionPillar",orientation:3b}},
+    {pos:[4,0,2],state:0,meta:3,nbt:{id:"TileInfusionPillar",orientation:4b}},
+    {pos:[4,0,4],state:0,meta:3,nbt:{id:"TileInfusionPillar",orientation:5b}},
+    {pos:[2,1,2],state:0,meta:4},
+    {pos:[2,1,4],state:0,meta:4},
+    {pos:[4,1,2],state:0,meta:4},
+    {pos:[4,1,4],state:0,meta:4},
+    {pos:[3,2,3],state:0,meta:2,nbt:{id:"TileInfusionStone",active:1b,crafting:0b}},
+    {pos:[0,0,0],state:0,meta:1},
+    {pos:[0,0,3],state:0,meta:1},
+    {pos:[0,0,6],state:0,meta:1},
+    {pos:[3,0,0],state:0,meta:1},
+    {pos:[3,0,6],state:0,meta:1},
+    {pos:[6,0,0],state:0,meta:1},
+    {pos:[6,0,3],state:0,meta:1},
+    {pos:[6,0,6],state:0,meta:1}
+  ]
+}
