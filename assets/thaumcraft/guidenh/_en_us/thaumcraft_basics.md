@@ -79,50 +79,13 @@ In GTNH, crafting a wand with a higher Vis capacity often requires stacking disc
 
 ## Aura Nodes
 
-**Aura** is the magical energy present throughout the world, while **aura nodes** are concentrations of that energy. A node is more than a special object to scan: it contains particular aspect types and amounts, and is an important source of Vis for wands.
+**Aura** is the magical energy present throughout the world, while **aura nodes** are concentrations of that energy. Nodes contain particular aspect types and amounts, and are an important source of Vis for wands.
 
-<ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" />provide magical sight that helps you locate aura nodes.
+<ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" /> help you observe nodes. A node's aspect composition, current reserves, base capacity, type, and quality together determine its uses. Its reserves are separate from a wand's, and it is neither a research point store nor an essentia jar.
 
-> [!NOTE]
-> Previously scanned nodes can be looked up with the I key.
+Most ordinary nodes gradually replenish their Vis, but draining them completely can cause damage. Further research and addon devices allow nodes to be moved, cultivated, or converted into facilities that continuously supply Centi-Vis.
 
-When examining a node, distinguish its aspect composition, reserves and condition. The aspects it provides determine which magical energy it can replenish, while their amounts indicate the scale of its reserves.<br>Its type and quality affect its properties and ability to supply energy. Most nodes replenish drained energy over time, but their recovery and uses are not all the same.
-
-Aura nodes have six types and four quality states. The type determines a node's special effects, while its quality determines how quickly its aspects regenerate.<br>
-The core's appearance helps identify its type; scanning the node with a Thaumometer also reveals the type's name.
-
-<Column width="500" align="center" wrap="top-bottom" gap="0">
-  <FloatingImage src="/assets/images/aura_node_types.png" x="0" y="140" width="2170" height="440" displayWidth="500" wrap="inline" title="Aura Node Types" />
-</Column>
-
-| Type | Description | Core Appearance | Effects |
-| --- | --- | --- | --- |
-| Normal | The most common and ordinary type, with a stable core and no special effects. | White | None |
-| Sinister | A relatively dangerous node type.<br>Usually generated alongside obsidian totems, Eldritch altars, barrows or elven altars. | Dark purple | Gradually changes biomes in a 25×25 area centered on itself to Eerie.<br>When a player enters within 24 blocks, it can spawn Furious Zombies in an 11×3×11 area in low light. |
-| Pure | Usually generated inside Silverwood trees. | White,<br>turbine-like | Changes Tainted Land within its range to Magical Forest.<br>Those inside Silverwood trees can change any surrounding biome to Magical Forest. |
-| Tainted | Naturally generated in Tainted Land. A non-Pure node in Tainted Land can also become Tainted over time. | Purple,<br>smoky | Changes biomes in a 15×15 area centered on itself to Tainted Land.<br>Also generates tainted growth on block surfaces within a 9×9×9 area. |
-| Unstable | Similar to a Normal node, but its core constantly pulses. | White,<br>radiating | Every 5 seconds, has a 50% chance to convert one stored point of a primal aspect into an aspect orb and release it. |
-| Hungry | The rarest and most dangerous node type, appearing very rarely through natural world generation. | White,<br>ring-shaped | Draws in and devours everything within 16 blocks, absorbing its aspects to increase the node's aspect capacity. |
-
-<Column width="400" align="center" wrap="top-bottom" gap="0">
-  <FloatingImage src="/assets/images/aura_node_states.png" displayWidth="400" wrap="inline" title="Aura Nodes" />
-</Column>
-
-- **Normal (not displayed): regenerates one aspect point every 30 seconds.**
-- **Bright: regenerates one aspect point every 20 seconds and appears more vivid than a Normal node.**
-- **Pale: regenerates one aspect point every 45 seconds and appears dimmer than a Normal node.**
-- **Fading: does not regenerate aspects, appears extremely dim and flickers constantly.**
-
-**A node's reserves and a wand's reserves are independent.** Drawing energy transfers Vis provided by the node into the wand. Spending Vis from a wand does not mean that a node will automatically refill it. A node that provides only some aspects cannot supply all the energy required by every recipe on its own.
-
-Nodes usually contain primal aspects, but may also contain compound aspects. Their icons describe their magical composition; they do not make nodes into research point stores or essentia jars. Finding, scanning and using nodes involve observation, research rewards and actual energy supply respectively.
-
-> [!WARNING]
-> Draining an aspect from a node to zero with a wand can damage the node or even remove that aspect. Exhausting every aspect can make the node disappear entirely. <Color color="#D5B77A">The ability to regenerate magical reserves does not mean that damage to the node will automatically heal.</Color> Consider the node protection abilities you have unlocked when assessing charging risks.
-
-Further node research introduces uses such as moving and stabilizing nodes. Device power systems require attention to node output and the facilities that supply the energy, and are related to the Vis stored and consumed in wands.
-
-Replenishing multiple aspects in a wand and establishing a power supply for fixed devices have different requirements. A node's composition, condition and unlocked uses should all be considered in relation to its intended purpose.
+For the six node types, four qualities, drawing protection, node modification, and energy supply, see [Wands, Vis and Nodes](./wands_vis_nodes.md).
 
 ## Essentia
 
