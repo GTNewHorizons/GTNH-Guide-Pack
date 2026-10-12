@@ -145,7 +145,7 @@ This category organizes guides by topic, with each topic page directly under Tha
 | [Wands, Vis and Nodes](./wands_vis_nodes.md) | Wand crafting and discounts, Vis sources, node types and cultivation, and Centi-Vis supply |
 | [Alchemy and Essentia](./alchemy_essentia.md) | Crucibles and alchemy devices, essentia production and distribution, pollution control |
 | [Infusion Crafting](./infusion_crafting.md) | Altar components, recipe resources, stability and integration with other devices |
-| Golems and Automation | Golem functions, cores and upgrades, work areas and logistics uses |
+| [Magic Automation](./magic_automation.md) | Item logistics, inventory control, fluid devices, production support and golem uses |
 | Warp and Eldritch Knowledge | Sources of Warp, ways to deal with it, Eldritch research and exploration |
 | Thaumic Tinkerer | Enchanting, repairs, infused crops, devices and KAMI content |
 | Addons and GT Integration | Thaumic Energistics, other addon facilities, and GT's magical devices and material connections |
