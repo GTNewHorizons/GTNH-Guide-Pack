@@ -35,6 +35,7 @@ Input separation should be enabled on the AWD for using different schematics wit
 ### Crafting
 
 You need controller and casings to form AWD. 
+
 Current recipes for the required controller and casings are listed below.
 
 <RecipesFor id="gregtech:gt.blockmachines:15513" handlerBlacklist="codechicken.nei.recipe.ShapelessRecipeHandler" />
@@ -58,8 +59,8 @@ Multi-amp and laser energy hatches are not supported, but there can be multiple 
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:15513" showIcon="left" /> | 1, Front right, 2nd layer |
 | <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> | 4-15 |
-| <ItemImage id="gregtech:gt.blockcasings11" /> <Color id="blue">Tiered</Color> Item Pipe Casing | 3 |
-| <ItemImage id="bartworks:BW_TieredGlass" /> Any Tiered Glass | 3 |
+| <ItemImage id="gregtech:gt.blockcasings11" /><Color id="blue">Tiered</Color> Item Pipe Casing | 3 |
+| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 3 |
 | <ItemLink id="gregtech:gt.blockframes:32" showIcon="left" /> | 2 |
 | Energy Hatch | 1+, Any casing |
 | Maintenance Hatch | 1, Any casing |
@@ -89,7 +90,7 @@ The AWD is a direct upgrade from the singleblock packager and unpackager because
 | <ItemLink id="gregtech:gt.blockcasings11:7" showIcon="left" /> | 900% |
 
 
-The AWD has two operating modes, listed below. Switch between modes in the GUI of the controller or by right-clicking the controller with a screwdriver. The packager mode is useful for the tiny and small piles of dust from the [Electric Implosion Compressor](./electric_implosion_compressor.md) and for creating scrap boxes. The unpackager mode is a nice-to-have for recycling certain items such as old [Lapotronic Supercapacitor](./lapotronic_supercapacitor.md) capacitors.
+The AWD has two operating modes, listed below. Switch between modes in the GUI of the controller or by right-clicking the controller with a screwdriver. The packager mode is useful for the tiny and small piles of dust from the [<ItemLink id="gregtech:gt.blockmachines:15563" showIcon="left" />](./electric_implosion_compressor.md) and for creating scrap boxes. The unpackager mode is a nice-to-have for recycling certain items such as old [<ItemLink id="gregtech:gt.blockmachines:13106" showIcon="left" />](./lapotronic_supercapacitor.md) capacitors.
 
 - Packager - Runs ONLY packager recipes.
 - Unpackager - Runs ONLY unpackager recipes.
