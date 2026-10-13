@@ -1,13 +1,13 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:13532
+quest_ids:
+  - ZIotzqvnRiKu1_1Hb9i1dg==
 navigation:
   title: Advanced Assembly Line
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:13532
   position: -5001
-quest_ids:
-  - ZIotzqvnRiKu1_1Hb9i1dg==
 ---
 
 # Advanced Assembly Line
@@ -16,7 +16,9 @@ quest_ids:
   <ImportStructureLib controller="gregtech:gt.blockmachines:13532" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> (AAL) is an IV tier multiblock for running Assembly Line recipes in parallel by leveraging item pipelining; ingredients are consumed slice-by-slice instead of all at once, much like a real Assembly Line. That means the maximum number of parallels corresponds to the number of solid ingredients in a recipe. The AAL also supports multi-amp and laser energy hatches for serious overclocking, but CANNOT tier skip like the regular Assembly Line. Overclocks above the named voltage tiers are considered laser overclocks and scale much worse than imperfect overclocks.
+The <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> (AAL) is an IV tier multiblock for running [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) recipes in parallel by leveraging item pipelining; ingredients are consumed slice-by-slice instead of all at once, much like a real Assembly Line. That means the maximum number of parallels corresponds to the number of solid ingredients in a recipe. 
+
+The AAL also supports multi-amp and laser energy hatches for serious overclocking, but CANNOT tier skip like the regular Assembly Line. Overclocks above the named voltage tiers are considered laser overclocks and scale much **worse** than imperfect overclocks.
 
 Although craftable at the same time as the Assembly Line, it is not recommended to switch right away for multiple reasons. 
 1. The AAL is much more complicated than the Assembly Line and is prone to getting stuck if not set up correctly. 
@@ -28,8 +30,8 @@ Although craftable at the same time as the Assembly Line, it is not recommended 
 | --- | --- |
 | Unlock tier | IV |
 | Structure size (LxWxH) | 3x5-16x4 |
-| Power | Any Energy Hatches allowed, including Multi-amp and Laser Hatches. |
-| Maintenance and pollution | Requires Maintenance, produces no pollution, and does not need a muffler hatch |
+| Power | Any Energy Hatches allowed, includes Multi-Amp and Laser Hatches. |
+| Maintenance and pollution | Requires Maintenance, produces no pollution, and does not need a Muffler Hatch |
 | Overclocks | Unique, explained below |
 
 ## Crafting and Construction
@@ -49,13 +51,19 @@ Current recipes for the required controller and casings are listed below.
 <RecipesFor id="gregtech:gt.blockcasings2:9" />
 
 ### Structure
-The only structural difference between the AAL and the Assembly Line is the controller. The glass can be any tier and has no effect on the operation of the machine. Multi-amp and laser energy hatches are supported for serious overclocking, but there is no tier skipping (i.e. UV energy hatches cannot run UHV recipes). Use the Multiblock Structure Hologram Projector to visualize/build the structure with subchannel "glass" to specify the tier of the glass and subchannel "length" to specify the number of slices $$(\text{Slices} = \text{Length} + 4)$$
+The only structural difference between the AAL and the [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) is the controller. 
+
+The glass can be any tier and has no effect on the operation of the machine. 
+
+Multi-amp and laser energy hatches are supported for serious overclocking, but there is no tier skipping (i.e. UV energy hatches cannot run UHV recipes). 
+
+Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and subchannel "length" to specify the number of slices $$(\text{Slices} = \text{Length} + 4)$$
 
 #### Base Structure (Minimum requirements)
 | Component | Quantity and placement |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> | First slice, 3rd layer |
-| Any tiered glass | 10, Both sides of 2nd layer |
+| <ItemImage id="bartworks:BW_TieredGlass" /> Any tiered glass | 10, Both sides of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, Both sides of 3rd layer |
 | <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 4-8, Both sides of 1st layer and center of 4th layer |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, Center of 2nd layer |
@@ -86,7 +94,7 @@ Each additional slice (1 length) requires these blocks:
 
 | Component | Quantity and placement |
 | --- | --- |
-| Any tiered glass | 2, Both sides of 2nd layer |
+| <ItemImage id="bartworks:BW_TieredGlass" /> Any tiered glass | 2, Both sides of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2, Both sides of 3rd layer |
 | <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 3, Both sides of 1st layer and center of 4th layer |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, Center of 2nd layer |
@@ -99,17 +107,19 @@ AALs may wallshare each of their sides to save on casings, glass, and buses/hatc
 
 ## Usage
 
-The AAL starts processing once the contents of the buses/hatches align with a stored data stick, much like the regular [Assembly Line](./assembly_line.md). Every recipe must pass through N slices on the machine, where N is the number of solid ingredients. Each slice takes T = (base duration / N) seconds to process the ONE type of item in its input bus before continuing to the next slice for the next item. This repeats until all ingredients are consumed and the final product is sent to the output bus for retrieval. All fluids are consumed at the very start of processing.
+The AAL starts processing once the contents of the buses/hatches align with a stored data stick, much like the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md). Every recipe must pass through N slices on the machine, where N is the number of solid ingredients. Each slice takes T = (base duration / N) seconds to process the ONE type of item in its input bus before continuing to the next slice for the next item. This repeats until all ingredients are consumed and the final product is sent to the output bus for retrieval. All fluids are consumed at the very start of processing.
 
 The AAL supports parallel processing by allowing the next recipe to begin once the first slice is done with the first recipe. This creates a staggered pattern that allows every slice to work simultaneously, if there are enough resources available.
 
-If the next slice is missing the required item in its input bus, the current slice enters the STUCK state which halts the entire machine until the missing item is found/returned. The status light on the face of the controller turns orange to indicate that the machine is STUCK. Use WAILA to locate where exactly the problem occurred.
+If the next slice is missing the required item in its input bus, the current slice enters the **STUCK** state which halts the entire machine until the missing item is found/returned. The status light on the face of the controller turns orange to indicate that the machine is STUCK. Use WAILA to locate where exactly the problem occurred.
 
 TODO - this is where explain scene required.
 
 ### Laser Overclocks
 
-The energy consumption of the AAL is the number of active slices times the base EU/t, similar to parallels. The AAL then runs up to N imperfect overclocks where N is the difference between the voltage tier of the lowest tier energy hatch and the voltage tier of the recipe. Further overclocks are all laser overclocks, which consume more power and scale even worse than an imperfect overclock. The first one is 2x speed for 4.3x the power and each additional one increases the power multiplier by 0.3, scaling infinitely until each slice is only one tick long.
+The energy consumption of the AAL is the number of active slices times the base EU/t, similar to parallels. The AAL then runs up to N imperfect overclocks where N is the difference between the voltage tier of the lowest tier energy hatch and the voltage tier of the recipe. 
+
+Further overclocks are all laser overclocks, which consume more power and scale even worse than an imperfect overclock. The first one is 2x speed for 4.3x the power and each additional one increases the power multiplier by 0.3, scaling infinitely until each slice is only one tick long.
 
 - Imperfect Overclocks - 2x speed for 4.0x power (2/4.0).
 - 1st Laser Overclock - 2x speed for 4.3x power (2/4.3).
