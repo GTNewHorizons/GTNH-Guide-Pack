@@ -15,7 +15,7 @@ GT 电力系统的能量单位是 EU（Energy Unit）。GT 电力系统以 [局�
 
 - 关于发电手段，参见发电线路简介。
 - 关于电力网络的架构与搭建建议，参见电力的存储与运输。
-- 关于机器的升压、超频与并行，参见 **[升压、超频与并行](../tierskipping-overcloking-parallels/T_O_P_index.md)**。
+- 关于机器的升压、超频与并行，参见 **[升压、超频与并行](../tierskipping_overcloking_parallels/T_O_P_index.md)**。
 
 # 电压与电流
 
@@ -25,7 +25,7 @@ EU 能量以能量包为载体传输。能量包的个数总是整数。
 
 电压描述每个能量包携带的 EU 量，单位伏特 (V)。$$1\text{ V} = 1\text{ EU}/\text{个能量包}$$。
 
-电压是描述单个能量包大小、决定发电机和机器阶段的量（见 [电压阶段](voltage-tiers.md)）。
+电压是描述单个能量包大小、决定发电机和机器阶段的量（见 [电压阶段](voltage_tiers.md)）。
 
 ## 电流
 

@@ -93,7 +93,7 @@ GTNH新增的两种P2P通道，它们并非用于传输，而是与接口/二合
 
 # 嵌套
 P2P通道-ME并不能实现单根线缆传输无限的频道，它是不能嵌套另一对P2P通道-ME传递的。请注意，这只适用于P2P通道-ME，其他类型的P2P通道可以嵌套P2P通道-ME传输。
-<GameScene zoom="3" width="400" height="200" zoom="2" align="center" allowLayerSlider={false} >
+<GameScene zoom="3" width="400" height="200" align="center" allowLayerSlider={false} >
     <ImportStructure src="../assets/structures/p2p_nesting_mechanics.snbt" />
     <ImportPonder src="../assets/ponder/p2p_nesting.json" />
 </GameScene>
