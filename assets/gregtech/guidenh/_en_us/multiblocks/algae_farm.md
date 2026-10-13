@@ -1,13 +1,13 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15545
+quest_ids:
+  - Ds_ok-hRS2ODJNs3LUP9kw==
 navigation:
   title: Algae Farm
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15545
   position: -2002
-quest_ids:
-  - Ds_ok-hRS2ODJNs3LUP9kw==
 ---
 
 # Alage Farm
@@ -44,12 +44,20 @@ The current recipes for the controller and casing are shown below.
 
 ### Structure
 
-The Algae Farm has one tiered component. The glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. Buses/hatches may replace any algae casing anywhere on the structure. Multi-amp and laser energy hatches are not supported and there can only be ONE regular energy hatch. The water is a one-time-cost to prime the machine and inserted into the structure via a reservoir hatch or input hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+The Algae Farm has one tiered component. The glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. 
+
+Buses/hatches may replace any algae casing anywhere on the structure. 
+
+Multi-amp and laser energy hatches are not supported and there can only be ONE regular energy hatch. 
+
+The water is a one-time-cost to prime the machine and inserted into the structure via a reservoir hatch or input hatch. 
+
+Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
 
 | Component | Quantity and placement |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:15545" showIcon="left" /> | 1, Front Center, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" /> <Color id="blue">Tiered</Color> Glass | 64 |
+| <ItemImage id="bartworks:BW_TieredGlass" /><Color id="blue">Tiered</Color> Glass | 64 |
 | <ItemLink id="gregtech:gt.blockcasings12:15" showIcon="left" /> | 20-25 |
 | <ItemLink id="gregtech:gt.blockframes:306" showIcon="left" /> | 6 |
 | <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 5 |
@@ -92,4 +100,8 @@ Below table shows recipe time, compost needed for boosting, and Avarage algae pr
 | MAX | 0.10s | 64 | 100.0 /s | 2,036 /s | 1,486 /s | 996.0 /s | 578.0 /s |
 | MAX+ | 0.05s | 64 | 200.0 /s | 4,872 /s | 3,572 /s | 2,392 /s | 1,356 /s |
 
-The algae itself is primarily used in the [ExxonMobil Chemical Plant](./exxonmobil_chemical_plant.md) as a renewable alternative for methane, sulfuric acid, ethylene, and ammonia. Brown algae is also used to make lithium chloride for smelting MAR-Ce-M200 ingots and red algae is used to make prismarine shards.
+The algae itself is primarily used in the [<ItemLink id="gregtech:gt.blockmachines:998" showIcon="left" />](./exxonmobil_chemical_plant.md) as a renewable alternative for methane, sulfuric acid, ethylene, and ammonia. Brown algae is also used to make lithium chloride for smelting MAR-Ce-M200 ingots and red algae is used to make prismarine shards.
+
+## References
+
+- [GTNH Wiki: Algae Farm](https://wiki.gtnewhorizons.com/wiki/Algae_Farm)
