@@ -1,13 +1,13 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:810
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAAFiA==
 navigation:
   title: Alloy Blast Smelter
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:810
   position: -5001
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAFiA==
 ---
 
 # Alloy Blast Smelter
@@ -16,11 +16,11 @@ quest_ids:
   <ImportStructureLib controller="gregtech:gt.blockmachines:810" />
 </GameScene>
 
-The Alloy Blast Smelter (ABS) is an IV tier multiblock for smelting dusts into molten alloys. Many of the basic alloys can also be made in the [Industrial Mixing Machine](./industrial_mixing_machine.md) and [Zyngen](./zyngen.md), but it is significantly more efficient and faster to smelt them directly in the ABS. Tougher alloys such as indalloy 140 don't even have a choice and must be smelted in the ABS. 
+The <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />(ABS) is an IV tier multiblock for smelting dusts into molten alloys. Many of the basic alloys can also be made in the [<ItemLink id="gregtech:gt.blockmachines:15566" showIcon="left" />](./industrial_mixing_machine.md) and [<ItemLink id="gregtech:gt.blockmachines:31023" showIcon="left" />](./zyngen.md), but it is significantly more efficient and faster to smelt them directly in the ABS. Tougher alloys such as indalloy 140 don't even have a choice and must be smelted in the ABS. 
 
 There are no tiered components or any sort of bonuses and there is no tier skipping, even when overclocking with multiple energy hatches. 
 
-The minimum casing requirement is very low to allow for many buses/hatches since there are 12 unique programmed circuits out of the 72 recipes. The ABS is superseded by the [Mega Alloy Blast Smelter](./mega_alloy_blast_smelter.md) in UV.
+The minimum casing requirement is very low to allow for many buses/hatches since there are 12 unique programmed circuits out of the 72 recipes. The ABS is superseded by the [<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md) in UV.
 
 | Property | Details |
 | --- | --- |
@@ -32,7 +32,10 @@ The minimum casing requirement is very low to allow for many buses/hatches since
 
 ## Crafting and Construction
 
+### Crafting
+
 You need controller and casings to form ABS. 
+
 Current recipes for the required controller and casings are listed below.
 
 <RecipesFor id="gregtech:gt.blockmachines:810" />
@@ -40,6 +43,16 @@ Current recipes for the required controller and casings are listed below.
 <RecipesFor id="miscutils:miscutils.blockcasings:14" />
 
 <RecipesFor id="miscutils:miscutils.blockcasings:15" />
+
+### Construction
+
+The ABS has no tiered components. 
+
+Buses/hatches may replace any casing anywhere on the structure.
+
+Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. The only caveat is that there is NO tier skipping (ie. 2 IV energy hatches can run the ABS at LuV voltage but cannot process LuV recipes).
+
+Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
 
 | Component | Quantity and placement |
 | --- | --- |
@@ -59,9 +72,10 @@ ABS may wallshare each of their sides to save on casings, coils, and buses/hatch
 
 ## Usage
 
-The following tables list all 72 recipes by their voltage tier and programmed circuit (PC). In total, there are 12 unique programmed circuits to be spread out across 8 input buses if the last few are combined. Some are also not very useful until after the [Mega Alloy Blast Smelter](./mega-alloy-blast-smelter.md) is unlocked.
+The following tables list all 72 recipes by their voltage tier and programmed circuit (PC). In total, there are 12 unique programmed circuits to be spread out across 8 input buses if the last few are combined. Some are also not very useful until after the [<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md) is unlocked.
 
-Input separation<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={48} h={48} /> should be enabled on the ABS to prevent SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. That means a single ABS with many input buses can support many different programmed circuits simultaneously. Just don't forget to stay above the minimum number of casing blocks. FLUID ingredients are always shared regardless of input separation, unless the input hatch is colored.
+Input separation<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={48} h={48} /> should be enabled on the ABS to prevent SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. That means a single ABS with many input buses can support many different programmed circuits simultaneously. Just don't forget to stay above the minimum number of casing blocks. 
+FLUID ingredients are **always shared regardless of input separation**, unless the input hatch is colored.
 
 ### Recipes organized by Voltage Tier
 
