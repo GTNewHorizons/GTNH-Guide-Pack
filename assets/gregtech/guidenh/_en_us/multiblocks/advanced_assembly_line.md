@@ -63,7 +63,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | Component | Quantity and placement |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> | First slice, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" /> Any tiered glass | 10, Both sides of 2nd layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />Any tiered glass | 10, Both sides of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, Both sides of 3rd layer |
 | <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 4-8, Both sides of 1st layer and center of 4th layer |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, Center of 2nd layer |
@@ -119,7 +119,7 @@ TODO - this is where explain scene required.
 
 The energy consumption of the AAL is the number of active slices times the base EU/t, similar to parallels. The AAL then runs up to N imperfect overclocks where N is the difference between the voltage tier of the lowest tier energy hatch and the voltage tier of the recipe. 
 
-Further overclocks are all laser overclocks, which consume more power and scale even worse than an imperfect overclock. The first one is 2x speed for 4.3x the power and each additional one increases the power multiplier by 0.3, scaling infinitely until each slice is only one tick long.
+Further overclocks are all laser overclocks, which consume more power and scale even worse than an imperfect overclock. The first one is 2x speed for 4.3x the power and each additional one increases the power multiplier by 0.3, scaling infinitely.
 
 - Imperfect Overclocks - 2x speed for 4.0x power (2/4.0).
 - 1st Laser Overclock - 2x speed for 4.3x power (2/4.3).
