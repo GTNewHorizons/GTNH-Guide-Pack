@@ -24,13 +24,13 @@ Document is written in following orders.
     1. Unlock Tier
     1. Structure Size(LxWxH) - can pass (LxWxH) when It is cube shaped - has same length/width/height.
     1. Power - `Regular`, `Any Hatches allowed, includes Multi-Amp and Laser Hatches`, `Regular, but upgrading tier can unlock restrictions`, or `Lower than 4A`(for Turbine generators).
-    1. Overclocks - `Imperfect`, `Perfect` or `Unique`. can link related documents on here.
+    1. Overclocks - `Imperfect`, `Perfect`, `Unique` or `None`. can link related documents on here.
     1. Maintenance - `Need Maintenance`, or `No maintenance needed`.
     1. Pollution - `Produces no pollution`, `Produces N gibbi/s pollution`, or `Produces N gibbi/s pollution, and require Muffler Hatch`.
 1. Crafting and Construction on H2
     1. Crafting - Recipes for controller and casings using `<RecipesFor />`. should filter unrelated/irrevelent recipes.
     1. Structure - notify this MB can rotatable or not, and write Wiki-style table that lists up Quantity and placement. should use `<ItemLink>` If possible, all Hatches/Buses include Energy/Dynamo use `LV` Tier `<ItemImage noToolTip>`, with `ToolTip` to describe limitation or special restrictions.
-       Quantity should be described as `Number +` format, like `1+` or `1`, for example.
+       Quantity should be described as `Number +` or `From-To` format, like `1+`, `1`, or `1-10` for example.
        Placement instruction like replaceable casings or position instruction should follow after quantity.
     1. Wallshare Explaination
 1. Usage that describes machine's behavior + statictics with graphs/tables and gamescenes for detailed information. 
