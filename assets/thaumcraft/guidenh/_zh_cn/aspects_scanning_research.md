@@ -24,15 +24,15 @@ navigation:
 
 ## 要素体系与组合关系
 
-**要素（Aspect）**既是物体的魔法属性,也是研究中的分类依据.六种元始要素构成整个体系的基础,其他复合要素由两种要素组成；<br>组成要素本身也可以是复合要素,因此要素之间形成逐层展开的关系网.
+**要素(Aspect)**既是物体的魔法属性,也是研究中的分类依据.六种元始要素构成整个体系的基础,其他复合要素由两种要素组成；<br>组成要素本身也可以是复合要素,因此要素之间形成逐层展开的关系网.
 
-六种元始要素是 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风（Aer）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地（Terra）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火（Ignis）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水（Aqua）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序（Ordo）和 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />混沌（Perditio）.
+六种元始要素是 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风(Aer)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地(Terra)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火(Ignis)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水(Aqua)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序(Ordo)和 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />混沌(Perditio).
 
 | 复合要素 | 组成要素 |
 | --- | --- |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"lux"}' scale="0.75" />光明（Lux） | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火 |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"motus"}' scale="0.75" />移动（Motus） | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序 |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />生命（Victus） | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水 |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"lux"}' scale="0.75" />光明(Lux) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火 |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"motus"}' scale="0.75" />移动(Motus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序 |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />生命(Victus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水 |
 
 **要素的组成关系与物品的要素含量,是两种不同的信息.** “生命由地与水组成”说明研究中的关系；“某物品包含生命”说明这个物品的性质.后者会影响扫描所得和源质原料选择,却不表示研究台会把这个物品直接消耗成研究点.
 
@@ -82,7 +82,7 @@ NH 任务书的“Scanning Made Easy”介绍了这两项便利功能.整箱扫�
 
 ## 物品要素与 NEI 查询
 
-已经扫描的物品,可以在物品提示中查看要素及数量.默认情况下,按住潜行键（通常为 Shift）显示这些信息.<br>未知图标、已经认识的要素与具体数量,分别表示不同的发现状态和要素含量.
+已经扫描的物品,可以在物品提示中查看要素及数量.默认情况下,按住潜行键(通常为 Shift)显示这些信息.<br>未知图标、已经认识的要素与具体数量,分别表示不同的发现状态和要素含量.
 
 在GTNH中,已扫描物品可以在NEI显示提供要素、要素组合、含有某要素的物品,以及奥术、炼金和注魔配方查询,适合查询量产源质来源.
 
