@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items_blocks_index.md
   title: 处理器
@@ -30,7 +30,6 @@ item_ids:
 
 ## 生产步骤
 
-<Column gap="5">
   1.  收集/制造所需材料：硅、红石、金、<ItemLink id="gregtech:gt.metaitem.01:8516" />、钻石。
 
   <RecipeFor id="gregtech:gt.metaitem.01:17856" />
@@ -51,9 +50,7 @@ item_ids:
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:18" />
   </Row>
 
-  <br />
-
-3. 最终组装步骤
+1. 最终组装步骤
 
   <Row>
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:23" />
@@ -61,5 +58,5 @@ item_ids:
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:23" />
 
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:24" />
-  </Row>
-</Column>
+
+</Row>
