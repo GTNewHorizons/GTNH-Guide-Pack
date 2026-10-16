@@ -2,19 +2,19 @@
 navigation:
   parent: /items_blocks_index.md
   title: 赛特斯石英粉
-  icon: gregtech:gt.metaitem.01:2516
+  icon: ml:CertusQuartz:dust
 categories:
 - misc ingredients blocks
 item_ids:
-- gregtech:gt.metaitem.01:2516
+- ml:CertusQuartz:dust
 ---
 
 # 赛特斯石英粉
 
-<ItemImage id="gregtech:gt.metaitem.01:2516" scale="4" />
+<ItemImage id="ml:CertusQuartz:dust" scale="4" />
 
-被<ItemLink id="gregtech:gt.metatool.01:12" />粉碎的<ItemLink id="gregtech:gt.metaitem.01:2516" />。用于制造若干种AE2材料和组件。
+被<ItemLink id="gregtech:gt.metatool.01:12" />粉碎的<ItemLink id="ml:CertusQuartz:dust" />。用于制造若干种AE2材料和组件。
 
 ## 配方
 
-<RecipeFor id="gregtech:gt.metaitem.01:2516" handlerId="Shaped" input="gregtech:gt.metaitem.01:8516" />
+<RecipeFor id="ml:CertusQuartz:dust" handlerId="Shaped" input="ml:CertusQuartz:gem" />

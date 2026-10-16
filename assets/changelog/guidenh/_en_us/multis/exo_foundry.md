@@ -28,7 +28,7 @@ Select which modules to use in the GUI of the controller and then use the Multib
 - 462-486 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
 - 281 <ItemLink id="gregtech:gt.foundrycasings:11" /> <ItemImage id="gregtech:gt.foundrycasings:11" />
 - 260 _Magnetic Chassis (Tiered)_ <ItemImage id="gregtech:gt.foundrycasings:1" />
-- 224 <ItemLink id="gregtech:gt.blockframes:132" /> <ItemImage id="gregtech:gt.blockframes:132" />
+- 224 <ItemLink id="ml:Netherite:frameGt" /> <ItemImage id="ml:Netherite:frameGt" />
 - 196 <ItemLink id="gregtech:gt.foundrycasings:12" /> <ItemImage id="gregtech:gt.foundrycasings:12" />
 - 173 <ItemLink id="gregtech:gt.blockcasings11:7" /><ItemImage id="gregtech:gt.blockcasings11:7" />
 - 1+ _Energy Hatch (any primary Exo-Foundry casing)_ <ItemImage id="gregtech:gt.blockmachines:40" />
@@ -65,11 +65,11 @@ The SCB module (UEV) adds 12 parallels per voltage tier on top of the base 16 pa
 - 64 <ItemLink id="gregtech:gt.blockcasings10:13" /> <ItemImage id="gregtech:gt.blockcasings10:13" />
 - 36 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
 - 32 <ItemLink id="gregtech:gt.blockcasings10:14" /> <ItemImage id="gregtech:gt.blockcasings10:14" />
-- 30 <ItemLink id="gregtech:gt.blockframes:75" /> <ItemImage id="gregtech:gt.blockframes:75" />
-- 8 <ItemLink id="bartworks:bw.werkstoffblockscasing.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasing.01:10109"/>
+- 30 <ItemLink id="ml:Erbium:frameGt" /> <ItemImage id="ml:Erbium:frameGt" />
+- 8 <ItemLink id="ml:PreciousMetalsAlloy:blockCasing"/> <ItemImage id="ml:PreciousMetalsAlloy:blockCasing"/>
 - 8 <ItemLink id="gregtech:bw.sheetmetal:10109" /> <ItemImage id="gregtech:bw.sheetmetal:10109" />
-- 6 <ItemLink id="gregtech:gt.sheetmetal:75" /> <ItemImage id="gregtech:gt.sheetmetal:75" />
-- 4 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/>
+- 6 <ItemLink id="ml:Erbium:sheetmetal" /> <ItemImage id="ml:Erbium:sheetmetal" />
+- 4 <ItemLink id="ml:PreciousMetalsAlloy:blockCasingAdvanced"/> <ItemImage id="ml:PreciousMetalsAlloy:blockCasingAdvanced"/>
 
 ## Proto-Volt Stabilizer <ItemImage id="gregtech:gt.foundrycasings:6" />
 The PVS module (UEV) subtracts 10% from the base EU/t cost of recipes and multiplies the result by 0.8, as seen in the following equation. That is a 28% EU/t discount with one PVS and 49% EU/t discount with two PVS. Note that this does NOT increase the speed of the Exo-Foundry since the recipe length is left unchanged. The additive bonus stacks with the Heliocast Reinforcement module and the multiplicative bonus stacks with the Universal Collapser module. There is no limit on the amount of PVS modules per Exo-Foundry. Pairing the PVS with the Sentient Overclocker module unlocks Harmonic Efficiency which is a one-time bonus of -50% EU/t and +0.1 overclock factor. 
@@ -84,12 +84,12 @@ The PVS module (UEV) subtracts 10% from the base EU/t cost of recipes and multip
 
 ### Requires:
 - 64 <ItemLink id="gregtech:gt.foundrycasings:6" /><ItemImage id="gregtech:gt.foundrycasings:6" />
-- 32 <ItemLink id="gregtech:gt.blockframes:73" /><ItemImage id="gregtech:gt.blockframes:73" />
+- 32 <ItemLink id="ml:Dysprosium:frameGt" /><ItemImage id="ml:Dysprosium:frameGt" />
 - 28 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2:3" /> <ItemImage id="miscutils:gtplusplus.blockspecialcasings.2:3"/>
-- 16 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
-- 16 <ItemLink id="gregtech:gt.sheetmetal:391" /><ItemImage id="gregtech:gt.sheetmetal:391"/>
-- 16 <ItemLink id="gregtech:gt.sheetmetal:69" /><ItemImage id="gregtech:gt.sheetmetal:69"/>
-- 4 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
+- 16 <ItemLink id="ml:TengamAttuned:sheetmetal" /><ItemImage id="ml:TengamAttuned:sheetmetal"/>
+- 16 <ItemLink id="ml:Quantium:sheetmetal" /><ItemImage id="ml:Quantium:sheetmetal"/>
+- 16 <ItemLink id="ml:Samarium:sheetmetal" /><ItemImage id="ml:Samarium:sheetmetal"/>
+- 4 <ItemLink id="ml:TengamAttuned:sheetmetal" /><ItemImage id="ml:TengamAttuned:sheetmetal"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings11:5" /><ItemImage id="gregtech:gt.blockcasings11:5" />
 
 ## Streamlined Casters <ItemImage id="gregtech:gt.foundrycasings:10" />
@@ -105,9 +105,9 @@ The SC module (UEV) increases the base speed of the Exo-Foundry by 150% on top o
 
 ### Requires:
 - 64 <ItemLink id="gregtech:gt.foundrycasings:10" /><ItemImage id="gregtech:gt.foundrycasings:10" />
-- 28 <ItemLink id="gregtech:gt.blockframes:974" /><ItemImage id="gregtech:gt.blockframes:974" />
-- 24 <ItemLink id="gregtech:gt.blockframes:329" /><ItemImage id="gregtech:gt.blockframes:329" />
-- 16 <ItemLink id="gregtech:gt.sheetmetal:974" /><ItemImage id="gregtech:gt.sheetmetal:974" />
+- 28 <ItemLink id="ml:SuperconductorUEVBase:frameGt" /><ItemImage id="ml:SuperconductorUEVBase:frameGt" />
+- 24 <ItemLink id="ml:Tritanium:frameGt" /><ItemImage id="ml:Tritanium:frameGt" />
+- 16 <ItemLink id="ml:SuperconductorUEVBase:sheetmetal" /><ItemImage id="ml:SuperconductorUEVBase:sheetmetal" />
 - 12 <ItemLink id="miscutils:gtplusplus.blockcasings.5:3" /><ItemImage id="miscutils:gtplusplus.blockcasings.5:3" />
 - 12 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:13" /><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:13" />
 
@@ -120,12 +120,12 @@ The HC module (UIV) consumes coolant while the machine is running to increase th
 | Eternity* | 25 L/s | +3 |
 
 ### Requires:
-- 64 <ItemLink id="gregtech:gt.sheetmetal:389" /> <ItemImage id="gregtech:gt.sheetmetal:389" />
-- 48 <ItemLink id="gregtech:gt.blockframes:394" /><ItemImage id="gregtech:gt.blockframes:394" />
+- 64 <ItemLink id="ml:CallistoIce:sheetmetal" /> <ItemImage id="ml:CallistoIce:sheetmetal" />
+- 48 <ItemLink id="ml:InfinityCatalyst:frameGt" /><ItemImage id="ml:InfinityCatalyst:frameGt" />
 - 36 <ItemLink id="gregtech:gt.foundrycasings:9" /><ItemImage id="gregtech:gt.foundrycasings:9"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings8:14" /> <ItemImage id="gregtech:gt.blockcasings8:14" />
 - 19 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10" />
-- 16 <ItemLink id="gregtech:gt.sheetmetal:985" /><ItemImage id="gregtech:gt.sheetmetal:985"/>
+- 16 <ItemLink id="ml:Longasssuperconductornameforuhvwire:sheetmetal" /><ItemImage id="ml:Longasssuperconductornameforuhvwire:sheetmetal"/>
 - 1 Input Hatch (any cryogenic casing) <ItemImage id="gregtech:gt.blockmachines:70" />
 
 ## Heliocast Reinforcement <ItemImage id="gregtech:gt.foundrycasings:7" />
@@ -140,14 +140,14 @@ The HR module (UIV) unlocks UIV+ recipes for the Exo-Foundry. That includes all 
 
 ### Requires:
 - 32 <ItemLink id="tectech:gt.godforgecasing:3" /><ItemImage id="tectech:gt.godforgecasing:3" />
-- 24 <ItemLink id="gregtech:gt.blockframes:147" /><ItemImage id="gregtech:gt.blockframes:147" />
-- 16 <ItemLink id="gregtech:gt.sheetmetal:588" /><ItemImage id="gregtech:gt.sheetmetal:588" />
+- 24 <ItemLink id="ml:SixPhasedCopper:frameGt" /><ItemImage id="ml:SixPhasedCopper:frameGt" />
+- 16 <ItemLink id="ml:SpaceTime:sheetmetal" /><ItemImage id="ml:SpaceTime:sheetmetal" />
 - 16 <ItemLink id="tectech:tile.spatiallyTranscendentGravitationalLens" /> <ItemImage id="tectech:tile.spatiallyTranscendentGravitationalLens"/>
 - 12 <ItemLink id="gregtech:gt.foundrycasings:7" /><ItemImage id="gregtech:gt.foundrycasings:7" />
-- 12 <ItemLink id="gregtech:gt.blockframes:581"/><ItemImage id="gregtech:gt.blockframes:582"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:149"/><ItemImage id="gregtech:gt.blockframes:149"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:148"/><ItemImage id="gregtech:gt.blockframes:148"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:588"/><ItemImage id="gregtech:gt.blockframes:588"/>
+- 12 <ItemLink id="ml:TranscendentMetal:frameGt"/><ItemImage id="ml:EnrichedHolmium:frameGt"/>
+- 12 <ItemLink id="ml:Creon:frameGt"/><ItemImage id="ml:Creon:frameGt"/>
+- 12 <ItemLink id="ml:Mellion:frameGt"/><ItemImage id="ml:Mellion:frameGt"/>
+- 12 <ItemLink id="ml:SpaceTime:frameGt"/><ItemImage id="ml:SpaceTime:frameGt"/>
 
 ## Sentient Overclocker <ItemImage id="gregtech:gt.foundrycasings:5"/>
 The SO module (UMV) increases the overclock factor of the machine by 0.35. That means every imperfect overclock provides an additional 35% speed, as seen in the following table. There is a limit of 1 SO module per Exo-Foundry. Pairing the SO with the Proto-Volt Stabilizer module unlocks Harmonic Efficiency which is a one-time bonus of -50% EU/t and +0.1 overclock factor. 
@@ -164,7 +164,7 @@ The SO module (UMV) increases the overclock factor of the machine by 0.35. That 
 - 40 <ItemLink id="gregtech:gt.foundrycasings:5"/><ItemImage id="gregtech:gt.foundrycasings:5"/>
 - 36 <ItemLink id="GoodGenerator:antimatterContainmentCasing"/><ItemImage id="GoodGenerator:antimatterContainmentCasing"/>
 - 24 <ItemLink id="gregtech:gt.foundrycasings:1"/> <ItemImage id="gregtech:gt.foundrycasings:1"/>
-- 16 <ItemLink id="gregtech:gt.blockframes:327"/> <ItemImage id="gregtech:gt.blockframes:327"/>
+- 16 <ItemLink id="ml:Naquadria:frameGt"/> <ItemImage id="ml:Naquadria:frameGt"/>
 
 ## Universal Collapser <ItemImage id="gregtech:gt.foundrycasings:4"/>
 The UC module (UXV) multiplies the power consumption by 4x, multiplies the speed by 2x, and increases the minimum number of casings by 20. That is effectively a forced imperfect overclock and leaves space for only 5 inputs for the 35 total molds. There is a limit of 1 UC module per Exo-Foundry. Pairing the UC with the Hypercooler module unlocks Realized Potential which is a one-time bonus that allows eternity to be used as a coolant for up to 3 additional overclocks, multiplies the power consumption by 2x, and multiplies the speed by 2x. 
@@ -172,14 +172,14 @@ The UC module (UXV) multiplies the power consumption by 4x, multiplies the speed
 ### Requires:
 - 72 <ItemLink id="tectech:gt.blockcasingsBA0:11"/> <ItemImage id="tectech:gt.blockcasingsBA0:11"/>
 - 48 <ItemLink id="tectech:gt.blockcasingsBA0:10"/><ItemImage id="tectech:gt.blockcasingsBA0:10"/>
-- 40 <ItemLink id="gregtech:gt.blockframes:583" /> <ItemImage id="gregtech:gt.blockframes:583" />
-- 28 <ItemLink id="gregtech:gt.blockmetal9:6"/><ItemImage id="gregtech:gt.blockmetal9:6"/>
-- 28 <ItemLink id="gregtech:gt.blockmetal9:7"/><ItemImage id="gregtech:gt.blockmetal9:7"/>
-- 16 <ItemLink id="gregtech:gt.blockframes:139"/><ItemImage id="gregtech:gt.blockframes:139"/>
-- 8 <ItemLink id="gregtech:gt.blockframes:585"/><ItemImage id="gregtech:gt.blockframes:585"/>
-- 8 <ItemLink id="gregtech:gt.blockframes:586"/><ItemImage id="gregtech:gt.blockframes:586"/>
+- 40 <ItemLink id="ml:MagnetohydrodynamicallyConstrainedStarMatter:frameGt" /> <ItemImage id="ml:MagnetohydrodynamicallyConstrainedStarMatter:frameGt" />
+- 28 <ItemLink id="ml:WhiteDwarfMatter:block"/><ItemImage id="ml:WhiteDwarfMatter:block"/>
+- 28 <ItemLink id="ml:BlackDwarfMatter:block"/><ItemImage id="ml:BlackDwarfMatter:block"/>
+- 16 <ItemLink id="ml:Universium:frameGt"/><ItemImage id="ml:Universium:frameGt"/>
+- 8 <ItemLink id="ml:WhiteDwarfMatter:frameGt"/><ItemImage id="ml:WhiteDwarfMatter:frameGt"/>
+- 8 <ItemLink id="ml:BlackDwarfMatter:frameGt"/><ItemImage id="ml:BlackDwarfMatter:frameGt"/>
 - 4 <ItemLink id="gregtech:gt.foundrycasings:4"/><ItemImage id="gregtech:gt.foundrycasings:4"/>
-- 4 <ItemLink id="gregtech:gt.blockmetal9:13"/><ItemImage id="gregtech:gt.blockmetal9:13"/>
+- 4 <ItemLink id="ml:MagnetohydrodynamicallyConstrainedStarMatter:block"/><ItemImage id="ml:MagnetohydrodynamicallyConstrainedStarMatter:block"/>
 
 ## Pairings
 There are four unique pairings of modules that provide additional bonuses to the Exo-Foundry. These have all been described in the module subsections above, but summarized here for reference. These bonuses are only applied once even if there are two of each module. For example, having two ECB and two SC does NOT double the bonus from Optimum Production. 

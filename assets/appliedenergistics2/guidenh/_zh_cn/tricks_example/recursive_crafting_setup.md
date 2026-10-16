@@ -28,7 +28,7 @@ navigation:
     <Row>
       <ItemImage id="minecraft:magma_cream" scale="2" />
       <ItemImage id="minecraft:blaze_powder" scale="2" />
-      <ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
+      <ItemImage id="ml:NetherStar:dustTiny" scale="2" />
     </Row>
   </BlockAnnotation>
   <BlockAnnotation pos="0 0 0">
@@ -48,7 +48,7 @@ navigation:
     <Row>
       <ItemImage id="minecraft:magma_cream" scale="2" />
       <ItemImage id="minecraft:blaze_powder" scale="2" />
-      <ItemImage id="gregtech:gt.metaitem.01:506" scale="2" />
+      <ItemImage id="ml:NetherStar:dustTiny" scale="2" />
       <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
     </Row>
   </BoxAnnotation>

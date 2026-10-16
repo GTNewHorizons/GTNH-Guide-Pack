@@ -32,7 +32,7 @@ date: 2026-05-27
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15553"/>
 - 4-15 个 <ItemLink id="miscutils:miscutils.blockcasings:4"/><ItemImage id="miscutils:miscutils.blockcasings:4"/>
 - 9 个 <ItemLink id="gregtech:gt.blockcasings12:14"/><ItemImage id="gregtech:gt.blockcasings12:14"/>
-- 6 个 <ItemLink id="gregtech:gt.blockframes:28"/><ItemImage id="gregtech:gt.blockframes:28"/>
+- 6 个 <ItemLink id="ml:Titanium:frameGt"/><ItemImage id="ml:Titanium:frameGt"/>
 - 3 个 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
 - 1+ 个能源仓（任意金属加工机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意金属加工机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />

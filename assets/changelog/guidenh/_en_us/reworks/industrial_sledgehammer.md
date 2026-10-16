@@ -28,7 +28,7 @@ The <Color id="GREEN">Industrial Sledgehammer</Color> has one tiered component. 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15555"/><ItemImage id="gregtech:gt.blockmachines:15555"/>
 - 10-29 <ItemLink id="miscutils:gtplusplus.blockcasings.5:6"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:6"/>
-- 20 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:32100"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:32100"/>
+- 20 <ItemLink id="ml:BlackSteel:blockCasingAdvanced"/><ItemImage id="ml:BlackSteel:blockCasingAdvanced"/>
 - 3 Solenoid Superconductor Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10"/>
 - 2 <ItemLink id="gregtech:gt.blockcasings13:4"/><ItemImage id="gregtech:gt.blockcasings13:4"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />

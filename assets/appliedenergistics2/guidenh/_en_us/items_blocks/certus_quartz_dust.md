@@ -2,19 +2,19 @@
 navigation:
   parent: /items_blocks_index.md
   title: Certus Quartz Dust
-  icon: gregtech:gt.metaitem.01:2516
+  icon: ml:CertusQuartz:dust
 categories:
 - misc ingredients blocks
 item_ids:
-- gregtech:gt.metaitem.01:2516
+- ml:CertusQuartz:dust
 ---
 
 # Certus Quartz Dust
 
-<ItemImage id="gregtech:gt.metaitem.01:2516" scale="4" />
+<ItemImage id="ml:CertusQuartz:dust" scale="4" />
 
-Obtained by pulverizing <ItemLink id="gregtech:gt.metaitem.01:2516" /> with a <ItemLink id="gregtech:gt.metatool.01:12" />. Used to craft several AE2 materials and components.
+Obtained by pulverizing <ItemLink id="ml:CertusQuartz:dust" /> with a <ItemLink id="gregtech:gt.metatool.01:12" />. Used to craft several AE2 materials and components.
 
 ## Recipe
 
-<RecipeFor id="gregtech:gt.metaitem.01:2516" handlerId="Shaped" input="gregtech:gt.metaitem.01:8516" />
+<RecipeFor id="ml:CertusQuartz:dust" handlerId="Shaped" input="ml:CertusQuartz:gem" />

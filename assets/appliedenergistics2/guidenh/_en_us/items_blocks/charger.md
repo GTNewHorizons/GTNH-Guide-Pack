@@ -13,11 +13,11 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockCharger" scale="4" />
 
-The Charger can charge the tools it supports and <ItemLink id="gregtech:gt.metaitem.01:8516" />.
+The Charger can charge the tools it supports and <ItemLink id="ml:CertusQuartz:gem" />.
 
 It must be supplied with power from its top or bottom. Both AE2 [cables](cables.md) and energy cables from other mods can be used. The Charger accepts both AE2 energy (AE) and Forge Energy (FE). Items can be inserted and extracted from all sides. Only completed products are extracted, so no filtering is required. The <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> can be used to rotate it for automation.
 
-<ItemImage id="gregtech:gt.metaitem.01:8516" /><ItemLink id="gregtech:gt.metaitem.01:8516" /> can be charged into <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />, or <ItemLink id="minecraft:compass" showIcon="left"/> can be transformed into <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left"/>.
+<ItemImage id="ml:CertusQuartz:gem" /><ItemLink id="ml:CertusQuartz:gem" /> can be charged into <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />, or <ItemLink id="minecraft:compass" showIcon="left"/> can be transformed into <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left"/>.
 
 ~~Placing an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:46" /> on the top or bottom and right-clicking it with a hand crank allows items to be charged manually.~~
 
