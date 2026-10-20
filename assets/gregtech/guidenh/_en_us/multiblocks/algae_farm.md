@@ -7,30 +7,29 @@ navigation:
   title: Algae Farm
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15545
-  position: -2002
+  position: -2001
 ---
 
-# Alage Farm
+# Algae Farm
 
-<GameScene interactive={true} wrap="square" align="right" width="320" height="300">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15545" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15545" showIcon="left" /> is an MV tier multiblock for cultivating different types of algae. The Algae Farm requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depends on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. Optionally, supply GT++ compost through an input bus to boost the tier of the machine by one.
+The <ItemLink id="gregtech:gt.blockmachines:15545" showIcon="left" /> is an MV tier multiblock for cultivating different types of algae. The Algae Farm requires no inputs other than power to run and produces no pollution. The type and amount of algae depends on the tier of the energy hatch, and can be boosted one tier further by supplying GT++ compost. The algae is mainly used as a renewable feedstock for the [<ItemLink id="gregtech:gt.blockmachines:998" showIcon="left" />](./exxonmobil_chemical_plant.md).
 
 | Property | Details |
 | --- | --- |
-| Unlock tier | MV |
-| Structure size(LxWxH) | 10x3x6 |
-| Power | Regular Energy hatch |
-| Overclocks | Unique. Described Below |
-| Maintenance and pollution | Requires maintenance, produces no pollution, and does not need a Muffler Hatch |
+| Unlock Tier | MV |
+| Structure Size (LxWxH) | 10x3x6 |
+| Power | Regular |
+| Overclocks | Unique |
+| Maintenance | Need Maintenance |
+| Pollution | Produces no pollution |
 
 ## Crafting and Construction
 
 ### Crafting
-
-The current recipes for the controller and casing are shown below.
 
 <RecipesFor id="gregtech:gt.blockmachines:15545" handlerId="gt.recipe.assembler" />
 
@@ -45,6 +44,8 @@ The current recipes for the controller and casing are shown below.
 ### Structure
 
 The Algae Farm has one tiered component. The glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. 
+
+The Algae Farm cannot be rotated.
 
 Buses/hatches may replace any algae casing anywhere on the structure. 
 
@@ -61,11 +62,11 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockcasings12:15" showIcon="left" /> | 20-25 |
 | <ItemLink id="gregtech:gt.blockframes:306" showIcon="left" /> | 6 |
 | <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 5 |
-| Energy Hatch | 1, Any casing |
-| Maintenance Hatch | 1, Any casing |
-| Input Bus | 0+, Any casing |
-| Input Hatch | 0+, Any casing |
-| Output Bus | 1+, Any casing |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only regular Hatch allowed, tier limited by glass</Tooltip> | 1, Any casing |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1, Any casing |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 0+, Any casing |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Any casing |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+, Any casing |
 
 ### Wallsharing
 
@@ -73,13 +74,13 @@ Algae Farms may wallshare each of their sides to save on casings, glass, and bus
 
 ## Usage
 
-The Algae Farm requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depends on the tier of the energy hatch, as seen in the following table. Many outputs are not guaranteed and instead have a 90% chance of being produced. For example, an HV Algae Farm always produces 1 brown algae and 90% of the time produces 4 more, for a total of 5 per iteration and an average of 0.066 per second.
+The duration of each iteration and the type/amount of algae produced depends on the tier of the energy hatch, as seen in the following table. Many outputs are not guaranteed and instead have a 90% chance of being produced. For example, an HV Algae Farm always produces 1 brown algae and 90% of the time produces 4 more, for a total of 5 per iteration and an average of 0.066 per second.
 
 Notice the improved scaling for LuV and above. The recipe length is halved with each tier instead of being reduced by 10 seconds which drastically increases the average algae produced. The very last tier is currently unobtainable because there are no craftable energy hatches above UXV.
 
 Optionally, supply GT++ compost through an input bus to boost the tier of the machine by one. For example, an MV Algae Farm could produce brown algae despite not normally being able to and its recipe length would be reduced from 80s to 70s. The amount of compost required per operation doubles with each tier, up to the maximum of 64.
 
-Below table shows recipe time, compost needed for boosting, and Avarage algae produced per second on each tier.
+The table below shows the recipe time, the compost needed for boosting, and the average algae produced per second on each tier.
 
 | Voltage | Recipe Time | Compost Required | <ItemImage id="miscutils:item.BasicAgrichemItem" /> Algae | <ItemImage id="miscutils:item.BasicAgrichemItem:1" /> Green | <ItemImage id="miscutils:item.BasicAgrichemItem:2" /> Brown | <ItemImage id="miscutils:item.BasicAgrichemItem:3" /> Golden-Brown | <ItemImage id="miscutils:item.BasicAgrichemItem:4" /> Red |
 | --- | --- | --- | --- | --- | --- | --- | --- |
