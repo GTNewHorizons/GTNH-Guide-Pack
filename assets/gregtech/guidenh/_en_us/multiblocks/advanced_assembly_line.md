@@ -12,35 +12,27 @@ navigation:
 
 # Advanced Assembly Line
 
-<GameScene interactive={true} wrap="square" align="right" width="320" height="300">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:13532" />
 </GameScene>
 
 The <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> (AAL) is an IV tier multiblock for running [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) recipes in parallel by leveraging item pipelining; ingredients are consumed slice-by-slice instead of all at once, much like a real Assembly Line. That means the maximum number of parallels corresponds to the number of solid ingredients in a recipe. 
 
-The AAL also supports multi-amp and laser energy hatches for serious overclocking, but CANNOT tier skip like the regular Assembly Line. Overclocks above the named voltage tiers are considered laser overclocks and scale much **worse** than imperfect overclocks.
-
-Although craftable at the same time as the Assembly Line, it is not recommended to switch right away for multiple reasons. 
-1. The AAL is much more complicated than the Assembly Line and is prone to getting stuck if not set up correctly. 
-1. Parallelism costs a tremendous amount of power which may be difficult to support without laser infrastructure. 
-1. Automation is much more expensive since it requires significantly more AE2 components. 
-1. The Assembly Line is still needed for tier skipping.
+The AAL supports multi-amp and laser energy hatches for serious overclocking and massive parallel operation, but **CANNOT** tier skip and harder to automate compared to regular Assembly Line, which makes AAL specialized in late-game mass production like stargate material rather than early-game progression. 
 
 | Property | Details |
 | --- | --- |
-| Unlock tier | IV |
-| Structure size (LxWxH) | 3x5-16x4 |
-| Power | Any Energy Hatches allowed, includes Multi-Amp and Laser Hatches. |
-| Maintenance and pollution | Requires Maintenance, produces no pollution, and does not need a Muffler Hatch |
-| Overclocks | Unique, explained below |
+| Unlock Tier | IV |
+| Structure Size (LxWxH) | 3x5-16x4 |
+| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
+| Overclocks | Unique |
+| Maintenance | Requires Maintenance |
+| Pollution | Produces no pollution |
 
 ## Crafting and Construction
 
 ### Crafting
-You need the controller and various Assembly Line related casings to form the AAL.
-Current recipes for the required controller and casings are listed below.
-
-<RecipesFor id="gregtech:gt.blockmachines:13532" handlerBlacklist="gt.recipe.scanner" />
+<RecipesFor id="gregtech:gt.blockmachines:13532" handlerId="gt.recipe.fakeAssemblylineProcess" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
 
@@ -53,9 +45,9 @@ Current recipes for the required controller and casings are listed below.
 ### Structure
 The only structural difference between the AAL and the [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) is the controller. 
 
-The glass can be any tier and has no effect on the operation of the machine. 
+AAL Can be rotated or mirrored.
 
-Multi-amp and laser energy hatches are supported for serious overclocking, but there is no tier skipping (i.e. UV energy hatches cannot run UHV recipes). 
+The glass can be any tier and has no effect on the operation of the machine. 
 
 Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and subchannel "length" to specify the number of slices $$(\text{Slices} = \text{Length} + 4)$$
 
@@ -63,17 +55,17 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | Component | Quantity and placement |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> | First slice, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any tiered glass | 10, Both sides of 2nd layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 10, Both sides of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, Both sides of 3rd layer |
 | <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 4-8, Both sides of 1st layer and center of 4th layer |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, Center of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5, Center of 3rd layer |
-| Energy Hatch | 1+, Any 4th layer Casing |
-| Maintenance Hatch | Any 1st layer side casings |
-| Data Access Hatch | 1, Any both sides of 3rd layer but <Color id="red">**NOT**</Color> on first slice |
-| Input Bus | 5, Center of 1st layer. |
-| Input Hatch | 1-4, Any 1st layer side casings |
-| Output Bus | 1, Any 1st layer on last slice |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Any 4th layer Casing |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | Any 1st layer side casings |
+| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />Data Access Hatch | 1, Any both sides of 3rd layer but <Color id="red">**NOT**</Color> on first slice |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 5, Center of 1st layer. |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1-4, Any 1st layer side casings |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1, Any 1st layer on last slice |
 
 #### Each Additional Slice
 
@@ -94,12 +86,12 @@ Each additional slice (1 length) requires these blocks:
 
 | Component | Quantity and placement |
 | --- | --- |
-| <ItemImage id="bartworks:BW_TieredGlass" /> Any tiered glass | 2, Both sides of 2nd layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 2, Both sides of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2, Both sides of 3rd layer |
 | <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 3, Both sides of 1st layer and center of 4th layer |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, Center of 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1, Center of 3rd layer |
-| Input Bus | 1, Center of 1st layer. |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1, Center of 1st layer. |
 
 #### Wallsharing
 
@@ -107,13 +99,18 @@ AALs may wallshare each of their sides to save on casings, glass, and buses/hatc
 
 ## Usage
 
-The AAL starts processing once the contents of the buses/hatches align with a stored data stick, much like the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md). Every recipe must pass through N slices on the machine, where N is the number of solid ingredients. Each slice takes T = (base duration / N) seconds to process the ONE type of item in its input bus before continuing to the next slice for the next item. This repeats until all ingredients are consumed and the final product is sent to the output bus for retrieval. All fluids are consumed at the very start of processing.
+<GameScene wrap="square" align="right" width="300" height="300">
+  <ImportStructure src="/assets/structures/aal_operation_ponder.snbt" />
+  <ImportPonder src="/assets/ponders/multiblocks/aal/aal_operation_ponder.json" />
+</GameScene>
+
+The AAL starts processing once the contents of the buses/hatches align with a stored data stick, much like the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md). Every recipe must pass through N slices on the machine, where N is the number of solid ingredients. Each slice takes $$\text{T} = (\text{base duration} / \text{N})$$ seconds to process the ONE type of item in its input bus before continuing to the next slice for the next item. This repeats until all ingredients are consumed and the final product is sent to the output bus for retrieval. All fluids are consumed at the very start of processing.
 
 The AAL supports parallel processing by allowing the next recipe to begin once the first slice is done with the first recipe. This creates a staggered pattern that allows every slice to work simultaneously, if there are enough resources available.
 
 If the next slice is missing the required item in its input bus, the current slice enters the **STUCK** state which halts the entire machine until the missing item is found/returned. The status light on the face of the controller turns orange to indicate that the machine is STUCK. Use WAILA to locate where exactly the problem occurred.
 
-TODO - this is where explain scene required.
+The Game scene on right shows how AAL process recipe simultanious by slice processing, why AAL stucks, and how to resolve.
 
 ### Laser Overclocks
 
