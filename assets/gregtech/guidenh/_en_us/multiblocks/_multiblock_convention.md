@@ -36,6 +36,15 @@ Document is written in following orders.
 1. Usage that describes machine's behavior + statictics with graphs/tables and gamescenes for detailed information. 
 1. References
 
+### Crafting and Construction - Structure Template
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Hatch Limit explaination</Tooltip> | N+, |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | N+, |
+| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Muffler Hatch | N+, |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | N+, |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | N+,|
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | N+, |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | N+, |
+
 ## Convention
 - All **Multiblock Reference** should use `ItemLink` with markdown link, to make user clearly know which block this link points to and what this block is.
 - Navigation position follow multiblock's tier position - for example, IV multiblock use `-5001`, and ZPM use `-7001`, to make lower tier multiblocks appears on top.
