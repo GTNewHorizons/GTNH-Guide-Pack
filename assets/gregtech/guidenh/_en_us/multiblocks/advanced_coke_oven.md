@@ -31,7 +31,7 @@ The ACO is superseded by the [<ItemLink id="gregtech:gt.blockmachines:15543" sho
 | Power | None |
 | Overclocks | None |
 | Maintenance | No maintenance needed |
-| Pollution | Produces 80 gibbi/s pollution |
+| Pollution | Produces 80 gibbl/s pollution |
 
 ## Crafting and Construction
 

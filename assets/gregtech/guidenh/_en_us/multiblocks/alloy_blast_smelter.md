@@ -31,7 +31,7 @@ The minimum casing requirement is very low to allow for many buses/hatches since
 | Power | Regular |
 | Overclocks | Imperfect |
 | Maintenance | Need Maintenance |
-| Pollution | Produces 200 gibbi/s pollution, and require Muffler Hatch |
+| Pollution | Produces 200 gibbl/s pollution, and require Muffler Hatch |
 
 ## Crafting and Construction
 
