@@ -32,30 +32,30 @@ navigation:
 
 | 类型 | 奥术合成 | 法杖核心 | 主要特点 |
 | --- | --- | --- | --- |
-| 法杖（Wand） | 可以 | 可以 | 兼顾合成、设施交互与核心使用 |
-| 权杖（Sceptre） | 可以 | 不可以 | 同一普通杖柄的容量增加 50%,额外降低 10 个百分点的 Vis 消耗 |
-| 手杖（Staff） | 不可以 | 可以 | 使用长杖芯,通常有更大的容量,适合核心与设施交互 |
+| 法杖(Wand) | 可以 | 可以 | 兼顾合成、设施交互与核心使用 |
+| 权杖(Sceptre) | 可以 | 不可以 | 同一普通杖柄的容量增加 50%,额外降低 10 个百分点的 Vis 消耗 |
+| 手杖(Staff) | 不可以 | 可以 | 使用长杖芯,通常有更大的容量,适合核心与设施交互 |
 
 权杖的额外容量与减免,使它适合留在奥术工作台中.<br>
-手杖有更大的容量，却不能参与奥术合成.
+手杖有更大的容量,却不能参与奥术合成.
 
 长杖芯的容量要按具体部件看.例如,宏伟之木长杖芯为 125 Vis,银树长杖芯为 250 Vis,六种元素长杖芯则为 175 Vis.
 
-**法杖核心（Focus）** 赋予法杖挖掘、战斗、移动等主动功能,杖芯则属于法杖本身的容量部件.<br>
+**法杖核心(Focus)** 赋予法杖挖掘、战斗、移动等主动功能,杖芯则属于法杖本身的容量部件.<br>
 ## 法杖制作门槛
 
 在 GTNH 中,合成法杖还需要螺丝和暮色森林 Boss 战利品,材料由部件的配方等级决定.
 
 | 配方等级 | 螺丝材质 | Boss 战利品 | 通常可取得的阶段 |
 | --- | --- | --- | --- |
-| 0（LV） | 铝 | <ItemLink id="TwilightForest:item.nagaScale" showIcon="left" /> | LV |
-| 1（MV） | 不锈钢 | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
-| 2（HV） | 充能合金 | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
-| 3（EV） | 脉冲合金 | <ItemLink id="TwilightForest:item.fieryBlood" showIcon="left" /> | HV |
-| 4（IV） | 钨钢 | <ItemLink id="TwilightForest:item.fieryTears" showIcon="left" /> | EV |
-| 5（LuV） | 末影（TE） | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
-| 6（ZPM） | 奥利哈钢 | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
-| 7（UV） | 铱锇合金 | <ItemLink id="dreamcraft:SnowQueenBlood" showIcon="left" /> | IV |
+| 0(LV) | 铝 | <ItemLink id="TwilightForest:item.nagaScale" showIcon="left" /> | LV |
+| 1(MV) | 不锈钢 | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
+| 2(HV) | 充能合金 | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
+| 3(EV) | 脉冲合金 | <ItemLink id="TwilightForest:item.fieryBlood" showIcon="left" /> | HV |
+| 4(IV) | 钨钢 | <ItemLink id="TwilightForest:item.fieryTears" showIcon="left" /> | EV |
+| 5(LuV) | 末影(TE) | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
+| 6(ZPM) | 奥利哈钢 | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
+| 7(UV) | 铱锇合金 | <ItemLink id="dreamcraft:SnowQueenBlood" showIcon="left" /> | IV |
 
 普通木质杖柄、宏伟之木杖柄、六种元素杖柄和银树杖柄的常规配方分别使用 0、1、2、3 级材料.等级是法杖配方的分组,部分高等级材料可以提前取得,并不要求发展到同名电压阶段.
 
@@ -74,13 +74,13 @@ navigation:
 
 <ItemLink id="WitchingGadgets:item.WG_AdvancedRobeChest" showIcon="left" />与<ItemLink id="WitchingGadgets:item.WG_AdvancedRobeLegs" showIcon="left" />分别提供 5% 和 4%,能进一步降低合成消耗.
 
-一般情况下,实际消耗按**配方需求 ×（杖端消耗系数 − 装备减免 − 权杖减免）**计算,消耗系数最低为 0.1.装备和权杖的这些效果按百分点相减.
+一般情况下,实际消耗按**配方需求 ×(杖端消耗系数 − 装备减免 − 权杖减免)**计算,消耗系数最低为 0.1.装备和权杖的这些效果按百分点相减.
 
 一个实际例子是金杖端宏伟之木权杖：原始装配消耗为每种元始要素 60 Vis.<br>
 用容量为 50 的金杖端宏伟之木法杖,即使穿戴基础四件套减免 10%,仍需要 54 Vis,超过其容量.<br>
 相同杖柄换用较便宜的组合,或继续增加减免,才可能跨过这一门槛.
 
-Thaumic Machina 的 **Vis 隧道（Vis Channels）**增强会先把杖端消耗系数乘以 0.9,再计算装备与权杖减免.<br>
+Thaumic Machina 的 **Vis 隧道(Vis Channels)**增强会先把杖端消耗系数乘以 0.9,再计算装备与权杖减免.<br>
 例如,神秘杖端的 90% 会变为 81%,配合基础四件套与权杖时为 61%.
 
 ## 杖端
@@ -116,9 +116,9 @@ Salis Arcana 提供了**杖端与杖柄／杖芯替换**研究,NEI 中可以查�
 已有的永久强化会保留,更换权杖部件也能省去重新制作时使用的始源护符.替换不能改变法杖、权杖与手杖的类型.<br>
 法杖强化通过注魔安装,同一种强化每根法杖只能安装一次,不同强化可以共存.
 
- - 魔子缓存（Charge Buffer）：容量增加 25%
- - Vis 隧道（Vis Channels）：杖端 Vis 消耗乘以 0.9,在装备与权杖减免之前计算
- - 接触放能（Contact Discharge）：法杖近战攻击消耗 Vis,造成可穿透普通护甲的魔法伤害
+ - 魔子缓存(Charge Buffer)：容量增加 25%
+ - Vis 隧道(Vis Channels)：杖端 Vis 消耗乘以 0.9,在装备与权杖减免之前计算
+ - 接触放能(Contact Discharge)：法杖近战攻击消耗 Vis,造成可穿透普通护甲的魔法伤害
 
 ## Vis 的来源
 
@@ -151,7 +151,7 @@ Salis Arcana 提供了**杖端与杖柄／杖芯替换**研究,NEI 中可以查�
 
 ## 观察节点与辨认储量
 
-**灵气节点（Aura Node）**是世界中的魔力集中点.节点能够供扫描,也可以作为法杖的魔力来源.使用<ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" />观察,或穿戴<ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" />,可以更清楚地辨认节点.
+**灵气节点(Aura Node)**是世界中的魔力集中点.节点能够供扫描,也可以作为法杖的魔力来源.使用<ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" />观察,或穿戴<ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" />,可以更清楚地辨认节点.
 
 观察一个节点时,需要分开看四项信息：
 
@@ -174,12 +174,12 @@ NH 的节点记录功能可以帮助管理已经扫描过的节点,默认可用 
 
 | 类型 | 核心外观 | 性质与需要留意的地方 |
 | --- | --- | --- |
-| 标准（Normal） | 白色,核心稳定 | 最常见的普通节点,没有额外类型效果 |
-| 凶险（Sinister） | 紫黑色 | 常与黑曜石图腾、邪术设施有关,会改变周围群系,也可能产生危险生物 |
-| 纯净（Pure） | 白色涡旋 | 常见于银树,能够把周围群系转为魔法森林,有助于限制腐化环境 |
-| 污染（Tainted） | 紫色烟雾 | 与腐化之地有关,会传播腐化环境与相应危害 |
-| 震荡（Unstable） | 白色,核心不断跳动 | 会释放要素球并损失魔力,不能视为稳定的长期供能节点 |
-| 饕餮（Hungry） | 白色圆环 | 吸引并吞噬附近实体与物品,也会破坏方块；可通过吸收物品要素培育容量 |
+| 标准(Normal) | 白色,核心稳定 | 最常见的普通节点,没有额外类型效果 |
+| 凶险(Sinister) | 紫黑色 | 常与黑曜石图腾、邪术设施有关,会改变周围群系,也可能产生危险生物 |
+| 纯净(Pure) | 白色涡旋 | 常见于银树,能够把周围群系转为魔法森林,有助于限制腐化环境 |
+| 污染(Tainted) | 紫色烟雾 | 与腐化之地有关,会传播腐化环境与相应危害 |
+| 震荡(Unstable) | 白色,核心不断跳动 | 会释放要素球并损失魔力,不能视为稳定的长期供能节点 |
+| 饕餮(Hungry) | 白色圆环 | 吸引并吞噬附近实体与物品,也会破坏方块；可通过吸收物品要素培育容量 |
 
 > [!WARNING]
 > 饕餮节点会吞噬物品并伤害玩家,还会影响周围方块.贵重物品、掉落物和生产设施都可能受到损失；培育和改造应在有防护的独立区域进行.
@@ -195,9 +195,9 @@ NH 的节点记录功能可以帮助管理已经扫描过的节点,默认可用 
 | 质量 | 自然恢复 | 外观 |
 | --- | --- | --- |
 | 普通 | 约每 30 秒进行一次恢复 | 没有额外质量名称 |
-| 明亮（Bright） | 约每 20 秒进行一次恢复 | 比普通节点鲜艳 |
-| 苍白（Pale） | 约每 45 秒进行一次恢复 | 较为灰暗 |
-| 凋零（Fading） | 不自然恢复魔力 | 非常灰暗,不断闪烁 |
+| 明亮(Bright) | 约每 20 秒进行一次恢复 | 比普通节点鲜艳 |
+| 苍白(Pale) | 约每 45 秒进行一次恢复 | 较为灰暗 |
+| 凋零(Fading) | 不自然恢复魔力 | 非常灰暗,不断闪烁 |
 
 ### 抽取节点与节点防护术
 
@@ -255,7 +255,7 @@ NH 的节点记录功能可以帮助管理已经扫描过的节点,默认可用 
 | 合并要素 | 改变节点的基础组成,形成复合要素 |
 | 补充要素 | 加入原本缺少的元始要素 |
 | 改变质量 | 质量可能提升,也可能下降 |
-| 改变类型 | 可能取得其他类型,包括额外的生长（Growing）类型 |
+| 改变类型 | 可能取得其他类型,包括额外的生长(Growing)类型 |
 
 每次改造需要向操纵仪**累计提供六种元始要素各至少 70 Vis**,由放入的法杖或手杖支付.
 
@@ -284,9 +284,9 @@ NH 的节点记录功能可以帮助管理已经扫描过的节点,默认可用 
 充能蜂,可以把养蜂用于魔法供能.效果作用在蜂箱的有效工作范围内,会受领地基因与蜂箱倍率影响；应查看蜜蜂实际继承的效果基因.
 
 
- - 充能蜂（Empowering）:随机增加要素的基础上限与当前储量,也可能加入新的要素
- - 复兴蜂（Rejuvenating） :补满节点已有的魔力,不靠此效果增加上限
- - 联结蜂（Nexus） :改善质量,可逐级从凋零升到明亮；也能处理震荡类型
+ - 充能蜂(Empowering):随机增加要素的基础上限与当前储量,也可能加入新的要素
+ - 复兴蜂(Rejuvenating) :补满节点已有的魔力,不靠此效果增加上限
+ - 联结蜂(Nexus) :改善质量,可逐级从凋零升到明亮；也能处理震荡类型
 
 充能蜂的要素选择随机,联结蜂的质量提升则可与扩容配合,改善后续供能表现.<br>
 蜜蜂效果需要作用到目标节点,培育也需要持续工作.<br>
@@ -296,7 +296,7 @@ NH 的节点记录功能可以帮助管理已经扫描过的节点,默认可用 
 
 ### 充能节点与厘魔
 
-**充能节点（Energized Node）**把节点利用方式从“储存魔力后慢慢抽取”,改为持续输出<Color color="#B7A0D6">厘魔（Centi-Vis,简称 CV）</Color>.<br>
+**充能节点(Energized Node)**把节点利用方式从“储存魔力后慢慢抽取”,改为持续输出<Color color="#B7A0D6">厘魔(Centi-Vis,简称 CV)</Color>.<br>
 1 CV 等于 0.01 Vis,节点显示的输出表示每游戏刻可提供多少 CV.
 
 <ItemLink id="Thaumcraft:blockStoneDevice:11" showIcon="left" />负责转换,需要节点下方的稳定器在整个过程中工作,换能器位于节点上方并由红石启用.完成后仍需要维持这两种设施的工作条件.

@@ -26,9 +26,9 @@ navigation:
 **要素(Aspect)**描述物体的组成与性质.它既可以表示风、地等自然属性,也可以表示生命、金属、秩序等概念.<br>
 这里的“组成”不仅指物体由什么材料制成,也包括它在魔法中的倾向与意义;生物、工具和魔法物品,因此都能用同一套体系来描述.
 
-六种元始要素是 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风（Aer）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地（Terra）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火（Ignis）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水（Aqua）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序（Ordo）和 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />混沌（Perditio）.
+六种元始要素是 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风(Aer)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地(Terra)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火(Ignis)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水(Aqua)、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序(Ordo)和 <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />混沌(Perditio).
 它们构成要素体系的基础,复合要素由两种其他要素组合而成.<br>
-例如,<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />生命（Victus）由地与水组成.<br>
+例如,<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />生命(Victus)由地与水组成.<br>
 
 复合要素的组成也可以包含其他复合要素,因此要素之间形成了一张逐层展开的关系网.<br>研究笔记中的连线正是依据这种组成关系,理解各要素之间的关系,既有助于理解研究中的连接,也有助于理解炼金材料为什么能提供源质.
 
@@ -79,7 +79,7 @@ navigation:
 
 ## 灵气节点
 
-**灵气（Aura）**是世界中存在的魔法能量,**灵气节点（Aura Node）**则是这些能量的集中点.节点不只是一个供扫描的特殊方块,它包含一定种类和数量的要素,也是法杖取得 Vis 的重要来源.
+**灵气(Aura)**是世界中存在的魔法能量,**灵气节点(Aura Node)**则是这些能量的集中点.节点不只是一个供扫描的特殊方块,它包含一定种类和数量的要素,也是法杖取得 Vis 的重要来源.
 
 <ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" />可以很好的帮你提供神秘视野,以查找灵气节点.
 
@@ -108,7 +108,7 @@ navigation:
   <FloatingImage src="/assets/images/aura_node_states.png" displayWidth="400" wrap="inline" title="灵气节点" />
 </Column>
 
- - **普通（不显示）：每30s恢复1点要素**
+ - **普通(不显示)：每30s恢复1点要素**
  - **明亮：每20s恢复1点要素,外观比普通节点更加鲜艳**
  - **苍白：每45s恢复1点要素,外观比普通节点更加灰暗**
  - **凋零：不恢复要素,外观极为灰暗,且会不断闪烁**
@@ -126,7 +126,7 @@ navigation:
 
 ## 源质
 
-<Color color="#B7A0D6">源质（Essentia）</Color>是从物品中分离、提炼出的要素,可以通过相应容器与设施储存、运输和使用.<br>它让物品的魔法性质成为能够集中管理的生产资源,也是炼金、注魔及部分魔法设备的重要需求.
+<Color color="#B7A0D6">源质(Essentia)</Color>是从物品中分离、提炼出的要素,可以通过相应容器与设施储存、运输和使用.<br>它让物品的魔法性质成为能够集中管理的生产资源,也是炼金、注魔及部分魔法设备的重要需求.
 
 原料中含有哪些要素,会影响能够取得哪些源质.一个包含多种要素的物品,可能同时提供多种源质;而配方通常只需要其中一部分.<br>因此,源质生产不仅关乎原料数量,也关乎需要什么要素、附带产出什么,以及这些产物能否被妥善储存和利用.
 
@@ -146,7 +146,7 @@ navigation:
 
 ## 扭曲与禁忌知识
 
-**扭曲（Warp）**是施加在研究者身上的影响.神秘时代的部分知识涉及禁忌与邪术,研究这些内容,以及某些制作或其他行为,可能改变研究者的精神与身体,扭曲由玩家承担.
+**扭曲(Warp)**是施加在研究者身上的影响.神秘时代的部分知识涉及禁忌与邪术,研究这些内容,以及某些制作或其他行为,可能改变研究者的精神与身体,扭曲由玩家承担.
 
 魔导手册既记载普通研究,也记载禁忌知识.禁忌研究会带有相应提示与紫色效果,学习这类研究可能增加扭曲.<br>因此,研究的前置条件、解锁收益与禁忌提示,都属于理解一个条目时需要关注的信息.
 
@@ -168,7 +168,7 @@ navigation:
 
 ## 扭曲与环境污染
 
-扭曲主要描述玩家受到的影响,**咒波（Flux）**与**腐化（Taint）**则涉及环境中的魔法危害.<br>魔法处理中的浪费与异常可能产生咒波,例如坩埚中未被妥善利用的要素;腐化则会影响地形、方块和生物.咒波还可能通过接触引发异常状态,影响魔法使用.
+扭曲主要描述玩家受到的影响,**咒波(Flux)**与**腐化(Taint)**则涉及环境中的魔法危害.<br>魔法处理中的浪费与异常可能产生咒波,例如坩埚中未被妥善利用的要素;腐化则会影响地形、方块和生物.咒波还可能通过接触引发异常状态,影响魔法使用.
 
 ## 各概念的关系
 
