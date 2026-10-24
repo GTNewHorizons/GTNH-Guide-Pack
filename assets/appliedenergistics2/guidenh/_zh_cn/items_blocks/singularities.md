@@ -26,7 +26,7 @@ item_ids:
 
 在两个[量子网桥](quantum_bridge.md)间建立连接的必需品，制造时必然成对产出。在需连接的量子网桥中<ItemLink id="appliedenergistics2:tile.BlockQuantumRing" />放入一对量子缠绕态奇点之一即可。
 
-在<ItemImage id="minecraft:ender_pearl" />（末影珍珠）或<ItemLink id="gregtech:gt.metaitem.01:2532" />间触发反应即可合成量子缠绕态奇点。任何爆炸力都应能触发反应。
+在<ItemImage id="minecraft:ender_pearl" />（末影珍珠）或<ItemLink id="ml:EnderPearl:dust" />间触发反应即可合成量子缠绕态奇点。任何爆炸力都应能触发反应。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:48" />
 

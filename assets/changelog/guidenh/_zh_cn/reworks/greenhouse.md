@@ -31,7 +31,7 @@ date: 2026-05-16
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:12792" /> <ItemImage id="gregtech:gt.blockmachines:12792"/>
 - 102 个任意等级玻璃（需匹配电压等级） <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 70-85 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:15" />
-- 33 个 <ItemLink id="gregtech:gt.blockframes:316" /> <ItemImage id="gregtech:gt.blockframes:316" />
+- 33 个 <ItemLink id="ml:TungstenSteel:frameGt" /> <ItemImage id="ml:TungstenSteel:frameGt" />
 - 21 个 <ItemLink id="RandomThings:fertilizedDirt" /> <ItemImage id="RandomThings:fertilizedDirt" />
 - 3 个紫色灯（ProjectRed Illumination，可用普通或反相版本）
 - 1+ 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />

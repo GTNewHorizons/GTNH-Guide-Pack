@@ -31,9 +31,9 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>
 - 184 个 <ItemLink id="gtnhintergalactic:gassiphoncasing"/><ItemImage id="gtnhintergalactic:gassiphoncasing"/>
-- 93 个 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
+- 93 个 <ItemLink id="ml:TungstenSteel:frameGt"/><ItemImage id="ml:TungstenSteel:frameGt"/>
 - 12 个加热线圈（分级） <ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
-- 6 个 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/>
+- 6 个 <ItemLink id="ml:Rhodium-PlatedPalladium:blockCasingAdvanced"/><ItemImage id="ml:Rhodium-PlatedPalladium:blockCasingAdvanced"/>
 - 1 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 个消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />

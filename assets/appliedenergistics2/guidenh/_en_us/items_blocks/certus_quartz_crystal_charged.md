@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:1" scale="4" />
 
-A <ItemLink id="gregtech:gt.metaitem.01:8516" /> processed in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />. It can also be obtained by mining <ItemLink id="appliedenergistics2:tile.OreQuartzCharged" />; Fortune increases the drop, while Silk Touch drops the ore instead.
+A <ItemLink id="ml:CertusQuartz:gem" /> processed in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />. It can also be obtained by mining <ItemLink id="appliedenergistics2:tile.OreQuartzCharged" />; Fortune increases the drop, while Silk Touch drops the ore instead.
 
 It is used to make <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />.
 

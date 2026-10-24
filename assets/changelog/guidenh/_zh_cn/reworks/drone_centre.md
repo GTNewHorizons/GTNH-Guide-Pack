@@ -37,9 +37,9 @@ date: 2026-05-23
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15568" /> <ItemImage id="gregtech:gt.blockmachines:15568" />
 - 61 个 <ItemLink id="gregtech:gt.blockcasings2:13" /> <ItemImage id="gregtech:gt.blockcasings2:13" />
-- 47 个 <ItemLink id="gregtech:gt.blockframes:305" /> <ItemImage id="gregtech:gt.blockframes:305" />
+- 47 个 <ItemLink id="ml:Steel:frameGt" /> <ItemImage id="ml:Steel:frameGt" />
 - 29 个 <ItemLink id="chisel:hempcrete" />（任意颜色）<ItemImage id="chisel:hempcrete" />
-- 28 个 <ItemLink id="gregtech:gt.blockframes:32" /> <ItemImage id="gregtech:gt.blockframes:32" />
+- 28 个 <ItemLink id="ml:Iron:frameGt" /> <ItemImage id="ml:Iron:frameGt" />
 - 20-26 个 <ItemLink id="gregtech:gt.blockcasings2" /> <ItemImage id="gregtech:gt.blockcasings2" />
 - 1+ 个输入总线（任意脱氧钢机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
 

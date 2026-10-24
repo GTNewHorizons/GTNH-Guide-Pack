@@ -34,7 +34,7 @@ date: 2026-05-16
 - 4-15 个 <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" /> <ItemImage id="miscutils:gtplusplus.blockcasings.3:9" />
 - 3 个物品管道方块 <ItemImage id="gregtech:gt.blockcasings11:5" />
 - 3 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15" />
-- 2 个 <ItemLink id="gregtech:gt.blockframes:32" /> <ItemImage id="gregtech:gt.blockframes:32" />
+- 2 个 <ItemLink id="ml:Iron:frameGt" /> <ItemImage id="ml:Iron:frameGt" />
 - 1+ 个能源仓（任意仓库机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意仓库机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 个消声仓（任意仓库机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />

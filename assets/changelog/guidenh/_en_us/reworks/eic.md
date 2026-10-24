@@ -30,10 +30,10 @@ The <Color id="GREEN">EIC</Color> has two tiered components. The containment blo
 - 1 <ItemLink id="gregtech:gt.blockmachines:15563"/><ItemImage id="gregtech:gt.blockmachines:15563"/>
 - 230-247 <ItemLink id="gregtech:gt.blockreinforced:10"/><ItemImage id="gregtech:gt.blockreinforced:10"/>
 - 36 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
-- 24 Containment Block (Tiered) <ItemImage id="gregtech:gt.blockmetal5:2"/>
+- 24 Containment Block (Tiered) <ItemImage id="ml:Neutronium:block"/>
 - 22 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 10 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
-- 2 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
+- 2 <ItemLink id="ml:Naquadah:frameGt"/><ItemImage id="ml:Naquadah:frameGt"/>
 - 1+ Energy Hatch (any reinforced block) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any reinforced block) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ Input Bus (any reinforced block) <ItemImage id="gregtech:gt.blockmachines:70" />
@@ -56,4 +56,4 @@ Most <Color id="GREEN">EIC</Color> recipes are rated at UEV voltage and have a l
 | 5 | Block of Universium | 256 |
 
 However, the <Color id="GREEN">EIC</Color> can only tier skip one tier. If a recipe is rated at MAX voltage, for example, then the <Color id="GREEN">EIC</Color> needs at least a 4A UXV energy hatch to run it. No amount of UMV amps will ever be enough. This limitation is most evident when trying to craft molten MHDCSM with eternity nanites. 
-<RecipeFor id="gregtech:gt.metaitem.99:583" input="gregtech:gt.metaitem.03:4141"/>
+<RecipeFor id="ml:MagnetohydrodynamicallyConstrainedStarMatter:cellMolten" input="ml:Eternity:nanite"/>

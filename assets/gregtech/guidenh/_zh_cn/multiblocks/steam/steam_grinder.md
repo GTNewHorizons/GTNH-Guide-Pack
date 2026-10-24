@@ -49,7 +49,7 @@ quest_ids:
 | 部件 | 普通结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
 | 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 基础配置 17 个；可替换为下列仓室或总线，但至少保留 14 个真正的外壳 |
-| 框架 | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 8 个，第二层和第三层的四个角 |
+| 框架 | <ItemLink id="ml:Bronze:frameGt" showIcon="left" /> | <ItemLink id="ml:Steel:frameGt" showIcon="left" /> | 8 个，第二层和第三层的四个角 |
 | 齿轮箱 | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | 1 个，第四层正中央 |
 | 控制器 | <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> | 同一控制器 | 1 个，正面第二层中央 |
 | 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓室 | 恰好 1 个，替换一个外壳位置 |

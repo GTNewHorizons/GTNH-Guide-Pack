@@ -30,7 +30,7 @@ date: 2026-05-25
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15752" /><ItemImage id="gregtech:gt.blockmachines:15752"/>
 - 14-36 个 <ItemLink id="gregtech:gt.blockcasings8"/> <ItemImage id="gregtech:gt.blockcasings8"/>
 - 32 个等级玻璃（任意等级） <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 16 个 <ItemLink id="gregtech:gt.blockframes:649"/><ItemImage id="gregtech:gt.blockframes:649"/>
+- 16 个 <ItemLink id="ml:PolyvinylChloride:frameGt"/><ItemImage id="ml:PolyvinylChloride:frameGt"/>
 - 6 个物品管道方块（分级）<ItemImage id="gregtech:gt.blockcasings11:5"/>
 - 1+ 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90"/>

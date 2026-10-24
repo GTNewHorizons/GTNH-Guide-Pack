@@ -37,10 +37,10 @@ date: 2026-05-25
 - 160 个 <ItemLink id="gregtech:gt.blockcasings9"/><ItemImage id="gregtech:gt.blockcasings9"/>
 - 144 个 <ItemLink id="gregtech:gt.blockglass1:6"/><ItemImage id="gregtech:gt.blockglass1:6"/>
 - 81 个等级玻璃（任意等级） <ItemImage id="bartworks:BW_GlasBlocks"/>
-- 56 个内部转子方块（随结构等级变化） <ItemImage id="gregtech:gt.blockmetal4:13"/>
+- 56 个内部转子方块（随结构等级变化） <ItemImage id="ml:NaquadahAlloy:block"/>
 - 54 个 <ItemLink id="miscutils:gtplusplus.blockcasings.5:2"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:2"/>
 - 24 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
-- 9 个内部框架（随结构等级变化） <ItemImage id="miscutils:blockFrameGtPikyonium64B"/>
+- 9 个内部框架（随结构等级变化） <ItemImage id="ml:Pikyonium64B:frameGt"/>
 - 8 个 <ItemLink id="gregtech:gt.blockmachines:30010"/> <ItemImage id="gregtech:gt.blockmachines:30010"/>
 - 1+ 个能源仓（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 个维护仓（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:90"/>

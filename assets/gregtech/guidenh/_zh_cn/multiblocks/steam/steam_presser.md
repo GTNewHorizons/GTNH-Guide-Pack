@@ -49,7 +49,7 @@ quest_ids:
 | --- | --- | --- | --- |
 | 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 基础配置 39 个；可替换为仓室或总线，但至少保留 35 个真正的外壳 |
 | 管道方块 | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 2 个，第六层和第七层中央 |
-| 金属块 | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | 2 个，第四层和第五层中央 |
+| 金属块 | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="ml:Steel:block" showIcon="left" /> | 2 个，第四层和第五层中央 |
 | 控制器 | <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> | 同一控制器 | 1 个，正面第二层中央 |
 | 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓室 | 恰好 1 个，替换一个外壳位置 |
 | 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 至少 1 个，替换外壳位置 |
