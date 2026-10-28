@@ -10,7 +10,7 @@ item_ids:
 - appliedenergistics2:item.ItemFacade
 ---
 
-# 伪装板
+# 线缆伪装板
 
 伪装板能让基地看起来更整洁。它们能遮挡各种形制的线缆，且可由多种方块制成。
 
@@ -41,6 +41,6 @@ item_ids:
 
 ## 配方
 
-将带有想要伪装成的纹理的方块放在4个<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />中间即可。
+工作台中间放置想要模仿的方块，四周十字放置四个<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />.
 
-<RecipeFor id='appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}'/>
+<RecipeFor id="appliedenergistics2:item.ItemMultiMaterial" handlerId="AEFacadeCrafting" />

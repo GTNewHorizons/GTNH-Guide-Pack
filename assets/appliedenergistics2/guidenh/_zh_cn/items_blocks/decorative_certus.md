@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items_blocks_index.md
   title: 赛特斯石英装饰方块

@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items_blocks_index.md
   title: 福鲁伊克斯装饰方块
