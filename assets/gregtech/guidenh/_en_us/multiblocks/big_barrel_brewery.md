@@ -48,12 +48,12 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> | 14-22 |
 | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 4, Each corner of 1st layer |
 | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 6 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" noTooltip showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" noTooltip showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" noTooltip showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" noTooltip showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" noTooltip showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" noTooltip showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
 
 ### Wallsharing
 BBBs may wallshare each of their sides to save on casings, frame boxes, glass, and buses/hatches.
