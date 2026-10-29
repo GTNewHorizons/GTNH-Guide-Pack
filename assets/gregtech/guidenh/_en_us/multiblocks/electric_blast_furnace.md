@@ -254,7 +254,7 @@ Multiple EBFs can share side-wall casings and coils. Four in a 2×2 arrangement 
 
 Maintenance Hatches and some input/output interfaces can also be shared. Power must cover all machines running simultaneously. Shared Energy Hatches make machines compete for amperage, which is especially likely to cause power failures when using two-hatch tier skipping.
 
-For automation, arrange dust, circuit, and fluid inputs and leave enough output space for hot ingots, regular items, and fluids. If an EBF feeds a Vacuum Freezer, test with a small batch and confirm that only hot ingots requiring cooling reach it. See the [Vacuum Freezer guide](/vacuum_freezer.md#hot-ingot-routing) for input filtering, item transport, and storage settings.
+For automation, arrange dust, circuit, and fluid inputs and leave enough output space for hot ingots, regular items, and fluids. If an EBF feeds a Vacuum Freezer, test with a small batch and confirm that only hot ingots requiring cooling reach it. See the [Vacuum Freezer guide](./vacuum_freezer.md#hot-ingot-routing) for input filtering, item transport, and storage settings.
 
 With multiple Input Buses, check the controller's **input separation** setting. When enabled, each bus's items are considered as a separate recipe group. Keep the dusts and circuit needed for a recipe in a bus that can match them together. Separate buses and circuits for different recipes can reduce unintended recipe matches.
 

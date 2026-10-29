@@ -96,7 +96,7 @@ Ore Washer mode includes Distilled Water recipes, but automatic filling of an em
 
 Choose Ore Washer mode when you need mineral byproducts, and leave output space for every product. Choose Simple Washer mode when you only need the main product quickly. Simple washing is fast and uses little water, making it suitable for bulk processing materials whose byproducts you have decided to skip.
 
-For Impure Dusts and Purified Dusts, also check [Steam Separator](./steam_centrifuge.md) recipes. Centrifuging can often recover corresponding byproducts while producing ordinary dust, whereas simple washing skips those byproducts. Choose the processing route using the specific mineral's NEI recipes.
+For Impure Dusts and Purified Dusts, also check [Steam Separator](./steam_seperator.md) recipes. Centrifuging can often recover corresponding byproducts while producing ordinary dust, whereas simple washing skips those byproducts. Choose the processing route using the specific mineral's NEI recipes.
 
 > [!WARNING]
 > Simple Washer mode does not produce the byproducts from normal ore washing or centrifuging. Switching back to Ore Washer mode cannot recover those byproducts from items already processed in Simple Washer mode. Check the current mode before processing minerals whose byproducts you need.
