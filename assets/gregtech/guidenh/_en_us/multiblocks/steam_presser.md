@@ -170,7 +170,7 @@ Additional Input Buses expand item buffering, while additional Output Buses help
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 | Fewer than eight recipes processed at once | Are there enough materials for copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
 
-For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
 
 ## References
 
