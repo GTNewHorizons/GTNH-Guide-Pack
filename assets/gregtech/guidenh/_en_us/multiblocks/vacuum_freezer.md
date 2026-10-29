@@ -3,14 +3,12 @@ item_ids:
   - gregtech:gt.blockmachines:1002
 navigation:
   title: Vacuum Freezer
-  parent: ../multiblocks_index.md
+  parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
-  position: 10
+  position: -3001
 ---
-
 # Vacuum Freezer
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
