@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31084
-navigation:
-  title: Steam Blender
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31084
-  position: 7
 quest_ids:
   - WEwrzX4ZRkSxJ3M6cBesfA
+navigation:
+  title: Steam Blender
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31084
+  position: -501
 ---
-
 # Steam Blender
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084" tier={1} />
 </GameScene>
 

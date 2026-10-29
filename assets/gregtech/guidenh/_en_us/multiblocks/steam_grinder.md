@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31041
-navigation:
-  title: Steam Grinder
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31041
-  position: 3
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAKzA
+navigation:
+  title: Steam Grinder
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31041
+  position: -501
 ---
-
 # Steam Grinder
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041" tier={1} />
 </GameScene>
 

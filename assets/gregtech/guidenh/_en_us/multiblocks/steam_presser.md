@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31083
-navigation:
-  title: Steam Presser
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31083
-  position: 2
 quest_ids:
   - s6AEHSKiQe2XveT_oDZbZg
+navigation:
+  title: Steam Presser
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31083
+  position: -501
 ---
-
 # Steam Presser
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31083" tier={1} />
 </GameScene>
 

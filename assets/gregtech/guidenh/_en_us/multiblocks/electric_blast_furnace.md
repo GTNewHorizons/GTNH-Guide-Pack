@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1000
-navigation:
-  title: Electric Blast Furnace
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:1000
-  position: 5
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAATQ
+navigation:
+  title: Electric Blast Furnace
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:1000
+  position: -1001
 ---
-
 # Electric Blast Furnace
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1000" />
 </GameScene>
 

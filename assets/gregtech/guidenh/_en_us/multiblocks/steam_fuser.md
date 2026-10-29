@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31086
-navigation:
-  title: Steam Fuser
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31086
-  position: 8
 quest_ids:
   - WGhhKERfRTiJXKZEPoRf1Q
+navigation:
+  title: Steam Fuser
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31086
+  position: -501
 ---
-
 # Steam Fuser
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31086" tier={1} />
 </GameScene>
 

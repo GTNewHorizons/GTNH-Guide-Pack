@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31080
-navigation:
-  title: Steam Separator
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31080
-  position: 5
 quest_ids:
   - 0rUmaWIPQPaL93q-_pgKXw
+navigation:
+  title: Steam Separator
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31080
+  position: -501
 ---
-
 # Steam Separator
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31080" tier={1} />
 </GameScene>
 

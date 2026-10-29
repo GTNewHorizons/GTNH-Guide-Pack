@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31078
-navigation:
-  title: Steam Squasher
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31078
-  position: 4
 quest_ids:
   - Plg8vg0gS9Ks2Ddc5sIVOg
+navigation:
+  title: Steam Squasher
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31078
+  position: -501
 ---
-
 # Steam Squasher
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078" tier={1} />
 </GameScene>
 

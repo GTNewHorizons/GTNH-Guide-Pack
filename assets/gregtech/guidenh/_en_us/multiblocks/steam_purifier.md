@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31082
-navigation:
-  title: Steam Purifier
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31082
-  position: 6
 quest_ids:
   - zorY0c3BQuqLJp7ThOLG-g
+navigation:
+  title: Steam Purifier
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31082
+  position: -501
 ---
-
 # Steam Purifier
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31082" tier={1} />
 </GameScene>
 

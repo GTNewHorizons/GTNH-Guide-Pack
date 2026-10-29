@@ -1,16 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1126
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAADAA==
 navigation:
   title: Distillation Tower
-  parent: ../multiblocks_index.md
+  parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1126
-  position: 11
+  position: -3001
 ---
-
 # Distillation Tower
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="300">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1126" />
 </GameScene>
 
