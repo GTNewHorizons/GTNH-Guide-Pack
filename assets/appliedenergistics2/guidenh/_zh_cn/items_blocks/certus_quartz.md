@@ -1,4 +1,4 @@
----
+﻿---
 navigation:
   parent: /items_blocks_index.md
   title: 赛特斯石英水晶
@@ -7,10 +7,11 @@ categories:
 - misc ingredients blocks
 item_ids:
 - gregtech:gt.metaitem.01:8516
+- appliedenergistics2:item.ItemMultiMaterial:1
 - appliedenergistics2:item.ItemMultiMaterial:10
 ---
 
-# 赛特斯石英水晶
+# 赛特斯石英
 
 <ItemImage id="gregtech:gt.metaitem.01:8516" scale="4" />
 
@@ -24,3 +25,4 @@ AE2方块、[设备](../ae2_mechanics/devices.md)、物品的基础合成材料�
 <Recipe id="gregtech:gt.metaitem.01:8516" handlerId="smelting" />
 
 <Recipe id="appliedenergistics2:item.ItemMultiMaterial:10" handlerId="NEIWorldCrafting" />
+<Recipe id="appliedenergistics2:item.ItemMultiMaterial:10" handlerId="gt.recipe.autoclave" />
