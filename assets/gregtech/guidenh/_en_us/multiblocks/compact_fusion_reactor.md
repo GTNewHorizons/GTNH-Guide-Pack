@@ -12,7 +12,7 @@ navigation:
   position: -6001
 ---
 # Compact Fusion Reactor
-<Column wrap="square" align="right" width="220" height="200">
+<Column wrap="square" align="right" width="220">
   <ContentTabs>
     <Tab title="T1">
       <GameScene interactive={true} >

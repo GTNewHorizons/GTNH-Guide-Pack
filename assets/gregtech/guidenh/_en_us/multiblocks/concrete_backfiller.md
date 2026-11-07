@@ -12,7 +12,7 @@ navigation:
   position: -2001
 ---
 # Concrete Backfiller
-<Row wrap="square" align="right" width="220" height="200">
+<Row wrap="square" align="right" width="220">
   <ContentTabs background="transparent">
     <Tab title="T1">
       <GameScene interactive={true} width="0" zoom="1">

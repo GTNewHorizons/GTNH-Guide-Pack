@@ -12,10 +12,15 @@ item_ids:
   - gregtech:gt.blockmachines:10934
   - gregtech:gt.blockmachines:10935
   - gregtech:gt.blockmachines:10936
+quest_ids:
+  - vV8Pw_lTTSiMmWOLqkyIWg==
+  - AAAAAAAAAAAAAAAAAAADFw==
+  - AAAAAAAAAAAAAAAAAAADBA==
+  - AAAAAAAAAAAAAAAAAAAFfw==
 navigation:
   title: Laser Engraver
   icon: gregtech:gt.blockmachines:441
   parent: ./singleblock_index.md
   position: 10
 ---
-# Rock Breaker
+# Laser Engraver

@@ -161,7 +161,7 @@ The Circuit Assembly Line can operate in 2 modes: Circuit Assembly Line and Circ
 In Circuit Assembler mode, the CAL works as a normal [Circuit Assembler](/singleblocks/circuit_assembler.md).  
 It doesn't have any speed benefit compared to the singleblock; however, the CAL can process [<ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left">Cleanroom</ItemLink>](./cleanroom.md) recipes, perform perfect overclocks, and run higher tier recipes just by upgrading its hatch, without building new singleblock machines. 
 
-In Circuit Assembler mode, only $$\text{Hatch Tier} - 1$$ recipes can be processed, so at least one singleblock machine is ultimately required to progress through the tiers (similar to [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt-3662.md) - neither supports tier skipping).
+In Circuit Assembler mode, only $$\text{Hatch Tier} - 1$$ recipes can be processed, so at least one singleblock machine is ultimately required to progress through the tiers (similar to [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) - neither supports tier skipping).
 
 You can use Input Separation<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> to make a single CAL process multiple recipes with different programmed circuits.  
 This makes Circuit Assembler mode suitable for assembling multiple AE2 storage components, OpenComputer components, Forestry Electron Tubes for bees/trees, and even some of the GT data components like <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />.
