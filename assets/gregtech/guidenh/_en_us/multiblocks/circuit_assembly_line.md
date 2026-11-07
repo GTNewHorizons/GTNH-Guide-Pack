@@ -158,7 +158,7 @@ Right-click ME buses/hatches with wire cutters to allow connections from any sid
 The Circuit Assembly Line can operate in 2 modes: Circuit Assembly Line and Circuit Assembler.
 
 ### Circuit Assembler Mode
-In Circuit Assembler mode, the CAL works as a normal [Circuit Assembler](/singleblocks/circuit_assembler.md).  
+In Circuit Assembler mode, the CAL works as a normal [Circuit Assembler](/singleblock/circuit_assembler.md).  
 It doesn't have any speed benefit compared to the singleblock; however, the CAL can process [<ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left">Cleanroom</ItemLink>](./cleanroom.md) recipes, perform perfect overclocks, and run higher tier recipes just by upgrading its hatch, without building new singleblock machines. 
 
 In Circuit Assembler mode, only $$\text{Hatch Tier} - 1$$ recipes can be processed, so at least one singleblock machine is ultimately required to progress through the tiers (similar to [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) - neither supports tier skipping).
@@ -183,7 +183,7 @@ Crafting circuit imprints requires a few rare materials, listed below.
 <br>{/* To add gap between callout and list - without this callout will stick to the list below */}
 
 1. <ItemLink id="bartworks:gt.bwMetaGeneratedgem:35" showIcon="left" scale="0.7" /> : Material to craft <ItemLink id="bartworks:gt.bwMetaGeneratedgemExquisite:35" showIcon="left" /> and <ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />.  
-  Most commonly obtained through Blood Magic meteors using <ItemLink id="gregtech:gt.blockmachines:406" showIcon="left" /> as a catalyst, or by smelting quartzite and amethyst together in an [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md) to make flawed gems. The flawed gems' quality can be increased using [<ItemImage id="gregtech:gt.blockmachines:594" noTooltip />EV+ Laser Engravers](/singleblocks/laser_engraver.md) or [<ItemLink id="gregtech:gt.blockmachines:1001" showIcon="left" />](./implosion_compressor.md) - just note that you also need the dust version to create Magneto Resonatic Dust.
+  Most commonly obtained through Blood Magic meteors using <ItemLink id="gregtech:gt.blockmachines:406" showIcon="left" /> as a catalyst, or by smelting quartzite and amethyst together in an [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md) to make flawed gems. The flawed gems' quality can be increased using [<ItemImage id="gregtech:gt.blockmachines:594" noTooltip />EV+ Laser Engravers](/singleblock/laser_engraver.md) or [<ItemLink id="gregtech:gt.blockmachines:1001" showIcon="left" />](./implosion_compressor.md) - just note that you also need the dust version to create Magneto Resonatic Dust.
 1. <ItemLink id="bartworks:gt.bwMetaGenerateddust:4" showIcon="left" /> : Material to craft <ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />.  
   <ItemLink id="bartworks:gt.bwMetaGeneratedgemFlawed:4" showIcon="left" /> can be obtained by smelting <ItemLink id="bartworks:gt.bwMetaGenerateddust:3" showIcon="left" /> with <ItemLink id="bartworks:gt.bwMetaGenerateddust:6" showIcon="left" /> in an [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md). Yttrium Oxide is not consumed in this process.  
 1. <ItemLink id="gregtech:gt.metaitem.01:2059" showIcon="left" /> : Material to craft <ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />.  

@@ -61,7 +61,7 @@ CPI cannot wallshare, and will not work when there are 2 or more controllers on 
 ## Usage
 <FunctionGraph
   title="Duration of CPI by Log Count"
-  width="260" wrap="square" align="right" legend="none" xLabel="Logs" xRange="0..605"
+  width="260" wrap="square" align="right" xLabel="Logs" xRange="0..605"
 >
   <Plot expr="10*sqrt(6*x)" label="duration" />
 

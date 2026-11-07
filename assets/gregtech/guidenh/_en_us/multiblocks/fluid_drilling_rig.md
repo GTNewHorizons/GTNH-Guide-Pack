@@ -1,14 +1,19 @@
-
 ---
 item_ids:
-  - gregtech:gt.blockmachines:143
-  - gregtech:gt.blockmachines:144
+  - gregtech:gt.blockmachines:1157
+  - gregtech:gt.blockmachines:141
+  - gregtech:gt.blockmachines:142
+  - gregtech:gt.blockmachines:149
+  - gregtech:gt.blockmachines:15567
 quest_ids:
-  - uYT4jmFtQhOo5PoJLDyh-w==
-  - b-YCbvcNT4uEjg2pN-H6jw==
+  - AAAAAAAAAAAAAAAAAAAC_Q==
+  - AAAAAAAAAAAAAAAAAAALwg==
+  - AAAAAAAAAAAAAAAAAAALzA==
+  - -1GoIXIXR029oc0Ge6sRGg==
 navigation:
-  title: Concrete Backfiller
+  title: Fluid Drilling Rig
   parent: ./multiblocks_index.md
-  icon: gregtech:gt.blockmachines:143
+  icon: gregtech:gt.blockmachines:1157
   position: -2001
 ---
+# Fluid Drilling Rig
