@@ -43,9 +43,9 @@ The logs do not all need to be the same type or rotated the same direction.
 
 After the logs are placed, surround the logs in dirt or grass.
 
-Finally, place the CPI controller on the top layer, so that the log is at the bottom of the machine.
+Finally, place the CPI controller on the top layer, so that a log is at the bottom of the machine.
 
-The controller has a fixed orientation - you cannot make the controller face sideways or downward.
+The controller always faces upward - you cannot rotate it to face in any other direction.
 
 | Component | Quantity and placement |
 | --- | --- |

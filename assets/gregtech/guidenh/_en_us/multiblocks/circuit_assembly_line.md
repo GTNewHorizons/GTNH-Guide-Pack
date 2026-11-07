@@ -170,7 +170,7 @@ This makes Circuit Assembler mode suitable for assembling multiple AE2 storage c
 In Circuit Assembly Line mode, the CAL works similarly to the [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md). To process CAL recipes, all items must be inserted in the exact order in which they appear in NEI.
 
 The CAL must also be permanently imprinted with a specific circuit type which means it cannot process anything other than that; there is no universal setup and there are no data sticks/hatches. Rebuilding the machine will not reset its imprinted behavior, either.  
-Insert a Circuit Imprint into the controller to imprint the CAL.
+Insert a Circuit Imprint into the controller to imprint a CAL, alternatively you may craft an imprinted controller with a blank controller and a Circuit Imprint.
 
 Different variants of the same circuit tier (e.g. <ItemLink id="gregtech:gt.metaitem.03:32087" showIcon="left" /> and <ItemLink id="gregtech:gt.metaitem.03:32096" showIcon="left" />) are not the same and require different imprints. But it is fine to use the same imprinted CAL with different recipes - for example, the Quantum Supercomputer's SMD diode recipe and Advanced SMD diode recipe can be processed in the same CAL.
 
