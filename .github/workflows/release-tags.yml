@@ -2,7 +2,7 @@ name: Release tagged build
 
 on:
   push:
-    tags: [ '*' ]
+    tags: ["*"]
 
 permissions:
   contents: write
@@ -43,7 +43,7 @@ jobs:
           jq -n \
             --arg v "$VERSION" \
             --arg g "$PACK_GAME_VERSION" \
-            '{pack_version: $v, pack_game_version: $g}' \
+            '{schema: 1, pack_version: $v, pack_game_version: $g}' \
             > gtnh-pack-update.json
 
       - name: Build resource pack archive
