@@ -39,7 +39,7 @@ The dimensions of the CPI are incredibly flexible.
 Brick floors from 1x1 to 11x11 are acceptable; they do not have to be square.
 
 The logs can be stacked between 1 and 5 layers, without any air gaps. The machine will not form if there are missing logs inside the structure.  
-The logs do not all need to be the same type or rotated the same direction.
+The type of logs can be mixed and they can have any rotation.
 
 After the logs are placed, surround the logs in dirt or grass.
 
