@@ -52,6 +52,9 @@ The Coolant Tower can wallshare to save some frames and concretes, although it i
 ## Usage
 The Coolant Tower converts ALL steam in its input hatches into distilled water on a fixed 1 second cycle. There is no upper limit on the amount of steam that can be condensed at once, but it only works with regular GregTech steam and not the superheated, supercritical, or dense versions. The conversion ratio is always 160L of steam for 1L of distilled water.
 
+> [!WARNING]
+> Coolant Tower will void all distilled water when there are no output space. Make sure input hatches' capacity aren't higher than output hatches', and all output pulled out before next steam converted to distilled water.
+
 The Coolant Tower is useful when you need steam converted into Distilled Water instantly, rather than generating power.  
 One example or application is the [<ItemLink id="gregtech:gt.blockmachines:12791" showIcon="left" />](./high_temperature_gas-cooled_reactor.md) which is commonly used to breed rare materials rather than generate power.  
 Another example is skipping the last step in a large turbine chain. The [<ItemLink id="gregtech:gt.blockmachines:15524" showIcon="left" />](./large_steam_turbine.md) generates less power compared to [<ItemLink id="gregtech:gt.blockmachines:15526" showIcon="left" />](./large_supercritical_steam_turbine.md) and [<ItemLink id="gregtech:gt.blockmachines:15525" showIcon="left" />](./large_hp_steam_turbine.md) which makes some player to completly skips steam turbine to save resources by running fewer turbines.
