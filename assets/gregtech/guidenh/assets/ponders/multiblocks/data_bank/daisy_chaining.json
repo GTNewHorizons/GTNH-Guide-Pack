@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/GTNewHorizons/GuideNH/refs/heads/master/src/main/resources/assets/guidenh/schema/ponder_schema.json",
+  "totalTime": 1050,
+  "keyframes": [
+    {
+      "time": 0,
+      "labelKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.label.1",
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.1.1",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 100,
+      "labelKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.label.1",
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.1.2",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 200,
+      "hidden": true
+    },
+    {
+      "time": 230,
+      "labelKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.label.2",
+      "camera": {
+        "rotX": 30,
+        "rotY": 135,
+        "zoom": 4.3,
+        "offX": 130,
+        "offY": 80
+      },
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.1",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 330,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.2",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 430,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.3",
+          "independent": true,
+          "yOffset": 120
+        },
+        {
+          "type": "block",
+          "x": 1,
+          "y": 3,
+          "z": 3,
+          "color": "0xFF55FF55"
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.4",
+          "x": 1,
+          "y": 4,
+          "z": 3.5
+        },
+        {
+          "type": "block",
+          "x": 1,
+          "y": 3,
+          "z": 5,
+          "color": "0xFF5555FF"
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.5",
+          "x": 1,
+          "y": 4,
+          "z": 5.5
+        }
+      ]
+    },
+    {
+      "time": 520,
+      "hidden": true
+    },
+    {
+      "time": 530,
+      "hidden": true,
+      "camera": {
+        "offX": 50,
+        "offY": 30
+      },
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.6",
+          "independent": true,
+          "yOffset": 120
+        },
+        {
+          "type": "block",
+          "x": 1,
+          "y": 3,
+          "z": 5,
+          "color": "0xFF55FF55"
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.7",
+          "x": 1,
+          "y": 4,
+          "z": 5.5
+        },
+        {
+          "type": "block",
+          "x": 1,
+          "y": 3,
+          "z": 7,
+          "color": "0xFF5555FF"
+        },
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.2.8",
+          "x": 1,
+          "y": 4,
+          "z": 7.5
+        }
+      ]
+    },
+    {
+      "time": 630,
+      "hidden": true
+    },
+    {
+      "time": 650,
+      "labelKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.label.3",
+      "camera": {
+        "zoom": 3.3,
+        "offX": -50,
+        "offY": -30
+      },
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.3.1",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 750,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.3.2",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 850,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.3.3",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    },
+    {
+      "time": 950,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.data_bank.ponder.daisy_chaining.text.3.4",
+          "independent": true,
+          "yOffset": 120
+        }
+      ]
+    }
+  ]
+}
