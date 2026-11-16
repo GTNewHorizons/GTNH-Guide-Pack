@@ -26,7 +26,7 @@ The <Color id="GREEN">Industrial Extrusion Machine (IEM)</Color> is an IV tier m
 ## Construction
 The <Color id="GREEN">IEM</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
 
-Unique to the <Color id="GREEN">IEM</Color> is the extrusion bus which is effectively an input bus with a configurable ghost slot for an extruder shape. Shift-click the shape slot to open a menu with all available options. The shape only applies to the items in its own bus regardless of input separation settings. There are four tiers of the extrusion bus for increasing its internal capacity and is eventually superseded by the crafting input buffer. 
+Unique to the <Color id="GREEN">IEM</Color> is the extrusion bus which is effectively an input bus with a configurable ghost slot for an extruder shape. Shift-click the shape slot to open a menu with all available options. The shape only applies to the items in its own bus regardless of input separation settings. There are four tiers of the extrusion bus for increasing its internal capacity and it is eventually superseded by the crafting input buffer. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15549"/><ItemImage id="gregtech:gt.blockmachines:15549"/>
@@ -45,10 +45,10 @@ Unique to the <Color id="GREEN">IEM</Color> is the extrusion bus which is effect
 <Color id="GREEN">IEMs</Color> may wallshare each of their sides to save on casings and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
-The <Color id="GREEN">IEM</Color> is a direct upgrade from the singleblock extruder because it runs at 350% speed and offers 4 parallels per voltage tier, as seen in the following table. 
+The <Color id="GREEN">IEM</Color> is a direct upgrade from the singleblock extruder because it runs at 350% speed and offers 6 parallels per voltage tier, as seen in the following table. 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
-| 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
+| 6 | 12 | 18 | 24 | 30 | 36 | 42 | 48 | 54 | 60 | 66 | 72 | 78 | 84 | 90 |
 
 
 Input separation is permanently enabled on the <Color id="GREEN">IEM</Color> which prevents SOLID ingredients in different input buses from being used in the same recipe, including any extruder shapes. That means a single <Color id="GREEN">IEM</Color> with many extrusion/input buses can support many different extruder shapes simultaneously. Just don't forget to stay above the minimum number of containment and stainless steel casings. 

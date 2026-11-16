@@ -15,14 +15,14 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15546"/>
 </GameScene>
-The <Color id="GREEN">Pyrolyse Oven (PO)</Color> is an MV tier multiblock for burning logs into charcoal with the option of one fluid byproduct (ie. coal gas, wood gas, wood vinegar, wood tar, charcoal byproducts). The <Color id="GREEN">Pyrolyse Oven</Color> is a direct upgrade from the basic Coke Oven <ItemImage id="gregtech:gt.blockmachines:236"/> because it runs on electricity and can overclock with enough power. It also gains a speed bonus that scales linearly with the tier of the heating coils. The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. Although slower initially, the Pyrolyse Oven is generally recommended over the Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/>because it scales better and the fluid byproducts are crucial for progression. Both are superseded by the Industrial Coke Oven <ItemImage id="gregtech:gt.blockmachines:15543"/> in EV. 
+The <Color id="GREEN">Pyrolyse Oven (PO)</Color> is an MV tier multiblock for burning logs into charcoal with the option of one fluid byproduct (ie. coal gas, wood gas, wood vinegar, wood tar, charcoal byproducts). The <Color id="GREEN">Pyrolyse Oven</Color> is a direct upgrade from the basic Coke Oven <ItemImage id="gregtech:gt.blockmachines:236"/> because it runs on electricity and can overclock with enough power. It also gains a speed bonus that scales linearly with the tier of the heating coils. The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. Although slower initially, the Pyrolyse Oven is generally recommended over the Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it scales better and the fluid byproducts are crucial for progression. Both are superseded by the Industrial Coke Oven <ItemImage id="gregtech:gt.blockmachines:15543"/> in EV. 
 <br clear="all"/>
 
 > [!NOTE]
 > The only change to this multiblock is in the structure itself
 
 ## Construction
-The <Color id="GREEN">Pyrolyse Oven</Color> has one tiered component. The heating coils determine the heat capacity of the machine and must all be the same tier for the structure to form. The energy hatch, maintenance hatch, and output bus/hatch may replace any pyrolyse oven casing on the bottom layer of the structure. The muffler hatch and input bus/hatch may replace any pyrolyse oven casing on the top layer of the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color>are not supported, but there can be multiple regular energy hatches for overclocking--similar to the EBF and nearly every GregTech multiblock. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
+The <Color id="GREEN">Pyrolyse Oven</Color> has one tiered component. The heating coils determine the heat capacity of the machine and must all be the same tier for the structure to form. The energy hatch, maintenance hatch, and output bus/hatch may replace any pyrolyse oven casing on the bottom layer of the structure. The muffler hatch and input bus/hatch may replace any pyrolyse oven casing on the top layer of the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking--similar to the EBF and nearly every GregTech multiblock. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15546"/><ItemImage id="gregtech:gt.blockmachines:15546"/>
@@ -53,7 +53,7 @@ The <Color id="GREEN">Pyrolyse Oven</Color> gains a speed bonus that scales line
 | TPV-Alloy | 200% | 8.00s | 50.0% |
 | HSS-G | 250% | 6.40s | 40.0% |
 | HSS-S | 300% | 5.33s | 33.3% |
-| Naquadah | 350% | 4.57 | 28.6% |
+| Naquadah | 350% | 4.57s | 28.6% |
 | Naquadah Alloy | 400% | 4.00s | 25.0% |
 | Trinium | 450% | 3.56s | 22.2% |
 | Electrum Flux | 500% | 3.20s | 20.0% |

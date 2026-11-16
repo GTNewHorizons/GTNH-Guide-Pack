@@ -14,7 +14,7 @@ The visual rendering of ME Drives has changed! Now when applying a color to a dr
 
 This allows you to maintain a color-coded storage system, whilst still being able to discern types and tiers of the cells inside from outside the GUI!
 
-<FloatingImage src="./assets/colored_drives.png" align="left" width="256">
+<FloatingImage src="../assets/ae2/colored_drives.png" align="left" displayWidth="256">
   <ImageAnnotation>
     An example of a color coded set-up using ME Drives
   </ImageAnnotation>

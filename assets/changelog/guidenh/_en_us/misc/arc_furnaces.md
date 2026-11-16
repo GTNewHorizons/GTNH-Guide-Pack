@@ -19,4 +19,4 @@ As part of 2.9, the entire system around <Color id="GREEN">Arc Furnaces</Color> 
 - Steel now requires coal to be crafted in all circumstances
 - All recipes now have alternative recipes with __noble gases__ (with the same scaling as the EBF)
 - Netherite recipes have been downtiered across the board
-- Chronic Singulatiry recipe has been downtiered
+- Chronic Singularity recipe has been downtiered

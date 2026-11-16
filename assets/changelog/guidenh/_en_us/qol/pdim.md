@@ -22,17 +22,17 @@ Bored of lawn-basing, or hovering over an abyssal void? Now the <Color id="GREEN
 Feel free to post your fun, cool, or straight whacky designs to the <a href="https://discord.gg/gtnh">discord</a>!
 
 
-<FloatingImage src="./assets/pdim_ui.png" align="left" width="256" wrap="square">
+<FloatingImage src="../assets/qol/pdim_ui.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
     The new main page of the Personal Portal UI
   </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="./assets/pdim_ui2.png" align="left" width="256" wrap="square">
+<FloatingImage src="../assets/qol/pdim_ui2.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
     The new preset visualisation tool
   </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="./assets/pdim_example.png" align="left" width="256" wrap="square">
+<FloatingImage src="../assets/qol/pdim_example.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
     An example of the personal dimension in a new configuration!
   </ImageAnnotation>

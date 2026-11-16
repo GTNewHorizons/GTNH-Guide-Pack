@@ -29,6 +29,7 @@ The <Color id="GREEN">Large Sifter</Color> has no tiered components. Buses/hatch
 - 1 <ItemLink id="gregtech:gt.blockmachines:15542"/><ItemImage id="gregtech:gt.blockmachines:15542"/>
 - 45-59 <ItemLink id="miscutils:gtplusplus.blockcasings.2:5"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:5"/>
 - 19 <ItemLink id="miscutils:gtplusplus.blockcasings.2:6"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:6"/>
+- 16 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />

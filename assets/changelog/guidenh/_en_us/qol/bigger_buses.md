@@ -13,7 +13,7 @@ date: 2026-05-16
 There are two main changes being made to larger sized input/output buses as outlined below
 
 # Higher Tier Input Buses
-<FloatingImage src="./assets/uhv_bus.png" align="left" width="128" wrap="square" >
+<FloatingImage src="../assets/qol/uhv_bus.png" align="left" displayWidth="128" wrap="square" >
   <ImageAnnotation>
     The UI of a UHV Input Bus
   </ImageAnnotation>

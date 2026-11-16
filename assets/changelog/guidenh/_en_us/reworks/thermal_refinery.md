@@ -26,7 +26,7 @@ The <Color id="GREEN">Large Thermal Refinery (LTR)</Color> is an EV tier multibl
 > - Tiered Solenoids: 2 parallels per solenoid tier
 
 ## Construction
-The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED">Heating Coils</Color> increase the speed bonus and energy discount of the machine. The <Color id="BLUE">Solenoids</Color> increase the number of parallels. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any thermal processing casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> visualize/build the structure with subchannels "coil", "solenoid", and "glass" to specify the tier of those components. 
+The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED">Heating Coils</Color> increase the speed bonus and energy discount of the machine. The <Color id="BLUE">Solenoids</Color> increase the number of parallels. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any thermal processing casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "coil", "solenoid", and "glass" to specify the tier of those components. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
@@ -35,7 +35,7 @@ The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED"
 - 16 Heating Coil <ItemImage id="gregtech:gt.blockcasings5:11" />
 - 6 Solenoid Superconductor Coil <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
 - 6 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
-4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
+- 4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
@@ -79,6 +79,5 @@ The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock therm
 | UV | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 | 128 | 136 |
 | UHV | 26 | 34 | 42 | 50 | 58 | 66 | 74 | 82 | 90 | 98 | 106 | 114 | 122 | 130 | 138 |
 | UEV | 28 | 36 | 44 | 52 | 60 | 68 | 76 | 84 | 92 | 100 | 108 | 116 | 124 | 132 | 140 |
-| UIV | 30 | 38 | 46 | 54 | 62 | 68 | 80 | 86 | 94 | 102 | 110 | 118 | 126 | 134 | 142 |
-| UMV | 32 | 40 | 48 | 56 | 64 | 62 | 80 | 88 | 96 | 104 | 112 | 120 | 128 | 136 | 144 |
-
+| UIV | 30 | 38 | 46 | 54 | 62 | 70 | 78 | 86 | 94 | 102 | 110 | 118 | 126 | 134 | 142 |
+| UMV | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 | 128 | 136 | 144 |

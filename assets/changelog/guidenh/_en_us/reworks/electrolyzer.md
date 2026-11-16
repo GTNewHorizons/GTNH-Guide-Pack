@@ -11,7 +11,7 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# 
+# Industrial Electrolyzer
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15514"/>
@@ -50,4 +50,3 @@ The <Color id="GREEN">Industrial Electrolyzer</Color> is a direct upgrade from t
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
-

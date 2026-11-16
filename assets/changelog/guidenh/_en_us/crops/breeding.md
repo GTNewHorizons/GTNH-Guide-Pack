@@ -13,16 +13,16 @@ date: 2026-05-20
 There are only so many seeds that can be made by just planting a vanilla seed on crop sticks. There are three main ways to generate other seeds, and that will be covered in this segment. For breeding methods that happen "in world", there is a 50/50 chance of the crop either [spreading](spreading.md), or breeding (presuming a valid breeding setup)
 
 ## Deterministic Breeding
-<FloatingImage src="./assets/determine.png" width="128" wrap="square" align="left">
+<FloatingImage src="../assets/crops/determine.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
     An example of a deterministic breeding
   </ImageAnnotation>
 </FloatingImage>
-Deterministic Breeding is where the target seed has a "recipe" of sorts. In this case, simply set up two mature plants as required in the recipe, and have a double crop sticks in the centre with the valid growing conditions for the target crop. If there is a valid deterministic breeding case, the new plant will always be either a spread crop of either of the parents, or the target crop. Pool mutations will not occur
+Deterministic Breeding is where the target seed has a "recipe" of sorts. In this case, simply set up two mature plants as required in the recipe, and have double crop sticks in the centre with the valid growing conditions for the target crop. If there is a valid deterministic breeding case, the new plant will always be either a spread crop of either of the parents, or the target crop. Pool mutations will not occur
 <br clear="all">
 
 ## Pool Breeding
-<FloatingImage src="./assets/pools.png" width="128" wrap="square" align="left">
+<FloatingImage src="../assets/crops/pools.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
     An example of a Crop Mutation Pool
   </ImageAnnotation>

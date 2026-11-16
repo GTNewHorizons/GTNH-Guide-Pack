@@ -22,8 +22,8 @@ Opening the new interface, you can toggle each ore from the current dimensions d
 - Adding or removing __all__ ores via a specific button
 
 > [!NOTE]
-> This new UI is fully compatible with existing setups, any ore in an input bus __OR__ selected in the UI are filtered
-<FloatingImage src="./assets/void_miner.png" align="left" wrap="square" width="128">
+> This new UI is fully compatible with existing setups, any ore in an input bus __OR__ selected in the UI is filtered
+<FloatingImage src="../assets/qol/void_miner.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
     The new <Color id="RED">Void Miner Filtering</Color> panel
   </ImageAnnotation>

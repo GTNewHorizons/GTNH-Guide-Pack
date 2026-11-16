@@ -12,7 +12,7 @@ date: 2026-05-16
 # Ore Changes
 There are a few nice changes that have been made to how ores generate, and are interacted with by players! They are outlined below
 # Ore Stats Page
-<FloatingImage src="./assets/vein_stats.png" align="left" width="128" wrap="square">
+<FloatingImage src="../assets/qol/vein_stats.png" align="left" displayWidth="128" wrap="square">
   <ImageAnnotation>
     The new "Vein Stats" page
   </ImageAnnotation>

@@ -11,6 +11,8 @@ GuideNH is an in‑game guide framework that solves the fragmentation problem by
 Key idea and project links:
 - Repository: https://github.com/GTNewHorizons/GuideNH
 - Wiki: https://github.com/GTNewHorizons/GuideNH/wiki
+- Online editor and syntax reference: https://www.gtnewhorizons.com/GuideNH
+- Published guide pages: https://www.gtnewhorizons.com/GTNH-Guide-Pack
 
 Features
 ----
@@ -24,9 +26,9 @@ Features
 
 Quick Start
 ----
-1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics and [ContributionGuide.md](https://github.com/GTNewHorizons/GTNH-Guide-Pack/blob/master/CONTRIBUTING.md) for contribution guidelines.
-2. Write guide pages in Markdown under docs/ following the provided templates.
-3. Test locally with GuideNH live preview (see GuideNH repo for preview tool) or package into a resource pack and drop into the client resourcepacks/ directory.
+1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics and [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+2. Write guide pages in Markdown under `assets/<modid>/guidenh/_<language>/` following the provided templates.
+3. Preview pages in the [online editor](https://www.gtnewhorizons.com/GuideNH) and compare them with the [published guide](https://www.gtnewhorizons.com/GTNH-Guide-Pack). Test game-dependent content in Minecraft with GuideNH.
 4. Submit content via PR to this repository or another GuideNH-enabled project.
 
 Authoring Conventions
@@ -39,7 +41,7 @@ Authoring Conventions
 
 Localization
 ----
-- Place language files under .../_<lang>/ (e.g., en_us.md, zh_cn.md).
+- Place translated pages under matching language folders (for example, `_en_us/` and `_zh_cn/`).
 - Use the same filename and folder structure across languages; GuideNH loads per‑page translations and falls back to English.
 
 Releases

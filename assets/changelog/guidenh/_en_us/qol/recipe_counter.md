@@ -10,8 +10,8 @@ date: 2026-05-16
 ---
 
 # Recipe Counting
-Have you ever wondered "How many recipes has this machine made in its lifetime?". Well now you can find the answer! Using the portable scanner on a machine controller will show a recipe counter, showing how many recipes that machine has finished!
-<FloatingImage src="./assets/recipe_counter.png" align="left" width="384" >
+Have you ever wondered "How many recipes has this machine made in its lifetime?" Well now you can find the answer! Using the portable scanner on a machine controller will show a recipe counter, showing how many recipes that machine has finished!
+<FloatingImage src="../assets/qol/recipe_counter.png" align="left" displayWidth="384" >
   <ImageAnnotation>
     An example of the scanner being used
   </ImageAnnotation>
