@@ -46,7 +46,7 @@ The Data Bank is surrounded on either side with heat vents. There is no mandator
 
 The Data Bank can be rotated or flipped.
 
-Use the Multiblock Structure Hologram Projector to visualize/build the structure.
+Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
 
 Unique to the Data Bank is the <ItemLink id="gregtech:gt.blockmachines:15443" showIcon="left" /> which is effectively an optical transmission connector that shares data stick information instead of computation. The information travels through optical fiber cable to an <ItemLink id="gregtech:gt.blockmachines:15442" showIcon="left" /> on an [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md), or another Data Bank for daisy-chaining. The cables and hatches must be painted to connect and only one pair of hatches are allowed on the same set of cables.
 
