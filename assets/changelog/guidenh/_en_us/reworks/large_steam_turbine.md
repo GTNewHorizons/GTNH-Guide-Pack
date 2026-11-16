@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15524"/>
 </GameScene>
-The <Color id="GREEN">Large Steam Turbine (LST)</Color> is an HV tier multiblock for generating power from steam. The <Color id="GREEN">LST</Color> is a direct upgrade from the singleblock steam turbines because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of steam must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/t). Power is extracted from a 4A dynamo hatch on the back of the structure as steam condensates into distilled water in the output hatch. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the <Color id="GREEN">LST</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+The <Color id="GREEN">Large Steam Turbine (LST)</Color> is an HV tier multiblock for generating power from steam. The <Color id="GREEN">LST</Color> is a direct upgrade from the singleblock steam turbines because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of steam must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/t). Power is extracted from a 4A dynamo hatch on the back of the structure as steam condenses into distilled water in the output hatch. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the <Color id="GREEN">LST</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
 
 The <Color id="RED">Large HP Steam Turbine (LST-HP)</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> and <Color id="BLUE">Large SC Steam Turbine (LST-SC)</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/> are nearly identical to the LST except they exclusively process superheated steam and supercritical steam, respectively. Supercritical steam generates twice the EU as regular steam with the same optimal flow rate and converts into superheated steam. Superheated steam generates twice the EU as regular steam with the same optimal flow rate and converts into regular steam.
 
@@ -26,7 +26,7 @@ The <Color id="GREEN">LST</Color>  is superseded by the [XL Turbo Steam Turbine]
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
+> Only the structure has changed; the mechanics are otherwise unchanged
 
 ## Construction
 The <Color id="GREEN">LST</Color> has no tiered components. The maintenance hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. There is NO muffler hatch so do not include one. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
@@ -50,7 +50,7 @@ Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.block
 ----------
 
 ## Usage
-he <Color id="GREEN">LST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+The <Color id="GREEN">LST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid-game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
 
 - Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
 - Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
@@ -144,4 +144,6 @@ Turbines slowly lose durability proportional to the power generated. The total d
 
 The following equation calculates the lifespan of a turbine (in hours) from the current power output of an <Color id="GREEN">LST</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
 
-<Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6}} \times 1.25 \text{ if loose}"/>
+<Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6})}"/>
+
+- Multiply the lifespan result by 1.25 in loose fitting mode.

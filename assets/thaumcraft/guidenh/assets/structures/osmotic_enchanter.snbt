@@ -1,0 +1,29 @@
+{
+  size:[7,3,7],
+  palette:[
+    {Name:"ThaumicTinkerer:enchanter"},
+    {Name:"Thaumcraft:blockCosmeticSolid"},
+    {Name:"Thaumcraft:blockAiry"}
+  ],
+  blocks:[
+    {pos:[3,0,3],state:0,nbt:{id:"ttinkerer:enchanter"}},
+    {pos:[0,0,2],state:1},
+    {pos:[0,1,2],state:1},
+    {pos:[0,2,2],state:2,meta:1,nbt:{id:"TileNitor"}},
+    {pos:[0,0,4],state:1},
+    {pos:[0,1,4],state:1},
+    {pos:[0,2,4],state:2,meta:1,nbt:{id:"TileNitor"}},
+    {pos:[2,0,0],state:1},
+    {pos:[2,1,0],state:1},
+    {pos:[2,2,0],state:2,meta:1,nbt:{id:"TileNitor"}},
+    {pos:[2,0,6],state:1},
+    {pos:[2,1,6],state:1},
+    {pos:[2,2,6],state:2,meta:1,nbt:{id:"TileNitor"}},
+    {pos:[4,0,0],state:1},
+    {pos:[4,1,0],state:1},
+    {pos:[4,2,0],state:2,meta:1,nbt:{id:"TileNitor"}},
+    {pos:[4,0,6],state:1},
+    {pos:[4,1,6],state:1},
+    {pos:[4,2,6],state:2,meta:1,nbt:{id:"TileNitor"}}
+  ]
+}

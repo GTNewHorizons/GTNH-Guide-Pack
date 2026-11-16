@@ -15,7 +15,7 @@ The modern style of "tab list" has been backported to make server play feel more
 - Ping Numbers
 - Dynamic Columns
 - Headers and Footers
-<FloatingImage src="./assets/tab_list.png" width="256" align="left" wrap="square">
+<FloatingImage src="../assets/misc/tab_list.png" displayWidth="256" align="left" wrap="square">
   <ImageAnnotation>
     An example of a configured tab list
   </ImageAnnotation>

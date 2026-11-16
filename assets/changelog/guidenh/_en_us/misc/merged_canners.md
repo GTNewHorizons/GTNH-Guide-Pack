@@ -14,7 +14,7 @@ item_ids:
   - gregtech:gt.blockmachines:11186
 navigation:
   title: Merged Canning Machines
-  parent: reworks.md
+  parent: ../reworks/reworks.md
   icon: gregtech:gt.blockmachines:231
 categories:
     - Miscellaneous Changes

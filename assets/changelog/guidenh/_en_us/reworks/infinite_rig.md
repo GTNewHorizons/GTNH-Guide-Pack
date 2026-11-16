@@ -49,7 +49,6 @@ Use programmed circuits to ignore near exhausted fluid reservoirs/chunks. The <C
 
 The <Color id="GREEN">Infinite Fluid Drilling Rig</Color> is unique amongst the other rigs because it offers 2 parallels per energy hatch tier above UHV, as seen in the following table. The power panel may list only one parallel but the pump rate should increase accordingly. 
 
-|   | UHV | UEV | UIV | UMV | UXV | MAX | MAX |
+|   | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |
 | Parallels | 1 | 3 | 5 | 7 | 9 | 11 | 13 |
-

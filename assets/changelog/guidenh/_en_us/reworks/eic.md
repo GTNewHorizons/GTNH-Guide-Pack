@@ -21,10 +21,10 @@ The <Color id="GREEN">Electric Implosion Compressor (EIC)</Color> is a UHV tier 
 
 > [!NOTE]
 > The following changes have been made to the multiblock (aside from the structure):
-> Glass: Since the structure now has glass, it is another tiered component. UMV+ removes restrictions.
+> - Glass: Since the structure now has glass, it is another tiered component. UMV glass removes restrictions.
 
 ## Construction
-The <Color id="GREEN">EIC</Color> has two tiered components. The containment blocks determine the number of parallels and the glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. Buses/hatches may replace any naquadah reinforced block anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported for serious overclocking, but the <Color id="GREEN">EIC</Color> can only tier skip ONE time. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "piston_block" and "glass" to specify the tier of the containment blocks and glass, respectively. 
+The <Color id="GREEN">EIC</Color> has two tiered components. The containment blocks determine the number of parallels and the glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. Buses/hatches may replace any naquadah reinforced block anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported for serious overclocking, but the <Color id="GREEN">EIC</Color> can only tier skip one tier. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "piston_block" and "glass" to specify the tier of the containment blocks and glass, respectively. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15563"/><ItemImage id="gregtech:gt.blockmachines:15563"/>
@@ -55,5 +55,5 @@ Most <Color id="GREEN">EIC</Color> recipes are rated at UEV voltage and have a l
 | 4 | Block of Spacetime | 64 |
 | 5 | Block of Universium | 256 |
 
-However, the <Color id="GREEN">EIC</Color> can only tier skip ONE time. If a recipe is rated at MAX voltage, for example, then the <Color id="GREEN">EIC</Color> needs at least a 4A UXV energy hatch to run it. No amount of UMV amps will ever be enough. This limitation is most evident when trying to craft molten MHDCSM with eternity nanites. 
+However, the <Color id="GREEN">EIC</Color> can only tier skip one tier. If a recipe is rated at MAX voltage, for example, then the <Color id="GREEN">EIC</Color> needs at least a 4A UXV energy hatch to run it. No amount of UMV amps will ever be enough. This limitation is most evident when trying to craft molten MHDCSM with eternity nanites. 
 <RecipeFor id="gregtech:gt.metaitem.99:583" input="gregtech:gt.metaitem.03:4141"/>

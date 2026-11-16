@@ -17,11 +17,11 @@ In an effort to consolidate the inventory, the __Tinker's Inventory Tab__ has be
 - Added the ability for set Tinker's items to be put inside Bauble slots:
 - - <Color id="GREEN">Travel Belt</Color> - slot type: universal
 - - <Color id="RED">Travel Glove</Color> - slot type: universal
-- - <Color id="BLUE">Heart Cansiters</Color> - custom slots that stack up to 10!
+- - <Color id="BLUE">Heart Canisters</Color> - custom slots that stack up to 10!
 
 - Moved the ability to equip torches and blocks into <Color id="GREEN">Custom Cosmetic Armor</Color> - you can now wear your dirt hat in style! This also works with <Color id="GREEN">Dynamic Lighting</Color>
 
-<FloatingImage src="./assets/baubles.png" wrap="square" align="left" width="256">
+<FloatingImage src="../assets/qol/baubles.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
     An example of some baubles in their new homes! *Ranzu says hi!*
   </ImageAnnotation>

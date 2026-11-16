@@ -2,7 +2,7 @@
 navigation:
   title: "导线与线缆"
   icon: gregtech:gt.blockmachines:1248
-  parent: power-index.md
+  parent: power_index.md
   position: -3
 ---
 
@@ -26,7 +26,7 @@ navigation:
 
 # 线损率
 
-使用电线输电时，路径上的电流值处处相同，而电压值可能因 [线损](cable-loss.md) 而下降。
+使用电线输电时，路径上的电流值处处相同，而电压值可能因 [线损](cable_loss.md) 而下降。
 
 - 线损率与电线的粗细、电流大小无关，仅与材料和是否包层（导线 / 线缆）有关。线缆的线损往往只有对应导线的一半。
 - 部分电线的线损率为 0，能实现超导。如 1x 红石合金线缆、1x MV 超导导线和 1x 无尽导线等。

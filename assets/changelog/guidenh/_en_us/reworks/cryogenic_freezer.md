@@ -26,7 +26,7 @@ The <Color id="GREEN">Cryogenic Freezer (CF)</Color> is an IV tier multiblock fo
 > - More Parallels: 8 -> 16
 
 ## Construction
-The <Color id="GREEN">Cryogenic Freezer</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="gregtech:gt.blockmachines:15565"/><ItemImage id="gregtech:gt.blockmachines:15565"/> to visualize/build the structure. 
+The <Color id="GREEN">Cryogenic Freezer</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15565"/><ItemImage id="gregtech:gt.blockmachines:15565"/>
