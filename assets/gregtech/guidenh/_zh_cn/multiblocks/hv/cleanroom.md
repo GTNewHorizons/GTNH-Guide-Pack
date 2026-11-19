@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1172
   position: 12
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADrA
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADrA"}
 ---
 
 # 超净间
