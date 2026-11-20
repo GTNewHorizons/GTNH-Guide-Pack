@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31087
   position: 1
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADZg
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADZg"}
 ---
 
 # 蒸汽壁炉

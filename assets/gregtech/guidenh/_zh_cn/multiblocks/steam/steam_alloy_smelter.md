@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31086
   position: 8
-quest_ids:
-  - WGhhKERfRTiJXKZEPoRf1Q
+bindings:
+  - {type: "betterquesting", id: "WGhhKERfRTiJXKZEPoRf1Q"}
 ---
 
 # 大型蒸汽合金炉
