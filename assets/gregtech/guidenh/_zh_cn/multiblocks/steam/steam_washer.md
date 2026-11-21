@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31082
   position: 6
-quest_ids:
-  - zorY0c3BQuqLJp7ThOLG-g
+bindings:
+  - {type: "betterquesting", id: "zorY0c3BQuqLJp7ThOLG-g"}
 ---
 
 # 大型蒸汽洗矿厂
