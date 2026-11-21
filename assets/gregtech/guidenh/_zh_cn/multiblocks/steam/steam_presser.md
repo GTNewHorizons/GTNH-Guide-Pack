@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31083
   position: 2
-quest_ids:
-  - s6AEHSKiQe2XveT_oDZbZg
+bindings:
+  - {type: "betterquesting", id: "s6AEHSKiQe2XveT_oDZbZg"}
 ---
 
 # 大型蒸汽锻造锤

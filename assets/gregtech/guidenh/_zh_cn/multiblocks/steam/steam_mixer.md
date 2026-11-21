@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31084
   position: 7
-quest_ids:
-  - WEwrzX4ZRkSxJ3M6cBesfA
+bindings:
+  - {type: "betterquesting", id: "WEwrzX4ZRkSxJ3M6cBesfA"}
 ---
 
 # 大型蒸汽搅拌机

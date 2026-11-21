@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31080
   position: 5
-quest_ids:
-  - 0rUmaWIPQPaL93q-_pgKXw
+bindings:
+  - {type: "betterquesting", id: "0rUmaWIPQPaL93q-_pgKXw"}
 ---
 
 # 大型蒸汽离心机

@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31078
   position: 4
-quest_ids:
-  - Plg8vg0gS9Ks2Ddc5sIVOg
+bindings:
+  - {type: "betterquesting", id: "Plg8vg0gS9Ks2Ddc5sIVOg"}
 ---
 
 # 大型蒸汽压缩机

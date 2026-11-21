@@ -1,0 +1,174 @@
+{
+  "$schema": "https://raw.githubusercontent.com/GTNewHorizons/GuideNH/refs/heads/master/src/main/resources/assets/guidenh/schema/ponder_schema.json",
+  "totalTime": 540,
+  "keyframes": [
+    {
+      "time": 0,
+      "labelKey": "gregtech.multiblock.beam_splitter.ponder.example.label.1",
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.beam_splitter.ponder.example.text.1.1",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    { "time": 70, "hidden": true },
+    {
+      "time": 100,
+      "hidden": true,
+      "camera": {
+        "rotX": 0,
+        "rotY": 180
+      },
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.beam_splitter.ponder.example.text.1.2",
+          "independent": true,
+          "yOffset": 105,
+          "maxWidth": 250,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    { "time": 180, "hidden": true },
+    {
+      "time": 200,
+      "labelKey": "gregtech.multiblock.beam_splitter.ponder.example.label.2",
+      "camera": {
+        "zoom": 1.6
+      },
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.beam_splitter.ponder.example.text.2.1",
+          "independent": true,
+          "yOffset": 125,
+          "maxWidth": 160,
+          "color": "0xFFE0E0E0"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 1.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "<ItemImage id='gtnhlanth:particle:5' />"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 3.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "<ItemImage id='gtnhlanth:particle:5' />"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 5.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "<ItemImage id='gtnhlanth:particle:11' />"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 7.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "<ItemImage id='gtnhlanth:particle:12' />"
+        }
+      ]
+    },
+    {
+      "time": 280,
+      "hidden": true,
+
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.beam_splitter.ponder.example.text.2.2",
+          "independent": true,
+          "yOffset": 125,
+          "maxWidth": 200,
+          "color": "0xFFE0E0E0"
+        },
+        {
+          "type": "text",
+          "x": 1,
+          "y": 4.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "←<ItemImage id='gtnhlanth:particle:5' />(100)  ←<ItemImage id='gtnhlanth:particle:12' />(50)"
+        }
+      ]
+    },
+
+    {
+      "time": 380,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.beam_splitter.ponder.example.text.2.3",
+          "independent": true,
+          "yOffset": 125,
+          "maxWidth": 160,
+          "color": "0xFFE0E0E0"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 1.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "←<ItemImage id='gtnhlanth:particle:5' />(50)"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 3.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "←<ItemImage id='gtnhlanth:particle:5' />(50)"
+        },
+        {
+          "type": "text",
+          "x": 1,
+          "y": 4.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "←<ItemImage id='gtnhlanth:particle:12' />(50)"
+        }
+      ]
+    },
+
+    {
+      "time": 480,
+      "hidden": true,
+      "annotations": [
+        {
+          "type": "text",
+          "textKey": "gregtech.multiblock.beam_splitter.ponder.example.text.2.4",
+          "independent": true,
+          "yOffset": 125,
+          "maxWidth": 160,
+          "color": "0xFFE0E0E0"
+        },
+        {
+          "type": "text",
+          "x": 11.5,
+          "y": 7.5,
+          "z": 1.5,
+          "connectorSide": "none",
+          "text": "←<ItemImage id='gtnhlanth:particle:12' />(50)"
+        }
+      ]
+    }
+  ]
+}

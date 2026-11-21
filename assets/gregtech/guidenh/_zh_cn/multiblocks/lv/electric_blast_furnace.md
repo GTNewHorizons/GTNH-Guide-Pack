@@ -6,8 +6,8 @@ navigation:
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1000
   position: 5
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAATQ
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAATQ"}
 ---
 
 # 工业高炉
