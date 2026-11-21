@@ -77,7 +77,7 @@ jobs:
           tag_name: ${{ env.VERSION }}
           name: ${{ env.VERSION }}
           prerelease: false
-          make_latest: true
+          make_latest: false
           files: |
             ${{ env.ZIP_NAME }}
             gtnh-pack-update.json
