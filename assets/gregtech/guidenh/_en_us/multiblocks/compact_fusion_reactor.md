@@ -70,7 +70,7 @@ While the structure of the Compact Fusion Reactor remains the same, the types of
       controllerId="gregtech:gt.blockmachines:32019"
       casingId="gregtech:gt.blockcasings:6"
       fusionCoilId="GoodGenerator:compactFusionCoil"
-      frameId="gregtech:gt.blockframes:325"
+      frameId="ml:NaquadahAlloy:frameGt"
       glassId="bartworks:BW_TieredGlass:3"
     />
   </Tab>
@@ -80,7 +80,7 @@ While the structure of the Compact Fusion Reactor remains the same, the types of
       controllerId="gregtech:gt.blockmachines:32020"
       casingId="gregtech:gt.blockcasings4:6"
       fusionCoilId="GoodGenerator:compactFusionCoil:1"
-      frameId="gregtech:gt.blockframes:328"
+      frameId="ml:Duranium:frameGt"
       glassId="bartworks:BW_TieredGlass:4"
     />
   </Tab>
@@ -90,7 +90,7 @@ While the structure of the Compact Fusion Reactor remains the same, the types of
       controllerId="gregtech:gt.blockmachines:32021"
       casingId="gregtech:gt.blockcasings4:8"
       fusionCoilId="GoodGenerator:compactFusionCoil:2"
-      frameId="gregtech:gt.blockframes:129"
+      frameId="ml:Neutronium:frameGt"
       glassId="bartworks:BW_TieredGlass:5"
     />
   </Tab>
@@ -100,7 +100,7 @@ While the structure of the Compact Fusion Reactor remains the same, the types of
       controllerId="gregtech:gt.blockmachines:32022"
       casingId="miscutils:gtplusplus.blockcasings.3:12"
       fusionCoilId="GoodGenerator:compactFusionCoil:3"
-      frameId="gregtech:gt.blockframes:394"
+      frameId="ml:InfinityCatalyst:frameGt"
       glassId="bartworks:BW_TieredGlass:6"
     />
   </Tab>
@@ -110,7 +110,7 @@ While the structure of the Compact Fusion Reactor remains the same, the types of
       controllerId="gregtech:gt.blockmachines:32023"
       casingId="miscutils:gtplusplus.blockcasings.6"
       fusionCoilId="GoodGenerator:compactFusionCoil:4"
-      frameId="gregtech:gt.blockframes:397"
+      frameId="ml:Infinity:frameGt"
       glassId="bartworks:BW_TieredGlass:7"
     />
   </Tab>

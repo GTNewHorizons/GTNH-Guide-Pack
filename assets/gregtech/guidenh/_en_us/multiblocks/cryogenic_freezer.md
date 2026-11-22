@@ -35,7 +35,7 @@ The other upgrade option for the Vacuum Freezer is the [<ItemLink id="gregtech:g
 
 <RecipesFor id="miscutils:gtplusplus.blockcasings.3:10" />
 
-<RecipesFor id="miscutils:blockFrameGtGrisium" />
+<RecipesFor id="ml:Grisium:frameGt" />
 
 <RecipesFor id="gregtech:gt.blockmachines:967" />
 
@@ -50,7 +50,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:15565" showIcon="left" /> | 1, Front center, 2nd layer |
 | <ItemLink id="miscutils:gtplusplus.blockcasings.3:10" showIcon="left" /> | 46-56 |
-| <ItemLink id="miscutils:blockFrameGtGrisium" showIcon="left" /> | 24 |
+| <ItemLink id="ml:Grisium:frameGt" showIcon="left" /> | 24 |
 | <ItemLink id="gregtech:gt.blockmachines:967" showIcon="left" /> | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.3:10" showIcon="left" /> |
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.3:10" showIcon="left" /> |
 | <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.3:10" showIcon="left" /> |

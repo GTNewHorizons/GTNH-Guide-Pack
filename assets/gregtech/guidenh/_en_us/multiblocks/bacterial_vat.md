@@ -106,26 +106,26 @@ Different materials also have different lifespans, but most are quite short. The
 <Column width="380">
   | Material | Strength | Lifespan | Mass |
   |----------|----------|-----------|------|
-  | <ItemLink id="gregtech:gt.metaitem.01:23090" showIcon="left" /> | 83 sv | 198.80 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22090" showIcon="left" /> | ^^ | 397.60 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23096" showIcon="left" /> | 90 sv | 98.75 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22096" showIcon="left" /> | ^^ | 197.50 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23097" showIcon="left" /> | 92 sv | 80.850 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23098" showIcon="left" /> | ^^ | ^^ | ^^ |
-  | <ItemLink id="gregtech:gt.metaitem.02:22097" showIcon="left" /> | ^^ | 161.70 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22098" showIcon="left" /> | ^^ | ^^ | ^^ |
-  | <ItemLink id="gregtech:gt.metaitem.01:23100" showIcon="left" /> | 94 sv | 66.20 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23101" showIcon="left" /> | ^^ | ^^ | ^^ |
-  | <ItemLink id="gregtech:gt.metaitem.02:22100" showIcon="left" /> | ^^ | 132.40 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22101" showIcon="left" /> | ^^ | ^^ | ^^ |
-  | <ItemLink id="gregtech:gt.metaitem.01:23103" showIcon="left" /> | 95 sv | 59.90 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22103" showIcon="left" /> | ^^ | 119.80 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23324" showIcon="left" /> | 130 sv | 14.40 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22324" showIcon="left" /> | ^^ | 28.80 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23326" showIcon="left" /> | 140 sv | 10.65 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22326" showIcon="left" /> | ^^ | 21.70 s | 2 kg |
-  | <ItemLink id="gregtech:gt.metaitem.01:23327" showIcon="left" /> | 150 sv | 7.85 s | 1 kg |
-  | <ItemLink id="gregtech:gt.metaitem.02:22327" showIcon="left" /> | ^^ | 15.70 s | 2 kg |
+  | <ItemLink id="ml:Bismuth:stick" showIcon="left" /> | 83 sv | 198.80 s | 1 kg |
+  | <ItemLink id="ml:Bismuth:stickLong" showIcon="left" /> | ^^ | 397.60 s | 2 kg |
+  | <ItemLink id="ml:Thorium:stick" showIcon="left" /> | 90 sv | 98.75 s | 1 kg |
+  | <ItemLink id="ml:Thorium:stickLong" showIcon="left" /> | ^^ | 197.50 s | 2 kg |
+  | <ItemLink id="ml:Uranium235:stick" showIcon="left" /> | 92 sv | 80.850 s | 1 kg |
+  | <ItemLink id="ml:Uranium:stick" showIcon="left" /> | ^^ | ^^ | ^^ |
+  | <ItemLink id="ml:Uranium235:stickLong" showIcon="left" /> | ^^ | 161.70 s | 2 kg |
+  | <ItemLink id="ml:Uranium:stickLong" showIcon="left" /> | ^^ | ^^ | ^^ |
+  | <ItemLink id="ml:Plutonium:stick" showIcon="left" /> | 94 sv | 66.20 s | 1 kg |
+  | <ItemLink id="ml:Plutonium241:stick" showIcon="left" /> | ^^ | ^^ | ^^ |
+  | <ItemLink id="ml:Plutonium:stickLong" showIcon="left" /> | ^^ | 132.40 s | 2 kg |
+  | <ItemLink id="ml:Plutonium241:stickLong" showIcon="left" /> | ^^ | ^^ | ^^ |
+  | <ItemLink id="ml:Americium:stick" showIcon="left" /> | 95 sv | 59.90 s | 1 kg |
+  | <ItemLink id="ml:Americium:stickLong" showIcon="left" /> | ^^ | 119.80 s | 2 kg |
+  | <ItemLink id="ml:Naquadah:stick" showIcon="left" /> | 130 sv | 14.40 s | 1 kg |
+  | <ItemLink id="ml:Naquadah:stickLong" showIcon="left" /> | ^^ | 28.80 s | 2 kg |
+  | <ItemLink id="ml:NaquadahEnriched:stick" showIcon="left" /> | 140 sv | 10.65 s | 1 kg |
+  | <ItemLink id="ml:NaquadahEnriched:stickLong" showIcon="left" /> | ^^ | 21.70 s | 2 kg |
+  | <ItemLink id="ml:Naquadria:stick" showIcon="left" /> | 150 sv | 7.85 s | 1 kg |
+  | <ItemLink id="ml:Naquadria:stickLong" showIcon="left" /> | ^^ | 15.70 s | 2 kg |
   {: widths="200, 60, 60, 60"}
 </Column>
 

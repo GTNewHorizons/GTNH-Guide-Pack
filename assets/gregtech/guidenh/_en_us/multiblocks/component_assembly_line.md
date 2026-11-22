@@ -51,7 +51,7 @@ The only limitation is that components are made 64 at a time which makes CoAL us
 
 <RecipesFor id="gregtech:gt.blockcasings2:9" />
 
-<RecipesFor id="gregtech:gt.blockframes:316" handlerBlacklist="gt.recipe.unpackager" />
+<RecipesFor id="ml:TungstenSteel:frameGt" handlerBlacklist="gt.recipe.unpackager" />
 
 ### Structure
 
@@ -71,7 +71,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockcasings9:1" showIcon="left" /> | 124 |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 55 |
 | <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 30 |
-| <ItemLink id="gregtech:gt.blockframes:316" showIcon="left" /> | 2-4 |
+| <ItemLink id="ml:TungstenSteel:frameGt" showIcon="left" /> | 2-4 |
 | <ItemImage id="bartworks:BW_TieredGlass:5" />Any &cUV+&r Tiered Glass | 280 |
 | <ItemImage id="GoodGenerator:componentAssemblylineCasing" />&9Tiered&r Component Assembly Line Casing | 43 |
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Any outer <ItemLink id="gregtech:gt.blockcasings8:7" showIcon="left" /> of 9th layer |

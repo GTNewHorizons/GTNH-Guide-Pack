@@ -48,7 +48,7 @@ The Concrete Backfiller is available in two tiers to further increase its range.
       name="concrete_backfiller/crafting_and_construction"
       controllerId="gregtech:gt.blockmachines:143"
       casingId="gregtech:gt.blockcasings2"
-      frameId="gregtech:gt.blockframes:305"
+      frameId="ml:Steel:frameGt"
       tier="MV"
     />
   </Tab>
@@ -57,7 +57,7 @@ The Concrete Backfiller is available in two tiers to further increase its range.
       name="concrete_backfiller/crafting_and_construction"
       controllerId="gregtech:gt.blockmachines:144"
       casingId="gregtech:gt.blockcasings4:2"
-      frameId="gregtech:gt.blockframes:28"
+      frameId="ml:Titanium:frameGt"
       tier="EV"
     />
   </Tab>

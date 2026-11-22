@@ -29,7 +29,7 @@ The Coolant Tower is effectively a [<ItemLink id="gregtech:gt.blockmachines:1552
 ### Crafting
 <RecipesFor id="gregtech:gt.blockmachines:32025" />
 <RecipesFor id="gregtech:gt.blockconcretes:8" handlerId="gt.recipe.fluidsolidifier" />
-<RecipesFor id="gregtech:gt.blockframes:370" />
+<RecipesFor id="ml:TungstenCarbide:frameGt" />
 
 ### Structure
 The Coolant Tower has no tiered components, but the light concrete can be replaced by any Light/Dark concrete variations. Search `stoneConcrete` on NEI for all available variations. 
@@ -42,7 +42,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:32025" showIcon="left" /> | 1, Front center, 2nd layer |
 | <ItemImage id="gregtech:gt.blockconcretes:8" />Any Light/Dark concrete variants | 252-277 |
-| <ItemLink id="gregtech:gt.blockframes:370" showIcon="left" /> | 28 |
+| <ItemLink id="ml:TungstenCarbide:frameGt" showIcon="left" /> | 28 |
 | <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Any 2nd layer edge concretes |
 | <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+, Any 2nd layer edge concretes |
 

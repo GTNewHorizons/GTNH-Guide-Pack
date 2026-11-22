@@ -94,7 +94,7 @@ A full summary of the relevant recipes are provided below. Note that iron ingots
     | <ItemLink id="Railcraft:fuel.coke" showIcon="left" /> | 2 | 1 | 240s |
     | <ItemLink id="Railcraft:cube" showIcon="left" /> | 2(=<ItemImage id="Railcraft:fuel.coke" />18) | 10 | 2400s |
     | <ItemLink id="minecraft:coal:1" showIcon="left" /> | 4 | 1 | 360s |
-    | <ItemLink id="gregtech:gt.blockgem3:4" showIcon="left" /> | 4(=<ItemImage id="minecraft:coal:1" />36) | 10 | 3600s |
+    | <ItemLink id="ml:Charcoal:block" showIcon="left" /> | 4(=<ItemImage id="minecraft:coal:1" />36) | 10 | 3600s |
   </Tab>
 </ContentTabs>
 
