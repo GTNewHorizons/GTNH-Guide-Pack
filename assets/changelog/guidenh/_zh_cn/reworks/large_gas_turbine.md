@@ -33,7 +33,7 @@ date: 2026-05-27
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15527"/><ItemImage id="gregtech:gt.blockmachines:15527"/>
-- 14 个 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 14 个 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 8-13 个 <ItemLink id="gregtech:gt.blockcasings4:10"/><ItemImage id="gregtech:gt.blockcasings4:10"/>
 - 12 个 <ItemLink id="gregtech:gt.blockcasings11"/><ItemImage id="gregtech:gt.blockcasings11"/>
 - 1 个动力仓（背面中央涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>

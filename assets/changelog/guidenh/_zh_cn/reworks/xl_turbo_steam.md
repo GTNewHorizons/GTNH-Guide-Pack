@@ -35,7 +35,7 @@ date: 2026-05-27
 - 372-439 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:1"/>
 - 100 个管道方块（随具体类型变化） <ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 36 个任意等级玻璃
-- 34 个框架方块（随具体类型变化） <ItemImage id="gregtech:gt.blockframes:305"/>
+- 34 个框架方块（随具体类型变化） <ItemImage id="ml:Steel:frameGt"/>
 - 20 个 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils"/>
 - 16 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
 - 1 个动力仓（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>

@@ -33,7 +33,7 @@ date: 2026-05-27
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15566" /> <ItemImage id="gregtech:gt.blockmachines:15566" />
 - 5-45 个 <ItemLink id="gregtech:gt.blockcasings12:13" /> <ItemImage id="gregtech:gt.blockcasings12:13" />
 - 30 个任意等级玻璃
-- 24 个 <ItemLink id="gregtech:gt.sheetmetal:316" /> <ItemImage id="gregtech:gt.sheetmetal:316" />
+- 24 个 <ItemLink id="ml:TungstenSteel:sheetmetal" /> <ItemImage id="ml:TungstenSteel:sheetmetal" />
 - 10 个物品管道方块 <ItemImage id="gregtech:gt.blockcasings11" />
 - 5 个 <ItemLink id="gregtech:gt.blockcasings4:11" /> <ItemImage id="gregtech:gt.blockcasings4:11" />
 - 1+ 个能源仓（任意搅拌机机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />

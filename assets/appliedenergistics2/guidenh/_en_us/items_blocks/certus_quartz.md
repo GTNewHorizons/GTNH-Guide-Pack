@@ -2,17 +2,17 @@
 navigation:
   parent: /items_blocks_index.md
   title: Certus Quartz Crystal
-  icon: gregtech:gt.metaitem.01:8516
+  icon: ml:CertusQuartz:gem
 categories:
 - misc ingredients blocks
 item_ids:
-- gregtech:gt.metaitem.01:8516
+- ml:CertusQuartz:gem
 - appliedenergistics2:item.ItemMultiMaterial:10
 ---
 
 # Certus Quartz Crystal
 
-<ItemImage id="gregtech:gt.metaitem.01:8516" scale="4" />
+<ItemImage id="ml:CertusQuartz:gem" scale="4" />
 
 *"Certus Quartz Crystals possess a unique trait————their crystalline matrix can store large amounts of energy"*
 
@@ -21,6 +21,6 @@ One of the primary crafting materials for AE2 blocks, [devices](../ae2_mechanics
 
 ## Some Alternate Recipes
 
-<Recipe id="gregtech:gt.metaitem.01:8516" handlerId="smelting" />
+<Recipe id="ml:CertusQuartz:gem" handlerId="smelting" />
 
 <Recipe id="appliedenergistics2:item.ItemMultiMaterial:10" handlerId="NEIWorldCrafting" />

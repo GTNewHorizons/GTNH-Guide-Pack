@@ -25,9 +25,9 @@ Processors are primary ingredients for AE2 [devices](../ae2_mechanics/devices.md
 ## Production Steps
 
 <Column gap="5">
-1. Gather silicon, redstone, gold, <ItemLink id="gregtech:gt.metaitem.01:8516" />, and diamond.
+1. Gather silicon, redstone, gold, <ItemLink id="ml:CertusQuartz:gem" />, and diamond.
 
-<RecipeFor id="gregtech:gt.metaitem.01:17856" />
+<RecipeFor id="ml:SiliconSolarGrade:plate" />
 
 2. Press the intermediate printed circuits.
 

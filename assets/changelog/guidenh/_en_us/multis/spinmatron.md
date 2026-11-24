@@ -32,10 +32,10 @@ The turbines themselves do NOT go in the rotor assemblies. Instead, place them i
 - 160 <ItemLink id="gregtech:gt.blockcasings9"/><ItemImage id="gregtech:gt.blockcasings9"/>
 - 144 <ItemLink id="gregtech:gt.blockglass1:6"/><ItemImage id="gregtech:gt.blockglass1:6"/>
 - 81 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks"/>
-- 56 Central Rotor Block (tiered by multi tier) <ItemImage id="gregtech:gt.blockmetal4:13"/>
+- 56 Central Rotor Block (tiered by multi tier) <ItemImage id="ml:NaquadahAlloy:block"/>
 - 54 <ItemLink id="miscutils:gtplusplus.blockcasings.5:2"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:2"/>
 - 24 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
-- 9 Frame Box (tiered by multi tier) <ItemImage id="miscutils:blockFrameGtPikyonium64B"/>
+- 9 Frame Box (tiered by multi tier) <ItemImage id="ml:Pikyonium64B:frameGt"/>
 - 8 <ItemLink id="gregtech:gt.blockmachines:30010"/> <ItemImage id="gregtech:gt.blockmachines:30010"/>
 - 1+ Energy Hatch (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 Maintenance Hatch (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:90"/>

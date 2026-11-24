@@ -129,16 +129,16 @@ It is possible to skip steps or complete entire recipes in one tick if there are
 Below table shows each nanite's tiers.
 | Tier | Nanite |
 | --- | --- |
-| 1 | <ItemLink id="gregtech:gt.metaitem.03:4010" showIcon="left" >Carbon</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4811" showIcon="left" >Glowstone</ItemLink> |
-| 2 | <ItemLink id="gregtech:gt.metaitem.03:4054" showIcon="left" >Silver</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4129" showIcon="left" >Neutronium</ItemLink> |
-| 3 | <ItemLink id="gregtech:gt.metaitem.03:4086" showIcon="left" >Gold</ItemLink> |
-| 4 | <ItemLink id="gregtech:gt.metaitem.03:4581" showIcon="left" >Transcendent Metal</ItemLink> |
-| 5 | <ItemLink id="gregtech:gt.metaitem.03:4147" showIcon="left" >Six-Phased Copper</ItemLink> |
-| 6 | <ItemLink id="gregtech:gt.metaitem.03:4585" showIcon="left" >White Dwarf Matter</ItemLink> |
-| 7 | <ItemLink id="gregtech:gt.metaitem.03:4586" showIcon="left" >Black Dwarf Matter</ItemLink> |
-| 8 | <ItemLink id="gregtech:gt.metaitem.03:4139" showIcon="left" >Universium</ItemLink> |
-| 9 | <ItemLink id="gregtech:gt.metaitem.03:4141" showIcon="left" >Eternity</ItemLink> |
-| 10 | <ItemLink id="gregtech:gt.metaitem.03:4143" showIcon="left" >Magmatter</ItemLink> |
+| 1 | <ItemLink id="ml:Carbon:nanite" showIcon="left" >Carbon</ItemLink>/<ItemLink id="ml:Glowstone:nanite" showIcon="left" >Glowstone</ItemLink> |
+| 2 | <ItemLink id="ml:Silver:nanite" showIcon="left" >Silver</ItemLink>/<ItemLink id="ml:Neutronium:nanite" showIcon="left" >Neutronium</ItemLink> |
+| 3 | <ItemLink id="ml:Gold:nanite" showIcon="left" >Gold</ItemLink> |
+| 4 | <ItemLink id="ml:TranscendentMetal:nanite" showIcon="left" >Transcendent Metal</ItemLink> |
+| 5 | <ItemLink id="ml:SixPhasedCopper:nanite" showIcon="left" >Six-Phased Copper</ItemLink> |
+| 6 | <ItemLink id="ml:WhiteDwarfMatter:nanite" showIcon="left" >White Dwarf Matter</ItemLink> |
+| 7 | <ItemLink id="ml:BlackDwarfMatter:nanite" showIcon="left" >Black Dwarf Matter</ItemLink> |
+| 8 | <ItemLink id="ml:Universium:nanite" showIcon="left" >Universium</ItemLink> |
+| 9 | <ItemLink id="ml:Eternity:nanite" showIcon="left" >Eternity</ItemLink> |
+| 10 | <ItemLink id="ml:Magmatter:nanite" showIcon="left" >Magmatter</ItemLink> |
 {: widths="30" width="220"}
 
 ### Recipes

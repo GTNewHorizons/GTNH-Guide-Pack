@@ -30,7 +30,7 @@ date: 2026-05-27
 - 12 个加热线圈（分级） <ItemImage id="gregtech:gt.blockcasings5:11"/>
 - 8 个 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 4 个 <ItemLink id="gregtech:gt.blockcasings3:14"/><ItemImage id="gregtech:gt.blockcasings3:14"/>
-- 2 个 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 2 个 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 1+ 个能源仓（任意底层机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意底层机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 个消声仓（任意顶层机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />

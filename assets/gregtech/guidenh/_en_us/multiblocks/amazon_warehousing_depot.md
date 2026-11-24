@@ -38,7 +38,7 @@ Input separation should be enabled on the AWD for using different schematics wit
 
 <RecipesFor id="miscutils:gtplusplus.blockcasings.3:9" />
 
-<RecipesFor id="gregtech:gt.blockframes:32" 
+<RecipesFor id="ml:Iron:frameGt" 
 handlerBlacklist="neicustomdiagram.diagramgroup.gregtech.materialtools, neicustomdiagram.diagramgroup.gregtech.materialparts" />
 
 ### Structure
@@ -57,7 +57,7 @@ Multi-amp and laser energy hatches are not supported, but there can be multiple 
 | <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> | 4-15 |
 | <ItemImage id="gregtech:gt.blockcasings11" /><Color id="blue">Tiered</Color> Item Pipe Casing | 3 |
 | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 3 |
-| <ItemLink id="gregtech:gt.blockframes:32" showIcon="left" /> | 2 |
+| <ItemLink id="ml:Iron:frameGt" showIcon="left" /> | 2 |
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
 | <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
 | <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Muffler Hatch | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |

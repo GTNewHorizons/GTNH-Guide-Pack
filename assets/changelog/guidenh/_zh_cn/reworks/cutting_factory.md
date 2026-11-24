@@ -31,8 +31,8 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
 - 10-30 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:13"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:13"/>
-- 18 个 <ItemLink id="miscutils:blockFrameGtTantalumCarbide"/><ItemImage id="miscutils:blockFrameGtTantalumCarbide"/>
-- 13 个 <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
+- 18 个 <ItemLink id="ml:TantalumCarbide:frameGt"/><ItemImage id="ml:TantalumCarbide:frameGt"/>
+- 13 个 <ItemLink id="ml:BlackSteel:sheetmetal"/><ItemImage id="ml:BlackSteel:sheetmetal"/>
 - 1+ 个能源仓（任意框架位置，最高等级受锯片限制） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 个消声仓（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:91" />

@@ -51,7 +51,7 @@ inputs the raw resources and outputs the completed processor, and since the pres
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="4.3 2 1">
   (3) Export Bus #1: Filtered to Silicon, has 2 Acceleration Cards
-  <Row><ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  <Row><ItemImage id="ml:Silicon:plate" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1">
@@ -159,7 +159,7 @@ inputs the raw resources and outputs the completed processor, and since the pres
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />ses (2, 17, 18, 20) are in their default configurations.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />ses (3-7) are filtered to the relevant ingredient. They have 2 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />s.
 <Row>
-  <ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" />
+  <ItemImage id="ml:Silicon:plate" scale="2" />
   <ItemImage id="minecraft:gold_ingot" scale="2" />
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:10" scale="2" />
   <ItemImage id="minecraft:diamond" scale="2" />

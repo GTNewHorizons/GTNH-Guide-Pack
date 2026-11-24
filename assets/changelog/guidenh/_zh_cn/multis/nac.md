@@ -31,7 +31,7 @@ date: 2026-05-26
 - 2,226 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 1,708-1,720 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 721 个 <ItemLink id="gregtech:gt.blockcasings12:3"/><ItemImage id="gregtech:gt.blockcasings12:3"/>
-- 53 个 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
+- 53 个 <ItemLink id="ml:Naquadah:frameGt"/><ItemImage id="ml:Naquadah:frameGt"/>
 - 32 个 <ItemLink id="gregtech:gt.blockcasings12:4"/><ItemImage id="gregtech:gt.blockcasings12:4"/>
 - 1 个能源仓（控制室内任意侧面接口机械方块） <ItemImage id="gregtech:gt.blockmachines:15065"/>
 - 0+ 个输入总线（控制室内任意侧面接口机械方块） <ItemImage id="gregtech:gt.blockmachines:70"/>
@@ -78,9 +78,9 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 25 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 20 个部件装配线外壳（分级） <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
-- 12 个 <ItemLink id="gregtech:gt.blockframes:325"/><ItemImage id="gregtech:gt.blockframes:325"/>
+- 12 个 <ItemLink id="ml:NaquadahAlloy:frameGt"/><ItemImage id="ml:NaquadahAlloy:frameGt"/>
 - 8 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 3 个 <ItemLink id="gregtech:gt.sheetmetal:325"/><ItemImage id="gregtech:gt.sheetmetal:325"/>
+- 3 个 <ItemLink id="ml:NaquadahAlloy:sheetmetal"/><ItemImage id="ml:NaquadahAlloy:sheetmetal"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
@@ -109,7 +109,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:9510"/><ItemImage id="gregtech:gt.blockmachines:9510"/>
 - 37 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 18 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 10 个 <ItemLink id="gregtech:gt.blockframes:765"/><ItemImage id="gregtech:gt.blockframes:765"/>
+- 10 个 <ItemLink id="ml:Kevlar:frameGt"/><ItemImage id="ml:Kevlar:frameGt"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9515"/>（任意顶部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9515"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -125,7 +125,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:9505"/><ItemImage id="gregtech:gt.blockmachines:9505"/>
 - 44 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 20 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 17 个 <ItemLink id="gregtech:gt.blockframes:979"/><ItemImage id="gregtech:gt.blockframes:979"/>
+- 17 个 <ItemLink id="ml:RadoxPoly:frameGt"/><ItemImage id="ml:RadoxPoly:frameGt"/>
 - 8 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 4 个 <ItemLink id="gregtech:gt.blockcasingsNH:10"/><ItemImage id="gregtech:gt.blockcasingsNH:10"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
@@ -143,7 +143,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 46 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 28 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 25 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 20 个 <ItemLink id="gregtech:gt.blockframes:985"/><ItemImage id="gregtech:gt.blockframes:985"/>
+- 20 个 <ItemLink id="ml:Longasssuperconductornameforuhvwire:frameGt"/><ItemImage id="ml:Longasssuperconductornameforuhvwire:frameGt"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
@@ -159,7 +159,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 31 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 28 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 24 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 21 个 <ItemLink id="gregtech:gt.blockframes:129"/><ItemImage id="gregtech:gt.blockframes:129"/>
+- 21 个 <ItemLink id="ml:Neutronium:frameGt"/><ItemImage id="ml:Neutronium:frameGt"/>
 - 16 个 <ItemLink id="gregtech:gt.blockcasings9:12"/><ItemImage id="gregtech:gt.blockcasings9:12"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -180,7 +180,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:9506"/><ItemImage id="gregtech:gt.blockmachines:9506"/>
 - 52 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 27 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 19 个 <ItemLink id="miscutils:blockFrameGtOctiron"/><ItemImage id="miscutils:blockFrameGtOctiron"/>
+- 19 个 <ItemLink id="ml:Octiron:frameGt"/><ItemImage id="ml:Octiron:frameGt"/>
 - 10 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -223,7 +223,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 47 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 40 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 32 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 32 个 <ItemLink id="gregtech:gt.blockframes:391"/><ItemImage id="gregtech:gt.blockframes:391"/>
+- 32 个 <ItemLink id="ml:Quantium:frameGt"/><ItemImage id="ml:Quantium:frameGt"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
@@ -276,7 +276,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:9507"/><ItemImage id="gregtech:gt.blockmachines:9507"/>
 - 28 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 17 个 <ItemLink id="gregtech:gt.blockframes:582"/><ItemImage id="gregtech:gt.blockframes:582"/>
+- 17 个 <ItemLink id="ml:EnrichedHolmium:frameGt"/><ItemImage id="ml:EnrichedHolmium:frameGt"/>
 - 13 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 9 个 <ItemLink id="gtnhlanth:casing.shielded_accelerator"/><ItemImage id="gtnhlanth:casing.shielded_accelerator"/>
 - 4 个 <ItemLink id="gregtech:gt.blockglass1:3"/><ItemImage id="gregtech:gt.blockglass1:3"/>
@@ -295,7 +295,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:9514"/><ItemImage id="gregtech:gt.blockmachines:9514"/>
 - 37 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 36 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 36 个 <ItemLink id="gregtech:gt.blockframes:329"/><ItemImage id="gregtech:gt.blockframes:329"/>
+- 36 个 <ItemLink id="ml:Tritanium:frameGt"/><ItemImage id="ml:Tritanium:frameGt"/>
 - 20 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -320,7 +320,7 @@ VCI 和 VCO 每个都能同时容纳最多 16 种不同物品堆，但总容量�
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:9512"/><ItemImage id="gregtech:gt.blockmachines:9512"/>
 - 55 个 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 49 个 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 48 个 <ItemLink id="gregtech:gt.blockframes:976"/><ItemImage id="gregtech:gt.blockframes:976"/>
+- 48 个 <ItemLink id="ml:DraconiumAwakened:frameGt"/><ItemImage id="ml:DraconiumAwakened:frameGt"/>
 - 40 个 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ 个 <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>

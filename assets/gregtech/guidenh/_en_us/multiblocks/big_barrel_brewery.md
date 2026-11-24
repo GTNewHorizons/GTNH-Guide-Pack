@@ -31,7 +31,7 @@ The <ItemLink id="gregtech:gt.blockmachines:3011" showIcon="left">Big Barrel Bre
 
 <RecipesFor id="gregtech:gt.blockcasings10:15" />
 
-<RecipesFor id="gregtech:gt.blockframes:305" />
+<RecipesFor id="ml:Steel:frameGt" />
 
 ### Structure
 The BBB has no tiered components. The glass can be any tier and has no effect on the operation of the machine.
@@ -46,7 +46,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:3011" showIcon="left" /> | 1, Front center, 3rd layer |
 | <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> | 14-22 |
-| <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 4, Each corner of 1st layer |
+| <ItemLink id="ml:Steel:frameGt" showIcon="left" /> | 4, Each corner of 1st layer |
 | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 6 |
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
 | <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |

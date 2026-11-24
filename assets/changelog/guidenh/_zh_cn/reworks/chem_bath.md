@@ -30,10 +30,10 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15551"/><ItemImage id="gregtech:gt.blockmachines:15551"/>
 - 30-38 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:4"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:4"/>
-- 20 个 <ItemLink id="miscutils:blockFrameGtWatertightSteel"/><ItemImage id="miscutils:blockFrameGtWatertightSteel"/>
+- 20 个 <ItemLink id="ml:WatertightSteel:frameGt"/><ItemImage id="ml:WatertightSteel:frameGt"/>
 - 4 个 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
-- 2 个 <ItemLink id="gregtech:gt.blockmetal8:6"/><ItemImage id="gregtech:gt.blockmetal8:6"/>
-- 2 个 <ItemLink id="gregtech:gt.blockmetal2:7"/><ItemImage id="gregtech:gt.blockmetal2:7"/>
+- 2 个 <ItemLink id="ml:Zinc:block"/><ItemImage id="ml:Zinc:block"/>
+- 2 个 <ItemLink id="ml:Copper:block"/><ItemImage id="ml:Copper:block"/>
 - 1+ 个能源仓（任意洗矿厂机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意洗矿厂机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 个消声仓（任意洗矿厂机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />

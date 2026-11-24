@@ -29,10 +29,10 @@ The <Color id="GREEN">IAF</Color> has no tiered components. Multi-Amp energy hat
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15548"/><ItemImage id="gregtech:gt.blockmachines:15548"/>
-- 175 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 175 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 10-173 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>
 - 101 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 72 <ItemLink id="bartworks:bw.werkstoffblockscasing.01:32090"/><ItemImage id="bartworks:bw.werkstoffblockscasing.01:32090"/>
+- 72 <ItemLink id="ml:Naquadah:blockCasing"/><ItemImage id="ml:Naquadah:blockCasing"/>
 - 30 Heating Coil (any) <ItemImage id="gregtech:gt.blockcasings5:13"/>
 - 17 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
 - 15 <ItemLink id="gregtech:gt.blockcasings13:4"/><ItemImage id="gregtech:gt.blockcasings13:4"/>

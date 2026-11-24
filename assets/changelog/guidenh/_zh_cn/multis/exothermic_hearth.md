@@ -38,7 +38,7 @@ date: 2026-05-27
 - 308 个 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
 - 280 个 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
 - 131 个 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 56 个 <ItemLink id="gregtech:gt.blockframes:163"/><ItemImage id="gregtech:gt.blockframes:163"/>
+- 56 个 <ItemLink id="ml:prismaticnaquadah:frameGt"/><ItemImage id="ml:prismaticnaquadah:frameGt"/>
 - 1+ 个能源仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:90"/>（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:90"/>
 - 1 个消声仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:91"/>

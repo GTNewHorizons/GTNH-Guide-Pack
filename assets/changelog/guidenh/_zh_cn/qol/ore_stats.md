@@ -2,7 +2,7 @@
 navigation:
   title: 矿石改动
   parent: qol.md
-  icon: gregtech:gt.blockores2
+  icon: ml:Iron:ore_stone
 categories:
     - Quality Of Life
 author: Skorched

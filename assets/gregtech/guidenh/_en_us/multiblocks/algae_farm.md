@@ -36,7 +36,7 @@ The <ItemLink id="gregtech:gt.blockmachines:15545" showIcon="left" /> is an MV t
 <RecipesFor id="gregtech:gt.blockcasings12:15" />
 
 <RecipesFor 
-  id="gregtech:gt.blockframes:306" 
+  id="ml:StainlessSteel:frameGt" 
   handlerBlacklist="neicustomdiagram.diagramgroup.gregtech.materialtools, neicustomdiagram.diagramgroup.gregtech.materialparts" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:11" />
@@ -60,7 +60,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockmachines:15545" showIcon="left" /> | 1, Front Center, 3rd layer |
 | <ItemImage id="bartworks:BW_TieredGlass" /><Color id="blue">Tiered</Color> Glass | 64 |
 | <ItemLink id="gregtech:gt.blockcasings12:15" showIcon="left" /> | 20-25 |
-| <ItemLink id="gregtech:gt.blockframes:306" showIcon="left" /> | 6 |
+| <ItemLink id="ml:StainlessSteel:frameGt" showIcon="left" /> | 6 |
 | <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 5 |
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only regular Hatch allowed, tier limited by glass</Tooltip> | 1, Any casing |
 | <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1, Any casing |

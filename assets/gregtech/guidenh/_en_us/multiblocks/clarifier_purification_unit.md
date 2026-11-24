@@ -1,7 +1,7 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:9403
-  - gregtech:gt.metaitem.01:30554
+  - ml:Grade1PurifiedWater:cell
   - NotEnoughItems:neiFluidDisplay:390
 bindings:
   - {type: "betterquesting", id: "mMCFuGqxQTuuLnJgEldztA=="}
@@ -38,9 +38,9 @@ The CPU processes ordinary water into Grade 1 Water. It requires no Energy/Maint
 
 <RecipesFor id="gregtech:gt.blockcasings3:11" />
 
-<RecipesFor id="gregtech:gt.blockframes:84" />
+<RecipesFor id="ml:Iridium:frameGt" />
 
-<RecipesFor id="gregtech:gt.blockframes:335" />
+<RecipesFor id="ml:DamascusSteel:frameGt" />
 
 <RecipesFor id="gregtech:gt.blockcasings8:1" />
 
@@ -56,8 +56,8 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockmachines:9403" showIcon="left" /> | 1, Front center, 2nd layer |
 | <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> | 123-128 |
 | <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 21 |
-| <ItemLink id="gregtech:gt.blockframes:84" showIcon="left" /> | 12 |
-| <ItemLink id="gregtech:gt.blockframes:335" showIcon="left" /> | 12 |
+| <ItemLink id="ml:Iridium:frameGt" showIcon="left" /> | 12 |
+| <ItemLink id="ml:DamascusSteel:frameGt" showIcon="left" /> | 12 |
 | <ItemLink id="gregtech:gt.blockcasings8:1" showIcon="left" /> | 3, Center of 2nd-4th layer |
 | <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace 2nd layer <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> except edges or center of side |
 | <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace 2nd layer <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> except edges or center of side |

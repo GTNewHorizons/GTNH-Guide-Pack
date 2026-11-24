@@ -34,7 +34,7 @@ date: 2026-05-25
 ### 需要：
 
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:31088"/> <ItemImage id="gregtech:gt.blockmachines:31088"/>
-- 34 个 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
+- 34 个 <ItemLink id="ml:Polytetrafluoroethylene:frameGt"/><ItemImage id="ml:Polytetrafluoroethylene:frameGt"/>
 - 30-46 个分级“控制器械方块” <ItemImage id="gregtech:gt.blockcasings12:5"/>
 - 15 个 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
 - 1+ 个动力仓（任意分级机械方块） <ItemImage id="gregtech:gt.blockmachines:15230"/>
@@ -48,7 +48,7 @@ date: 2026-05-25
 
 ## 使用：
 
-<Color id="GREEN">LNE</Color> 以各种酸液作为燃料发电。可用酸种类很多，而且其中不少酸液的 EU 数值都做过调整，所以就算是你以前最熟悉的老配方，也很值得重新确认一下。除此之外，还新增了一些新的酸产线，其中就包括全新的 <ItemLink id="gregtech:gt.metaitem.01:2177"/><ItemImage id="gregtech:gt.metaitem.01:2177"/>。
+<Color id="GREEN">LNE</Color> 以各种酸液作为燃料发电。可用酸种类很多，而且其中不少酸液的 EU 数值都做过调整，所以就算是你以前最熟悉的老配方，也很值得重新确认一下。除此之外，还新增了一些新的酸产线，其中就包括全新的 <ItemLink id="ml:FranciumHydroxide:dust"/><ItemImage id="ml:FranciumHydroxide:dust"/>。
 
 ### 碱增益
 

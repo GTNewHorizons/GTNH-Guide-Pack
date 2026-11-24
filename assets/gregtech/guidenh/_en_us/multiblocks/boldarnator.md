@@ -33,7 +33,7 @@ The Boldarnator is a direct upgrade from the [singleblock rock breaker](/singleb
 
 <RecipesFor id="miscutils:gtplusplus.blockcasings.2" />
 
-<RecipesFor id="gregtech:gt.blockframes:81" />
+<RecipesFor id="ml:Tungsten:frameGt" />
 
 ### Structure
 
@@ -51,7 +51,7 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:15556" showIcon="left" /> | 1, Front center, 3rd layer |
 | <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> | 50-55 |
-| <ItemLink id="gregtech:gt.blockframes:81" showIcon="left" /> | 36 |
+| <ItemLink id="ml:Tungsten:frameGt" showIcon="left" /> | 36 |
 | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 12 |
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
 | <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |

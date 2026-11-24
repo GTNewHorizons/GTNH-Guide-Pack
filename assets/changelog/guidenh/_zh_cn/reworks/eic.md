@@ -30,10 +30,10 @@ date: 2026-05-27
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15563"/><ItemImage id="gregtech:gt.blockmachines:15563"/>
 - 230-247 个 <ItemLink id="gregtech:gt.blockreinforced:10"/><ItemImage id="gregtech:gt.blockreinforced:10"/>
 - 36 个 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
-- 24 个遏制方块（分级） <ItemImage id="gregtech:gt.blockmetal5:2"/>
+- 24 个遏制方块（分级） <ItemImage id="ml:Neutronium:block"/>
 - 22 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 10 个 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
-- 2 个 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
+- 2 个 <ItemLink id="ml:Naquadah:frameGt"/><ItemImage id="ml:Naquadah:frameGt"/>
 - 1+ 个能源仓（任意硅岩强化方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意硅岩强化方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ 个输入总线（任意硅岩强化方块） <ItemImage id="gregtech:gt.blockmachines:70" />
@@ -56,4 +56,4 @@ date: 2026-05-27
 | 5 | 宇宙素块 | 256 |
 
 不过，<Color id="GREEN">EIC</Color> 最多只能跳一级处理配方。举例来说，如果某张配方标注为 MAX 电压，那么 <Color id="GREEN">EIC</Color> 至少也需要一个 4A 的 UXV 能源仓才能运行；无论你堆多少 UMV 安培数都没有用。在尝试用永恒纳米蜂群制造熔融 MHDCSM 时，这个限制会体现得尤其明显。
-<RecipeFor id="gregtech:gt.metaitem.99:583" input="gregtech:gt.metaitem.03:4141"/>
+<RecipeFor id="ml:MagnetohydrodynamicallyConstrainedStarMatter:cellMolten" input="ml:Eternity:nanite"/>

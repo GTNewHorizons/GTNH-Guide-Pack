@@ -32,7 +32,7 @@ date: 2026-05-27
 ### 基础结构需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15543"/><ItemImage id="gregtech:gt.blockmachines:15543"/>
 - 35-48 个 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
-- 10 个 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 10 个 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 8 个加热线圈（分级） <ItemImage id="gregtech:gt.blockcasings5:3"/>
 - 8 个隔热/绝热焦炉方块 <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
 - 1+ 个能源仓（任意结构焦炉方块） <ItemImage id="gregtech:gt.blockmachines:40" />
@@ -45,7 +45,7 @@ date: 2026-05-27
 
 ### 每片额外切片需要：
 - 19 个 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
-- 10 个 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 10 个 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 8 个加热线圈（分级） <ItemImage id="gregtech:gt.blockcasings5:3"/>
 - 5 个隔热/绝热焦炉方块 <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
 - 3 个 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>

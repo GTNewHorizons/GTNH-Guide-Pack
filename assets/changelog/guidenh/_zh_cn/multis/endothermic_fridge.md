@@ -35,10 +35,10 @@ T2 结构所需的 208 个无尽冷却机械方块，总计需要 255kL 无尽�
 - 351 个 <ItemLink id="gregtech:gt.blockcasings2:1"/><ItemImage id="gregtech:gt.blockcasings2:1"/>
 - 148 个 <ItemLink id="gregtech:gt.blockreinforced:3"/><ItemImage id="gregtech:gt.blockreinforced:3"/>
 - 148 个 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 146 个 <ItemLink id="gregtech:gt.blockframes:389"/><ItemImage id="gregtech:gt.blockframes:389"/>
+- 146 个 <ItemLink id="ml:CallistoIce:frameGt"/><ItemImage id="ml:CallistoIce:frameGt"/>
 - 135 个 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 个 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
-- 40 个 <ItemLink id="gregtech:gt.sheetmetal:390"/><ItemImage id="gregtech:gt.sheetmetal:390"/>
+- 40 个 <ItemLink id="ml:Ledox:sheetmetal"/><ItemImage id="ml:Ledox:sheetmetal"/>
 - 18 个等级玻璃（任意等级） <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 1+ 个能源仓（任意冰箱机械方块） <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 个维护仓（任意冰箱机械方块） <ItemImage id="gregtech:gt.blockmachines:90"/>
@@ -54,11 +54,11 @@ T2 结构所需的 208 个无尽冷却机械方块，总计需要 255kL 无尽�
 - 208 个 <ItemLink id="gregtech:gt.blockcasings8:14"/><ItemImage id="gregtech:gt.blockcasings8:14"/>
 - 148 个 <ItemLink id="gregtech:gt.blockreinforced:3"/><ItemImage id="gregtech:gt.blockreinforced:3"/>
 - 148 个 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 146 个 <ItemLink id="gregtech:gt.blockframes:389"/><ItemImage id="gregtech:gt.blockframes:389"/>
+- 146 个 <ItemLink id="ml:CallistoIce:frameGt"/><ItemImage id="ml:CallistoIce:frameGt"/>
 - 143 个 <ItemLink id="gregtech:gt.blockcasings2:1"/><ItemImage id="gregtech:gt.blockcasings2:1"/>
 - 135 个 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 个 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
-- 40 个 <ItemLink id="gregtech:gt.sheetmetal:390"/><ItemImage id="gregtech:gt.sheetmetal:390"/>
+- 40 个 <ItemLink id="ml:Ledox:sheetmetal"/><ItemImage id="ml:Ledox:sheetmetal"/>
 - 18 个等级玻璃（任意等级） <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 1+ 个能源仓（任意冰箱机械方块） <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 个维护仓（任意冰箱机械方块） <ItemImage id="gregtech:gt.blockmachines:90"/>

@@ -40,7 +40,7 @@ date: 2026-05-27
 ### 2 级需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15539"/><ItemImage id="gregtech:gt.blockmachines:15539"/>
 - 69-87 个 <ItemLink id="miscutils:miscutils.blockcasings:7"/><ItemImage id="miscutils:miscutils.blockcasings:7"/>
-- 20 个 <ItemLink id="gregtech:gt.blockframes:372"/><ItemImage id="gregtech:gt.blockframes:372"/>
+- 20 个 <ItemLink id="ml:HSSG:frameGt"/><ItemImage id="ml:HSSG:frameGt"/>
 - 18 个 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
 - 8 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 6 个 <ItemLink id="gregtech:gt.blockcasings3:10"/><ItemImage id="gregtech:gt.blockcasings3:10"/>

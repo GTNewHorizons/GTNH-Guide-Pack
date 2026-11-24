@@ -44,7 +44,7 @@ navigation:
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="4.3 2 1">
   （3）输出总线#1：过滤硅，装有2张加速卡。
-  <Row><ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  <Row><ItemImage id="ml:Silicon:plate" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1">
@@ -152,7 +152,7 @@ navigation:
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（2、17、18、20）处于默认配置。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />（3-7）设置为过滤相应材料。均装有2张<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />。
 <Row>
-  <ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" />
+  <ItemImage id="ml:Silicon:plate" scale="2" />
   <ItemImage id="minecraft:gold_ingot" scale="2" />
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:10" scale="2" />
   <ItemImage id="minecraft:diamond" scale="2" />

@@ -34,7 +34,7 @@ date: 2026-05-24
 - 26-48 个 <ItemLink id="cropsnh:cropsnh.casings1" /> <ItemImage id="cropsnh:cropsnh.casings1" />
 - 4-48 个等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 3-36 个苗床（分等级） <ItemImage id="cropsnh:cropsnh.seedBed:2" />
-- 1-12 个 <ItemLink id="gregtech:gt.blockframes:809" /> <ItemImage id="gregtech:gt.blockframes:809" />
+- 1-12 个 <ItemLink id="ml:Wood:frameGt" /> <ItemImage id="ml:Wood:frameGt" />
 - 0-12 个升级模块（任意木框架位置） <ItemImage id="cropsnh:cropsnh.environmentalEnhancementUnit:2" />
 - 1+ 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />

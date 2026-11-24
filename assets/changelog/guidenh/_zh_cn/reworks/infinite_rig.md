@@ -29,12 +29,12 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15567"/><ItemImage id="gregtech:gt.blockmachines:15567"/>
 - 90-103 个 <ItemLink id="gregtech:gt.blockcasings8:2"/><ItemImage id="gregtech:gt.blockcasings8:2"/>
-- 38 个 <ItemLink id="gregtech:gt.blockframes:129"/><ItemImage id="gregtech:gt.blockframes:129"/>
+- 38 个 <ItemLink id="ml:Neutronium:frameGt"/><ItemImage id="ml:Neutronium:frameGt"/>
 - 20 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 12 个 <ItemLink id="gregtech:gt.blockcasings8:7"/><ItemImage id="gregtech:gt.blockcasings8:7"/>
 - 12 个 <ItemLink id="tectech:gt.blockcasingsTT:3"/><ItemImage id="tectech:gt.blockcasingsTT:3"/>
 - 9 个 <ItemLink id="gregtech:gt.blockcasings9"/><ItemImage id="gregtech:gt.blockcasings9"/>
-- 8 个 <ItemLink id="gregtech:gt.sheetmetal:397"/><ItemImage id="gregtech:gt.sheetmetal:397"/>
+- 8 个 <ItemLink id="ml:Infinity:sheetmetal"/><ItemImage id="ml:Infinity:sheetmetal"/>
 - 1 个能源仓（任意中子采矿机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意中子采矿机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0-1 个输入总线（任意中子采矿机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />

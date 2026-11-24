@@ -2,14 +2,32 @@
 navigation:
   parent: /items_blocks_index.md
   title: 赛特斯石英矿石
-  icon: gregtech:gt.blockores2:516
+  icon: ml:CertusQuartz:ore_stone
 categories:
 - misc ingredients blocks
 item_ids:
-- "gregtech:gt.blockores2 516,517,1516,1517,2516,2517,3516,3517,4516,4517,16516,16517,17516,17517,18516,18517"
-- "gregtech:gt.blockores6 7516,7517"
-- "gregtech:gt.blockores7 1516,1517,2516,2517,3516,3517"
-- "gregtech:gt.metaitem.03 5516,5517"
+- "ml:CertusQuartz:ore_stone"
+- "ml:ChargedCertusQuartz:ore_stone"
+- "ml:CertusQuartz:ore_netherrack"
+- "ml:ChargedCertusQuartz:ore_netherrack"
+- "ml:CertusQuartz:ore_endstone"
+- "ml:ChargedCertusQuartz:ore_endstone"
+- "ml:CertusQuartz:ore_blackgranite"
+- "ml:ChargedCertusQuartz:ore_blackgranite"
+- "ml:CertusQuartz:ore_redgranite"
+- "ml:ChargedCertusQuartz:ore_redgranite"
+- "ml:CertusQuartz:oreSmall_stone"
+- "ml:ChargedCertusQuartz:oreSmall_stone"
+- "ml:CertusQuartz:oreSmall_netherrack"
+- "ml:ChargedCertusQuartz:oreSmall_netherrack"
+- "ml:CertusQuartz:oreSmall_endstone"
+- "ml:ChargedCertusQuartz:oreSmall_endstone"
+- "ml:CertusQuartz:ore_horus"
+- "ml:ChargedCertusQuartz:ore_horus"
+- "ml:CertusQuartz:ore_sethclay"
+- "ml:ChargedCertusQuartz:ore_sethclay"
+- "ml:CertusQuartz:rawOre"
+- "ml:ChargedCertusQuartz:rawOre"
 - appliedenergistics2:tile.OreQuartz
 - appliedenergistics2:tile.OreQuartzCharged
 ---

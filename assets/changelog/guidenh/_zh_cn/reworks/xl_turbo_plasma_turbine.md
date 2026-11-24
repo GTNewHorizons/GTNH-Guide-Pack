@@ -33,7 +33,7 @@ date: 2026-05-27
 - 100 个 <ItemLink id="gregtech:gt.blockcasings5:5"/><ItemImage id="gregtech:gt.blockcasings5:5"/>
 - 72 个 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 36 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 32 个 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
+- 32 个 <ItemLink id="ml:TungstenSteel:frameGt"/><ItemImage id="ml:TungstenSteel:frameGt"/>
 - 16 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
 - 7 个 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
 - 1+ 个动力仓（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>

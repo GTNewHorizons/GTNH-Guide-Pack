@@ -28,8 +28,8 @@ date: 2026-05-27
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15544"/><ItemImage id="gregtech:gt.blockmachines:15544"/>
 - 160-167 个 <ItemLink id="miscutils:gtplusplus.blockcasings.3"/><ItemImage id="miscutils:gtplusplus.blockcasings.3"/>
-- 12 个 <ItemLink id="gregtech:gt.sheetmetal:306"/><ItemImage id="gregtech:gt.sheetmetal:306"/>
-- 12 个 <ItemLink id="gregtech:gt.blockframes:306"/><ItemImage id="gregtech:gt.blockframes:306"/>
+- 12 个 <ItemLink id="ml:StainlessSteel:sheetmetal"/><ItemImage id="ml:StainlessSteel:sheetmetal"/>
+- 12 个 <ItemLink id="ml:StainlessSteel:frameGt"/><ItemImage id="ml:StainlessSteel:frameGt"/>
 - 1+ 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 个消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />

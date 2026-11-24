@@ -13,7 +13,7 @@ item_ids:
 
 <BlockImage id="appliedenergistics2:tile.BlockQuartz" scale="8" />
 
-The storage block for <ItemLink id="gregtech:gt.metaitem.01:8516" />. It is used to make [decorative Certus Quartz blocks](decorative_certus.md).
+The storage block for <ItemLink id="ml:CertusQuartz:gem" />. It is used to make [decorative Certus Quartz blocks](decorative_certus.md).
 
 ## Recipe
 
