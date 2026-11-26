@@ -146,8 +146,8 @@
       },
       "cameraEaseTicks": 20,
       "blockChanges": [
-        {"x": 4, "y": 1, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 9, "nbt": "{id:\"BaseMetaPipeEntity\",mID:1247,mConnections:0b,mColor:0b}"},
-        {"x": 4, "y": 1, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 9, "nbt": "{id:\"BaseMetaPipeEntity\",mID:1247,mConnections:0b,mColor:0b}"}
+        {"x": 4, "y": 1, "z": 6, "block": "gregtech:gt.blockmachines", "meta": 9, "nbt": "{id:\"BaseMetaPipeEntity\",mID:1247,mConnections:19b,mColor:0b}"},
+        {"x": 4, "y": 1, "z": 7, "block": "gregtech:gt.blockmachines", "meta": 9, "nbt": "{id:\"BaseMetaPipeEntity\",mID:1247,mConnections:19b,mColor:0b}"}
       ],
       "annotations": [
         {
